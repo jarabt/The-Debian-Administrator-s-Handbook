@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2015-10-01 18:00+0200\n"
-"PO-Revision-Date: 2019-01-05 20:55+0100\n"
+"PO-Revision-Date: 2019-01-05 22:51+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: None\n"
 "Language: cs_CZ\n"
@@ -88,115 +88,115 @@ msgid "Book Structure"
 msgstr "Knižní struktura"
 
 msgid "This book has its origins in French publisher Eyrolles' “Administrator's Handbook” collection, and keeps the same approach of revolving around a case study providing both support and illustration for all topics being addressed."
-msgstr ""
+msgstr "Tato kniha má svůj původ ve francouzském nakladatelství Eyrolles ' \"Administrator příručka\" kolekce, a udržuje stejný přístup otáčivé kolem případové studie poskytující jak podporu a ilustrace pro všechna témata jsou řešeny."
 
 msgid "<emphasis>NOTE</emphasis> Web site, authors' email"
-msgstr ""
+msgstr "<emphasis>Poznámka:</emphasis> Webové stránky, autory ' email"
 
 msgid "This book has its own website, which hosts whatever elements that can make it more useful. In particular, it includes an online version of the book with clickable links, and possible errata. Feel free to browse it and to leave us some feedback. We will be happy to read your comments or support messages. Send them by email to <email>hertzog@debian.org</email> (Raphaël) and <email>lolando@debian.org</email> (Roland). <ulink type=\"block\" url=\"http://debian-handbook.info/\" />"
-msgstr ""
+msgstr "Tato kniha má své vlastní webové stránky, které hostí bez ohledu na prvky, které mohou dělat to užitečnější. Zejména obsahuje online verzi knihy s odkazy na kliknutí a případné chyby. Neváhejte a prohlížet a nechat nám nějakou zpětnou vazbu. Rádi si přečteme Vaše komentáře nebo podpůrné zprávy. Pošlete je e-mailem na <email>hertzog@debian.org</email> (Raphaël) a <email>lolando@debian.org</email> (Roland).<ulink type=\"\"block\"\" url=\"\"http://debian-handbook.info/\"\"></ulink>"
 
 msgid "<emphasis role=\"strong\">Chapter 1</emphasis> focuses on a non-technical presentation of the Debian project and describes its goals and organization. These aspects are important because they define a general framework that other chapters will complete with more concrete information."
-msgstr ""
+msgstr "<emphasis role=\"\"strong\"\">Kapitola 1</emphasis> se zaměřuje na netechnickou prezentaci projektu Debian a popisuje její cíle a organizaci. Tyto aspekty jsou důležité, protože definují obecný rámec, který další kapitoly doplní konkrétnější informace."
 
 msgid "<emphasis role=\"strong\">Chapters 2 and 3</emphasis> provide a broad outline of the case study. At this point, novice readers can take the time to read <emphasis role=\"strong\">appendix B</emphasis>, where they will find a short remedial course explaining a number of basic computing notions, as well as concepts inherent to any Unix system."
-msgstr ""
+msgstr "<emphasis role=\"\"strong\"\">Kapitoly 2 a 3</emphasis> poskytují široký nástin případové studie. V tomto bodě, začínající čtenáři mohou mít čas na čtení <emphasis role=\"\"strong\"\">dodatku B</emphasis>, kde se najde krátký nápravný kurz vysvětlující řadu základních počítačových pojmů, stejně jako pojmy vlastní jakýkoli Unixový systém."
 
 msgid "To get on with our real subject matter, we will quite naturally start with the installation process (<emphasis role=\"strong\">chapter 4</emphasis>); <emphasis role=\"strong\">chapters 5 and 6</emphasis> will unveil basic tools that any Debian administrator will use, such as those of the <emphasis role=\"strong\">APT</emphasis> family, which is largely responsible for the distribution's excellent reputation. These chapters are in no way restricted to professionals, since everyone is their own administrator at home."
-msgstr ""
+msgstr "Abychom se dostali na naše skutečné téma, budeme zcela přirozeně začít s procesem instalace (<emphasis role=\"\"strong\"\">Kapitola 4</emphasis>); <emphasis role=\"\"strong\"\">kapitoly 5 a 6</emphasis> představí základní nástroje, které bude používat každý správce Debianu, jako jsou ty z rodiny <emphasis role=\"\"strong\"\">apt</emphasis> , která je z velké části zodpovědná za vynikající reputaci distribuce. Tyto kapitoly nejsou nijak omezeny na profesionály, protože každý je jejich vlastní správce doma."
 
 msgid "<emphasis role=\"strong\">Chapter 7</emphasis> will be an important parenthesis; it describes workflows to efficiently use documentation and to quickly gain an understanding of problems in order to solve them."
-msgstr ""
+msgstr "<emphasis role=\"\"strong\"\">Kapitola 7</emphasis> bude důležitá závorka; Popisuje pracovní postupy efektivně používat dokumentaci a rychle získat pochopení problémů, aby je vyřešit."
 
 msgid "The next chapters will be a more detailed tour of the system, starting with basic infrastructure and services (<emphasis role=\"strong\">chapters 8 to 10</emphasis>) and going progressively up the stack to reach the user applications in <emphasis role=\"strong\">chapter 13</emphasis>. <emphasis role=\"strong\">Chapter 12</emphasis> deals with more advanced subjects that will most directly concern administrators of large sets of computers (including servers), while <emphasis role=\"strong\">chapter 14</emphasis> is a brief introduction to the wider subject of computer security and gives a few keys to avoid most problems."
-msgstr ""
+msgstr "V následujících kapitolách bude podrobnější prohlídka systému počínaje základní infrastrukturou a službami (<emphasis role=\"\"strong\"\">kapitoly 8 až 10</emphasis>) a postupně se zásobníkem dosáhnete uživatelských aplikací v <emphasis role=\"\"strong\"\">kapitole 13</emphasis>. <emphasis role=\"\"strong\"\">Kapitola 12</emphasis> se zabývá pokročilejšími předměty, které se nejvíce přímo týkají správců velkých souborů počítačů (včetně serverů), zatímco <emphasis role=\"\"strong\"\">Kapitola 14</emphasis> je stručný úvod do širšího předmětu počítačové bezpečnosti a dává několik klíčů k Vyhněte se většině problémů."
 
 msgid "<emphasis role=\"strong\">Chapter 15</emphasis> is for administrators who want to go further and create their own Debian packages."
-msgstr ""
+msgstr "<emphasis role=\"\"strong\"\">Kapitola 15</emphasis> je pro administrátory, kteří chtějí jít dál a vytvořit si vlastní debianí balíčky."
 
 msgid "<emphasis>VOCABULARY</emphasis> Debian package"
-msgstr ""
+msgstr "<emphasis>Slovní zásoba</emphasis> Balíček Debianu"
 
 msgid "<primary>package</primary><secondary>Debian package</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary> <secondary>Balíček Debianu</secondary>"
 
 msgid "<primary>package</primary><secondary>binary package</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary> <secondary>binární balíček</secondary>"
 
 msgid "<primary>package</primary><secondary>source package</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary> <secondary>zdrojový balíček</secondary>"
 
 msgid "<primary>source</primary><secondary>package</secondary>"
-msgstr ""
+msgstr "<primary>zdroj</primary> <secondary>balíček</secondary>"
 
 msgid "A Debian package is an archive containing all the files required to install a piece of software. It is generally a file with a <filename>.deb</filename> extension, and it can be handled with the <command>dpkg</command> command. Also called a <emphasis>binary package</emphasis>, it contains files that can be directly used (such as programs or documentation). On the other hand, a <emphasis>source package</emphasis> contains the source code for the software and the instructions required for building the binary package."
-msgstr ""
+msgstr "Balíček Debianu je archiv obsahující všechny soubory potřebné k instalaci softwaru. Jedná se obvykle o soubor s příponou <filename>deb</filename> , který lze zpracovat příkazem <command>dpkg</command> . Také nazývaný <emphasis>binární balíček</emphasis>obsahuje soubory, které lze přímo použít (například programy nebo dokumentace). Na druhou stranu <emphasis>zdrojový balíček</emphasis> obsahuje zdrojový kód pro software a pokyny potřebné pro sestavení binárního balíčku."
 
 msgid "The present version is already the seventh edition of the book (we include the first four that were only available in French). This edition covers version 8 of Debian, code-named <emphasis role=\"distribution\">Jessie</emphasis>. Among the changes, Debian now sports two new architectures — <emphasis>arm64</emphasis> for 64-bit ARM processors, and <emphasis>ppc64el</emphasis> for little-endian 64-bit PowerPC processors (designed by IBM and licensed to various manufacturers via the OpenPOWER foundation). On the opposite side, some architectures have been dropped (<emphasis>sparc</emphasis>, <emphasis>ia64</emphasis>) due to lack of volunteers to keep up with development (which itself can be explained by the fact that associated hardware is getting old and less interesting to work on). Some architectures are still available (in the <emphasis role=\"distribution\">Unstable</emphasis> distribution) but did not get their <emphasis>ready for release</emphasis> stamp: <emphasis>hurd-i386</emphasis>, <emphasis>kfreebsd-i386</emphasis>, <emphasis>kfreebsd-amd64</emphasis>. All included packages have obviously been updated, including the GNOME desktop, which is now in its version 3.14. More interestingly, there are two new alternative desktops that are available: <ulink url=\"http://cinnamon.linuxmint.com/\">Cinnamon</ulink> (fork of GNOME's Shell created by and for Linux Mint) and <ulink url=\"http://mate-desktop.org/\">MATE</ulink> (continuation of the GNOME 2.x desktop)."
-msgstr ""
+msgstr "Současná verze je již sedmé vydání knihy (patříme první čtyři, které byly k dispozici pouze ve francouzštině). Toto vydání zahrnuje verzi 8 Debianu s kódovým názvem <emphasis role=\"\"distribution\"\">Jessie</emphasis>. Mezi tyto změny, Debian nyní sportovní dvě nové architektury- <emphasis>arm64</emphasis> pro 64-bit ARM procesory, a <emphasis>ppc64el</emphasis> pro little-endian 64-bit PowerPC procesorů (navržený IBM a licencované pro různé výrobce prostřednictvím OpenPOWER Foundation). Na opačné straně, některé architektury byly vynechány (<emphasis>SPARC</emphasis>, <emphasis>ia64</emphasis>) kvůli nedostatku dobrovolníků držet s vývojem (což samo o sobě lze vysvětlit tím, že související hardware je stále staré a méně zajímavé pracovat na). Některé architektury jsou stále k dispozici (v <emphasis role=\"\"distribution\"\">nestabilní</emphasis> distribuci), ale nedostal jejich <emphasis>připravený k uvolnění</emphasis> razítko: <emphasis>Hurd-i386</emphasis>, <emphasis>kFreeBSD-i386</emphasis>, <emphasis>kFreeBSD-amd64</emphasis>. Všechny zahrnuté balíčky byly samozřejmě aktualizovány, včetně GNOME Desktop, který je nyní ve verzi 3,14. Zajímavější je, že existují dvě nové alternativní desktopy, které jsou k dispozici: <ulink url=\"\"http://cinnamon.linuxmint.com/\"\">skořice</ulink> (vidlička GNOME Shell vytvořil a pro Linux Mint) a <ulink url=\"\"http://mate-desktop.org/\"\">mate</ulink> (pokračování GNOME 2. x Desktop)."
 
 msgid "We have added some notes and remarks in sidebars. They have a variety of roles: they can draw attention to a difficult point, complete a notion of the case study, define some terms, or serve as reminders. Here is a list of the most common of these sidebars:"
-msgstr ""
+msgstr "Přidali jsme některé poznámky a poznámky v postranní. Mají různé role: mohou upozornit na obtížný bod, dokončit pojem případové studie, definovat některé termíny, nebo sloužit jako připomenutí. Zde je seznam nejběžnějších těchto sidebars:"
 
 msgid "BACK TO BASICS: a reminder of some information that is supposed to be known;"
-msgstr ""
+msgstr "ZPĚT k ZÁKLADům: připomínka některých informací, které mají být známy;"
 
 msgid "VOCABULARY: defines a technical term, sometimes Debian specific;"
-msgstr ""
+msgstr "SLOVNÍ ZÁSOBa: definuje technický termín, někdy specifické pro Debian;"
 
 msgid "COMMUNITY: highlights important persons or roles within the project;"
-msgstr ""
+msgstr "Společenství: poukazuje na důležité osoby nebo role v rámci projektu;"
 
 msgid "POLICY: a rule or recommendation from the Debian Policy. This document is essential within the project, and describes how to package software. The parts of the policy highlighted in this book bring direct benefits to users (for example, knowing that the policy standardizes the location of documentation and examples makes it easy to find them even in a new package)."
-msgstr ""
+msgstr "ZÁSADA: pravidlo nebo doporučení ze zásady Debianu. Tento dokument je nezbytný v rámci projektu a popisuje, jak balíček softwaru. Části zásady zvýrazněné v této příručce přináší uživatelům přímé výhody (například s vědomím, že zásady standardizovat umístění dokumentace a příklady usnadňuje najít i v novém balíčku)."
 
 msgid "TOOL: presents a relevant tool or service;"
-msgstr ""
+msgstr "Nástroj: představuje příslušný nástroj nebo službu;"
 
 msgid "IN PRACTICE: theory and practice do not always match; these sidebars contain advice resulting from our experience. They can also give detailed and concrete examples;"
-msgstr ""
+msgstr "V praxi: teorie a praxe nemusí vždy odpovídat; Tyto postranní obsahují Rady vyplývající z našich zkušeností. Mohou také poskytnout podrobné a konkrétní příklady;"
 
 msgid "other more or less frequent sidebars are rather explicit: CULTURE, TIP, CAUTION, GOING FURTHER, SECURITY, and so on."
-msgstr ""
+msgstr "ostatní více či méně časté postranní jsou spíše explicitní: kultura, TIP, opatrnost, jít dál, bezpečnost, a tak dále."
 
 msgid "Acknowledgments"
-msgstr ""
+msgstr "Potvrzování"
 
 msgid "A Bit of History"
-msgstr ""
+msgstr "Trocha historie"
 
 msgid "In 2003, Nat Makarévitch contacted Raphaël because he wanted to publish a book on Debian in the <foreignphrase>Cahier de l'Admin</foreignphrase> (Admin's Handbook) collection that he was managing for Eyrolles, a leading French editor of technical books. Raphaël immediately accepted to write it. The first edition came out on 14th October 2004 and was a huge success — it was sold out barely four months later."
-msgstr ""
+msgstr "V 2003, NAT Makarévitch kontaktoval Raphaël, protože chtěl zveřejnit knihu o Debianu v <foreignphrase>Cahier de l'Admin</foreignphrase> (admin Handbook) kolekce, že on byl řídící pro Eyrolles, přední francouzský Editor technických knih. Raphaël okamžitě přijal napsat. První vydání vyšlo na 14 říjnu 2004 a byl obrovský úspěch-to bylo vyprodáno sotva čtyři měsíce později."
 
 msgid "Since then, we have released 6 other editions of the French book, one for each subsequent Debian release. Roland, who started working on the book as a proofreader, gradually became its co-author."
-msgstr ""
+msgstr "Od té doby jsme vydali 6 dalších vydání francouzské knihy, jednu pro každé další vydání Debianu. Roland, který začal pracovat na knize jako korektor, se postupně stal jeho co-autorem."
 
 msgid "While we were obviously satisfied with the book's success, we always hoped that Eyrolles would convince an international editor to translate it into English. We had received numerous comments explaining how the book helped people to get started with Debian, and we were keen to have the book benefit more people in the same way."
-msgstr ""
+msgstr "I když jsme byli zjevně spokojeni s úspěchem knihy, vždy jsme doufali, že Eyrolles přesvědčí mezinárodní editor, aby jej přeložil do angličtiny. Obdrželi jsme četné komentáře vysvětlující, jak Kniha pomohla lidem začít s Debianem, a my jsme chtěli mít knihu prospěch více lidí stejným způsobem."
 
 msgid "Alas, no English-speaking editor that we contacted was willing to take the risk of translating and publishing the book. Not put off by this small setback, we negotiated with our French editor Eyrolles and got back the necessary rights to translate the book into English and publish it ourselves. Thanks to a successful crowdfunding campaign, we worked on the translation between December 2011 and May 2012. The “Debian Administrator's Handbook” was born and it was published under a free-software license!"
-msgstr ""
+msgstr "Bohužel, žádný anglicky mluvící redaktor, kterého jsme kontaktovali, byl ochoten riskovat překládání a publikování knihy. Ne odkládal tento malý nezdar, jsme jednali s naší francouzské Editor Eyrolles a dostal zpět nezbytná práva přeložit knihu do angličtiny a publikovat sami. Díky úspěšné crowdfunding kampani jsme pracovali na překladu mezi prosincem 2011 a květen 2012. Zrodila se \"Příručka správce Debianu\" a byla vydána pod licencí svobodného software!"
 
 msgid "While this was an important milestone, we already knew that the story would be not be over for us until we could contribute the French book as an official translation of the English book. This was not possible at that time because the French book was still distributed commercially under a non-free license by Eyrolles."
-msgstr ""
+msgstr "I když to byl důležitý milník, už jsme věděli, že příběh by neměl být u konce pro nás, dokud bychom mohli přispět francouzská kniha jako oficiální překlad anglické knihy. To nebylo možné v té době, protože francouzská kniha byla stále distribuována komerčně pod non-svobodné licence od Eyrolles."
 
 msgid "In 2013, the release of Debian 7 gave us a good opportunity to discuss a new contract with Eyrolles. We convinced them that a license more in line with the Debian values would contribute to the book's success. That wasn't an easy deal to make, and we agreed to setup another crowdfunding campaign to cover some of the costs and reduce the risks involved. The operation was again a huge success and in July 2013, we added a French translation to the Debian Administrator's Handbook."
-msgstr ""
+msgstr "V 2013, uvolnění Debian 7 nám dal dobrou příležitost diskutovat o nové smlouvy s Eyrolles. Přesvědčili jsme je, že licence více v souladu s hodnotami Debianu by přispěla k úspěchu knihy. To nebylo snadné dělat, a my jsme souhlasili s nastavením další Crowdfunding kampaň na pokrytí některých nákladů a snížit rizika spojená. Operace byla opět velkým úspěchem a v červenci 2013 jsme přidali francouzský překlad do příručky pro administrátory Debianu."
 
 msgid "The Birth of the English Book"
-msgstr ""
+msgstr "Proč tahle kniha?"
 
 msgid "We are back in 2011 and we just got the required rights to make an English translation of our French book. We are looking into ways to make this happen."
-msgstr ""
+msgstr "Jsme zpátky v 2011 a my jsme právě dostali požadovaná práva, aby se anglický překlad naší francouzské knihy. Hledáme způsoby, jak se to stane."
 
 msgid "Translating a book of 450 pages is a considerable effort that requires several months of work. Self-employed people like us had to ensure a minimum income to mobilize the time necessary to complete the project. So we set up a crowdfunding campaign on Ulule and asked people to pledge money towards the project. <ulink type=\"block\" url=\"http://www.ulule.com/debian-handbook/\" />"
-msgstr ""
+msgstr "Překlad knihy 450 stránek je značné úsilí, které vyžaduje několik měsíců práce. Osoby samostatně výdělečně činné, jako jsme my, musely zajistit minimální příjem mobilizovat čas potřebný k dokončení projektu. Tak jsme se zřídit Crowdfunding kampaň na Ulule a požádal lidi, aby zástava peníze na projekt.<ulink type=\"\"block\"\" url=\"\"http://www.ulule.com/debian-handbook/\"\"></ulink>"
 
 msgid "The campaign had two goals: raising €15,000 for the translation and completing a €25,000 liberation fund to get the resulting book published under a free license — that is, a license that fully follows the Debian Free Software Guidelines."
-msgstr ""
+msgstr "Kampaň měla dva cíle: zvyšování €15 000 za překlad a dokončení €25 000 osvobození fondu získat výslednou knihu publikoval pod bezplatnou licenci-to je licence, která plně dodržuje Debian Free software pokyny."
 
 msgid "When the Ulule campaign ended, the first goal had been achieved with €24,345 raised. The liberation fund was not complete however, with only €14,935 raised. As initially announced, the liberation campaign continued independently from Ulule on the book's official website."
-msgstr ""
+msgstr "Když Ulule kampaň skončila, první gól bylo dosaženo s €24 345 zvednutý. Osvobození fond nebyl kompletní však pouze €14 935 vzneseny. Jak bylo původně oznámeno, osvobození kampaň pokračoval nezávisle na Ulule na oficiálních stránkách knihy."
 
 msgid "While we were busy translating the book, donations towards the liberation continued to flow in… And in April 2012, the liberation fund was completed. You can thus benefit from this book under the terms of a free license."
 msgstr ""
