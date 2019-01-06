@@ -2,11 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2015-10-01 18:00+0200\n"
-<<<<<<< HEAD
 "PO-Revision-Date: 2019-01-05 22:51+0100\n"
-=======
-"PO-Revision-Date: 2019-01-05 15:55+0100\n"
->>>>>>> refs/remotes/origin/master
 "Last-Translator: Automatically generated\n"
 "Language-Team: None\n"
 "Language: cs_CZ\n"
@@ -23,17 +19,10 @@ msgid "Linux has been garnering strength for a number of years now, and its grow
 msgstr "Linux nabíral sílu pro řadu let, a jeho rostoucí popularita přiměla více a více uživatelů, aby učinili tento skok. Prvním krokem na této cestě je vybrat distribuci. To je důležité rozhodnutí, protože každá distribuce má své vlastní zvláštnosti, a budoucím nákladům na migraci se lze vyhnout, pokud je učiněna správná volba již od začátku."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Linux distribution, Linux kernel"
-<<<<<<< HEAD
 msgstr "<emphasis> zpět k ZÁKLADům </emphasis> Linuxová distribuce, linuxové jádro"
 
 msgid "<primary>Linux</primary><secondary>kernel</secondary>"
 msgstr "<primary> Linux </primary> <secondary> jádra </secondary>"
-=======
-msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Linuxová distribuce, linuxové jádro"
-
-msgid "<primary>Linux</primary><secondary>kernel</secondary>"
-msgstr "<primary> Linux </primary> <secondary> jádro</secondary>"
->>>>>>> refs/remotes/origin/master
 
 msgid "<primary>Linux</primary><secondary>distribution</secondary>"
 msgstr "<primary> Linux </primary> <secondary> distribuce </secondary>"
@@ -42,7 +31,6 @@ msgid "<primary>distribution</primary><secondary>Linux distribution</secondary>"
 msgstr "<primary> distribuce </primary> <secondary> Linux distribuce </secondary>"
 
 msgid "Strictly speaking, Linux is only a kernel, the core piece of software which sits between the hardware and the applications."
-<<<<<<< HEAD
 msgstr "Striktně vzato, Linux je pouze jádro, jádro kus software, který sedí mezi hardwarem a aplikací."
 
 msgid "A “Linux distribution” is a full operating system; it usually includes the Linux kernel, an installer program, and most importantly applications and other software required to turn a computer into a tool that is actually useful."
@@ -50,68 +38,48 @@ msgstr "\"Linuxová distribuce\" je plný operační systém; To obvykle zahrnuj
 
 msgid "Debian GNU/Linux is a “generic” Linux distribution that fits most users. The purpose of this book is to show its many aspects so that you can make an informed decision when choosing."
 msgstr "Debian GNU/Linux je \"generická\" linuxová distribuce, která se hodí pro většinu uživatelů. Účelem této knihy je Ukázat své mnoho aspektů, takže můžete učinit informované rozhodnutí při výběru."
-=======
-msgstr "Striktně vzato, Linux je pouze jádro, jádrový kus softwaru, který je mezi hardwarem a aplikací."
-
-msgid "A “Linux distribution” is a full operating system; it usually includes the Linux kernel, an installer program, and most importantly applications and other software required to turn a computer into a tool that is actually useful."
-msgstr "“Linuxová distribuce” je úplný operační systém; to obvykle zahrnuje linuxové jádro, instalační program, a nejdůležitější aplikace a další software potřebný k tomu, aby se počítač proměnil v nástroj, který je opravdu užitečný."
-
-msgid "Debian GNU/Linux is a “generic” Linux distribution that fits most users. The purpose of this book is to show its many aspects so that you can make an informed decision when choosing."
-msgstr "Debian GNU/Linux je “původní” linuxová distribuce, která se hodí pro většinu uživatelů. Účelem této knihy je ukázat mnoho jejích aspektů, takže můžete při výběru učinit rozhodnutí založené na nformacích."
->>>>>>> refs/remotes/origin/master
 
 msgid "Why This Book?"
 msgstr "Proč tahle kniha?"
 
 msgid "<emphasis>CULTURE</emphasis> Commercial distributions"
-<<<<<<< HEAD
 msgstr "<emphasis> kultura </emphasis> Komerční distribuce"
-=======
-msgstr "<emphasis> KULTURA</emphasis> Komerční distribuce"
->>>>>>> refs/remotes/origin/master
 
 msgid "<primary>distribution</primary><secondary>commercial distribution</secondary>"
 msgstr "<primary> distribuce </primary> <secondary> komerční distribuce </secondary>"
 
 msgid "Most Linux distributions are backed by a for-profit company that develops them and sells them under some kind of commercial scheme. Examples include <emphasis>Ubuntu</emphasis>, mainly developed by <emphasis>Canonical Ltd.</emphasis>; <emphasis>Mandriva Linux</emphasis>, by French company <emphasis>Mandriva SA</emphasis>; and <emphasis>Suse Linux</emphasis>, maintained and made commercially available by <emphasis>Novell</emphasis>."
-<<<<<<< HEAD
 msgstr "Většina linuxových distribucí jsou zálohovány pro-ziskové společnosti, která je vyvíjí a prodává pod nějakým druhem komerčního systému. Příklady zahrnují <emphasis> Ubuntu </emphasis>, vyvinutý především společností <emphasis> Canonical Ltd. </emphasis>; <emphasis> Mandriva Linux </emphasis>, francouzská společnost <emphasis> Mandriva SA </emphasis>; a <emphasis> SUSE Linux </emphasis>, udržovaný a komerčně dostupný firmou <emphasis> Novell </emphasis>."
 
 msgid "At the other end of the spectrum lie the likes of Debian and the Apache Software Foundation (which hosts the development for the Apache web server). Debian is above all a project in the Free Software world, implemented by volunteers working together through the Internet. While some of them do work on Debian as part of their paid job in various companies, the project as a whole is not attached to any company in particular, nor does any one company have a greater say in the project's affairs than what purely volunteer contributors have."
 msgstr "Na druhém konci spektra leží likes Debianu a Apache Software Foundation (který hostuje vývoj pro webový server Apache). Debian je především projekt ve světě svobodného softwaru, implementovaný dobrovolníky, kteří spolupracují prostřednictvím Internetu. Zatímco někteří z nich pracují na Debianu jako součást své placené práce v různých společnostech, projekt jako celek není nijak zvlášť spojen s žádnou společností, ani nemá žádnou společnost větší slovo v záležitostech projektu než to, co mají ryze dobrovolní přispěvatelé."
-=======
-msgstr "Většina linuxových distribucí má za sebou pro-ziskovou společnost, která distribuci vyvíjí a prodává pod nějakým druhem komerčního schématu. Mezi tyto případy patří <emphasis>Ubuntu</emphasis>, vyvinutý především společností <emphasis> Canonical Ltd. </emphasis>; <emphasis> Mandriva Linux </emphasis>, od francouzské společnosti <emphasis> Mandriva SA </emphasis>; a <emphasis> SUSE Linux </emphasis>, prozovaný a komerčně zpřístupněný <emphasis> Novellem</emphasis>."
-
-msgid "At the other end of the spectrum lie the likes of Debian and the Apache Software Foundation (which hosts the development for the Apache web server). Debian is above all a project in the Free Software world, implemented by volunteers working together through the Internet. While some of them do work on Debian as part of their paid job in various companies, the project as a whole is not attached to any company in particular, nor does any one company have a greater say in the project's affairs than what purely volunteer contributors have."
-msgstr "Na druhém konci spektra leží případy podbné Debianu a Apache Software Foundation (který zabezpečuje vývoj pro webový server Apache). Debian je především projekt ve světě svobodného softwaru, implementovaný dobrovolníky, kteří spolupracují prostřednictvím Internetu. Zatímco někteří z nich pracují na Debianu jako součást své placené práce v různých společnostech, projekt jako celek není nijak zvlášť spojen s žádnou společností, a žádná společnost nemá v záležitostech projektu větší slovo než to, co mají ryze dobrovolní přispěvatelé."
->>>>>>> refs/remotes/origin/master
 
 msgid "Linux has gathered a fair amount of media coverage over the years; it mostly benefits the distributions supported by a real marketing department — in other words, company-backed distributions (Ubuntu, Red Hat, SUSE, Mandriva, and so on). But Debian is far from being a marginal distribution; multiple studies have shown over the years that it is widely used both on servers and on desktops. This is particularly true among webservers where Debian is the leading Linux distribution. <ulink type=\"block\" url=\"http://www.heise.de/open/artikel/Eingesetzte-Produkte-224518.html\" /> <ulink type=\"block\" url=\"http://w3techs.com/blog/entry/debian_ubuntu_extend_the_dominance_in_the_linux_web_server_market_at_the_expense_of_red_hat_centos\" />"
-msgstr "Linux shromáždil v průběhu let slušné množství mediálního zpravodajství; to většinou těží z distribucí podporovaných skutečné marketingové oddělení-jinými slovy, společnost-couval distribucí (Ubuntu, Red Hat, SUSE, Mandriva, a tak dále). Ale Debian zdaleka není marginální distribuce; více studií ukázalo v průběhu let, že je široce používán jak na serverech a na stolních počítačích. To platí zejména u webserverů, kde Debian je přední linuxová distribuce. < ulink typ = \"block\" url = \"http://www.heise.de/open/artikel/Eingesetzte-Produkte-224518.html\"/> < ulink typ = \"block\" url = \"http://w3techs.com/blog/entry/debian_ubuntu_extend_the_dominance_in_the_linux_web_server_market_at_the_expense_of_red_hat_centos\"/>"
+msgstr "Linux se těšil v průběhu let slušnému množství mediální pozornosti; to hlavně přináší prspěch distribucím podporovaných skutečnými marketingovými odděleními -jinými slovy, společnostmi zabezpečeným distribucím (Ubuntu, Red Hat, SUSE, Mandriva, a tak dále). Ale Debian zdaleka není jen okrajová distribuce; v průběhu let mnoho studií ukázalo, že je široce používán jak na serverech, tak na stolních počítačích. To platí zejména u webserverů, kde je Debian přední linuxová distribuce. < ulink typ = \"block\" url = \"http://www.heise.de/open/artikel/Eingesetzte-Produkte-224518.html\"/> < ulink typ = \"block\" url = \"http://w3techs.com/blog/entry/debian_ubuntu_extend_the_dominance_in_the_linux_web_server_market_at_the_expense_of_red_hat_centos\"/>"
 
 msgid "The purpose of this book is to help you discover this distribution. We hope to share the experience that we have gathered since we joined the project as developers and contributors in 1998 (Raphaël) and 2000 (Roland). With any luck, our enthusiasm will be communicative, and maybe you will join us sometime…"
-msgstr "Účelem této knihy je pomoci vám objevit tuto distribuci. Doufáme, že budeme sdílet zkušenosti, které jsme shromáždili, protože jsme se připojili k projektu jako vývojáři a přispěvatelé v 1998 (Raphaël) a 2000 (Roland). S trochou štěstí bude naše nadšení komunikativní a možná se k nám někdy připojíte..."
+msgstr "Účelem této knihy je pomoci vám objevi tuto distribuci. Rádi bychom sdíleli zkušenosti, které jsme nashromáždili od doby, kdy jsme se připojili k projektu jako vývojáři a přispěvatelé v 1998 (Raphaël) a 2000 (Roland). S trochou štěstí bude naše nadšení nakažlivé a možná se k nám někdy připojíte..."
 
 msgid "The first edition of this book (in 2004) served to fill a gaping hole: it was the first French-language book that focused exclusively on Debian. At that time, many other books were written on the topic both for French-speaking and English-speaking readers. Unfortunately almost none of them got updated, and over the years the situation slipped back to one where there were very few good books on Debian. We hope that this book, which has started a new life with its translation into English (and several translations from English into various other languages), will fill this gap and help many users."
-msgstr "První vydání této knihy (v 2004) sloužil vyplnit zející díru: byl to první francouzský jazyk-knihy, která se zaměřila výhradně na Debian. V té době, mnoho dalších knih byly napsány na téma jak pro francouzsky mluvící a anglicky mluvící čtenáře. Bohužel téměř nikdo z nich dostal aktualizovány, a v průběhu let se situace sklouzla zpět do jednoho, kde bylo velmi málo dobrých knih na Debian. Doufáme, že tato kniha, která začala nový život s jeho překladem do angličtiny (a několik překladů z angličtiny do různých jiných jazyků), zaplní tuto mezeru a pomůže mnoho uživatelů."
+msgstr "První vydání této knihy (v roce 2004) sloužilo k vyplnění mezery: byla to první  kniha ve francouzském jazyce, která se zaměřila výhradně na Debian. V té době, mnoho dalších knih bylo napsáno na toto téma jak pro francouzsky mluvící, tak i pro anglicky mluvící čtenáře. Bohužel téměř žádné z nich se nedostávalo aktualizací, a v průběhu let situace sklouzla zpět do pozice, kdy bylo o Debianu jen velmi málo dobrých knih. Doufáme, že tato kniha, která začala svůj nový život překladem do angličtiny (a několika překlady z angličtiny do různých jiných jazyků), zaplní tuto mezeru a pomůže mnoha uživatelům."
 
 msgid "Who Is this Book For?"
 msgstr "Pro koho je tato kniha?"
 
 msgid "We tried to make this book useful for many categories of readers. First, systems administrators (both beginners and experienced) will find explanations about the installation and deployment of Debian on many computers. They will also get a glimpse of most of the services available on Debian, along with matching configuration instructions and a description of the specifics coming from the distribution. Understanding the mechanisms involved in Debian's development will enable them to deal with unforeseen problems, knowing that they can always find help within the community."
-msgstr "Snažili jsme se, aby tato kniha užitečná pro mnoho kategorií čtenářů. ZaPrvé, správci systémů (Začátečníci i zkušení) najdou vysvětlení o instalaci a nasazení Debianu na mnoha počítačích. Budou také mít přehled o většině služeb, které jsou k dispozici na Debian, spolu s odpovídajícími konfiguračními pokyny a popis specifik pocházejících z distribuce. Pochopení mechanismů, které se podílejí na vývoji Debianu, jim umožní vypořádat se s nepředvídanými problémy, protože vědí, že mohou vždy najít pomoc v rámci komunity."
+msgstr "Snažili jsme se, aby tato kniha byla užitečná pro více kategorií čtenářů. Zaprvé, správci systémů (začátečníci i zkušení) najdou vysvětlení instalace a nasazení Debianu na více počítačích. Budou mít také přehled o většině služeb, které jsou v Debianu k dispozici, spolu s odpovídajícími konfiguračními pokyny a popisem specifik pocházejících z distribuce. Pochopení mechanismů, použitých při vývoji Debianu, jim umožní vypořádat se s nepředvídanými problémy, s tím, že mohou vždy najít pomoc v rámci komunity."
 
 msgid "Users of another Linux distribution, or of another Unix variant, will discover the specifics of Debian, and should become operational very quickly while benefiting fully from the unique advantages of this distribution."
-msgstr "Uživatelé jiné linuxové distribuce nebo jiné varianty Unixu budou objevovat specifika Debianu a měli by být velmi rychle v provozu a zároveň plně těžit z jedinečných výhod této distribuce."
+msgstr "Uživatelé jiné linuxové distribuce nebo jiné varianty Unixu objevoví specifika Debianu a měli by být velmi rychle akceschopní a zároveň plně těžit z jedinečných výhod této distribuce."
 
 msgid "Finally, readers who already have some knowledge of Debian and want to know more about the community behind it should see their expectations fulfilled. This book should make them much closer to joining us as contributors."
-msgstr "A konečně, čtenáři, kteří již mají nějaké znalosti o Debianu a chcete se dozvědět více o komunitě za ním by mělo vidět jejich očekávání splněna. Tato kniha by měla být mnohem blíž k nám jako přispěvatelé."
+msgstr "A konečně, čtenáři, kteří již mají nějaké znalosti o Debianu a chtějí se  dozvědět více o komunitě stojící za ním by měli mít svá očekávání naplněna. Tato kniha by je měla přiblížit k tomu se k nám přiojit a stát se přispěvateli."
 
 msgid "General Approach"
 msgstr "Obecný přístup"
 
 msgid "All of the generic documentation you can find about GNU/Linux also applies to Debian, since Debian includes most common free software. However, the distribution brings many enhancements, which is why we chose to primarily describe the “Debian way” of doing things."
-msgstr "Veškerá obecná dokumentace, kterou o GNU/Linuxu najdete, se vztahuje i na Debian, protože Debian obsahuje většinu běžného svobodného softwaru. Nicméně, distribuce přináší mnoho vylepšení, což je důvod, proč jsme se rozhodli především popsat \"Debian způsobem\" dělat věci."
+msgstr "Veškerá obecná dokumentace, kterou o GNU/Linuxu najdete, se vztahuje i na Debian, protože Debian věšinou obsahuje běžný svobodný software. Nicméně, distribuce přináší mnoho vylepšení, což je důvod, proč jsme se rozhodli především popsat “Debianovský způsob” dělání věci."
 
 msgid "It is interesting to follow the Debian recommendations, but it is even better to understand their rationale. Therefore, we won't restrict ourselves to practical explanations only; we will also describe the project's workings, so as to provide you with comprehensive and consistent knowledge."
 msgstr "Je zajímavé sledovat Debian doporučení, ale je ještě lepší pochopit jejich zdůvodnění. Proto se nebudeme omezovat pouze na praktická vysvětlení; Budeme také popisovat práci projektu, abychom vám poskytli komplexní a konzistentní znalosti."
