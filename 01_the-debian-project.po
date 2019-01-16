@@ -2,62 +2,63 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2015-10-21 09:09+0200\n"
-"PO-Revision-Date: 2015-10-21 09:09+0200\n"
+"PO-Revision-Date: 2019-01-16 20:03+0100\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: None\n"
-"Language: en-US \n"
+"Language-Team: Jaroslav Tesař\n"
+"Language: cs_CZ\n"
 "MIME-Version: 1.0\n"
-"Content-Type: application/x-publican; charset=UTF-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Publican v4.3.2\n"
+"X-Generator: Poedit 2.2\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
 
 msgid "Objective"
-msgstr ""
+msgstr "Cíl"
 
 msgid "Means"
-msgstr ""
+msgstr "Prostředky"
 
 msgid "Operation"
-msgstr ""
+msgstr "Operace"
 
 msgid "Volunteer"
-msgstr ""
+msgstr "Dobrovolník"
 
 msgid "The Debian Project"
-msgstr ""
+msgstr "Projekt Debian"
 
 msgid "Before diving right into the technology, let us have a look at what the Debian Project is, its objectives, its means, and its operations."
-msgstr ""
+msgstr "Než se ponoříme přímo do technologie, pojďme se podívat na to, co to je projekt Debian, jeho cíle, jeho prostředky a jeho provoz."
 
 msgid "What Is Debian?"
-msgstr ""
+msgstr "Co je Debian?"
 
 msgid "<primary>association</primary>"
-msgstr ""
+msgstr "<primary>sdružení</primary>"
 
-msgid "<emphasis>CULTURE</emphasis> Origin of the Debian name"
-msgstr ""
+msgid "<emphasis>CULTURE</emphasis>Origin of the Debian name"
+msgstr "<emphasis>KULTURA</emphasis>Původ názvu Debianu"
 
 msgid "Look no further: Debian is not an acronym. This name is, in reality, a contraction of two first names: that of Ian Murdock, and his girlfriend at the time, Debra. Debra + Ian = Debian."
-msgstr ""
+msgstr "Nehledejte dále: Debian není zkratka. Tento název je ve skutečnosti spojení dvou křestních jmen: a to Iana Murdocka, a v té době jeho přítelkyně, Debry. Debra + Ian = Debian."
 
 msgid "Debian is a GNU/Linux distribution. We will discuss what a distribution is in further detail in <xref linkend=\"sect.role-of-distributions\" />, but for now, we will simply state that it is a complete operating system, including software and systems for installation and management, all based on the Linux kernel and free software (especially those from the GNU project)."
-msgstr ""
+msgstr "Debian je distribuce GNU/Linuxu. O tom, co to je distribuce budeme diskutovat podrobněji v části <xref linkend=\"sekta.role-of-distributions\"/>, ale nyní budeme jednoduše konstatovat, že se jedná o kompletní operační systém, včetně softwaru a systémů pro instalaci a řízení, vše na základě Linuxového jádra a svobodného softwaru (zejména z projektu GNU)."
 
 msgid "When he created Debian, in 1993, under the leadership of the FSF, Ian Murdock had clear objectives, which he expressed in the <emphasis>Debian Manifesto</emphasis>. The free operating system that he sought would have to have two principal features. First, quality: Debian would be developed with the greatest care, to be worthy of the Linux kernel. It would also be a non-commercial distribution, sufficiently credible to compete with major commercial distributions. This double ambition would, in his eyes, only be achieved by opening the Debian development process just like that of Linux and the GNU project. Thus, peer review would continuously improve the product."
-msgstr ""
+msgstr "Když v roce 1993, pod vedením FSF, vytvořil Debian, měl Ian Murdock jasné cíle, které vyjádřil v <emphasis>Manifestu Debianu</emphasis>. Svobodný operační systém, o který usiloval, musel mít dva hlavní rysy. Za prvé, kvalitu: Debian musí být vyvinut s největší péčí, aby byl hoden linuxového jádra. Musí být rovněž nekomerční distribucí, která dostatečně věrohodně konkuruje velkým komerčním distribucím. Této dvojí ambice by bylo v jeho očích možné dosáhnout pouze otevřením procesu vývoje Debianu, stejně jako v případě Linuxu a projektu GNU. Vzájemná kontrola by tedy neustále zlepšovala produkt."
 
 msgid "<emphasis>CULTURE</emphasis> GNU, the project of the FSF"
-msgstr ""
+msgstr "<emphasis>KULTURA</emphasis> GNU, projekt FSF"
 
 msgid "<primary>GNU</primary>"
-msgstr ""
+msgstr "<primary>GNU</primary>"
 
 msgid "<primary>GNU</primary><secondary>is Not Unix</secondary>"
 msgstr ""
 
 msgid "The GNU project is a range of free software developed, or sponsored, by the Free Software Foundation (FSF), originated by its iconic leader, Dr. Richard M. Stallman. GNU is a recursive acronym, standing for “GNU is Not Unix”."
-msgstr ""
+msgstr "Projekt GNU je řada svobodného softwaru vyvíjeného nebo sponzorovaného nadací Free Software Foundation (FSF), vzniklé jeho kultovním vůdcem, Dr. Richard M. Stallman. GNU je rekurzivní zkratka, stojící pro \"GNU není UNIX\"."
 
 msgid "<emphasis>CULTURE</emphasis> Richard Stallman"
 msgstr ""
@@ -69,7 +70,7 @@ msgid "<primary>RMS</primary>"
 msgstr ""
 
 msgid "<acronym>FSF</acronym>'s founder and author of the GPL license, Richard M. Stallman (often referred to by his initials, RMS) is a charismatic leader of the Free Software movement. Due to his uncompromising positions, he's not unanimously admired, but his non-technical contributions to Free Software (in particular at the legal and philosophical level) are respected by everybody."
-msgstr ""
+msgstr "zakladatel a autor GPL licence <acronym> FSF </acronym>, Richard M. Stallman (často označovaný jako jeho iniciály, RMS), je charismatickým vůdcem hnutí svobodného software. Vzhledem k jeho nekompromisní pozice, není to jednomyslně obdivoval, ale jeho non-technické příspěvky na svobodný software (zejména na právní a filozofické úrovni) jsou respektovány všichni."
 
 msgid "A Multi-Platform Operating System"
 msgstr ""
@@ -1402,4 +1403,3 @@ msgstr ""
 
 msgid "The project is always looking for new sponsors: what about your company? can you let an employee work part-time on long term support? can you allocate a small budget for security support? <ulink type=\"block\" url=\"https://wiki.debian.org/LTS/Funding\" />"
 msgstr ""
-
