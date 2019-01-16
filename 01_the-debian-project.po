@@ -46,52 +46,52 @@ msgid "Debian is a GNU/Linux distribution. We will discuss what a distribution i
 msgstr "Debian je distribuce GNU/Linuxu. O tom, co to je distribuce budeme diskutovat podrobněji v části <xref linkend=\"sekta.role-of-distributions\"/>, ale nyní budeme jednoduše konstatovat, že se jedná o kompletní operační systém, včetně softwaru a systémů pro instalaci a řízení, vše na základě Linuxového jádra a svobodného softwaru (zejména z projektu GNU)."
 
 msgid "When he created Debian, in 1993, under the leadership of the FSF, Ian Murdock had clear objectives, which he expressed in the <emphasis>Debian Manifesto</emphasis>. The free operating system that he sought would have to have two principal features. First, quality: Debian would be developed with the greatest care, to be worthy of the Linux kernel. It would also be a non-commercial distribution, sufficiently credible to compete with major commercial distributions. This double ambition would, in his eyes, only be achieved by opening the Debian development process just like that of Linux and the GNU project. Thus, peer review would continuously improve the product."
-msgstr "Když v roce 1993, pod vedením FSF, vytvořil Debian, měl Ian Murdock jasné cíle, které vyjádřil v <emphasis>Manifestu Debianu</emphasis>. Svobodný operační systém, o který usiloval, musel mít dva hlavní rysy. Za prvé, kvalitu: Debian musí být vyvinut s největší péčí, aby byl hoden linuxového jádra. Musí být rovněž nekomerční distribucí, která dostatečně věrohodně konkuruje velkým komerčním distribucím. Této dvojí ambice by bylo v jeho očích možné dosáhnout pouze otevřením procesu vývoje Debianu, stejně jako v případě Linuxu a projektu GNU. Vzájemná kontrola by tedy neustále zlepšovala produkt."
+msgstr "Když v roce 1993, pod vedením FSF, vytvořil Debian, měl Ian Murdock jasné cíle, které vyjádřil v <emphasis>Manifestu Debianu</emphasis>. Svobodný operační systém, o který usiloval, musel mít dva hlavní rysy. Za prvé, kvalitu: Debian musí být vyvinut s největší péčí, aby byl hoden linuxového jádra. Musí být rovněž nekomerční distribucí, která dostatečně věrohodně konkuruje velkým komerčním distribucím. Této dvojí ambice by bylo v jeho očích možné dosáhnout pouze otevřením procesu vývoje Debianu, stejně jako v případě Linuxu a projektu GNU. Vzájemná kontrola by tedy neustále tento produkt zlepšovala."
 
 msgid "<emphasis>CULTURE</emphasis> GNU, the project of the FSF"
-msgstr "<emphasis>KULTURA</emphasis> GNU, projekt FSF"
+msgstr "<emphasis>KULTURA</emphasis> GNU, projekt od FSF"
 
 msgid "<primary>GNU</primary>"
 msgstr "<primary>GNU</primary>"
 
 msgid "<primary>GNU</primary><secondary>is Not Unix</secondary>"
-msgstr "<primary> GNU </primary> <secondary> není UNIX </secondary>"
+msgstr "<primary>GNU</primary><secondary>Není UNIX</secondary>"
 
 msgid "The GNU project is a range of free software developed, or sponsored, by the Free Software Foundation (FSF), originated by its iconic leader, Dr. Richard M. Stallman. GNU is a recursive acronym, standing for “GNU is Not Unix”."
-msgstr "Projekt GNU je řada svobodného softwaru vyvíjeného nebo sponzorovaného nadací Free Software Foundation (FSF), vzniklé jeho kultovním vůdcem, Dr. Richard M. Stallman. GNU je rekurzivní zkratka, stojící pro \"GNU není UNIX\"."
+msgstr "Projekt GNU je řada svobodného softwaru vyvíjeného nebo sponzorovaného nadací Free Software Foundation (FSF), založené svým kultovním vůdcem, Dr. Richardem M. Stallmanem. GNU je rekurzivní zkratka znamenající “GNU Není Unix”."
 
 msgid "<emphasis>CULTURE</emphasis> Richard Stallman"
-msgstr "<emphasis> kultura </emphasis> Richard Stallman"
+msgstr "<emphasis>KULTURA</emphasis> Richard Stallman"
 
 msgid "<primary>Stallman, Richard</primary>"
-msgstr "<primary> Stallman, Richard </primary>"
+msgstr "<primary>Stallman, Richard</primary>"
 
 msgid "<primary>RMS</primary>"
-msgstr "<primary> RMS </primary>"
+msgstr "<primary>RMS</primary>"
 
 msgid "<acronym>FSF</acronym>'s founder and author of the GPL license, Richard M. Stallman (often referred to by his initials, RMS) is a charismatic leader of the Free Software movement. Due to his uncompromising positions, he's not unanimously admired, but his non-technical contributions to Free Software (in particular at the legal and philosophical level) are respected by everybody."
-msgstr "zakladatel a autor GPL licence <acronym> FSF </acronym>, Richard M. Stallman (často označovaný jako jeho iniciály, RMS), je charismatickým vůdcem hnutí svobodného software. Vzhledem k jeho nekompromisní pozice, není to jednomyslně obdivoval, ale jeho non-technické příspěvky na svobodný software (zejména na právní a filozofické úrovni) jsou respektovány všichni."
+msgstr "Zakladatel <acronym>FSF</acronym> a autor GPL licence Richard M. Stallman (často jmenovaný iniciály RMS), je charismatický vůdce hnutí Svobodný software. Vzhledem ke svým nekompromisním postojům není všemi obdivován, ale jeho netechnické příspěvky ke Svobodnému softwaru (zejména na právní a filozofické úrovni) jsou všemi respektovány."
 
 msgid "A Multi-Platform Operating System"
 msgstr "Multiplatformní operační systém"
 
 msgid "<primary>meta-distribution</primary>"
-msgstr "<primary> meta-distribuce </primary>"
+msgstr "<primary>meta-distribuce</primary>"
 
 msgid "<emphasis>COMMUNITY</emphasis> Ian Murdock's journey"
-msgstr "<emphasis> Společenství </emphasis> Ian Murdock cesta"
+msgstr "<emphasis>Společenství</emphasis> cesta Iana Murdocka"
 
 msgid "<primary>Ian Murdock</primary>"
-msgstr "<primary> Ian Murdock </primary>"
+msgstr "<primary>Ian Murdock</primary>"
 
 msgid "<primary>Murdock, Ian</primary>"
-msgstr "<primary> Murdock, Ian </primary>"
+msgstr "<primary>Murdock, Ian</primary>"
 
 msgid "<primary>Progeny</primary>"
-msgstr "<primary> sdružení </primary>"
+msgstr "<primary>Progeny</primary>"
 
 msgid "Ian Murdock, founder of the Debian project, was its first leader, from 1993 to 1996. After passing the baton to Bruce Perens, Ian took a less public role. He returned to working behind the scenes of the free software community, creating the Progeny company, with the intention of marketing a distribution derived from Debian. This venture was, sadly, a commercial failure, and development was abandoned. The company, after several years of scraping by, simply as a service provider, eventually filed for bankruptcy in April of 2007. Of the various projects initiated by Progeny, only <emphasis>discover</emphasis> still remains. It is an automatic hardware detection tool."
-msgstr "Ian Murdock, zakladatel projektu Debian, byl jeho první vůdce, od 1993 do 1996. Po předání štafety Bruce Perens vzal Ian méně veřejnou roli. On se vrátil do práce v zákulisí svobodného software Společenství, vytvoření potomstvo společnosti, se záměrem marketingu distribuce odvozené z Debianu. Tento podnik byl bohužel komerčním krachem a vývoj byl opuštěn. Společnost, po několika letech škrábání, prostě jako poskytovatel služeb, nakonec podal k bankrotu v dubnu 2007. Z různých projektů iniciované potomstvem, pouze <emphasis> Discover </emphasis> stále zůstává. Jedná se o automatický nástroj pro detekci hardwaru."
+msgstr "Ian Murdock, zakladatel projektu Debian, byl jeho první vůdce, od roku 1993 do roku 1996. Po předání štafety Bruceu Perensovi shostil se Ian méně veřejnou role. Vrátil se do práce v zákulisí společenství svobodného softwaru vytvořením firmy Progeny, se záměrem prodávání distribuce odvozené z Debianu. Tento podnik byl, bohužel, obchodním nezdarem a vývoj byl ukončen. Společnost, po několika letech škrábání, prostě jako poskytovatel služeb, nakonec podal k bankrotu v dubnu 2007. Z různých projektů iniciované potomstvem, pouze <emphasis> Discover </emphasis> stále zůstává. Jedná se o automatický nástroj pro detekci hardwaru."
 
 msgid "Debian, remaining true to its initial principles, has had so much success that, today, it has reached a tremendous size. The 12 architectures offered cover 10 hardware architectures and 2 kernels (Linux and FreeBSD, although the FreeBSD-based ports are not part of the set of officially supported architectures). Furthermore, with more than 21,000 source packages, the available software can meet almost any need that one could have, whether at home or in the enterprise."
 msgstr "Debian, který zůstal věrný svým původním principům, má tolik úspěchů, že dnes dosáhl obrovské velikosti. 12 nabízených architektur pokrývá 10 hardwarových architektur a 2 jader (Linux a FreeBSD, i když porty založené na FreeBSD nejsou součástí sady oficiálně podporovaných architektur). Kromě toho, s více než 21 000 zdrojových balíčků, dostupný software může splnit téměř všechny potřeby, které by člověk mohl mít, ať už doma nebo v podniku."
