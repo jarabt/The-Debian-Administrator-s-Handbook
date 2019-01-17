@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2015-10-21 09:09+0200\n"
-"PO-Revision-Date: 2019-01-16 20:39+0100\n"
+"PO-Revision-Date: 2019-01-17 21:25+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: Jaroslav Tesař\n"
 "Language: cs_CZ\n"
@@ -91,61 +91,61 @@ msgid "<primary>Progeny</primary>"
 msgstr "<primary>Progeny</primary>"
 
 msgid "Ian Murdock, founder of the Debian project, was its first leader, from 1993 to 1996. After passing the baton to Bruce Perens, Ian took a less public role. He returned to working behind the scenes of the free software community, creating the Progeny company, with the intention of marketing a distribution derived from Debian. This venture was, sadly, a commercial failure, and development was abandoned. The company, after several years of scraping by, simply as a service provider, eventually filed for bankruptcy in April of 2007. Of the various projects initiated by Progeny, only <emphasis>discover</emphasis> still remains. It is an automatic hardware detection tool."
-msgstr "Ian Murdock, zakladatel projektu Debian, byl jeho první vůdce, od roku 1993 do roku 1996. Po předání štafety Bruceu Perensovi shostil se Ian méně veřejnou role. Vrátil se do práce v zákulisí společenství svobodného softwaru vytvořením firmy Progeny, se záměrem prodávání distribuce odvozené z Debianu. Tento podnik byl, bohužel, obchodním nezdarem a vývoj byl ukončen. Společnost, po několika letech škrábání, prostě jako poskytovatel služeb, nakonec podal k bankrotu v dubnu 2007. Z různých projektů iniciované potomstvem, pouze <emphasis> Discover </emphasis> stále zůstává. Jedná se o automatický nástroj pro detekci hardwaru."
+msgstr "Ian Murdock, zakladatel projektu Debian, byl jeho první vůdce od roku 1993 do roku 1996. Po předání štafety Bruceu Perensovi zhostil se Ian méně veřejné role. Vrátil se do práce v zákulisí společenství Svobodného softwaru vytvořením firmy Progeny, se záměrem prodávat distribuci odvozenou z Debianu. Tento podnik se stal, bohužel, obchodním nezdarem a vývoj byl ukončen. Společnost, po několika letech přežívání, pouze jako poskytovatel služeb, nakonec v dubnu 2007 vyhlásil bankrot. Z různých projektů započaté Progeny, pouze <emphasis>discover </emphasis> stále zůstává. Jedná se o automatický nástroj pro detekci hardwaru."
 
 msgid "Debian, remaining true to its initial principles, has had so much success that, today, it has reached a tremendous size. The 12 architectures offered cover 10 hardware architectures and 2 kernels (Linux and FreeBSD, although the FreeBSD-based ports are not part of the set of officially supported architectures). Furthermore, with more than 21,000 source packages, the available software can meet almost any need that one could have, whether at home or in the enterprise."
-msgstr "Debian, který zůstal věrný svým původním principům, má tolik úspěchů, že dnes dosáhl obrovské velikosti. 12 nabízených architektur pokrývá 10 hardwarových architektur a 2 jader (Linux a FreeBSD, i když porty založené na FreeBSD nejsou součástí sady oficiálně podporovaných architektur). Kromě toho, s více než 21 000 zdrojových balíčků, dostupný software může splnit téměř všechny potřeby, které by člověk mohl mít, ať už doma nebo v podniku."
+msgstr "Debian, který zůstal věrný svým původním principům, zaznamenal tolik úspěchů, že dnes dosáhl obrovské velikosti. 12 nabízených architektur pokrývá 10 architektur hardwarových a 2 jádra (Linux a FreeBSD, i když porty založené na FreeBSD nejsou součástí sady oficiálně podporovaných architektur). Navíc, s více než 21 000 zdrojovými balíčky, může dostupný software splnit téměř všechny potřeby, které by člověk mohl mít, ať už doma nebo v podniku."
 
 msgid "The sheer size of the distribution can be inconvenient: it is really unreasonable to distribute 84 CD-ROMs to install a complete version on a standard PC… This is why Debian is increasingly considered as a “meta-distribution”, from which one extracts more specific distributions intended for a particular public: Debian-Desktop for traditional office use, Debian-Edu for education and pedagogical use in an academic environment, Debian-Med for medical applications, Debian-Junior for young children, etc. A more complete list of the subprojects can be found in the section dedicated to that purpose, see <xref linkend=\"sect.sub-projects\" />."
-msgstr "Naprostá velikost distribuce může být nevyhovující: je to opravdu nerozumné distribuovat 84 CD-ROM nainstalovat kompletní verzi na standardní PC... Proto je Debian stále více považován za \"meta-distribuci\", ze které jeden extrahuje konkrétnější distribuce určené pro konkrétní veřejnost: debian-Desktop pro tradiční kancelářské použití, Debian-edu pro vzdělávání a pedagogické využití v akademickém prostředí, Debian-Med pro zdravotnické aplikace, Debian-Junior pro malé děti atd. Úplnější seznam dílčích projektů lze nalézt v části věnované tomuto účelu naleznete v tématu < xref linkend = \"sekt. sub-projekty\"/>."
+msgstr "Velikost distribuce v celé šíři může být nevyhovující: opravdu nemá smysl distribuovat 84 CD-ROM za účelem instalace kompletní verze na standardní PC... Proto je Debian stále více považována za “meta-distribuci”, ze které se extrahuje jedna konkrétnější distribuce určená pro konkrétní veřejnost: Debian-Desktop pro tradiční kancelářské použití, Debian-Edu pro vzdělávání a pedagogické využití v akademickém prostředí, Debian-Med pro zdravotnické aplikace, Debian-Junior pro malé děti atd. Ucelenější seznam dílčích projektů lze nalézt v části věnované tomuto tématu <xref linkend=\"sect.sub-projects\" />."
 
 msgid "These partial views of Debian are organized in a well-defined framework, thus guaranteeing hassle-free compatibility between the various “sub-distributions”. All of them follow the general planning for release of new versions. And since they build on the same foundations, they can be easily extended, completed, and personalized with applications available in the Debian repositories."
-msgstr "Tato částečná zobrazení Debianu jsou organizována v dobře definovaném rámci, což zaručuje bezproblémovou kompatibilitu mezi různými \"sub-distribucí\". Všechny z nich se řídí obecným plánem pro vydání nových verzí. A protože staví na stejných základech, mohou být snadno rozšířeny, dokončeny a personalizované s aplikacemi dostupnými v repozitářích Debianu."
+msgstr "Tyto dílčí pohledy na Debian jsou organizovány v dobře definovaném rámci, což zaručuje bezproblémovou kompatibilitu mezi různými “sub-distribucemi”. Každá z nich se řídí obecným plánem pro vydávání nových verzí. A protože staví na stejných základech, mohou být snadno rozšířeny, dokončeny a personalizovány s aplikacemi dostupnými v repozitářích Debianu."
 
 msgid "<primary>subproject</primary>"
-msgstr "<primary> dílčí projekt </primary>"
+msgstr "<primary>dílčí projekt</primary>"
 
 msgid "All the Debian tools operate in this direction: <command>debian-cd</command> has for a long time now allowed the creation of a set of CD-ROMs containing only a pre-selected set of packages; <command>debian-installer</command> is also a modular installer, easily adapted to special needs. <command>APT</command> will install packages from various origins, while guaranteeing the overall consistency of the system."
-msgstr "Všechny nástroje Debianu fungují tímto směrem: <command> Debian-CD </command> má již dlouhou dobu povoleno vytvoření sady CD-ROM obsahujících pouze předem vybraný soubor balíků; <command> Debian-Installer </command> je také modulární instalátor, který se snadno přizpůsobí zvláštním potřebám. <command> APT </command> bude instalovat balíky z různých zdrojů a zároveň garantovat celkovou konzistenci systému."
+msgstr "Všechny nástroje Debianu fungují v tomto sledu: <command>debian-cd</command> má již dlouhou dobu povoleno vytvoření sady CD-ROM obsahujících pouze předem vybraný soubor balíků; <command>debian-installer</command> je také modulární instalátor, který se snadno přizpůsobí zvláštním potřebám. <command>APT</command> bude instalovat balíky z různých zdrojů a zároveň garantovat celkovou konzistenci systému."
 
 msgid "<emphasis>TOOL</emphasis> Creating a Debian CD-ROM"
-msgstr "<emphasis> Nástroj </emphasis> Vytvoření disku CD-ROM Debianu"
+msgstr "<emphasis>NÁSTROJ</emphasis> Vytvoření CD-ROM Debianu"
 
 msgid "<primary><command>debian-cd</command></primary>"
-msgstr "<primary> <command> Debian-CD </command> </primary>"
+msgstr "<primary><command>debian-cd</command></primary>"
 
 msgid "<command>debian-cd</command> creates ISO images of installation media (CD, DVD, Blu-Ray, etc.) ready for use. Any matter regarding this software is discussed (in English) on the <email>debian-cd@lists.debian.org</email> mailing list. The team is led by Steve McIntyre who is handling official Debian ISO builds."
-msgstr "<command> Debian-CD </command> vytváří ISO obrazy instalačních médií (CD, DVD, Blu-ray, atd.) připravené k použití. Jakékoliv záležitosti týkající se tohoto softwaru je diskutována (v angličtině) na <email> debian-cd@lists.debian.org </email> mailing listu. Tým je pod vedením Steve McIntyre, který je manipulace oficiální Debian ISO staví."
+msgstr "<command> Debian-CD </command> vytváří ISO obrazy instalačních médií (CD, DVD, Blu-ray, atd.) připravené k použití. Jakékoliv záležitosti týkající se tohoto softwaru jsou probírána (v angličtině) na <email>debian-cd@lists.debian.org</email> mailing listu. Tým je pod vedením Steva McIntyra, který řídí oficiální ISO stavební části Debianu."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> To each computer, its architecture"
-msgstr ""
+msgstr "<emphasis> zpět k ZÁKLADům </emphasis> Do každého počítače, jeho architektura"
 
 msgid "The term “architecture” indicates a type of computer (the most known include Mac or PC). Each architecture is differentiated primarily according to its processor, usually incompatible with other processors. These differences in hardware involve varying means of operation, thus requiring that software be compiled specifically for each architecture."
-msgstr ""
+msgstr "Termín \"architektura\" označuje typ počítače (nejvíce známý patří Mac nebo PC). Každá architektura je rozlišena především podle jeho procesoru, obvykle nekompatibilní s jinými procesory. Tyto rozdíly v hardwaru zahrnují různé provozní prostředky, což vyžaduje, aby byl software kompilován specificky pro každou architekturu."
 
 msgid "<primary>architecture</primary>"
-msgstr ""
+msgstr "<primary> Architektura </primary>"
 
 msgid "<primary>processor</primary>"
-msgstr ""
+msgstr "<primary> procesor </primary>"
 
 msgid "Most software available in Debian is written in portable programming languages: the same source code can be compiled for various architectures. In effect, an executable binary, always compiled for a specific architecture, will not usually function on the other architectures."
-msgstr ""
+msgstr "Většina software dostupný v Debianu je napsán v přenosných programovacích jazycích: stejný zdrojový kód může být sestaven pro různé architektury. Ve skutečnosti spustitelný binární soubor, který je kompilován vždy pro specifickou architekturu, nebude obvykle fungovat na ostatních architekturách."
 
 msgid "Recall that each program is created by writing source code; this source code is a text file composed of instructions in a given programming language. Before you can use the software, it is necessary to compile the source code, which means transforming the code into a binary (a series of machine instructions executable by the processor). Each programming language has a specific compiler to execute this operation (for example, <command>gcc</command> for the C programming language)."
-msgstr ""
+msgstr "Připomeňme si, že každý program je vytvořen napsáním zdrojového kódu; Tento zdrojový kód je textový soubor složený z instrukcí v daném programovacím jazyce. Než budete moci software používat, je nutné zkompilovat zdrojový kód, což znamená transformovat kód do binárního souboru (série instrukcí stroje spustitelného procesorem). Každý programovací jazyk má konkrétní kompilátor pro provedení této operace (například <command> GCC </command> pro programovací jazyk C)."
 
 msgid "<primary>source</primary><secondary>code</secondary>"
-msgstr ""
+msgstr "<primary> zdroj </primary> <secondary> kód </secondary>"
 
 msgid "<primary>binary code</primary>"
-msgstr ""
+msgstr "<primary> binární kód </primary>"
 
 msgid "<primary>compilation</primary>"
-msgstr ""
+msgstr "<primary> kompilace </primary>"
 
 msgid "<primary>compiler</primary>"
-msgstr ""
+msgstr "<primary> dílčí projekt </primary>"
 
 msgid "<emphasis>TOOL</emphasis> Installer"
 msgstr ""
