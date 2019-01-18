@@ -6,5 +6,5 @@ Kdo se chce zúčastnit, jste vítání.
 SLOVNÍČEK:  
 builds...  
 respository...repozitář  
-
+Free Software...
 

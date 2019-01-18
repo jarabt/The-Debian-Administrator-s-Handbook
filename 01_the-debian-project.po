@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2015-10-21 09:09+0200\n"
-"PO-Revision-Date: 2019-01-17 21:25+0100\n"
+"PO-Revision-Date: 2019-01-18 17:48+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: Jaroslav Tesař\n"
 "Language: cs_CZ\n"
@@ -115,91 +115,91 @@ msgid "<primary><command>debian-cd</command></primary>"
 msgstr "<primary><command>debian-cd</command></primary>"
 
 msgid "<command>debian-cd</command> creates ISO images of installation media (CD, DVD, Blu-Ray, etc.) ready for use. Any matter regarding this software is discussed (in English) on the <email>debian-cd@lists.debian.org</email> mailing list. The team is led by Steve McIntyre who is handling official Debian ISO builds."
-msgstr "<command> Debian-CD </command> vytváří ISO obrazy instalačních médií (CD, DVD, Blu-ray, atd.) připravené k použití. Jakékoliv záležitosti týkající se tohoto softwaru jsou probírána (v angličtině) na <email>debian-cd@lists.debian.org</email> mailing listu. Tým je pod vedením Steva McIntyra, který řídí oficiální ISO stavební části Debianu."
+msgstr "<command>debian-cd</command> vytváří ISO obrazy instalačních médií (CD, DVD, Blu-ray, atd.) připravené k použití. Jakékoliv záležitosti týkající se tohoto softwaru jsou diskutovány (v angličtině) na <email>debian-cd@lists.debian.org</email> mailing listu. Tým je pod vedením Steva McIntyra, který řídí oficiální ISO stavební části Debianu."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> To each computer, its architecture"
-msgstr "<emphasis> zpět k ZÁKLADům </emphasis> Do každého počítače, jeho architektura"
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Do každého počítače, jeho architektura"
 
 msgid "The term “architecture” indicates a type of computer (the most known include Mac or PC). Each architecture is differentiated primarily according to its processor, usually incompatible with other processors. These differences in hardware involve varying means of operation, thus requiring that software be compiled specifically for each architecture."
-msgstr "Termín \"architektura\" označuje typ počítače (nejvíce známý patří Mac nebo PC). Každá architektura je rozlišena především podle jeho procesoru, obvykle nekompatibilní s jinými procesory. Tyto rozdíly v hardwaru zahrnují různé provozní prostředky, což vyžaduje, aby byl software kompilován specificky pro každou architekturu."
+msgstr "Termín “architektura” označuje typ počítače (mezi nejvíce známé patří Mac nebo PC). U každé architektury dělá odlišnost především její procesor, obvykle nekompatibilní s ostatními procesory. Tyto rozdíly v hardwaru obnášejí různé provozní prostředky, což vyžaduje, aby byl software kompilován specificky pro každou architekturu."
 
 msgid "<primary>architecture</primary>"
-msgstr "<primary> Architektura </primary>"
+msgstr "<primary>architektura</primary>"
 
 msgid "<primary>processor</primary>"
-msgstr "<primary> procesor </primary>"
+msgstr "<primary>procesor</primary>"
 
 msgid "Most software available in Debian is written in portable programming languages: the same source code can be compiled for various architectures. In effect, an executable binary, always compiled for a specific architecture, will not usually function on the other architectures."
-msgstr "Většina software dostupný v Debianu je napsán v přenosných programovacích jazycích: stejný zdrojový kód může být sestaven pro různé architektury. Ve skutečnosti spustitelný binární soubor, který je kompilován vždy pro specifickou architekturu, nebude obvykle fungovat na ostatních architekturách."
+msgstr "Většina softwaru dostupného v Debianu je napsána v přenosných programovacích jazycích: stejný zdrojový kód může být sestaven pro různé architektury. Ve skutečnosti, spustitelný binární soubor, který je kompilován pro specifickou architekturu, nebude obvykle fungovat na ostatních architekturách."
 
 msgid "Recall that each program is created by writing source code; this source code is a text file composed of instructions in a given programming language. Before you can use the software, it is necessary to compile the source code, which means transforming the code into a binary (a series of machine instructions executable by the processor). Each programming language has a specific compiler to execute this operation (for example, <command>gcc</command> for the C programming language)."
-msgstr "Připomeňme si, že každý program je vytvořen napsáním zdrojového kódu; Tento zdrojový kód je textový soubor složený z instrukcí v daném programovacím jazyce. Než budete moci software používat, je nutné zkompilovat zdrojový kód, což znamená transformovat kód do binárního souboru (série instrukcí stroje spustitelného procesorem). Každý programovací jazyk má konkrétní kompilátor pro provedení této operace (například <command> GCC </command> pro programovací jazyk C)."
+msgstr "Připomeňme si, že každý program je vytvořen napsáním zdrojového kódu; tento zdrojový kód je textový soubor složený z instrukcí v daném programovacím jazyce. Než budete moci software používat, je nutné zkompilovat zdrojový kód, což znamená transformovat kód do binárního souboru (série instrukcí stroje spustitelného procesorem). Každý programovací jazyk má konkrétní kompilátor pro provedení této operace (například <command>gcc</command> pro programovací jazyk C)."
 
 msgid "<primary>source</primary><secondary>code</secondary>"
-msgstr "<primary> zdroj </primary> <secondary> kód </secondary>"
+msgstr "<primary>zdroj</primary> <secondary>kód</secondary>"
 
 msgid "<primary>binary code</primary>"
-msgstr "<primary> binární kód </primary>"
+msgstr "<primary>binární kód</primary>"
 
 msgid "<primary>compilation</primary>"
-msgstr "<primary> kompilace </primary>"
+msgstr "<primary>kompilace</primary>"
 
 msgid "<primary>compiler</primary>"
-msgstr "<primary> dílčí projekt </primary>"
+msgstr "<primary>kompilátor</primary>"
 
 msgid "<emphasis>TOOL</emphasis> Installer"
-msgstr ""
+msgstr "<emphasis>NÁSTROJ</emphasis> Instalátor"
 
 msgid "<primary><command>debian-installer</command></primary>"
-msgstr ""
+msgstr "<primary><command>debian-installer</command> </primary>"
 
 msgid "<command>debian-installer</command> is the name of the Debian installation program. Its modular design allows it to be used in a broad range of installation scenarios. The development work is coordinated on the <email>debian-boot@lists.debian.org</email> mailing list under the direction of Cyril Brulebois."
-msgstr ""
+msgstr "<command>debian-installer</command> je název instalačního programu Debianu. Jeho modulární konstrukce umožňuje použití v širokém rozsahu instalačních scénářů. Vývojové práce jsou koordinovány na <email>debian-boot@lists.debian.org</email> mailing listu pod vedením Cyrila Bruleboise."
 
 msgid "The Quality of Free Software"
-msgstr ""
+msgstr "Kvalita svobodného softwaru"
 
 msgid "Debian follows all of the principles of Free Software, and its new versions are not released until they are ready. Developers are not forced by some set schedule to rush to meet an arbitrary deadline. People frequently complain of the long time between Debian's stable releases, but this caution also ensures Debian's legendary reliability: long months of testing are indeed necessary for the full distribution to receive the “stable” label."
-msgstr ""
+msgstr "Debian dodržuje všechny principy svobodného softwaru a jeho nové verze nejsou uvolněny, dokud nejsou připraveny. Vývojáři nejsou nuceni stanoveným plánem spěchat kvůli splnění nějakého termínu. Lidé si často stěžují na dlouhou dobu mezi stabilními verzemi Debianu, ale tato opatrnost také zajišťuje legendární spolehlivost Debianu: dlouhé měsíce testování jsou skutečně nezbytné pro úplnou distribuci k získání štítku “stabilní”."
 
 msgid "Debian will not compromise on quality: all known critical bugs are resolved in any new version, even if this requires the initially forecast release date to be pushed back."
-msgstr ""
+msgstr "Debian nebude kompromis na kvalitě: všechny známé kritické chyby jsou vyřešeny v jakékoli nové verzi, i když to vyžaduje původně prognózy datum vydání být posunuta zpět."
 
 msgid "The Legal Framework: A Non-Profit Organization"
-msgstr ""
+msgstr "Právní rámec: neZisková organizace"
 
 msgid "Legally speaking, Debian is a project managed by an American not-for-profit, volunteer association. The project has around a thousand <emphasis>Debian developers</emphasis>, but brings together a far greater number of contributors (translators, bug reporters, artists, casual developers, etc.)."
-msgstr ""
+msgstr "Legálně řečeno, Debian je projekt řízený americkou neziskovou, dobrovolnickou asociací. Projekt má kolem tisíce <emphasis> vývojáři Debianu </emphasis>, ale sdružuje mnohem větší počet přispěvatelů (překladatelů, Bug reportéři, umělci, příležitostné vývojáře, atd.)."
 
 msgid "To carry its mission to fruition, Debian has a large infrastructure, with many servers connected across the Internet, offered by many sponsors."
-msgstr ""
+msgstr "Chcete-li nést své poslání k uskutečnění, Debian má velkou infrastrukturu, s mnoha servery připojené přes Internet, které nabízí mnoho sponzorů."
 
 msgid "<emphasis>COMMUNITY</emphasis> Behind Debian, the SPI association, and local branches"
-msgstr ""
+msgstr "<emphasis> Společenství </emphasis> Za Debianem, asociací SPI a místními pobočkami"
 
 msgid "<primary>SPI</primary>"
-msgstr ""
+msgstr "<primary> SPI </primary>"
 
 msgid "<primary>Debian France</primary>"
-msgstr ""
+msgstr "<primary> Debian Francie </primary>"
 
 msgid "<primary>Software in the Public Interest</primary>"
-msgstr ""
+msgstr "<primary> software ve veřejném zájmu </primary>"
 
 msgid "Debian doesn't own any server in its own name, since it is only a project within the <emphasis>Software in the Public Interest</emphasis> association, and SPI manages the hardware and financial aspects (donations, purchase of hardware, etc.). While initially created specifically for the Debian project, this association now hosts other free software projects, especially the PostgreSQL database, Freedesktop.org (project for standardization of various parts of modern graphical desktop environments, such as GNOME and KDE), and the Libre Office office suite. <ulink type=\"block\" url=\"http://www.spi-inc.org/\" />"
-msgstr ""
+msgstr "Debian nevlastní žádný server vlastním jménem, protože je to pouze projekt v rámci <emphasis> software ve veřejném zájmu </emphasis> Association, a SPI spravuje hardware a finanční aspekty (dary, nákup hardware, atd.). Toto sdružení, které bylo původně vytvořeno speciálně pro projekt Debian, je nyní hostitelem dalších svobodných softwarových projektů, zejména databáze PostgreSQL, Freedesktop.org (projekt pro standardizaci různých částí moderních grafických desktopových prostředí , jako je GNOME a KDE), a na Libre Office Office Suite. < ulink typ = \"block\" url = \"http://www.spi-inc.org/\"/>"
 
 msgid "In addition to SPI, various local associations collaborate closely with Debian in order to generate funds for Debian, without centralizing everything in the USA: they are known as “Trusted Organizations” in the Debian jargon. This setup avoids prohibitive international transfer costs, and fits well with the decentralized nature of the project."
-msgstr ""
+msgstr "Kromě SPI, různá místní sdružení úzce spolupracují s Debianem za účelem generování finančních prostředků pro Debian, bez centralizace vše v USA: oni jsou známí jako \"důvěryhodné organizace\" v Debian žargonu. Toto nastavení zabraňuje neúměrným mezinárodním nákladům na transfer a dobře se hodí k decentralizované povaze projektu."
 
 msgid "While the list of trusted organizations is rather short, there are many more Debian-related associations whose goal is to promote Debian: <emphasis>Debian France</emphasis>, <emphasis>Debian-ES</emphasis>, <emphasis>debian.ch</emphasis>, and others around the world. Do not hesitate to join your local association and support the project! <ulink type=\"block\" url=\"http://wiki.debian.org/Teams/Auditor/Organizations\" /> <ulink type=\"block\" url=\"http://france.debian.net/\" /> <ulink type=\"block\" url=\"http://www.debian-es.org/\" /> <ulink type=\"block\" url=\"http://debian.ch/\" />"
-msgstr ""
+msgstr "Seznam důvěryhodných organizací je sice poměrně krátký, ale existuje mnoho dalších asociací souvisejících s Debianem, jejichž cílem je propagovat Debian: <emphasis> Debian France </emphasis>, <emphasis> Debian-ES </emphasis>, <emphasis> Debian.ch </emphasis> a další Kolem světa. Neváhejte se připojit k místnímu svazu a podpořte projekt! < ulink typ = \"block\" url = \"http://wiki.debian.org/Teams/Auditor/Organizations\"/> < ulink typ = \"block\" url = \"http://france.debian.net/\"/> < ulink typ = \"block\" url = \"http://www.debian-es.org/\"/> < ulink typ = \"block\" url = \"http://debian.ch/\"/>"
 
 msgid "The Foundation Documents"
-msgstr ""
+msgstr "Dokumenty nadace"
 
 msgid "<primary>Foundation Documents</primary>"
-msgstr ""
+msgstr "<primary> Stallman, Richard </primary>"
 
 msgid "A few years after its initial launch, Debian formalized the principles that it should follow as a free software project. This deliberately activist decision allows orderly and peaceful growth by ensuring that all members progress in the same direction. To become a Debian developer, any candidate must confirm and prove their support and adherence to the principles established in the project's Foundation Documents."
 msgstr ""
