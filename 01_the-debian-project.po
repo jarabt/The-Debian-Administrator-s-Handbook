@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2015-10-21 09:09+0200\n"
-"PO-Revision-Date: 2019-01-18 17:48+0100\n"
+"PO-Revision-Date: 2019-01-20 10:18+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: Jaroslav Tesař\n"
 "Language: cs_CZ\n"
@@ -163,184 +163,184 @@ msgid "Debian follows all of the principles of Free Software, and its new versio
 msgstr "Debian dodržuje všechny principy svobodného softwaru a jeho nové verze nejsou uvolněny, dokud nejsou připraveny. Vývojáři nejsou nuceni stanoveným plánem spěchat kvůli splnění nějakého termínu. Lidé si často stěžují na dlouhou dobu mezi stabilními verzemi Debianu, ale tato opatrnost také zajišťuje legendární spolehlivost Debianu: dlouhé měsíce testování jsou skutečně nezbytné pro úplnou distribuci k získání štítku “stabilní”."
 
 msgid "Debian will not compromise on quality: all known critical bugs are resolved in any new version, even if this requires the initially forecast release date to be pushed back."
-msgstr "Debian nebude kompromis na kvalitě: všechny známé kritické chyby jsou vyřešeny v jakékoli nové verzi, i když to vyžaduje původně prognózy datum vydání být posunuta zpět."
+msgstr "Debian nebude dělat kompromisy ve kvalitě: všechny známé kritické chyby jsou vyřešeny v jakékoli nové verzi, i když to vyžaduje odsunutí původně předpokládaného datum vydání."
 
 msgid "The Legal Framework: A Non-Profit Organization"
-msgstr "Právní rámec: neZisková organizace"
+msgstr "Právní rámec: nezisková organizace"
 
 msgid "Legally speaking, Debian is a project managed by an American not-for-profit, volunteer association. The project has around a thousand <emphasis>Debian developers</emphasis>, but brings together a far greater number of contributors (translators, bug reporters, artists, casual developers, etc.)."
-msgstr "Legálně řečeno, Debian je projekt řízený americkou neziskovou, dobrovolnickou asociací. Projekt má kolem tisíce <emphasis> vývojáři Debianu </emphasis>, ale sdružuje mnohem větší počet přispěvatelů (překladatelů, Bug reportéři, umělci, příležitostné vývojáře, atd.)."
+msgstr "Po právní stránce, Debian je projekt řízený Americkou neziskovou, dobrovolnickou asociací. Projekt má kolem tisíce <emphasis>vývojářů Debianu</emphasis>, ale sdružuje mnohem větší počet přispěvatelů (překladatelů, těch, co hlásí chyby, umělců, příležitostných vývojářů, atd.)."
 
 msgid "To carry its mission to fruition, Debian has a large infrastructure, with many servers connected across the Internet, offered by many sponsors."
-msgstr "Chcete-li nést své poslání k uskutečnění, Debian má velkou infrastrukturu, s mnoha servery připojené přes Internet, které nabízí mnoho sponzorů."
+msgstr "Aby se porjekt mohl uskutečnit, má Debian širokou infrastrukturu, s mnoha servery připojenými přes internet, poskytnutými velkým počtem sponzorů."
 
 msgid "<emphasis>COMMUNITY</emphasis> Behind Debian, the SPI association, and local branches"
-msgstr "<emphasis> Společenství </emphasis> Za Debianem, asociací SPI a místními pobočkami"
+msgstr "<emphasis>KOMUNITA</emphasis> Za Debianem, asociace SPI, a místní pobočky"
 
 msgid "<primary>SPI</primary>"
-msgstr "<primary> SPI </primary>"
+msgstr "<primary>SPI</primary>"
 
 msgid "<primary>Debian France</primary>"
-msgstr "<primary> Debian Francie </primary>"
+msgstr "<primary>Debian Francie</primary>"
 
 msgid "<primary>Software in the Public Interest</primary>"
-msgstr "<primary> software ve veřejném zájmu </primary>"
+msgstr "<primary>Software ve veřejném zájmu</primary>"
 
 msgid "Debian doesn't own any server in its own name, since it is only a project within the <emphasis>Software in the Public Interest</emphasis> association, and SPI manages the hardware and financial aspects (donations, purchase of hardware, etc.). While initially created specifically for the Debian project, this association now hosts other free software projects, especially the PostgreSQL database, Freedesktop.org (project for standardization of various parts of modern graphical desktop environments, such as GNOME and KDE), and the Libre Office office suite. <ulink type=\"block\" url=\"http://www.spi-inc.org/\" />"
-msgstr "Debian nevlastní žádný server vlastním jménem, protože je to pouze projekt v rámci <emphasis> software ve veřejném zájmu </emphasis> Association, a SPI spravuje hardware a finanční aspekty (dary, nákup hardware, atd.). Toto sdružení, které bylo původně vytvořeno speciálně pro projekt Debian, je nyní hostitelem dalších svobodných softwarových projektů, zejména databáze PostgreSQL, Freedesktop.org (projekt pro standardizaci různých částí moderních grafických desktopových prostředí , jako je GNOME a KDE), a na Libre Office Office Suite. < ulink typ = \"block\" url = \"http://www.spi-inc.org/\"/>"
+msgstr "Debian nevlastní žádný server pod svým jménem, protože je to pouze projekt v rámci asociace <emphasis>Software ve veřejném zájmu</emphasis>, atak SPI spravuje hardware a finanční aspekty (dary, nákup hardware, atd.). Toto sdružení, které bylo původně vytvořeno pouze pro projekt Debian, nyní zaštiťuje další svobodné softwarové projekty, zejména databázi PostgreSQL, Freedesktop.org (projekt pro standardizaci různých částí moderních grafických desktopových prostředí, jako je GNOME a KDE), a kancelářský balík Libre Office. <ulink typ=\"block\" url =\"http://www.spi-inc.org/\" />"
 
 msgid "In addition to SPI, various local associations collaborate closely with Debian in order to generate funds for Debian, without centralizing everything in the USA: they are known as “Trusted Organizations” in the Debian jargon. This setup avoids prohibitive international transfer costs, and fits well with the decentralized nature of the project."
-msgstr "Kromě SPI, různá místní sdružení úzce spolupracují s Debianem za účelem generování finančních prostředků pro Debian, bez centralizace vše v USA: oni jsou známí jako \"důvěryhodné organizace\" v Debian žargonu. Toto nastavení zabraňuje neúměrným mezinárodním nákladům na transfer a dobře se hodí k decentralizované povaze projektu."
+msgstr "Kromě SPI s Debianem úzce spolupracují různá místní sdružení za účelem vytváření finančních prostředků pro projekt, bez centralizace všeho v USA: v žargonu Debianu jsou označovány za “důvěryhodné organizace”. Toto uspořádání umožňuje vyhnout se neúměrným mezinárodním nákladům za převod a dobře se hodí k decentralizované povaze projektu."
 
 msgid "While the list of trusted organizations is rather short, there are many more Debian-related associations whose goal is to promote Debian: <emphasis>Debian France</emphasis>, <emphasis>Debian-ES</emphasis>, <emphasis>debian.ch</emphasis>, and others around the world. Do not hesitate to join your local association and support the project! <ulink type=\"block\" url=\"http://wiki.debian.org/Teams/Auditor/Organizations\" /> <ulink type=\"block\" url=\"http://france.debian.net/\" /> <ulink type=\"block\" url=\"http://www.debian-es.org/\" /> <ulink type=\"block\" url=\"http://debian.ch/\" />"
-msgstr "Seznam důvěryhodných organizací je sice poměrně krátký, ale existuje mnoho dalších asociací souvisejících s Debianem, jejichž cílem je propagovat Debian: <emphasis> Debian France </emphasis>, <emphasis> Debian-ES </emphasis>, <emphasis> Debian.ch </emphasis> a další Kolem světa. Neváhejte se připojit k místnímu svazu a podpořte projekt! < ulink typ = \"block\" url = \"http://wiki.debian.org/Teams/Auditor/Organizations\"/> < ulink typ = \"block\" url = \"http://france.debian.net/\"/> < ulink typ = \"block\" url = \"http://www.debian-es.org/\"/> < ulink typ = \"block\" url = \"http://debian.ch/\"/>"
+msgstr "Seznam důvěryhodných organizací je sice poměrně krátký, ale existuje mnoho dalších asociací souvisejících s Debianem, jejichž cílem je podporavat Debian: <emphasis>Debian France</emphasis>, <emphasis>Debian-ES</emphasis>, <emphasis>debian.ch</emphasis> a další na celém světě. Neváhejte se připojit k místnímu sdružení a podpořte projekt! <ulink typ=\"block\" url =\"http://wiki.debian.org/Teams/Auditor/Organizations\" /> <ulink typ=\"block\" url =\"http://france.debian.net/\" /> <ulink typ = \"block\" url = \"http://www.debian-es.org/\"/> < ulink typ = \"block\" url = \"http://debian.ch/\"/>"
 
 msgid "The Foundation Documents"
 msgstr "Dokumenty nadace"
 
 msgid "<primary>Foundation Documents</primary>"
-msgstr "<primary> Stallman, Richard </primary>"
+msgstr "<primary>Dokumenty nadace</primary>"
 
 msgid "A few years after its initial launch, Debian formalized the principles that it should follow as a free software project. This deliberately activist decision allows orderly and peaceful growth by ensuring that all members progress in the same direction. To become a Debian developer, any candidate must confirm and prove their support and adherence to the principles established in the project's Foundation Documents."
-msgstr ""
+msgstr "Několik let po prvotním vydání, Debian formálně stanovil principy, které by měl dodržovat jako svobodný software. Toto úmyslně aktivistické rozhodnutí umožňuje řádný a bezproblémový růst tím, že zajistí, aby se všechny části ubíraly stejným směrem. K tomu, aby se stal vývojářem Debianu, musí každý uchazeč potvrdit a prokázat svou podporu a dodržování zásad stanovených v nadačních dokumentech projektu."
 
 msgid "The development process is constantly debated, but these Foundation Documents are widely and consensually supported, thus rarely change. The Debian constitution also offers other guarantees for their stability: a three-quarters qualified majority is required to approve any amendment."
-msgstr ""
+msgstr "Proces vývoje je neustále projednáván, ale tyto nadační dokumenty jsou obecně a shodně podporovány, a tak zřídka měněny. Stanovy Debianu nabízí také další záruky pro jejich stálost: ke schválení jakékoliv jejich změny je potřeba tří čtvrtin kvalifikované většiny."
 
 msgid "The Commitment towards Users"
-msgstr ""
+msgstr "Závazek vůči uživatelům"
 
 msgid "<primary>social contract</primary>"
-msgstr ""
+msgstr "<primary>společenská smlouva</primary>"
 
 msgid "<primary>contract, social</primary>"
-msgstr ""
+msgstr "<primary>smlouva, společenský</primary>"
 
 msgid "The project also has a “social contract”. What place does such a text have in a project only intended for the development of an operating system? That is quite simple: Debian works for its users, and thus, by extension, for society. This contract summarizes the commitments that the project undertakes. Let us study them in greater detail:"
-msgstr ""
+msgstr "Projekt má také “společenskou smlouvu”. Jaké místo má takovýto text v projektu, který je určen pouze pro vývoj operačního systému? To je docela jednoduché: Debian pracuje pro své uživatele, a tím potažmo i pro společnost. Tato smlouva shrnuje závazky, ke kterým se projekt zavazuje. Dovolte nám je podrobněji popsat:"
 
 msgid "Debian will remain 100% free."
-msgstr ""
+msgstr "Debian zůstane ze 100% zdarma."
 
 msgid "This is Rule No. 1. Debian is and will remain composed entirely and exclusively of free software. Additionally, all software development within the Debian project, itself, will be free."
-msgstr ""
+msgstr "Toto je pravidlo č. 1. Debian je a zůstane zcela a výhradně složen z volného softwaru. Navíc, veškerý vývoj softwaru sám o sobě v rámci projektu Debian, bude zdarma."
 
 msgid "<emphasis>PERSPECTIVE</emphasis> Beyond software"
-msgstr ""
+msgstr "<emphasis>POHLED</emphasis>za software"
 
 msgid "The first version of the Debian Social Contract said “Debian Will Remain 100% Free <emphasis>Software</emphasis>”. The disappearance of this word (with the ratification of Version 1.1 of the contract in April of 2004) indicates the will to achieve freedom, not only in software, but also in the documentation and any other element that Debian wishes to provide within its operating system."
-msgstr ""
+msgstr "První verze sociální smlouvy Debianu říkala “Debian zůstane 100% svobodný <emphasis>software</emphasis>”. Vyouštění tohoto slova (se schválením verze 1.1 smlouvy v dubnu 2004) naznačuje vůli dosáhnout svobody, a to nejen v softwaru, ale také v dokumentaci a jakémkoliv jiném prvku, který Debian chce poskytovat v rámci svého operačního systému."
 
 msgid "This change, which was only intended as editorial, has, in reality, had numerous consequences, especially with the removal of some problematic documentation. Furthermore, the increasing use of firmware in drivers poses problems: many are non-free, yet they are necessary for proper operation of the corresponding hardware."
-msgstr ""
+msgstr "Tato změna, která byla zamýšlena pouze jako redakční, měla ve skutečnosti četné následky, zejména v odstranění některé problematické dokumentace. Navíc, problém představuje také stále častější používání firmwaru v ovladačích: mnohé z nich nejsou volné, ale jsou nezbytné pro správné fungování odpovídajícího hardwaru."
 
 msgid "We will give back to the free software community."
-msgstr ""
+msgstr "Vratíme se zpět ke komunitě svobodného softwaru."
 
 msgid "Any improvement contributed by the Debian project to a work integrated in the distribution is sent back to the author of the work (called “upstream”). In general, Debian will cooperate with the community rather than work in isolation."
-msgstr ""
+msgstr "Jakékoli zlepšení, které přispělo projektem Debianu k práci integrované v distribuci, je zasláno zpět autorovi díla (nazývaného \"upstream\"). Obecně, Debian bude spolupracovat s komunitou, spíše než pracovat v izolaci."
 
 msgid "<emphasis>COMMUNITY</emphasis> Upstream author, or Debian developer?"
-msgstr ""
+msgstr "<emphasis> Společenství </emphasis> Autor nebo vývojář Debianu?"
 
 msgid "<primary>upstream author</primary>"
-msgstr ""
+msgstr "<primary> upstream autor </primary>"
 
 msgid "<primary>author, upstream</primary>"
-msgstr ""
+msgstr "<primary> Autor, upstream </primary>"
 
 msgid "<primary>upstream</primary>"
-msgstr ""
+msgstr "<primary> upstream </primary>"
 
 msgid "The term “upstream author” means the author(s)/developer(s) of a work, those who write and develop it. On the other hand, a “Debian developer” uses an existing work to make it into a Debian package (the term “Debian maintainer” is better suited)."
-msgstr ""
+msgstr "Termín \"upstream autor\" se rozumí Autor (é)/Developer (y) díla, těch, kteří píší a rozvíjet. Na druhou stranu, \"Debian vývojář\" používá stávající práci, aby se do balíku debian (termín \"správce Debianu\" je vhodnější)."
 
 msgid "In practice, the distinction is often not as clear-cut. The Debian maintainer may write a patch, which benefits all users of the work. In general, Debian encourages those in charge of a package in Debian to get involved in “upstream” development as well (they become, then, contributors, without being confined to the role of simple users of a program)."
-msgstr ""
+msgstr "V praxi se rozlišování často nepovažuje za jednoznačné. Správce Debianu může napsat patch, který prospívá všem uživatelům práce. Obecně Debian podporuje ty, kdo mají na starosti balíček v Debianu, aby se zapojili do \"upstreamu\" vývoje, tak (stanou se pak přispěvatelé, aniž by byli omezeni na roli jednoduchých uživatelů programu)."
 
 msgid "We will not hide problems."
-msgstr ""
+msgstr "Nebudeme skrývat problémy."
 
 msgid "Debian is not perfect, and, we will find new problems to fix every day. We will keep our entire bug report database open for public view at all times. Reports that people file on-line will promptly become visible to others."
-msgstr ""
+msgstr "Debian není dokonalý a najdeme nové problémy, které každý den vyřešíme. Celou databázi chybových hlášení budeme mít otevřenou pro veřejné zobrazení po celou dobu. Zprávy, že lidé soubor on-line se okamžitě stanou viditelnými pro ostatní."
 
 msgid "Our priorities are our users and free software."
-msgstr ""
+msgstr "Našimi prioritami jsou naši uživatelé a svobodný software."
 
 msgid "This commitment is more difficult to define. Debian imposes, thus, a bias when a decision must be made, and will discard an easy solution for the developers that will jeopardize the user experience, opting for a more elegant solution, even if it is more difficult to implement. This means to take into account, as a priority, the interests of the users and free software."
-msgstr ""
+msgstr "Tento závazek je obtížnější definovat. Debian ukládá, tedy zaujatost, když musí být rozhodnutí učiněno, a bude zahodit jednoduché řešení pro vývojáře, které budou ohrožovat uživatelské zkušenosti, se rozhodl pro elegantnější řešení, i když je obtížnější realizovat. To znamená, že prioritou je zohlednit zájmy uživatelů a svobodný software."
 
 msgid "Works that do not meet our free software standards."
-msgstr ""
+msgstr "Práce, které nesplňují naše standardy svobodného softwaru."
 
 msgid "Debian accepts and understands that users may want to use some non-free programs. That's why the project allows usage of parts of its infrastructure to distribute Debian packages of non-free software that can safely be redistributed."
-msgstr ""
+msgstr "Debian přijímá a chápe, že uživatelé mohou chtít používat některé non-svobodné programy. Proto projekt umožňuje využití částí své infrastruktury k distribuci debianích balíčků nesvobodného softwaru, které lze bezpečně přerozdělovat."
 
 msgid "<emphasis>COMMUNITY</emphasis> For or against the non-free section?"
-msgstr ""
+msgstr "<emphasis> Společenství </emphasis> Pro nebo proti non-free sekci?"
 
 msgid "<primary>non-free</primary>"
-msgstr ""
+msgstr "<primary> non-free </primary>"
 
 msgid "<primary>section</primary><secondary>non-free</secondary>"
-msgstr ""
+msgstr "<primary> sekce </primary> <secondary> non-free </secondary>"
 
 msgid "The commitment to maintain a structure to accommodate non-free software (i.e. the “non-free” section, see the sidebar <xref linkend=\"sidebar.sections\" />) is frequently a subject of debate within the Debian community."
-msgstr ""
+msgstr "Závazek udržovat strukturu pro přizpůsobení nesvobodného softwaru (tj. sekce \"non-free\", viz postranní panel < xref linkend = \"sidebar. sekce\"/>) je často předmětem debaty v rámci komunity Debianu."
 
 msgid "Detractors argue that it turns people away from free software equivalents, and contradicts the principle of serving only the free software cause. Supporters flatly state that most of the non-free packages are “nearly free”, and held back by only one or two annoying restrictions (the most common being the prohibition against commercial usage of the software). By distributing these works in the non-free branch, we indirectly explain to the author that their creation would be better known and more widely used if they could be included in the main section. They are, thus, politely invited to alter their license to serve this purpose."
-msgstr ""
+msgstr "Odpůrci tvrdí, že se obrací na lidi od svobodných softwarových ekvivalentů, a je v rozporu se zásadou obsluhy pouze svobodného software cause. Příznivci v rovině konstatovat, že většina non-free balíky jsou \"téměř zdarma\", a držel zpět pouze jeden nebo dva otravné omezení (nejběžnější je zákaz komerčního používání softwaru). Distribucí těchto děl v non-free větev, jsme nepřímo vysvětlit autorovi, že jejich tvorba by byla lépe známá a hojně používané, pokud by mohly být zahrnuty v hlavní části. Jsou tak zdvořile zváni, aby změnili svou licenci tak, aby sloužila tomuto účelu."
 
 msgid "After a first, unfruitful attempt in 2004, the complete removal of the non-free section is unlikely to return to the agenda, especially since it contains many useful documents that were moved simply because they did not meet the new requirements for the main section. This is especially the case for certain software documentation files issued by the GNU project (in particular, Emacs and Make)."
-msgstr ""
+msgstr "Po prvním, neplodném pokusu v 2004, úplné odstranění non-free sekce je nepravděpodobné, že se vrátí do agendy, zejména proto, že obsahuje mnoho užitečných dokumentů, které byly přesunuty jednoduše proto, že nesplňovaly nové požadavky na hlavní části. To platí zejména pro některé soubory dokumentace softwaru vydané projektem GNU (zejména Emacs a make)."
 
 msgid "The continued existence of the non-free section is a source of occasional friction with the Free Software Foundation, and is the main reason it refuses to officially recommend Debian as an operating system."
-msgstr ""
+msgstr "Pokračující existence non-free sekce je zdrojem příležitostného tření s Free Software Foundation, a je hlavním důvodem, proč odmítá oficiálně doporučit Debian jako operační systém."
 
 msgid "The Debian Free Software Guidelines"
-msgstr ""
+msgstr "Pokyny pro svobodný software Debianu"
 
 msgid "<primary>free software principles</primary>"
-msgstr ""
+msgstr "<primary> free software zásady </primary>"
 
 msgid "<primary>DFSG</primary>"
-msgstr ""
+msgstr "<primary> DFSG </primary>"
 
 msgid "<primary>Debian Free Software Guidelines</primary>"
-msgstr ""
+msgstr "<primary> Debian Free software pokyny </primary>"
 
 msgid "<primary>free</primary><secondary>software</secondary>"
-msgstr ""
+msgstr "<primary>bezplatný</primary><secondary>software</secondary>"
 
 msgid "This reference document defines which software is “free enough” to be included in Debian. If a program's license is in accordance with these principles, it can be included in the main section; on the contrary, and provided that free distribution is permitted, it may be found in the non-free section. The non-free section is not officially part of Debian; it is an added service provided to users."
-msgstr ""
+msgstr "Tento referenční dokument určuje, který software je \"dostatečně volný\", aby byl zahrnut do Debianu. Pokud je licence programu v souladu s těmito zásadami, může být zahrnuta v hlavní části; Naopak, a za předpokladu, že je povoleno bezplatné rozdělování, lze jej nalézt v sekci non-free. Sekce non-free není oficiálně součástí Debianu; Jedná se o přidanou službu poskytovanou uživatelům."
 
 msgid "More than a selection criteria for Debian, this text has become an authority on the subject of free software, and has served as the basis for the “Open Source Definition”. Historically, it is therefore one of the first formal definitions of the concept of “free software”."
-msgstr ""
+msgstr "Více než jen výběrová kritéria pro Debian, tento text se stal orgánem na téma svobodného software, a sloužil jako základ pro \"Open Source definice\". Historicky je tedy jednou z prvních formálních definic pojmu \"svobodný software\"."
 
 msgid "The GNU General Public License, the BSD License, and the Artistic License are examples of traditional free licenses that follow the 9 points mentioned in this text. Below you will find the text as it is published on the Debian website. <ulink type=\"block\" url=\"http://www.debian.org/social_contract#guidelines\" />"
-msgstr ""
+msgstr "Všeobecná veřejná licence GNU, BSD licence a umělecká licence jsou příklady tradičních svobodných licencí, které následují 9 bodů uvedených v tomto textu. Níže najdete text, který je publikován na webových stránkách Debianu. < ulink typ = \"block\" url = \"http://www.debian.org/social_contract # pokyny\"/>"
 
 msgid "Free redistribution."
-msgstr ""
+msgstr "BezPlatná Redistribuce."
 
 msgid "The license of a Debian component may not restrict any party from selling or giving away the software as a component of an aggregate software distribution containing programs from several different sources. The license may not require a royalty or other fee for such sale."
-msgstr ""
+msgstr "Licence na součást Debianu nesmí omezovat žádnou stranu prodávat nebo rozdávat software jako součást agregační distribuce softwaru obsahující programy z několika různých zdrojů. Licence nesmí vyžadovat honorář nebo jiný poplatek za tento prodej."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Free licenses"
-msgstr ""
+msgstr "<emphasis> zpět k ZÁKLADům </emphasis> Bezplatné licence"
 
 msgid "<primary>license</primary><secondary>BSD</secondary>"
-msgstr ""
+msgstr "<primary> bezuzdnost </primary> <secondary> BSD </secondary>"
 
 msgid "<primary>BSD license</primary>"
-msgstr ""
+msgstr "<primary> BSD licence </primary>"
 
 msgid "<primary>license</primary><secondary>GPL</secondary>"
-msgstr ""
+msgstr "<primary> bezuzdnost </primary> <secondary> GPL </secondary>"
 
 msgid "<primary>GPL</primary>"
-msgstr ""
+msgstr "<primary> GPL </primary>"
 
 msgid "<primary>GNU</primary><secondary>General Public License</secondary>"
 msgstr ""
