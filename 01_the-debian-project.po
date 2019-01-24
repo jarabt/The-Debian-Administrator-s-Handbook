@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2015-10-21 09:09+0200\n"
-"PO-Revision-Date: 2019-01-20 10:18+0100\n"
+"PO-Revision-Date: 2019-01-24 20:20+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: Jaroslav Tesař\n"
 "Language: cs_CZ\n"
@@ -292,55 +292,55 @@ msgid "Detractors argue that it turns people away from free software equivalents
 msgstr "Odpůrci tvrdí, že se to odvrací lidi od volných softwarových ekvivalentů, a je v rozporu se zásadou ve věci poskytování pouze svobodného software. Příznivci nekompromisně konstatují, že většina nesvobodných balíků jsou “téměř zdarma”, a zadržovány jedním nebo dvěma otravnými omezeními (nejběžnější je zákaz komerčního používání softwaru). Distribucí těchto děl v nesvobodné větvi, nepřímo říkáme autorovi, že jeho dílo by bylo lépe známé a hojně používané, pokud by bylo zahrnuto v hlavní sekci. Jsou tak zdvořile vyzváni, aby změnili svou licenci tak, aby vyhovovala tomuto záměru."
 
 msgid "After a first, unfruitful attempt in 2004, the complete removal of the non-free section is unlikely to return to the agenda, especially since it contains many useful documents that were moved simply because they did not meet the new requirements for the main section. This is especially the case for certain software documentation files issued by the GNU project (in particular, Emacs and Make)."
-msgstr ""
+msgstr "Po prvním, bezvýsledném pokusu v roce 2004, je navrácení úplného odstranění nesvobodné sekce na pořad jednání nepravděpodobné, zejména proto, že obsahuje mnoho užitečných dokumentů, které byly přesunuty jednoduše proto, že nesplňovaly nové požadavky pro hlavní část. To platí zejména pro některé soubory dokumentace softwaru vydané projektem GNU (zejména Emacs a Make)."
 
 msgid "The continued existence of the non-free section is a source of occasional friction with the Free Software Foundation, and is the main reason it refuses to officially recommend Debian as an operating system."
-msgstr ""
+msgstr "Pokračující existence nesvobodné sekce je zdrojem příležitostných třenic s Nadací svobodného softwaru, a je hlavním důvodem, proč odmítá oficiálně doporučit Debian jako operační systém."
 
 msgid "The Debian Free Software Guidelines"
-msgstr ""
+msgstr "Pokyny Debianu pro svobodný software"
 
 msgid "<primary>free software principles</primary>"
-msgstr "<primary></primary>"
+msgstr "<primary>zásady volného softwaru</primary>"
 
 msgid "<primary>DFSG</primary>"
-msgstr "<primary></primary>"
+msgstr "<primary>DFSG</primary>"
 
 msgid "<primary>Debian Free Software Guidelines</primary>"
-msgstr "<primary></primary>"
+msgstr "<primary>Pokyny Debianu pro sovobodný software</primary>"
 
 msgid "<primary>free</primary><secondary>software</secondary>"
-msgstr "<primary></primary><secondary></secondary>"
+msgstr "<primary>volný</primary><secondary>software</secondary>"
 
 msgid "This reference document defines which software is “free enough” to be included in Debian. If a program's license is in accordance with these principles, it can be included in the main section; on the contrary, and provided that free distribution is permitted, it may be found in the non-free section. The non-free section is not officially part of Debian; it is an added service provided to users."
-msgstr ""
+msgstr "Tento referenční dokument určuje, který software je “dostatečně volný”, aby byl zahrnut do Debianu. Pokud je licence programu v souladu s těmito zásadami, může být zahrnuta do hlavní části; Naopak, a za předpokladu, že volné šíření je zakázáno, jej lze nalézt v nesvobodné sekci. Nesvobodná sekce není oficiální součástí Debianu; Jedná se o přidanou službu poskytovanou uživatelům."
 
 msgid "More than a selection criteria for Debian, this text has become an authority on the subject of free software, and has served as the basis for the “Open Source Definition”. Historically, it is therefore one of the first formal definitions of the concept of “free software”."
-msgstr ""
+msgstr "Více než jen výběrovými kritérii pro Debian, se tento text se stal autoritou na téma svobodného softwaru, a sloužil jako základ pro “definici Open Source”. Historicky je tedy jednou z prvních formálních definic pojmu “svobodný software”."
 
 msgid "The GNU General Public License, the BSD License, and the Artistic License are examples of traditional free licenses that follow the 9 points mentioned in this text. Below you will find the text as it is published on the Debian website. <ulink type=\"block\" url=\"http://www.debian.org/social_contract#guidelines\" />"
-msgstr ""
+msgstr "Všeobecná veřejná licence GNU, BSD licence a Umělecká licence jsou příklady tradičních svobodných licencí, které ctí 9 bodů uvedených v tomto textu. Níže najdete text, který je publikován na webových stránkách Debianu. <ulink typ=\"block\" url = \"http://www.debian.org/social_contract#pokyny\"/>"
 
 msgid "Free redistribution."
-msgstr ""
+msgstr "Volná redistribuce."
 
 msgid "The license of a Debian component may not restrict any party from selling or giving away the software as a component of an aggregate software distribution containing programs from several different sources. The license may not require a royalty or other fee for such sale."
-msgstr ""
+msgstr "Licence na jakoukoliv součást Debianu nesmí omezovat žádnou stranu v prodeji nebo darování softwaru jako součásti souhrnné distribuce softwaru obsahující programy z několika různých zdrojů. Licence nesmí zahrnovat honorář nebo jiný poplatek za tento prodej."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Free licenses"
-msgstr "<emphasis></emphasis>"
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis>Svobodná licence"
 
 msgid "<primary>license</primary><secondary>BSD</secondary>"
-msgstr "<primary></primary> <secondary></secondary>"
+msgstr "<primary>licence</primary> <secondary>BSD</secondary>"
 
 msgid "<primary>BSD license</primary>"
-msgstr "<primary></primary>"
+msgstr "<primary>BSD licence</primary>"
 
 msgid "<primary>license</primary><secondary>GPL</secondary>"
-msgstr "<primary></primary> <secondary></secondary>"
+msgstr "<primary>licence</primary> <secondary>GPL</secondary>"
 
 msgid "<primary>GPL</primary>"
-msgstr "<primary></primary>"
+msgstr "<primary>GPL</primary>"
 
 msgid "<primary>GNU</primary><secondary>General Public License</secondary>"
 msgstr ""
