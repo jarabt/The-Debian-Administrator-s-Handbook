@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2015-10-21 09:09+0200\n"
-"PO-Revision-Date: 2019-01-24 20:20+0100\n"
+"PO-Revision-Date: 2019-01-27 10:38+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: Jaroslav Tesař\n"
 "Language: cs_CZ\n"
@@ -343,88 +343,88 @@ msgid "<primary>GPL</primary>"
 msgstr "<primary>GPL</primary>"
 
 msgid "<primary>GNU</primary><secondary>General Public License</secondary>"
-msgstr ""
+msgstr "<primary>GNU</primary> <secondary>Obecné veřejné licence</secondary>"
 
 msgid "<primary>General Public License</primary>"
-msgstr ""
+msgstr "<primary>Obecná veřejná licence</primary>"
 
 msgid "<primary>license</primary><secondary>artistic</secondary>"
-msgstr ""
+msgstr "<primary>licence</primary> <secondary>umělecké</secondary>"
 
 msgid "<primary>artistic license</primary>"
-msgstr ""
+msgstr "<primary>umělecké licence</primary>"
 
 msgid "The GNU GPL, the BSD license, and the Artistic License all comply with the Debian Free Software Guidelines, even though they are very different."
-msgstr ""
+msgstr "GNU GPL, BSD licence a Umělecká licence jsou v souladu s Pokyny Debianu pro svobodný software, i když jsou velmi odlišné."
 
 msgid "The GNU GPL, used and promoted by the FSF (Free Software Foundation), is the most common. Its main feature is that it also applies to any derived work that is redistributed: a program incorporating or using GPL code can only be distributed according to its terms. It prohibits, thus, any reuse in a proprietary application. This poses serious problems for the reuse of GPL code in free software incompatible with this license. As such, it is sometimes impossible to link a program published under another free software license with a library distributed under the GPL. On the other hand, this license is very solid in American law: FSF lawyers have participated in the drafting thereof, and have often forced violators to reach an amicable agreement with the FSF without going to court. <ulink type=\"block\" url=\"http://www.gnu.org/copyleft/gpl.html\" />"
-msgstr ""
+msgstr "GNU GPL, kterou používá a propaguje FSF (Free Software Foundation), je nejběžnější. Její hlavní vlastností je, že se vztahuje i na práci z ní vycházející, která se redistribuje: program zahrnující nebo používající GPL kód může být distribuován pouze v souladu s jeho podmínkami. Zakazuje tedy jakékoli opětovné použití v proprietární aplikaci. To představuje vážné problémy při opětovném použití GPL kódu ve volném softwaru nevyhovujícímu této licenci. Takto je někdy nemožné propojit program zveřejněný pod jinou licencí svobodného softwaru s knihovnou distribuovanou pod GPL. Na druhou stranu, tato licence je velmi pevná v základech v americkém právu: právníci FSF se podíleli na jejím navrhování, takže narušitelé jsou často nuceni dosáhnout přátelské dohody s FSF, aniž by se šlo k soudu. <ulink typ=\"block\" url=\"http://www.gnu.org/copyleft/gpl.html\" />"
 
 msgid "The BSD license is the least restrictive: everything is permitted, including use of modified BSD code in a proprietary application. Microsoft even uses it, basing the TCP/IP layer of Windows NT on that of the BSD kernel. <ulink type=\"block\" url=\"http://www.opensource.org/licenses/bsd-license.php\" />"
-msgstr ""
+msgstr "BSD licence je nejméně omezující: vše je povoleno, včetně použití modifikovaného BSD kódu v proprietární aplikaci. Dokonce i Microsoft toho využívá, zakládá TCP/IP vrstvu Windows NT na jádru BSD. <ulink typ = \"block\" url = \"http://www.opensource.org/licenses/bsd-license.php\"/>"
 
 msgid "Finally, the Artistic License reaches a compromise between these two others: integration of code in a proprietary application is permitted, but any modification must be published. <ulink type=\"block\" url=\"http://www.opensource.org/licenses/artistic-license-2.0.php\" />"
-msgstr ""
+msgstr "Nakonec, Umělecká licence dosahuje kompromisu mezi těmito ostatními dvěma: je povoleno zahrnuzí kódu do proprietární aplikace, ale jakákoliv modifikace musí být zveřejněna. < ulink typ = \"block\" url = \"http://www.opensource.org/licenses/artistic-license-2.0.php\"/>"
 
 msgid "The complete text of these licenses is available in <filename>/usr/share/common-licenses/</filename> on any Debian system."
-msgstr ""
+msgstr "Kompletní znění těchto licencí je k dispozici v <filename>/usr/share/Common-licenses/</filename> v libovolném systému Debianu."
 
 msgid "Source code."
-msgstr ""
+msgstr "Zdrojový kód."
 
 msgid "The program must include source code, and must allow distribution in source code as well as compiled form."
-msgstr ""
+msgstr "Program musí obsahovat zdrojový kód a musí umožňovat distribuci ve zdrojovém kódu, stejně jako v kompilované podobě."
 
 msgid "Derived works."
-msgstr ""
+msgstr "Odvozená díla."
 
 msgid "The license must allow modifications and derived works, and must allow them to be distributed under the same terms as the license of the original software."
-msgstr ""
+msgstr "Licence musí umožňovat úpravy a odvozená díla, a musí umožňovat jejich distribuci za stejných podmínek jako měla licence původního softwaru."
 
 msgid "Integrity of the author's source code."
-msgstr ""
+msgstr "Integrita zdrojového kódu autora."
 
 msgid "The license may restrict source code from being distributed in modified form <emphasis>only</emphasis> if the license allows the distribution of “patch files” with the source code for the purpose of modifying the program at build time. The license must explicitly permit distribution of software built from modified source code. The license may require derived works to carry a different name or version number from the original software (<emphasis>This is a compromise. The Debian group encourages all authors not to restrict any files, source or binary, from being modified</emphasis>)."
-msgstr ""
+msgstr "Licence může omezit distribuci zdrojového kódu v modifikované podobě <emphasis>pouze</emphasis> pokud licence umožňuje distribuci “patch souborů” se zdrojovým kódem pro účely úpravy programu v okamžiku sestavení. Licence musí výslovně umožňovat distribuci softwaru vytvořeného z modifikovaného zdrojového kódu. Licence může vyžadovat, aby odvozená díla nesla název nebo číslo odlišné od původního softwaru (<emphasis>Toto je kompromis. Skupina Debian nabádá všechny autory, aby nezakazovali úpravy souborů, zdrojových nebo binárních</emphasis>)."
 
 msgid "No discrimination against persons or groups."
-msgstr ""
+msgstr "Žádná diskriminace osob nebo skupin."
 
 msgid "The license must not discriminate against any person or group of persons."
-msgstr ""
+msgstr "Licence nesmí diskriminovat žádnou osobu ani skupinu osob."
 
 msgid "No discrimination against fields of endeavor."
-msgstr ""
+msgstr "Diskriminace proti žádné oblasti lidského úsilí."
 
 msgid "The license must not restrict anyone from making use of the program in a specific field of endeavor. For example, it may not restrict the program from being used in a business, or from being used for genetic research."
-msgstr ""
+msgstr "Licence nesmí nikomu bránit v užívání programu v konkrétní oblasti lidského úsilí. Například nesmí zakazovat používání programu v podnicích nebo při genetickém výzkumu."
 
 msgid "Distribution of license."
-msgstr ""
+msgstr "Přenesení licence."
 
 msgid "The rights attached to the program must apply to all to whom the program is redistributed without the need for execution of an additional license by those parties."
-msgstr ""
+msgstr "Práva spojená s programem se musí vztahovat na všechny, komu je program distribuován bez nutnosti provedení dodatečné licence těmito stranami."
 
 msgid "License must not be specific to Debian."
-msgstr ""
+msgstr "Licence nemůže být pro Debian specifická."
 
 msgid "The rights attached to the program must not depend on the program being part of a Debian system. If the program is extracted from Debian and used or distributed without Debian but otherwise within the terms of the program's license, all parties to whom the program is redistributed should have the same rights as those that are granted in conjunction with the Debian system."
-msgstr ""
+msgstr "Práva spojená s programem nemůžou záviset na tom, že je program součástí systému Debian. Pokud je program vyjmut z Debianu a používán nebo distribuován bez Debianu, ale jinak v rámci podmínek licence programu, všechny strany, kterým je program distribuován, by měly mít stejná práva jako ta, která jsou udělena ve spojení se systémem Debian."
 
 msgid "License must not contaminate other software."
-msgstr ""
+msgstr "Licence nesmí kontaminovat jiný software."
 
 msgid "The license must not place restrictions on other software that is distributed along with the licensed software. For example, the license must not insist that all other programs distributed on the same medium must be free software."
-msgstr ""
+msgstr "Licence nesmí omezovat ostatní software, který je distribuován spolu s licencovaným softwarem. Například, licence nesmí trvat na tom, že všechny ostatní programy distribuované na stejném médiu musí být svobodný software."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Copyleft"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Copyleft"
 
 msgid "<primary>copyleft</primary>"
-msgstr ""
+msgstr "<primary>copyleft</primary>"
 
 msgid "<primary>copyrights</primary>"
-msgstr ""
+msgstr "<primary>copyrights</primary>"
 
 msgid "Copyleft is a principle that consists in using copyrights to guarantee the freedom of a work and its derivatives, rather than restrict the rights of uses, as is the case with proprietary software. It is, also, a play of words on the term “copyright”. Richard Stallman discovered the idea when a friend of his, fond of puns, wrote on an envelope addressed to him: “copyleft: all rights reversed”. Copyleft imposes preservation of all initial liberties upon distribution of an original or modified version of a work (usually a program). It is, thus, not possible to distribute a program as proprietary software if it is derived from code from a copyleft released program."
 msgstr ""
