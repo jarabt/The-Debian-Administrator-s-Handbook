@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2015-10-21 09:09+0200\n"
-"PO-Revision-Date: 2019-01-27 10:38+0100\n"
+"PO-Revision-Date: 2019-01-29 21:43+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: Jaroslav Tesař\n"
 "Language: cs_CZ\n"
@@ -427,34 +427,34 @@ msgid "<primary>copyrights</primary>"
 msgstr "<primary>copyrights</primary>"
 
 msgid "Copyleft is a principle that consists in using copyrights to guarantee the freedom of a work and its derivatives, rather than restrict the rights of uses, as is the case with proprietary software. It is, also, a play of words on the term “copyright”. Richard Stallman discovered the idea when a friend of his, fond of puns, wrote on an envelope addressed to him: “copyleft: all rights reversed”. Copyleft imposes preservation of all initial liberties upon distribution of an original or modified version of a work (usually a program). It is, thus, not possible to distribute a program as proprietary software if it is derived from code from a copyleft released program."
-msgstr ""
+msgstr "Copyleft je princip, který spočívá v používání autorských práv k zaručení svobody díla a děl z něho odvozených, spíše než k omezení práv na užívání, jako je tomu u proprietárního softwaru. Je to také hra se slovy z pojmu “Copyright”. Richard Stallman přišel na tuto myšlenku, když mu jeho přítel, co má rád slovní hříčky, napsal na jemu adresovanou obálku: “copyleft: všechna práva obrácena”. Copyleft ukládá zachování všech počátečních svobod po distribuci původní nebo modifikované verze díla (obvykle programu). Není tedy možné distribuovat program jako proprietární software, pokud je odvozen z kódu programu, který byl vydán pod copyleftem."
 
 msgid "The most well-known family of copyleft licenses is, of course, the GNU GPL and its derivatives, the GNU LGPL or GNU Lesser General Public License, and the GNU FDL or GNU Free Documentation License. Sadly, the copyleft licenses are generally incompatible with each other. Consequently, it is best to use only one of them."
-msgstr ""
+msgstr "Nejznámější skupinou copyleftových licencí je samozřejmě GNU GPL a její deriváty, GNU LGPL nebo Nižší všeobecná veřejná licence a GNU FDL nebo GNU Svobodná licence pro dokumentaci. Je smutné, že copyleftové licence jsou obyčejně vzájemně neslučitelné. V důsledku toho je nejlepší použít pouze jednu z nich."
 
 msgid "<emphasis>COMMUNITY</emphasis> Bruce Perens, a controversial leader"
-msgstr ""
+msgstr "<emphasis>KOMUNITA</emphasis> Bruce Perens, kontroverzní vůdce"
 
 msgid "<primary>Bruce Perens</primary>"
-msgstr ""
+msgstr "<primary>Bruce Perens</primary>"
 
 msgid "<primary>Perens, Bruce</primary>"
-msgstr ""
+msgstr "<primary>Perens, Bruce</primary>"
 
 msgid "<primary>Open Source</primary>"
-msgstr ""
+msgstr "<primary>Open Source</primary>"
 
 msgid "Bruce Perens was the second leader of the Debian project, just after Ian Murdock. He was very controversial in his dynamic and authoritarian methods. He nevertheless remains an important contributor to Debian, to whom Debian is especially indebted for the editing of the famous “Debian Free Software Guidelines” (DFSG), an original idea of Ean Schuessler. Subsequently, Bruce would derive from it the famous “Open Source Definition”, removing all references to Debian from it. <ulink type=\"block\" url=\"http://www.opensource.org/\" />"
-msgstr ""
+msgstr "Bruce Perens byl druhým vedoucím projektu Debian, těsně po Ianu Murdockovi. Byl velmi kontroverzní ve svých dynamických a autoritářských metodách. Přesto zůstává důležitým přispěvatelem Debianu, jemuž je Debian obzvláště zavázán pro sestavení věhlasných “Směrnic Debianu pro svobodný software” (DFSG), původní myšlenky Eana Schuesslera. Následně, Bruce z nich odvodil slavnou “Definici pro Open Source”, kdy z nich odstranil všech odkazy na Debian. < ulink typ = \"block\" url = \"http://www.opensource.org/\"/>"
 
 msgid "His departure from the project was quite emotional, but Bruce has remained strongly attached to Debian, since he continues to promote this distribution in political and economic spheres. He still sporadically appears on the e-mail lists to give his advice and present his latest initiatives in favor of Debian."
-msgstr ""
+msgstr "Jeho odchod z projektu byl dost emotivní, ale Bruce zůstal silně připojený k Debianu, protože stále pokračuje v propagaci této distribuce v politických a ekonomických sférách. Stále se sporadicky objevuje na e-mailových konferencích, aby přispěl svou radou a představil své nejnovější iniciativy ve prospěch Debianu."
 
 msgid "<primary>codename</primary>"
-msgstr ""
+msgstr "<primary>kódové označení</primary>"
 
 msgid "<primary>name</primary><secondary>codename</secondary>"
-msgstr ""
+msgstr "<primary>označení</primary><secondary>kódové označení</secondary>"
 
 msgid "<primary><emphasis role=\"distribution\">Rex</emphasis></primary>"
 msgstr ""
