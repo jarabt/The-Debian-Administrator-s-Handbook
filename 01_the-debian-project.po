@@ -619,37 +619,37 @@ msgid "Documentation for each package is stored in <filename>/usr/share/doc/<rep
 msgstr "Dokumentace pro každý balíček je uložena v <filename>/usr/share/doc/<replaceable>balíček</replaceable>/</filename>. Tento adresář často obsahuje soubor <filename>README.Debian</filename>, popisující specifické úpravy Debianu, které provádí správce balíčku. Je tedy moudré přečíst si tento soubor před jakýmkoliv nastavováním, a těžit z těchto zkušeností. Nalezneme také soubor <filename>changelog.Debian.gz</filename> popisující změny provedené správcem Debianu při přechodu z jedné verze na následující. To by se nemělo zaměňovat se souborem <filename>changelog.gz</filename> (nebo jeho obdobami), který popisuje změny provedené upstreamovými vývojáři. Soubor <Filename>copyright</filename> obsahuje informace o autorech a o licenci vztahující se na software. A na závěr také můžeme najít soubor s názvem <filename>NEWS.Debian.gz</filename>, který vývojářům Debianu umožňuje sdělovat důležité informace týkající se aktualizací; Pokud je nainstalován <emphasis>apt-listchanges</emphasis>, zobrazí se tyto zprávy automaticky. Všechny ostatní soubory jsou specifické pro daný software. Především bychom chtěli poukázat na podadresář <filename>examples</filename>, který často obsahuje příklady konfiguračních souborů."
 
 msgid "The Policy provides considerable cover of the technical aspects of packaging. The size of the project also raises organizational problems; these are dealt with by the Debian Constitution, which establishes a structure and means for decision making. In other words, a formal governance system."
-msgstr "Tato politika poskytuje značnou část technických aspektů obalů. Velikost projektu také vyvolává organizační problémy; Ty jsou řešeny ústavou Debianu, která vytváří strukturu a prostředky pro rozhodování. Jinými slovy, formální systém vládnutí."
+msgstr "Zásady do značné míry pokrývají technické aspekty balíčků. Velikost projektu také vyvolává organizační problémy; ty jsou řešeny Stanovami Debianu, které vytváří strukturu a prostředky pro rozhodování. Jinými slovy, formální systém řízení."
 
 msgid "<primary>constitution</primary>"
-msgstr "<primary> ústava </primary>"
+msgstr "<primary>stanovy</primary>"
 
 msgid "<primary>Debian Project Leader</primary>"
-msgstr "<primary> Debian Project Leader </primary>"
+msgstr "<primary>vedoucí projektu Debian</primary>"
 
 msgid "<primary>DPL</primary>"
-msgstr "<primary> DPL </primary>"
+msgstr "<primary>DPL</primary>"
 
 msgid "<primary>leader</primary><secondary>role</secondary>"
-msgstr "<primary> vůdce </primary> <secondary> role </secondary>"
+msgstr "<primary>vedoucí</primary> <secondary>role</secondary>"
 
 msgid "<primary>leader</primary><secondary>election</secondary>"
-msgstr "<primary>Linux</primary><secondary>distribuce</secondary>"
+msgstr "<primary>vedoucí</primary><secondary>zvolení</secondary>"
 
 msgid "This constitution defines a certain number of roles and positions, plus responsibilities and authorities for each. It is particularly worth noting that Debian developers always have ultimate decision making authority by a vote of general resolution, wherein a qualified majority of three quarters (75%) of votes is required for significant alterations to be made (such as those with an impact on the Foundation Documents). However, developers annually elect a “leader” to represent them in meetings, and ensure internal coordination between varying teams. This election is always a period of intense discussions. This leader's role is not formally defined by any document: candidates for this post usually propose their own definition of the position. In practice, the leader's roles include serving as a representative to the media, coordinating between “internal” teams, and providing overall guidance to the project, within which the developers can relate: the views of the DPL are implicitly approved by the majority of project members."
-msgstr "Tato ústava definuje určitý počet rolí a pozic, plus odpovědnosti a orgány pro každého. Zejména je třeba poznamenat, že vývojáři Debianu mají vždy konečný rozhodovací orgán hlasováním o obecném usnesení, v němž je kvalifikovaná většina tří čtvrtin (75%) hlasů vyžadována pro významné změny (např. s dopadem na dokumenty nadace). Nicméně, vývojáři každoročně volí \"vůdce\", aby je zastupoval na schůzkách, a zajistit vnitřní koordinaci mezi různými týmy. Tato volba je vždy období intenzivní diskuse. Role tohoto vůdce není formálně definována žádným dokumentem: kandidáti na tento post obvykle navrhují vlastní definici pozice. V praxi patří role Leader jako zástupce sdělovacích prostředků, koordinace mezi \"interními\" týmy a poskytování celkových pokynů projektu, v rámci kterých se mohou vývojáři spojit: pohledy na DPL jsou implicitně schváleny Většina členů projektu."
+msgstr "Stanovy definují určitý počet rolí a postů, plus jejich odpovědnosti a pravomoce. Zejména je třeba poznamenat, že vývojáři Debianu mají vždy konečný rozhodovací pravomoc hlasováním o obecném usnesení, kde je vyžadována kvalifikovaná většina tří čtvrtin (75%) hlasů pro učinění významných změn (např. s dopadem na dokumenty nadace). Nicméně, vývojáři každoročně volí “vedoucího”, aby je zastupoval na schůzkách, a zajistit vnitřní koordinaci mezi různými týmy. Tato volba je vždy obdobím intenzivních diskuzí. Role vedoucího není formálně definována žádným dokumentem: kandidáti na tento post obvykle navrhují vlastní definice pozice. V praxi role vedoucího zahrnuje zastupování vůči sdělovacím prostředkům, koordinaci mezi “interními” týmy a zajišťování celkového vedení projektu, na kterém se vývojáři mohou podílet: záměry DPL jsou implicitně schvalovány většinou členů projektu."
 
 msgid "Specifically, the leader has real authority; their vote resolves tie votes; they can make any decision which is not already under the authority of someone else and can delegate part of their responsibilities."
-msgstr "Konkrétně má vůdce skutečnou autoritu; jejich hlasování řeší hlasy hlasů; mohou učinit jakékoli rozhodnutí, které již není pod pravomocí někoho jiného a může delegovat část svých povinností."
+msgstr "V podstatě má vedoucí opravdové pravomoce; jejich zvolení vzešla z těsných hlasování; mohou učinit jakékoli rozhodnutí, které již není pod pravomocí někoho jiného a mohou delegovat části svých povinností."
 
 msgid "<primary>Jackson, Ian</primary>"
-msgstr "<primary> Jackson, Ian </primary>"
+msgstr "<primary>Jackson, Ian</primary>"
 
 msgid "<primary>Akkerman, Wichert</primary>"
-msgstr "<primary> Akkerman, Wichert </primary>"
+msgstr "<primary>Akkerman, Wichert</primary>"
 
 msgid "<primary>Collins, Ben</primary>"
-msgstr "<primary> Collins, Ben </primary>"
+msgstr "<primary>Collins, Ben</primary>"
 
 msgid "<primary>Garbee, Bdale</primary>"
 msgstr "<primary>Garbee, Bdale</primary>"
@@ -676,37 +676,37 @@ msgid "<primary>Nussbaum, Lucas</primary>"
 msgstr "<primary>Nussbaum, Lucas</primary>"
 
 msgid "Since its inception, the project has been successively led by Ian Murdock, Bruce Perens, Ian Jackson, Wichert Akkerman, Ben Collins, Bdale Garbee, Martin Michlmayr, Branden Robinson, Anthony Towns, Sam Hocevar, Steve McIntyre, Stefano Zacchiroli and Lucas Nussbaum."
-msgstr "Od svého vzniku, projekt byl postupně pod vedením Ian Murdock, Bruce Perens, Ian Jackson, Wichert Akkerman, Ben Collins, Bdale Garbee Garbee, Martin Michlmayr,,,,,,,,, a, Anthony Robinson města, Sam Hocevar, Steve McIntyre, Stefano Zacchiroli a Lucas Nussbaum."
+msgstr "Od svého vzniku, byl projekt pod vedením těchto lidí v tomto pořadí: Ian Murdock, Bruce Perens, Ian Jackson, Wichert Akkerman, Ben Collins, Bdale Garbee, Martin Michlmayr, Branden Robinson, Anthony Towns, Sam Hocevar, Steve McIntyre, Stefano Zacchiroli a Lucas Nussbaum."
 
 msgid "<primary>technical committee</primary>"
-msgstr "<primary> Stallman, Richard </primary>"
+msgstr "<primary>technická komise</primary>"
 
 msgid "The constitution also defines a “technical committee”. This committee's essential role is to decide on technical matters when the developers involved have not reached an agreement between themselves. Otherwise, this committee plays an advisory role for any developer who fails to make a decision for which they are responsible. It is important to note that they only get involved when invited to do so by one of the parties in question."
-msgstr "Ústava rovněž definuje \"Technický výbor\". Hlavní úlohou tohoto výboru je rozhodovat o technických otázkách, pokud zúčastněné vývojáři nedosáhli dohody mezi sebou. V opačném případě tento výbor hraje poradní roli pro každého vývojáře, který neučiní rozhodnutí, za které nesou odpovědnost. Je důležité si uvědomit, že se zapojí pouze v případě, že je k tomu vyzvána jedna z dotčených stran."
+msgstr "Stanovy rovněž definují “technickou komisi”. Hlavní úlohou této komise je rozhodovat v technických otázkách, pokud se zúčastnění vývojáři mezi sebou nedohodnou. Jinak má tato komise roli rádce pro vývojáře, kterému se nepodařilo učinit rozhodnutí, za které má odpovědnost. Je důležité poznamenat, že se zapojí pouze v případě, kdy je k tomu jednou ze zainteresovaných stran vyzvána."
 
 msgid "<primary>the project secretary</primary>"
-msgstr "<primary> tajemník projektu </primary>"
+msgstr "<primary>tajemník projektu</primary>"
 
 msgid "Finally, the constitution defines the position of “project secretary”, who is in charge of the organization of votes related to the various elections and general resolutions."
-msgstr "A konečně ústava vymezuje pozici \"tajemníka projektu\", který má na starosti organizaci hlasů v souvislosti s různými volbami a obecnými usneseními."
+msgstr "A konečně stanovy definují pozici “tajemníka projektu”, který má na starosti organizaci hlasování v souvislosti s různými volbami a obecnými usneseními."
 
 msgid "The “general resolution” procedure is fully detailed in the constitution, from the initial discussion period to the final counting of votes. For further details see: <ulink type=\"block\" url=\"http://www.debian.org/devel/constitution.en.html\" />"
-msgstr "Postup \"všeobecného řešení\" je podrobně popsán v Ústavě, od počátečního období diskuse až po konečné počítání hlasů. Další podrobnosti viz: < ulink type = \"block\" url = \"http://www.debian.org/devel/constitution.en.html\"/>"
+msgstr "Postup “všeobecného usnesení” je podrobně popsán ve stanovách, od počátečního období diskuse až po konečné sčítání hlasů. Další podrobnosti viz: < ulink type = \"block\" url = \"http://www.debian.org/devel/constitution.en.html\"/>"
 
 msgid "<primary>general resolution</primary>"
-msgstr "<primary> Obecné usnesení </primary>"
+msgstr "<primary>obecné usnesení</primary>"
 
 msgid "<primary>vote</primary>"
-msgstr "<primary> hlasování </primary>"
+msgstr "<primary>hlasování</primary>"
 
 msgid "<emphasis>CULTURE</emphasis> Flamewar, the discussion that catches fire"
-msgstr "<emphasis> kultura </emphasis> Flamewar, diskuse, která zachytí požár"
+msgstr "<emphasis>KULTURA</emphasis> Flamewar, diskuse, která zachytí požár"
 
 msgid "<primary>flamewar</primary>"
-msgstr "<primary> flamewar </primary>"
+msgstr "<primary>flamewar</primary>"
 
 msgid "<primary>heated debate</primary>"
-msgstr "<primary> Architektura </primary>"
+msgstr "<primary>horká debata</primary>"
 
 msgid "A “flamewar” is an exceedingly impassioned debate, which frequently ends up with people attacking each other once all reasonable argumentation has been exhausted on both sides. Certain themes are more frequently subject to polemics than others (the choice of text editor, “do you prefer <command>vi</command> or <command>emacs</command>?”, is an old favorite). The matters often provoke very rapid e-mail exchanges due to the sheer number of people with an opinion on the matter (everyone) and the very personal nature of such questions."
 msgstr ""
