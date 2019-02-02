@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2015-10-21 09:09+0200\n"
-"PO-Revision-Date: 2019-02-02 16:39+0100\n"
+"PO-Revision-Date: 2019-02-02 22:30+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: Jaroslav Tesař\n"
 "Language: cs_CZ\n"
@@ -709,31 +709,31 @@ msgid "<primary>heated debate</primary>"
 msgstr "<primary>horká debata</primary>"
 
 msgid "A “flamewar” is an exceedingly impassioned debate, which frequently ends up with people attacking each other once all reasonable argumentation has been exhausted on both sides. Certain themes are more frequently subject to polemics than others (the choice of text editor, “do you prefer <command>vi</command> or <command>emacs</command>?”, is an old favorite). The matters often provoke very rapid e-mail exchanges due to the sheer number of people with an opinion on the matter (everyone) and the very personal nature of such questions."
-msgstr ""
+msgstr "“Flamewar” je mimořádně vášnivá debata, která často končí s lidmi napadajícími se navzájemm, jakmile všechny rozumné argumentace byly vyčerpána na obou stranách. Některá témata jsou častěji předmětem polemik než ostatní (volba textového editoru, “dáváte přednost <command>vi</command> nebo <command>emacsu</command>?”, je staré oblíbené). Tyto věci často vyvolávají velmi rychlé výměny emailů v důsledku velkého počtu lidí se stanoviskem k této záležitosti (všichni) a velmi osobní povahu takových námitek."
 
 msgid "Nothing particularly useful generally comes from such discussions; the general recommendation is to stay out of such debates, and maybe rapidly skim through their content, since reading them in full would be too time-consuming."
-msgstr ""
+msgstr "Obecně, nic zvlášť užitečného z takových diskusí nevzejde; Všeobecné doporučení je zůstat mimo takové debaty a asi rychle prolistovat jejich obsah, protože jejich čtení v plném rozsahu by bylo příliš časově náročné."
 
 msgid "Even if this constitution establishes a semblance of democracy, the daily reality is quite different: Debian naturally follows the free software rules of the do-ocracy: the one who does things gets to decide how to do them. A lot of time can be wasted debating the respective merits of various ways to approach a problem; the chosen solution will be the first one that is both functional and satisfying… which will come out of the time that a competent person did put into it."
-msgstr ""
+msgstr "I když stanovy vytváří zdání demokracie, denní realita je zcela odlišná: Debian přirozeně dodržuje pravidla svobodného softwaru do-ocracie: ten, kdo dělá věci rozhoduje, jak je dělat. Mnoho času může být vyplýtváno debatováním o jednotlivých přínosech různých cest, jak přistupovat k problému; zvolené řešení bude to první, která je obojí - funkční a uspokojující..., které vyjde z času, který do něj způsobilá osoba vložila."
 
 msgid "This is the only way to earn one's stripes: do something useful and show that one has worked well. Many Debian “administrative” teams operate by co-optation, preferring volunteers who have already effectively contributed and proved their competence. The public nature of the work of those teams makes it possible for new contributors to observe and start helping without any special privilege. This is why Debian is often described as a “meritocracy”."
-msgstr ""
+msgstr "To je jediný způsob, jak si vysloužit ostruhy: udělat něco užitečného a ukázat, že se pracovalo dobře. Mnoho “administrativních” týmů Debianu působí za pomocí kooptace, upřednostňující dobrovolníky, kteří již efektivně přispěli a prokázali svou schopnost. Veřejná podstata práce těchto týmů umožňuje novým přispěvatelům pozorovat a začít pomáhat bez zvláštních privilegií. Proto je Debian často popisován jako “meritokracie”."
 
 msgid "<emphasis>CULTURE</emphasis> Meritocracy, the reign of knowledge"
-msgstr ""
+msgstr "<emphasis>KULTURA</emphasis> Meritokracie, vláda znalostí"
 
 msgid "<primary>meritocracy</primary>"
-msgstr ""
+msgstr "<primary>meritokracie</primary>"
 
 msgid "Meritocracy is a form of government in which authority is exercised by those with the greatest merit. For Debian, merit is a measure of competence, which is, itself, assessed by observation of past actions by one or more others within the project (Stefano Zacchiroli, a former project leader, speaks of “do-ocracy”, meaning “power to those who get things done”). Their simple existence proves a certain level of competence; their achievements generally being free software, with available source code, which can easily be reviewed by peers to assess their quality."
-msgstr ""
+msgstr "Meritokracie je forma vlády, v níž je autorita vykonávána těmi, kteří mají největší zásluhy. Pro Debian, jsou zásluhy měřítkem kompetence, která je sama o sobě, posuzována sledováním dřívějších činností jednoho nebo více lidí v rámci projektu (Stefano Zacchiroli, bývalý vedoucí projektu, hovoří o “do-okracii”, což znamená “moc pro ty, kteří věci dělají”). Jejich prostá existence dokazuje určitou úroveň kompetence; jejich úspěchy obecně je svobodný software, s dostupným zdrojovým kódem, který může být snadno přezkoumán ostatními k posouzení jejich kvality."
 
 msgid "This effective operational method guarantees the quality of contributors in the “key” Debian teams. This method is by no means perfect and occasionally there are those who do not accept this way of operating. The selection of developers accepted in the teams may appear a bit arbitrary, or even unfair. Furthermore, not everybody has the same definition of the service expected from these teams. For some, it is unacceptable to have to wait eight days for inclusion of a new Debian package, while others will wait patiently for three weeks without a problem. As such, there are regular complaints from the disgruntled about the “quality of service” from some teams."
-msgstr ""
+msgstr "Tato účinná operativní metoda zaručuje kvalitu přispěvatelů v “klíčových” týmech Debianu. Tato metoda není v žádném případě dokonalá a občas se vyskytnou tací, kteří nepřijmou tento způsob fungování. Výběr vývojářů přijatých do týmů se může zdát trochu svévolný, nebo dokonce nespravedlivý. Navíc, ne každý má stejnou představu o službách očekávaných od těchto týmů. Pro někoho je nepřijatelné muset čekat osm dní pro zahrnutí nového debianovského balíčku, zatímco ostatní budou trpělivě čekat tři týdny bez problémů. Jako takové, se pravidelně vyskytují stížnosti od těch nespokojených na “kvalitu služeb” některých týmů."
 
 msgid "<emphasis>COMMUNITY</emphasis> Integration of new maintainers"
-msgstr ""
+msgstr "<emphasis>KOMUNITA</emphasis> Začleňování nových správců"
 
 msgid "<primary>maintainer</primary><secondary>new maintainer</secondary>"
 msgstr ""
