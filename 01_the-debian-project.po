@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 0\n"
 "POT-Creation-Date: 2015-10-21 09:09+0200\n"
-"PO-Revision-Date: 2019-02-02 22:30+0100\n"
+"PO-Revision-Date: 2019-02-06 21:07+0100\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: Jaroslav Tesař\n"
 "Language: cs_CZ\n"
@@ -457,67 +457,58 @@ msgid "<primary>name</primary><secondary>codename</secondary>"
 msgstr "<primary>označení</primary><secondary>kódové označení</secondary>"
 
 msgid "<primary><emphasis role=\"distribution\">Rex</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Rex</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Rex</emphasis> </primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Buzz</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Buzz</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Buzz</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Bo</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Bo</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Bo</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Hamm</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Hamm</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Hamm</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Slink</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Slink</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Slink</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Potato</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Potato</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Potato</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Woody</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Woody</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Woody</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Sarge</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Sarge</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Sarge</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Etch</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Etch</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Etch</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Lenny</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Lenny</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Lenny</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Squeeze</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Squeeze</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Squeeze</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Wheezy</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Wheezy</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Wheezy</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Jessie</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Jessie</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Jessie</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Stretch</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Stretch</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Stretch</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Buster</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Buster</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Buster</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Sid</emphasis></primary>"
-msgstr "<primary> < zdůraznit role = \"distribuce\" >Sid</emphasis> </primary>"
+msgstr "<primary><emphasis role=\"distribution\">Sid</emphasis></primary>"
 
 msgid "<primary>Toy Story</primary>"
 msgstr "<primary>Toy Story</primary>"
 
 msgid "<primary>Pixar</primary>"
 msgstr "<primary>Pixar</primary>"
-
-msgid "Last anecdotal point, it was Bruce who was responsible for inspiring the different “codenames” for Debian versions (1.1 — <emphasis role=\"distribution\">Rex</emphasis>, 1.2 — <emphasis role=\"distribution\">Buzz</emphasis>, 1.3 — <emphasis role=\"distribution\">Bo</emphasis>, 2.0 — <emphasis role=\"distribution\">Hamm</emphasis>, 2.1 — <emphasis role=\"distribution\">Slink</emphasis>, 2.2 — <emphasis role=\"distribution\">Potato</emphasis>, 3.0 — <emphasis role=\"distribution\">Woody</emphasis>, 3.1 — <emphasis role=\"distribution\">Sarge</emphasis>, 4.0 — <emphasis role=\"distribution\">Etch</emphasis>, 5.0 — <emphasis role=\"distribution\">Lenny</emphasis>, 6.0 — <emphasis role=\"distribution\">Squeeze</emphasis>, 7 — <emphasis role=\"distribution\">Wheezy</emphasis>, 8 — <emphasis role=\"distribution\">Jessie</emphasis>, 9 (not released yet) — <emphasis role=\"distribution\">Stretch</emphasis>, 10 (not released yet) — <emphasis role=\"distribution\">Buster</emphasis>, <emphasis role=\"distribution\">Unstable</emphasis> — <emphasis role=\"distribution\">Sid</emphasis>). They are taken from the names of characters in the Toy Story movie. This animated film entirely composed of computer graphics was produced by Pixar Studios, with whom Bruce was employed at the time that he led the Debian project. The name “Sid” holds particular status, since it will eternally be associated with the <emphasis role=\"distribution\">Unstable</emphasis> branch. In the film, this character was the neighbor child, who was always breaking toys — so beware of getting too close to <emphasis role=\"distribution\">Unstable</emphasis>. Otherwise, <emphasis role=\"distribution\">Sid</emphasis> is also an acronym for “Still In Development”."
-msgstr "Poslední žertovná věc, byl to Bruce, kdo byl zodpovědný za inspiraci pro různá “kódová označení” pro Debian verze (1.1-<emphasis role= \"distribuce\" >Rex</emphasis>, 1.2  < zdůraznit role = \"distribuce\" > Buzz </emphasis>, 1,3 — < zdůraznit roli = \"distribuce\" > Bo </emphasis>, 2,0 — < zdůraznit roli = \"distribuce\" > Hamm </emphasis>, 2,1 — < zdůraznit role = \"distribuce\" > Slinky </emphasis>, 2,2 — < zdůraznit role = \"distribuce\" > bramborové </emphasis>, 3,0 — < zdůraznit role = \"distribuce\" > Woody </emphasis>, 3,1 — < zdůraznit role = \"distribuce\" > sarge </emphasis>, 4,0 — < zdůraznit role = \"distribuce\" > etch </emphasis>, 5,0 — < zdůraznit role = \"distribuce\" > Lenny </emphasis>, 6,0 — < zdůraznění role = \"distribuce\" > Squeeze </emphasis> – < zdůraznit role = \"distribution\" > sípání </emphasis>, 8 — < zdůraznit role = \"distribution\" > Jessie </emphasis>, 9 (dosud nevydaná) — < zdůraznit roli = \"distribuce\" > Stretch </emphasis>, 10 (není vydáno dosud)-< zdůraznit role = \"distribuce\" > Buster </emphasis>, < zdůraznit role = \"distribuce\" > unstable </emphasis> – < zdůraznit role = \"distribuce\" > SID </emphasis>). Jsou převzaty z názvů postav v Toy Story filmu. Tento animovaný film zcela složený z počítačové grafiky byl produkován Pixar Studios, se kterým byl Bruce zaměstnán v době, kdy vedl projekt Debian. Název \"SID\" má zvláštní stav, protože bude věčně přidružen k roli < zdůraznit role = \"distribuce\" > unstable </emphasis>. Ve filmu, tento znak byl soused dítě, který byl vždy lámání hraček-takže pozor na získání příliš blízko k < zdůraznit role = \"distribuce\" > neStabilní </emphasis>. Jinak < zdůraznit role = \"distribution\" > SID </emphasis> je také zkratka pro \"stále ve vývoji\"."
-
-msgid "Last anecdotal point, it was Bruce who was responsible for inspiring the different “codenames” for Debian versions (1.1 — <emphasis role=\"distribution\">Rex</emphasis>, 1.2 — <emphasis role=\"distribution\">Buzz</emphasis>, 1.3 — <emphasis role=\"distribution\">Bo</emphasis>, 2.0 — <emphasis role=\"distribution\">Hamm</emphasis>, 2.1 — <emphasis role=\"distribution\">Slink</emphasis>, 2.2 — <emphasis role=\"distribution\">Potato</emphasis>, 3.0 — <emphasis role=\"distribution\">Woody</emphasis>, 3.1 — <emphasis role=\"distribution\">Sarge</emphasis>, 4.0 — <emphasis role=\"distribution\">Etch</emphasis>, 5.0 — <emphasis role=\"distribution\">Lenny</emphasis>, 6.0 — <emphasis role=\"distribution\">Squeeze</emphasis>, 7 — <emphasis role=\"distribution\">Wheezy</emphasis>, 8 — <emphasis role=\"distribution\">Jessie</emphasis>, 9 (not released yet) — <emphasis role=\"distribution\">Stretch</emphasis>, 10 (not released yet) — <emphasis role=\"distribution\">Buster</emphasis>, <emphasis role=\"distribution\">Unstable</emphasis> — <emphasis role=\"distribution\">Sid</emphasis>). They are taken from the names of characters in the Toy Story movie. This animated film entirely composed of computer graphics was produced by Pixar Studios, with whom Bruce was employed at the time that he led the Debian project. The name “Sid” holds particular status, since it will eternally be associated with the <emphasis role=\"distribution\">Unstable</emphasis> branch. In the film, this character was the neighbor child, who was always breaking toys — so beware of getting too close to <emphasis role=\"distribution\">Unstable</emphasis>. Otherwise, <emphasis role=\"distribution\">Sid</emphasis> is also an acronym for “Still In Development”."
-msgstr "Poslední žertovná věc, byl to Bruce, kdo byl zodpovědný za inspiraci pro různá “kódová označení” pro Debian verze (1.1-<emphasis role= \"distribuce\" >Rex</emphasis>, 1.2  < zdůraznit role = \"distribuce\" > Buzz </emphasis>, 1,3 — < zdůraznit roli = \"distribuce\" > Bo </emphasis>, 2,0 — < zdůraznit roli = \"distribuce\" > Hamm </emphasis>, 2,1 — < zdůraznit role = \"distribuce\" > Slinky </emphasis>, 2,2 — < zdůraznit role = \"distribuce\" > bramborové </emphasis>, 3,0 — < zdůraznit role = \"distribuce\" > Woody </emphasis>, 3,1 — < zdůraznit role = \"distribuce\" > sarge </emphasis>, 4,0 — < zdůraznit role = \"distribuce\" > etch </emphasis>, 5,0 — < zdůraznit role = \"distribuce\" > Lenny </emphasis>, 6,0 — < zdůraznění role = \"distribuce\" > Squeeze </emphasis> – < zdůraznit role = \"distribution\" > sípání </emphasis>, 8 — < zdůraznit role = \"distribution\" > Jessie </emphasis>, 9 (dosud nevydaná) — < zdůraznit roli = \"distribuce\" > Stretch </emphasis>, 10 (není vydáno dosud)-< zdůraznit role = \"distribuce\" > Buster </emphasis>, < zdůraznit role = \"distribuce\" > unstable </emphasis> – < zdůraznit role = \"distribuce\" > SID </emphasis>). Jsou převzaty z názvů postav v Toy Story filmu. Tento animovaný film zcela složený z počítačové grafiky byl produkován Pixar Studios, se kterým byl Bruce zaměstnán v době, kdy vedl projekt Debian. Název \"SID\" má zvláštní stav, protože bude věčně přidružen k roli < zdůraznit role = \"distribuce\" > unstable </emphasis>. Ve filmu, tento znak byl soused dítě, který byl vždy lámání hraček-takže pozor na získání příliš blízko k < zdůraznit role = \"distribuce\" > neStabilní </emphasis>. Jinak < zdůraznit role = \"distribution\" > SID </emphasis> je také zkratka pro \"stále ve vývoji\"."
-
-msgid "Last anecdotal point, it was Bruce who was responsible for inspiring the different “codenames” for Debian versions (1.1 — <emphasis role=\"distribution\">Rex</emphasis>, 1.2 — <emphasis role=\"distribution\">Buzz</emphasis>, 1.3 — <emphasis role=\"distribution\">Bo</emphasis>, 2.0 — <emphasis role=\"distribution\">Hamm</emphasis>, 2.1 — <emphasis role=\"distribution\">Slink</emphasis>, 2.2 — <emphasis role=\"distribution\">Potato</emphasis>, 3.0 — <emphasis role=\"distribution\">Woody</emphasis>, 3.1 — <emphasis role=\"distribution\">Sarge</emphasis>, 4.0 — <emphasis role=\"distribution\">Etch</emphasis>, 5.0 — <emphasis role=\"distribution\">Lenny</emphasis>, 6.0 — <emphasis role=\"distribution\">Squeeze</emphasis>, 7 — <emphasis role=\"distribution\">Wheezy</emphasis>, 8 — <emphasis role=\"distribution\">Jessie</emphasis>, 9 (not released yet) — <emphasis role=\"distribution\">Stretch</emphasis>, 10 (not released yet) — <emphasis role=\"distribution\">Buster</emphasis>, <emphasis role=\"distribution\">Unstable</emphasis> — <emphasis role=\"distribution\">Sid</emphasis>). They are taken from the names of characters in the Toy Story movie. This animated film entirely composed of computer graphics was produced by Pixar Studios, with whom Bruce was employed at the time that he led the Debian project. The name “Sid” holds particular status, since it will eternally be associated with the <emphasis role=\"distribution\">Unstable</emphasis> branch. In the film, this character was the neighbor child, who was always breaking toys — so beware of getting too close to <emphasis role=\"distribution\">Unstable</emphasis>. Otherwise, <emphasis role=\"distribution\">Sid</emphasis> is also an acronym for “Still In Development”."
-msgstr "Poslední žertovná věc, byl to Bruce, kdo byl zodpovědný za inspiraci pro různá “kódová označení” pro Debian verze (1.1-<emphasis role= \"distribuce\" >Rex</emphasis>, 1.2  < zdůraznit role = \"distribuce\" > Buzz </emphasis>, 1,3 — < zdůraznit roli = \"distribuce\" > Bo </emphasis>, 2,0 — < zdůraznit roli = \"distribuce\" > Hamm </emphasis>, 2,1 — < zdůraznit role = \"distribuce\" > Slinky </emphasis>, 2,2 — < zdůraznit role = \"distribuce\" > bramborové </emphasis>, 3,0 — < zdůraznit role = \"distribuce\" > Woody </emphasis>, 3,1 — < zdůraznit role = \"distribuce\" > sarge </emphasis>, 4,0 — < zdůraznit role = \"distribuce\" > etch </emphasis>, 5,0 — < zdůraznit role = \"distribuce\" > Lenny </emphasis>, 6,0 — < zdůraznění role = \"distribuce\" > Squeeze </emphasis> – < zdůraznit role = \"distribution\" > sípání </emphasis>, 8 — < zdůraznit role = \"distribution\" > Jessie </emphasis>, 9 (dosud nevydaná) — < zdůraznit roli = \"distribuce\" > Stretch </emphasis>, 10 (není vydáno dosud)-< zdůraznit role = \"distribuce\" > Buster </emphasis>, < zdůraznit role = \"distribuce\" > unstable </emphasis> – < zdůraznit role = \"distribuce\" > SID </emphasis>). Jsou převzaty z názvů postav v Toy Story filmu. Tento animovaný film zcela složený z počítačové grafiky byl produkován Pixar Studios, se kterým byl Bruce zaměstnán v době, kdy vedl projekt Debian. Název \"SID\" má zvláštní stav, protože bude věčně přidružen k roli < zdůraznit role = \"distribuce\" > unstable </emphasis>. Ve filmu, tento znak byl soused dítě, který byl vždy lámání hraček-takže pozor na získání příliš blízko k < zdůraznit role = \"distribuce\" > neStabilní </emphasis>. Jinak < zdůraznit role = \"distribution\" > SID </emphasis> je také zkratka pro \"stále ve vývoji\"."
 
 msgid "Last anecdotal point, it was Bruce who was responsible for inspiring the different “codenames” for Debian versions (1.1 — <emphasis role=\"distribution\">Rex</emphasis>, 1.2 — <emphasis role=\"distribution\">Buzz</emphasis>, 1.3 — <emphasis role=\"distribution\">Bo</emphasis>, 2.0 — <emphasis role=\"distribution\">Hamm</emphasis>, 2.1 — <emphasis role=\"distribution\">Slink</emphasis>, 2.2 — <emphasis role=\"distribution\">Potato</emphasis>, 3.0 — <emphasis role=\"distribution\">Woody</emphasis>, 3.1 — <emphasis role=\"distribution\">Sarge</emphasis>, 4.0 — <emphasis role=\"distribution\">Etch</emphasis>, 5.0 — <emphasis role=\"distribution\">Lenny</emphasis>, 6.0 — <emphasis role=\"distribution\">Squeeze</emphasis>, 7 — <emphasis role=\"distribution\">Wheezy</emphasis>, 8 — <emphasis role=\"distribution\">Jessie</emphasis>, 9 (not released yet) — <emphasis role=\"distribution\">Stretch</emphasis>, 10 (not released yet) — <emphasis role=\"distribution\">Buster</emphasis>, <emphasis role=\"distribution\">Unstable</emphasis> — <emphasis role=\"distribution\">Sid</emphasis>). They are taken from the names of characters in the Toy Story movie. This animated film entirely composed of computer graphics was produced by Pixar Studios, with whom Bruce was employed at the time that he led the Debian project. The name “Sid” holds particular status, since it will eternally be associated with the <emphasis role=\"distribution\">Unstable</emphasis> branch. In the film, this character was the neighbor child, who was always breaking toys — so beware of getting too close to <emphasis role=\"distribution\">Unstable</emphasis>. Otherwise, <emphasis role=\"distribution\">Sid</emphasis> is also an acronym for “Still In Development”."
 msgstr "Poslední žertovná věc, byl to Bruce, kdo byl zodpovědný za inspiraci pro různá “kódová označení” pro Debian verze (1.1 — <emphasis role= \"distribution\" >Rex</emphasis>, 1.2 —  <emphasis role = \"distribution\" >Buzz</emphasis>, 1.3 — <emphasis role = \"distribution\" >Bo</emphasis>, 2.0 — <emphasis role = \"distribution\" >Hamm</emphasis>, 2.1 — <emphasis role = \"distribution\" >Slinky</emphasis>, 2.2 — <emphasis role = \"distribution\" >Potato</emphasis>, 3.0 — <emphasis role = \"distribution\" >Woody</emphasis>, 3.1 — <emphasis role = \"distribution\" >Sarge</emphasis>, 4.0 — <emphasis role = \"distribution\" >Etch</emphasis>, 5.0 — <emphasis role = \"distribution\" >Lenny</emphasis>, 6.0 — <emphasis role = \"distribution\" >Squeeze</emphasis> 7 – <emphasis role = \"distribution\" >Wheezy</emphasis>, 8 — <emphasis role = \"distribution\" >Jessie</emphasis>, 9 (dosud nevydaná) — <emphasis role = \"distribution\" >Stretch</emphasis>, 10 (není dosud vydaná) — <emphasis role = \"distribution\" >Buster</emphasis>, <emphasis role = \"distribution\" >Unstable</emphasis> – <emphasis role = \"distribution\" >Sid</emphasis>). Jsou převzaty z názvů postav z filmu Toy Story. Tento animovaný film zcela složený z počítačové grafiky byl produkován Pixar Studios, u kterých byl Bruce v době, kdy vedl projekt Debian, zaměstnán. Název“Sid” má zvláštní postavení, protože bude vždy spojen s <emphasis role = \"distribution\" >Unstable</emphasis> verzí. Ve filmu, byla tato postava dítěod sousedů, které stále rozbíjelo hračky — takže pozor na příliš blízké přiblížení se k <emphasis role = \"distribution\" >Unstable</emphasis>. Jinak <emphasis role = \"distribution\" >Sid</emphasis> je také zkratka pro “stále ve vývoji”."
@@ -736,46 +727,46 @@ msgid "<emphasis>COMMUNITY</emphasis> Integration of new maintainers"
 msgstr "<emphasis>KOMUNITA</emphasis> Začleňování nových správců"
 
 msgid "<primary>maintainer</primary><secondary>new maintainer</secondary>"
-msgstr ""
+msgstr "<primary>správce</primary><secondary>nový správce</secondary>"
 
 msgid "The team in charge of admitting new developers is the most regularly criticized. One must acknowledge that, throughout the years, the Debian project has become more and more demanding of the developers that it will accept. Some people may see some injustice in that, but we must confess that what were only little challenges at the beginning have become much greater in a community of over 1,000 people, when it comes to ensuring the quality and integrity of everything that Debian produces for its users."
-msgstr ""
+msgstr "Tým, který má na starosti přijímání nových vývojářů, je pravidelně nejvíce kritizován. Je třeba uznat, že v průběhu let se debianovský projekt stává stále náročnějším pro vývojáře, které bude přijímat. Někteří lidé v tom mohou vidět nespravedlnost, musíme ale přiznat, že to, co se jevilo jako malá výzva na začátku se stalo výzvou mnohem větší ve společenství čítajícím více než 1 000 lidí, pokud jde o zajištění kvality a integrity všeho, co Debian produkuje pro své uživatele."
 
 msgid "<primary>DAM</primary>"
-msgstr ""
+msgstr "<primary>DAM</primary>"
 
 msgid "<primary>Debian Account Managers</primary>"
-msgstr ""
+msgstr "<primary>Account manažeři Debianu</primary>"
 
 msgid "Furthermore, the acceptance procedure is concluded by review of the candidacy by a small team, the Debian Account Managers. These managers are, thus, particularly exposed to criticism, since they have final say in the inclusion or rejection of a volunteer within the Debian developers community. In practice, sometimes they must delay the acceptance of a person until they have learned more about the operations of the project. One can, of course, contribute to Debian before being accepted as an official developer, by being sponsored by current developers."
-msgstr ""
+msgstr "Dále, postup přijetí je ukončen přezkoumáním kandidatury malým týmem - account manažery Debianu. Tito manažeři jsou také obzvláště vystaveni kritice, protože mají konečné slovo v přijetí nebo odmítnutí dobrovolníka v rámci komunity vývojářů Debianu. V praxi, musí někdy zpozdit přijetí osoby, aby se dozvěděli více o činnosti projektu. Člověk může samozřejmě přispívat k Debianu i před přijetím za oficiálního vývojářáře tím, že je zaštiťován vývojáři současnými."
 
 msgid "The Active Role of Users"
-msgstr ""
+msgstr "Aktivní role uživatelů"
 
 msgid "One might wonder if it is relevant to mention the users among those who work within the Debian project, but the answer is a definite yes: they play a critical role in the project. Far from being “passive”, some users run development versions of Debian and regularly file bug reports to indicate problems. Others go even further and submit ideas for improvements, by filing a bug report with a severity level of “wishlist”, or even submit corrections to the source code, called “patches” (see sidebar <xref linkend=\"sidebar.patch\" />)."
-msgstr ""
+msgstr "Jeden by mohl nadnést, zda je vůbec důležité zmiňovat uživatele zároveň s těmi, kteří pracují v rámci projektu Debian, ale odpověď je definitivní ano: hrají důležitou roli v projektu. Někteří uživatelé jsou daleko od toho být nazýváni “pasivními”, někteří spouštějí vývojové verze Debianu a pravidelně zakládají hlášení o chybách a upozorňují na problémy. Jiní jdou ještě dál a předkládají nápady pro zlepšení tím, že podávají hlášení o chybě s úrovní závažnosti “přání”, nebo dokonce předkládají opravy zdrojového kódu nazvané “patche” (viz postranní informace <xref linkend=\"sidebar.patch\" />)."
 
 msgid "<emphasis>TOOL</emphasis> Bug tracking system"
-msgstr ""
+msgstr "<emphasis>NÁSTROJ</emphasis> Systém na sledování chyb"
 
 msgid "<primary>system</primary><secondary>Bug Tracking System</secondary>"
-msgstr ""
+msgstr "<primary>systém</primary><secondary>Systém na sledování chyb</secondary>"
 
 msgid "<primary>BTS</primary>"
-msgstr ""
+msgstr "<primary>BTS</primary>"
 
 msgid "<primary>Bug Tracking System</primary>"
-msgstr ""
+msgstr "<primary>Systém an sledování chyb (BTS)</primary>"
 
 msgid "<primary><literal>bugs.debian.org</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>bugs.debian.org</literal></primary>"
 
 msgid "The Debian Bug Tracking System (Debian BTS) is used by large parts of the project. The public part (the web interface) allows users to view all bugs reported, with the option to display a sorted list of bugs selected according to various criteria, such as: affected package, severity, status, address of the reporter, address of the maintainer in charge of it, tag, etc. It is also possible to browse the complete historical listing of all discussions regarding each of the bugs."
-msgstr ""
+msgstr "Debian Bug Tracking System (Debian BTS) je používán velkými částmi projektu. Veřejná část (webové rozhraní) umožňuje uživatelům zobrazit všechny ohlášené chyby, s možností zobrazit seřazený seznam chyb vybraných podle různých kritérií, jako například: ohrožený balíček, závažnost, stav, adresa reportéra, adresa správce v za to, tag, atd. Je také možné procházet celý historický výpis všech diskusí týkajících se jednotlivých chyb."
 
 msgid "Below the surface, the Debian BTS is e-mail based: all information that it stores comes from messages sent by the various persons involved. Any e-mail sent to <email>12345@bugs.debian.org</email> will, thus, be assigned to the history for bug number 12345. Authorized persons may “close” a bug by writing a message describing the reasons for the decision to close to <email>12345-done@bugs.debian.org</email> (a bug is closed when the indicated problem is resolved or no longer relevant). A new bug is reported by sending an e-mail to <email>submit@bugs.debian.org</email> according to a specific format which identifies the package in question. The address <email>control@bugs.debian.org</email> allows editing of all the “meta-information” related to a bug."
-msgstr ""
+msgstr "Pod povrchem je Debian BTS založen na e-mailu: všechny informace, které uchovává, pocházejí ze zpráv odesílaných různými osobami. Všechny e-maily odeslané na <email>12345@bugs.debian.org</email> budou tedy přiřazeny k historii chyby číslo 12345. Oprávněné osoby mohou "uzavřít" chybu napsáním zprávy popisující důvody rozhodnutí zavřít <email>12345-Done@bugs.debian.org</email> (chyba je uzavřena, pokud je uvedený problém vyřešen nebo již není relevantní). Nová chyba je hlášena zasláním e-mailu na <email>Submit@bugs.debian.org</email> podle konkrétního formátu, který identifikuje dotyčný balíček. Adresa <email>Control@bugs.debian.org</email> umožňuje editaci všech "meta-informace" vztahující se k chybě."
 
 msgid "The Debian BTS has other functional features, as well, such as the use of tags for labeling bugs. For more information, see <ulink type=\"block\" url=\"http://www.debian.org/Bugs/\" />"
 msgstr ""
@@ -1412,4 +1403,3 @@ msgstr ""
 
 msgid "The project is always looking for new sponsors: what about your company? can you let an employee work part-time on long term support? can you allocate a small budget for security support? <ulink type=\"block\" url=\"https://wiki.debian.org/LTS/Funding\" />"
 msgstr ""
-
