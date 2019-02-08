@@ -763,28 +763,28 @@ msgid "<primary><literal>bugs.debian.org</literal></primary>"
 msgstr "<primary><literal>bugs.debian.org</literal></primary>"
 
 msgid "The Debian Bug Tracking System (Debian BTS) is used by large parts of the project. The public part (the web interface) allows users to view all bugs reported, with the option to display a sorted list of bugs selected according to various criteria, such as: affected package, severity, status, address of the reporter, address of the maintainer in charge of it, tag, etc. It is also possible to browse the complete historical listing of all discussions regarding each of the bugs."
-msgstr "Debian Bug Tracking System (Debian BTS) je používán velkými částmi projektu. Veřejná část (webové rozhraní) umožňuje uživatelům zobrazit všechny ohlášené chyby, s možností zobrazit seřazený seznam chyb vybraných podle různých kritérií, jako například: ohrožený balíček, závažnost, stav, adresa reportéra, adresa správce v za to, tag, atd. Je také možné procházet celý historický výpis všech diskusí týkajících se jednotlivých chyb."
+msgstr "Sledovcí systém chyb Debianu (Debian BTS) je používán velkými částmi projektu. Veřejná část (webové rozhraní) umožňuje uživatelům zobrazit všechny ohlášené chyby, s možností zobrazit seřazený seznam chyb vybraných podle různých kritérií, jako například: dotčený balíček, závažnost, stav, adresa ohlašovatele, adresa zodpovědného správce, tag, apod. Je také možné procházet celý historický výpis všech diskusí týkajících se jednotlivých chyb."
 
 msgid "Below the surface, the Debian BTS is e-mail based: all information that it stores comes from messages sent by the various persons involved. Any e-mail sent to <email>12345@bugs.debian.org</email> will, thus, be assigned to the history for bug number 12345. Authorized persons may “close” a bug by writing a message describing the reasons for the decision to close to <email>12345-done@bugs.debian.org</email> (a bug is closed when the indicated problem is resolved or no longer relevant). A new bug is reported by sending an e-mail to <email>submit@bugs.debian.org</email> according to a specific format which identifies the package in question. The address <email>control@bugs.debian.org</email> allows editing of all the “meta-information” related to a bug."
-msgstr "Pod povrchem je Debian BTS založen na e-mailu: všechny informace, které uchovává, pocházejí ze zpráv odesílaných různými osobami. Všechny e-maily odeslané na <email>12345@bugs.debian.org</email> budou tedy přiřazeny k historii chyby číslo 12345. Oprávněné osoby mohou "uzavřít" chybu napsáním zprávy popisující důvody rozhodnutí zavřít <email>12345-Done@bugs.debian.org</email> (chyba je uzavřena, pokud je uvedený problém vyřešen nebo již není relevantní). Nová chyba je hlášena zasláním e-mailu na <email>Submit@bugs.debian.org</email> podle konkrétního formátu, který identifikuje dotyčný balíček. Adresa <email>Control@bugs.debian.org</email> umožňuje editaci všech "meta-informace" vztahující se k chybě."
+msgstr "Pod povrchem je Debian BTS založen na e-mailu: všechny informace, které uchovává, pocházejí ze zpráv odeslaných různými osobami. Všechny e-maily odeslané na <email>12345@bugs.debian.org</email> budou tedy přiřazeny k historii chyby číslo 12345. Oprávněné osoby mohou chybu “uzavřítٌ” napsáním zprávy popisující důvody rozhodnutí o uzavření na <email>12345-Done@bugs.debian.org</email> (chyba je uzavřena, pokud je uvedený problém vyřešen nebo již není relevantní). Nová chyba je hlášena zasláním e-mailu na <email>Submit@bugs.debian.org</email> podle konkrétního formátu, který identifikuje dotyčný balíček. Adresa <email>Control@bugs.debian.org</email> umožňuje editaci všech “meta-informací” vztahujících se k chybě."
 
 msgid "The Debian BTS has other functional features, as well, such as the use of tags for labeling bugs. For more information, see <ulink type=\"block\" url=\"http://www.debian.org/Bugs/\" />"
-msgstr ""
+msgstr "BST Debianu nabízí také jiné funkční možnosti, jako je používání tagů pro označení chyb. Pro více informací navštivte <ulink type=\"block\" url=\"http://www.debian.org/Bugs/\" />"
 
 msgid "<emphasis>VOCABULARY</emphasis> Severity of a bug"
-msgstr ""
+msgstr "<emphasis>SLOVNÍČEK</emphasis> Závažnost chyby"
 
 msgid "<primary>severity</primary>"
-msgstr ""
+msgstr "<primary>závažnost</primary>"
 
 msgid "<primary>bug</primary><secondary>severity</secondary>"
-msgstr ""
+msgstr "<primary>chyba</primary><secondary>závažnost</secondary>"
 
 msgid "The severity of a bug formally assigns a degree of gravity to the reported problem. Effectively, not all bugs have the same importance; for instance, a typo in a manual page is not comparable to a security vulnerability in server software."
-msgstr ""
+msgstr "Závažnost chyby formálně přiřazuje reportovanému problému stupeň důležitosti. V praxi, ne všechny chyby mají stejnou důležitost; například překlep na stránce manuálu se nemůže rovnat bezpečnostnímu riziku v softwaru serveru."
 
 msgid "Debian uses an extended scale to describe the severity of a bug. Each level is defined precisely in order to facilitate the selection thereof. <ulink type=\"block\" url=\"http://www.debian.org/Bugs/Developer#severities\" />"
-msgstr ""
+msgstr "Debian používá rozšířenou stupnici k popsání závažnosti chyby. Každá úroveň je přesně definovaná za účelem usnadnění jejího výběru. <ulink type=\"block\" url=\"http://www.debian.org/Bugs/Developer#severities\" />"
 
 msgid "Additionally, numerous satisfied users of the service offered by Debian like to make a contribution of their own to the project. As not everyone has appropriate levels of expertise in programming, they may choose to assist with the translation and review of documentation. There are language-specific mailing lists to coordinate this work. <ulink type=\"block\" url=\"https://lists.debian.org/i18n.html\" /> <ulink type=\"block\" url=\"http://www.debian.org/international/\" />"
 msgstr ""
