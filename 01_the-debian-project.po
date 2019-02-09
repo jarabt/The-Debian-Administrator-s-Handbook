@@ -787,28 +787,28 @@ msgid "Debian uses an extended scale to describe the severity of a bug. Each lev
 msgstr "Debian používá rozšířenou stupnici k popsání závažnosti chyby. Každá úroveň je přesně definovaná za účelem usnadnění jejího výběru. <ulink type=\"block\" url=\"http://www.debian.org/Bugs/Developer#severities\" />"
 
 msgid "Additionally, numerous satisfied users of the service offered by Debian like to make a contribution of their own to the project. As not everyone has appropriate levels of expertise in programming, they may choose to assist with the translation and review of documentation. There are language-specific mailing lists to coordinate this work. <ulink type=\"block\" url=\"https://lists.debian.org/i18n.html\" /> <ulink type=\"block\" url=\"http://www.debian.org/international/\" />"
-msgstr ""
+msgstr "Navíc, mnoho spokojených uživatelů této služby nabízené Debianem, rádi vytvoří příspěvek k projektu na vlastní pěst. Additionally, numerous satisfied users of the service offered by Debian like to make a contribution of their own to the project. As not everyone has appropriate levels of expertise in programming, they may choose to assist with the translation and review of documentation. There are language-specific mailing lists to coordinate this work. <ulink type=\"block\" url=\"https://lists.debian.org/i18n.html\" /> <ulink type=\"block\" url=\"http://www.debian.org/international/\" />"
 
 msgid "<emphasis>BACK TO BASICS</emphasis> What are i18n and l10n?"
-msgstr ""
+msgstr "<emphasis>BACK TO BASICS</emphasis> What are i18n and l10n?"
 
 msgid "<primary>internationalization</primary>"
-msgstr ""
+msgstr "<primary>internationalization</primary>"
 
 msgid "<primary>localization</primary>"
-msgstr ""
+msgstr "<primary>localization</primary>"
 
 msgid "<primary>i18n</primary>"
-msgstr ""
+msgstr "<primary>i18n</primary>"
 
 msgid "<primary>l10n</primary>"
-msgstr ""
+msgstr "<primary>l10n</primary>"
 
 msgid "“i18n” and “l10n” are the abbreviations for the words “internationalization” and “localization”, respectively, preserving the initial and last letter of each word, and the number of letters in the middle."
-msgstr ""
+msgstr "“i18n” and “l10n” are the abbreviations for the words “internationalization” and “localization”, respectively, preserving the initial and last letter of each word, and the number of letters in the middle."
 
 msgid "To “internationalize” a program consists of modifying it so that it can be translated (localized). This involves partially rewriting a program initially written to work in one language in order to be able to open it to all languages."
-msgstr ""
+msgstr "To “internationalize” a program consists of modifying it so that it can be translated (localized). This involves partially rewriting a program initially written to work in one language in order to be able to open it to all languages."
 
 msgid "To “localize” a program consists of translating the original messages (frequently in English) to another language. For this, it must have already been internationalized."
 msgstr ""
