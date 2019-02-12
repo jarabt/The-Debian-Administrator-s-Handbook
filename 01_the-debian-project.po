@@ -871,22 +871,22 @@ msgid "Not only do users help themselves (and others) on technical issues that d
 msgstr "Nejen, že uživatelé pomáhají sobě (i ostatním) s technickými věcmi, které se jich bezprostředně týkají, ale také diskutují o nejlepších způsobech, jak přispět k debianovskému projektu a posunout jej dál - diskutování, které často vede k návrhům na vylepšení."
 
 msgid "Since Debian does not expend funds on any self-promoting marketing campaigns, its users play an essential role in its diffusion, ensuring its fame via word-of-mouth."
-msgstr ""
+msgstr "Protože Debian nevydává žádné prostředky na žádnou sebepropagační kampaň, jeho uživatelé hrají podstatnou roli v jeho rozšiřování a tím upevňování jeho věhlasu prostřednictvím osobních rozhovorů apod."
 
 msgid "This method functions quite well, since Debian fans are found at all levels of the free software community: from install parties (workshops where seasoned users assist newcomers to install the system) organized by local LUGs or “Linux User Groups”, to association booths at large tech conventions dealing with Linux, etc."
 msgstr ""
 
 msgid "Volunteers make posters, brochures, stickers, and other useful promotional materials for the project, which they make available to everyone, and which Debian provides freely on its website: <ulink type=\"block\" url=\"http://www.debian.org/events/material\" />"
-msgstr ""
+msgstr "Dobrovolníci dělají pro projekt plakáty, brožury, nálepky a ostatní užitečné propagační materiály, které vyrobili pro všechny a které Debian dává volně k dispozici na webové stránce: <ulink type=\"block\" url=\"http://www.debian.org/events/material\" />"
 
 msgid "Teams and Sub-Projects"
-msgstr ""
+msgstr "Týmy a podprojekty"
 
 msgid "Debian has been organized, right from the start, around the concept of source packages, each with its maintainer or group of maintainers. Many work teams have emerged over time, ensuring administration of the infrastructure, management of tasks not specific to any package in particular (quality assurance, Debian Policy, installer, etc.), with the latest series of teams growing up around sub-projects."
-msgstr ""
+msgstr "Debian byl od samého počátku organizován kolem konceptu zdrojových balíčků, každý se svým správcem nebo skupinou správců. Časem se vytvořilo hodně pracovních týmů, zabezpečujících administrativu infrastruktury, řízení úkolů nepatřících k žádnému konlrétnímu balíčku (zajišťování kvality, zásady Debianu, instalace, apod.), spolu s posledními týmy, které vyrostly kolem podprojektů."
 
 msgid "Existing Debian Sub-Projects"
-msgstr ""
+msgstr "Současné podprojekty Debianu"
 
 msgid "To each their own Debian! A sub-project is a group of volunteers interested in adapting Debian to specific needs. Beyond the selection of a sub-group of programs intended for a particular domain (education, medicine, multimedia creation, etc.), sub-projects are also involved in improving existing packages, packaging missing software, adapting the installer, creating specific documentation, and more."
 msgstr ""
