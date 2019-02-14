@@ -889,31 +889,31 @@ msgid "Existing Debian Sub-Projects"
 msgstr "Současné podprojekty Debianu"
 
 msgid "To each their own Debian! A sub-project is a group of volunteers interested in adapting Debian to specific needs. Beyond the selection of a sub-group of programs intended for a particular domain (education, medicine, multimedia creation, etc.), sub-projects are also involved in improving existing packages, packaging missing software, adapting the installer, creating specific documentation, and more."
-msgstr ""
+msgstr "Každému jeho vlastní Debian! Podprojekt je skupina dobrovolníků zajímajících se o přizpůsobení Debianu zvláštním požadavkům. Za výběrem podskupiny programů stojí jejich směřování k určité oblasti (vzdělávání, lékařství, multimediální tvorba, apod.), podprojekty jsou také mimo jiné zahrnuty ve zdokonalování existujících balíčků, balení chybějícího softwaru, adaptace instalátorů, tvoření zvláštní dokumentace."
 
 msgid "<emphasis>VOCABULARY</emphasis> Sub-project and derivative distribution"
-msgstr ""
+msgstr "<emphasis>SLOVNÍK</emphasis> Podprojekt a odvozená distribuce"
 
 msgid "<primary>derivative distribution</primary>"
-msgstr ""
+msgstr "<primary>odvozená distribuce</primary>"
 
 msgid "The development process for a derivative distribution consists in starting with a particular version of Debian and making a number of modifications to it. The infrastructure used for this work is completely external to the Debian project. There isn't necessarily a policy for contributing improvements. This difference explains how a derivative distribution may “diverge” from its origins, and why they have to regularly resynchronize with their source in order to benefit from improvements made upstream."
-msgstr ""
+msgstr "Vývojový proces odvozené distribuce spočívá v začátcích s určitou verzí Debianu a k ní vytváření určitého počtu modifikací. Infrastruktura používaná pro tuto práci je zcela vně debianovského projektu. Zde nejsou nutné žádné zásady pro vylepšení plynoucí ze spolupráce. Tento rozdíl vysvětluje jak moc se může odvozená distribuce “odchylovat” od svého originálu a proč musejí pravidelně resynchronizovat svůj zdrojový kód, aby mohli těžit z upstreamových vylepšení."
 
 msgid "On the other hand, a sub-project can not diverge, since all the work on it consists of directly improving Debian in order to adapt it to a specific goal."
-msgstr ""
+msgstr "Na druhou stranu, podprojekt se nemůže odchylovat, protože veškerá na něm vykonaná práce spočívá v přímém zdokonalování Debianu za účelem jeho adaptace ke zvláštnímu úkolu."
 
 msgid "The most known distribution derived from Debian is, without a doubt, Ubuntu, but there are many. See <xref linkend=\"derivative-distributions\" /> to learn about their particularities and their positioning in relationship to Debian."
-msgstr ""
+msgstr "Nejznáměšjší distribucí odvozenou z Debianu je bezpochyby Ubuntu, ale je jich hodně. Pokud se chcete o nich dozvědět více podrobností a jejich pozici ve vztahu vůči Debianu, navštivte <xref linkend=\"derivative-distributions\" />."
 
 msgid "Here is a small selection of current sub-projects:"
-msgstr ""
+msgstr "Zde je malý výběr současných podprojektů:"
 
 msgid "Debian-Junior, by Ben Armstrong, offering an appealing and easy to use Debian system for children;"
-msgstr ""
+msgstr "Debian-Junior, od Bena Armstronga, nabízející přitažlivé a snadné použití debianovského systému pro děti."
 
 msgid "Debian-Edu, by Petter Reinholdtsen, focused on the creation of a specialized distribution for the academic world;"
-msgstr ""
+msgstr "Debian-Edu, od Pettera Reinholdtsena, zaměřený na vytvoření speciální distribuce do akademického prostředí;"
 
 msgid "Debian Med, by Andreas Tille, dedicated to the medical field;"
 msgstr ""
