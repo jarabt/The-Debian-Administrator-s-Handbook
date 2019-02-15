@@ -916,25 +916,25 @@ msgid "Debian-Edu, by Petter Reinholdtsen, focused on the creation of a speciali
 msgstr "Debian-Edu, od Pettera Reinholdtsena, zaměřený na vytvoření speciální distribuce do akademického prostředí;"
 
 msgid "Debian Med, by Andreas Tille, dedicated to the medical field;"
-msgstr ""
+msgstr "Debian Med, od Andrease Tilleho, věnuje se lékařství;"
 
 msgid "Debian Multimedia which deals with audio and multimedia work;"
-msgstr ""
+msgstr "Debian Multimedia se zaobírá audiem a multimediální tvorbou;"
 
 msgid "Debian-Desktop which focuses on the desktop and coordinates artwork for the default theme;"
-msgstr ""
+msgstr "Debian-Desktop který se zaměřuje na plochu a koordinuje uměleckou tvorbu pro výchozí téma;"
 
 msgid "Debian GIS which takes care of Geographical Information Systems applications and users;"
-msgstr ""
+msgstr "Debian GIS, který se stará o aplikace Geografického informačního systému;"
 
 msgid "Debian Accessibility, finally, improving Debian to match the requirements of people with disabilities."
-msgstr ""
+msgstr "Debian Accessibility, na závěr, zdokonaluje Debian, aby uspokojil požadavky lidí s omezením."
 
 msgid "This list will most likely continue to grow with time and improved perception of the advantages of Debian sub-projects. Fully supported by the existing Debian infrastructure, they can, in effect, focus on work with real added value, without worrying about remaining synchronized with Debian, since they are developed within the project."
-msgstr ""
+msgstr "Tento seznam se bude pravděpodobně postupem času a větším vnímáním výhod podprojektů Debianu stále rozrůstat. Za plné podpory současné infrastruktury Debianu, se mohou, v podstatě, plně věnovat práci s čistou přidanou hodnotou, bez starostí o ostaní slaďování s Debianem, protože jsou vyvíjené v rámci projektu."
 
 msgid "Administrative Teams"
-msgstr ""
+msgstr "Administrativní týmy"
 
 msgid "Most administrative teams are relatively closed and recruit only by cooptation. The best means to become a part of one is to intelligently assist the current members, demonstrating that you have understood their objectives and methods of operation."
 msgstr ""
