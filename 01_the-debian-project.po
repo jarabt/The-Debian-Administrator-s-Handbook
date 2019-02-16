@@ -937,22 +937,22 @@ msgid "Administrative Teams"
 msgstr "Administrativní týmy"
 
 msgid "Most administrative teams are relatively closed and recruit only by cooptation. The best means to become a part of one is to intelligently assist the current members, demonstrating that you have understood their objectives and methods of operation."
-msgstr ""
+msgstr "Většina administrativních týmů je relativně uzavřená a nabírá nové členy interním zvolením. Nejlepším způsobem jak se stát jejich součástí je intelegentně asistovat současným členům a dávat najevo, že rozumíte jejich cílům a metodám práce."
 
 msgid "The ftpmasters are in charge of the official archive of Debian packages. They maintain the program that receives packages sent by developers and automatically stores them, after some checks, on the reference server (<literal>ftp-master.debian.org</literal>)."
-msgstr ""
+msgstr "Ftpmasteři mají na starosti oficiální archív debianovských balíčků. Obhospodařují program, který se přejímá balíčky poslané vývojáři a automaticky je po následné kontrole ukládá na referenční server (<literal>ftp-master.debian.org</literal>)."
 
 msgid "They must also verify the licenses of all new packages, in order to ensure that Debian may distribute them, prior to including them in the corpus of existing packages. When a developer wishes to remove a package, they address this team through the bug tracking system and the <emphasis>ftp.debian.org</emphasis> “pseudo-package”."
-msgstr ""
+msgstr "Musí také ověřovat licence všech nových balíčků, za účelem ujištění se, je může Debian rozšiřovat, před jejich zahrnutím do tělesa ostatních, už existujících balíčků. Pokud si vývojář přeje balíček vyjmout, oslovuje tento tým skrze systém sledování chyb a <emphasis>ftp.debian.org</emphasis> “pseudo-package”."
 
 msgid "<primary>ftpmaster</primary>"
-msgstr ""
+msgstr "<primary>ftpmaster</primary>"
 
 msgid "<emphasis>VOCABULARY</emphasis> The pseudo-package, a monitoring tool"
-msgstr ""
+msgstr "<emphasis>SLOVNÍČEK</emphasis> Pseudo-package, monitorovací nástroj"
 
 msgid "<primary>pseudo-package</primary>"
-msgstr ""
+msgstr "<primary>pseudo-package</primary>"
 
 msgid "The bug tracking system, initially designed to associate bug reports with a Debian package, has proved very practical to manage other matters: lists of problems to be resolved or tasks to manage without any link to a particular Debian package. The “pseudo-packages” allow, thus, certain teams to use the bug tracking system without associating a real package with their team. Everyone can, thus, report issues that needs to be dealt with. For instance, the BTS has a <emphasis>ftp.debian.org</emphasis> entry that is used to report and track problems on the official package archive or simply to request removal of a package. Likewise, the <emphasis>www.debian.org</emphasis> pseudo-package refers to errors on the Debian website, and <emphasis>lists.debian.org</emphasis> gathers all the problems concerning the mailing lists."
 msgstr ""
