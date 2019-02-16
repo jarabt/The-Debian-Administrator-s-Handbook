@@ -955,22 +955,22 @@ msgid "<primary>pseudo-package</primary>"
 msgstr "<primary>pseudo-package</primary>"
 
 msgid "The bug tracking system, initially designed to associate bug reports with a Debian package, has proved very practical to manage other matters: lists of problems to be resolved or tasks to manage without any link to a particular Debian package. The “pseudo-packages” allow, thus, certain teams to use the bug tracking system without associating a real package with their team. Everyone can, thus, report issues that needs to be dealt with. For instance, the BTS has a <emphasis>ftp.debian.org</emphasis> entry that is used to report and track problems on the official package archive or simply to request removal of a package. Likewise, the <emphasis>www.debian.org</emphasis> pseudo-package refers to errors on the Debian website, and <emphasis>lists.debian.org</emphasis> gathers all the problems concerning the mailing lists."
-msgstr ""
+msgstr "Systém sledování chyb, původně vyvinutý pro spojení chyby s balíčkem Debianu, se v praxi osvědčil v zabezpečení dalších záležitostí: seznamů problémů k řešení nebo provádění úkolů bez provázanosti s konkrétním balíčkem Debianu.“Pseudo-packages” tedy dovolují jistým týmům používat systém sledování chyb bez spojení opravdového balíčku s jejich týmem. Každý tedy může hlásit záležitosti, které je zapotřebí řešit. Například BTS má <emphasis>ftp.debian.org</emphasis> vstup, který se používá k nahlašování a sledování problémů v oficiálním archivu balíčků nebo jednoduše k žádostem o odstranění balíčku. Obdobně,<emphasis>www.debian.org</emphasis> pseudo-package odkazuje na chyby na internetových stránkách Debianu a <emphasis>lists.debian.org</emphasis> shromažďuje všechny problémy týkající se mailing listů."
 
 msgid "<emphasis>TOOL</emphasis> FusionForge, the Swiss Army Knife of collaborative development"
-msgstr ""
+msgstr "<emphasis>NÁSTROJ</emphasis> FusionForge, švýcarský nůž společného vývoje"
 
 msgid "<primary><literal>alioth</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>alioth</literal></primary>"
 
 msgid "<primary>FusionForge</primary>"
-msgstr ""
+msgstr "<primary>FusionForge</primary>"
 
 msgid "FusionForge is a program that enables creation of sites similar to <literal>www.sourceforge.net</literal>, <literal>alioth.debian.org</literal>, or even <literal>savannah.gnu.org</literal>. It hosts projects and provides a range of services that facilitate collaborative development. Each project will have a dedicated virtual space there, including a web site, several “ticketing” systems to track — most commonly — bugs and patches, a survey tool, file storage, forums, version control system repositories, mailing lists and various other related services."
-msgstr ""
+msgstr "FusionForge je program, který umožňuje vytvoření stránek podobných <literal>www.sourceforge.net</literal>, <literal>alioth.debian.org</literal> nebo třeba <literal>savannah.gnu.org</literal>. Hostí projekty a poskytuje řadu služeb, které usnadňují společný vývoj. Každý projekt zde má přidělen svůj virtuální prostor, včetně internetových stránek, různých “ticketových” systémů ke sledování - většinou zároveň chyb a oprav, průzkumových nástrojů, souborových úložišť, fór, repozitářů se systémem kontroly verzí, mailing listů a různých jiných souvisejících služeb."
 
 msgid "<literal>alioth.debian.org</literal> is Debian's FusionForge server, administered by Tollef Fog Heen, Stephen Gran, and Roland Mas. Any project involving one or more Debian developers can be hosted there. <ulink type=\"block\" url=\"http://alioth.debian.org/\" />"
-msgstr ""
+msgstr "<literal>alioth.debian.org</literal> je FusionForge server Debianu, spravován Tollefem Fog Heenem, Stephenem Granem, a Rolandem Masem. Jakýkoliv projekt zahrnující jednoho nebo více vývojářů Debianu zde může být umístěn <ulink type=\"block\" url=\"http://alioth.debian.org/\" />"
 
 msgid "Although rather complex internally, due to the broad range of services that it provides, FusionForge is otherwise relatively easy to install, thanks to the exceptional work of Roland Mas and Christian Bayle on the <emphasis role=\"pkg\">fusionforge</emphasis> Debian package."
 msgstr ""
