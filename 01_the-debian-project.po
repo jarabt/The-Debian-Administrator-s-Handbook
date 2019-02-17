@@ -43,7 +43,7 @@ msgid "Look no further: Debian is not an acronym. This name is, in reality, a co
 msgstr "Nehledejte dále: Debian není zkratka. Tento název je ve skutečnosti spojení dvou křestních jmen: a to Iana Murdocka, a v té době jeho přítelkyně, Debry. Debra + Ian = Debian."
 
 msgid "Debian is a GNU/Linux distribution. We will discuss what a distribution is in further detail in <xref linkend=\"sect.role-of-distributions\" />, but for now, we will simply state that it is a complete operating system, including software and systems for installation and management, all based on the Linux kernel and free software (especially those from the GNU project)."
-msgstr "Debian je distribuce GNU/Linuxu. O tom, co to je distribuce budeme diskutovat podrobněji v části <xref linkend=\"sekta.role-of-distributions\"/>, ale nyní budeme jednoduše konstatovat, že se jedná o kompletní operační systém, včetně softwaru a systémů pro instalaci a řízení, vše na základě Linuxového jádra a svobodného softwaru (zejména z projektu GNU)."
+msgstr "Debian je distribuce GNU/Linuxu. O tom, co to je distribuce budeme diskutovat podrobněji v části <xref linkend=\"sect.role-of-distributions\"/>, ale nyní budeme jednoduše konstatovat, že se jedná o kompletní operační systém, včetně softwaru a systémů pro instalaci a řízení, vše na základě Linuxového jádra a svobodného softwaru (zejména z projektu GNU)."
 
 msgid "When he created Debian, in 1993, under the leadership of the FSF, Ian Murdock had clear objectives, which he expressed in the <emphasis>Debian Manifesto</emphasis>. The free operating system that he sought would have to have two principal features. First, quality: Debian would be developed with the greatest care, to be worthy of the Linux kernel. It would also be a non-commercial distribution, sufficiently credible to compete with major commercial distributions. This double ambition would, in his eyes, only be achieved by opening the Debian development process just like that of Linux and the GNU project. Thus, peer review would continuously improve the product."
 msgstr "Když v roce 1993, pod vedením FSF, vytvořil Debian, měl Ian Murdock jasné cíle, které vyjádřil v <emphasis>Manifestu Debianu</emphasis>. Svobodný operační systém, o který usiloval, musel mít dva hlavní rysy. Za prvé, kvalitu: Debian musí být vyvinut s největší péčí, aby byl hoden linuxového jádra. Musí být rovněž nekomerční distribucí, která dostatečně věrohodně konkuruje velkým komerčním distribucím. Této dvojí ambice by bylo v jeho očích možné dosáhnout pouze otevřením procesu vývoje Debianu, stejně jako v případě Linuxu a projektu GNU. Vzájemná kontrola by tedy neustále tento produkt zlepšovala."
@@ -187,13 +187,13 @@ msgid "<primary>Software in the Public Interest</primary>"
 msgstr "<primary>Software ve veřejném zájmu</primary>"
 
 msgid "Debian doesn't own any server in its own name, since it is only a project within the <emphasis>Software in the Public Interest</emphasis> association, and SPI manages the hardware and financial aspects (donations, purchase of hardware, etc.). While initially created specifically for the Debian project, this association now hosts other free software projects, especially the PostgreSQL database, Freedesktop.org (project for standardization of various parts of modern graphical desktop environments, such as GNOME and KDE), and the Libre Office office suite. <ulink type=\"block\" url=\"http://www.spi-inc.org/\" />"
-msgstr "Debian nevlastní žádný server pod svým jménem, protože je to pouze projekt v rámci asociace <emphasis>Software ve veřejném zájmu</emphasis>, atak SPI spravuje hardware a finanční aspekty (dary, nákup hardware, atd.). Toto sdružení, které bylo původně vytvořeno pouze pro projekt Debian, nyní zaštiťuje další svobodné softwarové projekty, zejména databázi PostgreSQL, Freedesktop.org (projekt pro standardizaci různých částí moderních grafických desktopových prostředí, jako je GNOME a KDE), a kancelářský balík Libre Office. <ulink typ=\"block\" url =\"http://www.spi-inc.org/\" />"
+msgstr "Debian nevlastní žádný server pod svým jménem, protože je to pouze projekt v rámci asociace <emphasis>Software ve veřejném zájmu</emphasis>, atak SPI spravuje hardware a finanční aspekty (dary, nákup hardware, atd.). Toto sdružení, které bylo původně vytvořeno pouze pro projekt Debian, nyní zaštiťuje další svobodné softwarové projekty, zejména databázi PostgreSQL, Freedesktop.org (projekt pro standardizaci různých částí moderních grafických desktopových prostředí, jako je GNOME a KDE), a kancelářský balík Libre Office. <ulink type=\"block\" url=\"http://www.spi-inc.org/\" />"
 
 msgid "In addition to SPI, various local associations collaborate closely with Debian in order to generate funds for Debian, without centralizing everything in the USA: they are known as “Trusted Organizations” in the Debian jargon. This setup avoids prohibitive international transfer costs, and fits well with the decentralized nature of the project."
 msgstr "Kromě SPI s Debianem úzce spolupracují různá místní sdružení za účelem vytváření finančních prostředků pro projekt, bez centralizace všeho v USA: v žargonu Debianu jsou označovány za “důvěryhodné organizace”. Toto uspořádání umožňuje vyhnout se neúměrným mezinárodním nákladům za převod a dobře se hodí k decentralizované povaze projektu."
 
 msgid "While the list of trusted organizations is rather short, there are many more Debian-related associations whose goal is to promote Debian: <emphasis>Debian France</emphasis>, <emphasis>Debian-ES</emphasis>, <emphasis>debian.ch</emphasis>, and others around the world. Do not hesitate to join your local association and support the project! <ulink type=\"block\" url=\"http://wiki.debian.org/Teams/Auditor/Organizations\" /> <ulink type=\"block\" url=\"http://france.debian.net/\" /> <ulink type=\"block\" url=\"http://www.debian-es.org/\" /> <ulink type=\"block\" url=\"http://debian.ch/\" />"
-msgstr "Seznam důvěryhodných organizací je sice poměrně krátký, ale existuje mnoho dalších asociací souvisejících s Debianem, jejichž cílem je podporavat Debian: <emphasis>Debian France</emphasis>, <emphasis>Debian-ES</emphasis>, <emphasis>debian.ch</emphasis> a další na celém světě. Neváhejte se připojit k místnímu sdružení a podpořte projekt! <ulink typ=\"block\" url =\"http://wiki.debian.org/Teams/Auditor/Organizations\" /> <ulink typ=\"block\" url =\"http://france.debian.net/\" /> <ulink typ = \"block\" url = \"http://www.debian-es.org/\"/> < ulink typ = \"block\" url = \"http://debian.ch/\"/>"
+msgstr "Seznam důvěryhodných organizací je sice poměrně krátký, ale existuje mnoho dalších asociací souvisejících s Debianem, jejichž cílem je podporavat Debian: <emphasis>Debian France</emphasis>, <emphasis>Debian-ES</emphasis>, <emphasis>debian.ch</emphasis> a další na celém světě. Neváhejte se připojit k místnímu sdružení a podpořte projekt! <ulink type=\"block\" url=\"http://wiki.debian.org/Teams/Auditor/Organizations\" /> <ulink type=\"block\" url=\"http://france.debian.net/\" /> <ulink type=\"block\" url=\"http://www.debian-es.org/\"/> <ulink type=\"block\" url=\"http://debian.ch/\"/>"
 
 msgid "The Foundation Documents"
 msgstr "Dokumenty nadace"
@@ -319,7 +319,7 @@ msgid "More than a selection criteria for Debian, this text has become an author
 msgstr "Více než jen výběrovými kritérii pro Debian, se tento text se stal autoritou na téma svobodného softwaru, a sloužil jako základ pro “definici Open Source”. Historicky je tedy jednou z prvních formálních definic pojmu “svobodný software”."
 
 msgid "The GNU General Public License, the BSD License, and the Artistic License are examples of traditional free licenses that follow the 9 points mentioned in this text. Below you will find the text as it is published on the Debian website. <ulink type=\"block\" url=\"http://www.debian.org/social_contract#guidelines\" />"
-msgstr "Všeobecná veřejná licence GNU, BSD licence a Umělecká licence jsou příklady tradičních svobodných licencí, které ctí 9 bodů uvedených v tomto textu. Níže najdete text, který je publikován na webových stránkách Debianu. <ulink typ=\"block\" url = \"http://www.debian.org/social_contract#pokyny\"/>"
+msgstr "Všeobecná veřejná licence GNU, BSD licence a Umělecká licence jsou příklady tradičních svobodných licencí, které ctí 9 bodů uvedených v tomto textu. Níže najdete text, který je publikován na webových stránkách Debianu. <ulink type=\"block\" url=\"http://www.debian.org/social_contract#pokyny\"/>"
 
 msgid "Free redistribution."
 msgstr "Volná redistribuce."
@@ -358,13 +358,13 @@ msgid "The GNU GPL, the BSD license, and the Artistic License all comply with th
 msgstr "GNU GPL, BSD licence a Umělecká licence jsou v souladu s Pokyny Debianu pro svobodný software, i když jsou velmi odlišné."
 
 msgid "The GNU GPL, used and promoted by the FSF (Free Software Foundation), is the most common. Its main feature is that it also applies to any derived work that is redistributed: a program incorporating or using GPL code can only be distributed according to its terms. It prohibits, thus, any reuse in a proprietary application. This poses serious problems for the reuse of GPL code in free software incompatible with this license. As such, it is sometimes impossible to link a program published under another free software license with a library distributed under the GPL. On the other hand, this license is very solid in American law: FSF lawyers have participated in the drafting thereof, and have often forced violators to reach an amicable agreement with the FSF without going to court. <ulink type=\"block\" url=\"http://www.gnu.org/copyleft/gpl.html\" />"
-msgstr "GNU GPL, kterou používá a propaguje FSF (Free Software Foundation), je nejběžnější. Její hlavní vlastností je, že se vztahuje i na práci z ní vycházející, která se redistribuje: program zahrnující nebo používající GPL kód může být distribuován pouze v souladu s jeho podmínkami. Zakazuje tedy jakékoli opětovné použití v proprietární aplikaci. To představuje vážné problémy při opětovném použití GPL kódu ve volném softwaru nevyhovujícímu této licenci. Takto je někdy nemožné propojit program zveřejněný pod jinou licencí svobodného softwaru s knihovnou distribuovanou pod GPL. Na druhou stranu, tato licence je velmi pevná v základech v americkém právu: právníci FSF se podíleli na jejím navrhování, takže narušitelé jsou často nuceni dosáhnout přátelské dohody s FSF, aniž by se šlo k soudu. <ulink typ=\"block\" url=\"http://www.gnu.org/copyleft/gpl.html\" />"
+msgstr "GNU GPL, kterou používá a propaguje FSF (Free Software Foundation), je nejběžnější. Její hlavní vlastností je, že se vztahuje i na práci z ní vycházející, která se redistribuje: program zahrnující nebo používající GPL kód může být distribuován pouze v souladu s jeho podmínkami. Zakazuje tedy jakékoli opětovné použití v proprietární aplikaci. To představuje vážné problémy při opětovném použití GPL kódu ve volném softwaru nevyhovujícímu této licenci. Takto je někdy nemožné propojit program zveřejněný pod jinou licencí svobodného softwaru s knihovnou distribuovanou pod GPL. Na druhou stranu, tato licence je velmi pevná v základech v americkém právu: právníci FSF se podíleli na jejím navrhování, takže narušitelé jsou často nuceni dosáhnout přátelské dohody s FSF, aniž by se šlo k soudu. <ulink type=\"block\" url=\"http://www.gnu.org/copyleft/gpl.html\" />"
 
 msgid "The BSD license is the least restrictive: everything is permitted, including use of modified BSD code in a proprietary application. Microsoft even uses it, basing the TCP/IP layer of Windows NT on that of the BSD kernel. <ulink type=\"block\" url=\"http://www.opensource.org/licenses/bsd-license.php\" />"
-msgstr "BSD licence je nejméně omezující: vše je povoleno, včetně použití modifikovaného BSD kódu v proprietární aplikaci. Dokonce i Microsoft toho využívá, zakládá TCP/IP vrstvu Windows NT na jádru BSD. <ulink typ = \"block\" url = \"http://www.opensource.org/licenses/bsd-license.php\"/>"
+msgstr "BSD licence je nejméně omezující: vše je povoleno, včetně použití modifikovaného BSD kódu v proprietární aplikaci. Dokonce i Microsoft toho využívá, zakládá TCP/IP vrstvu Windows NT na jádru BSD. <ulink type=\"block\" url=\"http://www.opensource.org/licenses/bsd-license.php\"/>"
 
 msgid "Finally, the Artistic License reaches a compromise between these two others: integration of code in a proprietary application is permitted, but any modification must be published. <ulink type=\"block\" url=\"http://www.opensource.org/licenses/artistic-license-2.0.php\" />"
-msgstr "Nakonec, Umělecká licence dosahuje kompromisu mezi těmito ostatními dvěma: je povoleno zahrnuzí kódu do proprietární aplikace, ale jakákoliv modifikace musí být zveřejněna. < ulink typ = \"block\" url = \"http://www.opensource.org/licenses/artistic-license-2.0.php\"/>"
+msgstr "Nakonec, Umělecká licence dosahuje kompromisu mezi těmito ostatními dvěma: je povoleno zahrnuzí kódu do proprietární aplikace, ale jakákoliv modifikace musí být zveřejněna. <ulink type=\"block\" url=\"http://www.opensource.org/licenses/artistic-license-2.0.php\"/>"
 
 msgid "The complete text of these licenses is available in <filename>/usr/share/common-licenses/</filename> on any Debian system."
 msgstr "Kompletní znění těchto licencí je k dispozici v <filename>/usr/share/Common-licenses/</filename> v libovolném systému Debianu."
@@ -445,7 +445,7 @@ msgid "<primary>Open Source</primary>"
 msgstr "<primary>Open Source</primary>"
 
 msgid "Bruce Perens was the second leader of the Debian project, just after Ian Murdock. He was very controversial in his dynamic and authoritarian methods. He nevertheless remains an important contributor to Debian, to whom Debian is especially indebted for the editing of the famous “Debian Free Software Guidelines” (DFSG), an original idea of Ean Schuessler. Subsequently, Bruce would derive from it the famous “Open Source Definition”, removing all references to Debian from it. <ulink type=\"block\" url=\"http://www.opensource.org/\" />"
-msgstr "Bruce Perens byl druhým vedoucím projektu Debian, těsně po Ianu Murdockovi. Byl velmi kontroverzní ve svých dynamických a autoritářských metodách. Přesto zůstává důležitým přispěvatelem Debianu, jemuž je Debian obzvláště zavázán pro sestavení věhlasných “Směrnic Debianu pro svobodný software” (DFSG), původní myšlenky Eana Schuesslera. Následně, Bruce z nich odvodil slavnou “Definici pro Open Source”, kdy z nich odstranil všech odkazy na Debian. < ulink typ = \"block\" url = \"http://www.opensource.org/\"/>"
+msgstr "Bruce Perens byl druhým vedoucím projektu Debian, těsně po Ianu Murdockovi. Byl velmi kontroverzní ve svých dynamických a autoritářských metodách. Přesto zůstává důležitým přispěvatelem Debianu, jemuž je Debian obzvláště zavázán pro sestavení věhlasných “Směrnic Debianu pro svobodný software” (DFSG), původní myšlenky Eana Schuesslera. Následně, Bruce z nich odvodil slavnou “Definici pro Open Source”, kdy z nich odstranil všech odkazy na Debian. <ulink type=\"block\" url=\"http://www.opensource.org/\"/>"
 
 msgid "His departure from the project was quite emotional, but Bruce has remained strongly attached to Debian, since he continues to promote this distribution in political and economic spheres. He still sporadically appears on the e-mail lists to give his advice and present his latest initiatives in favor of Debian."
 msgstr "Jeho odchod z projektu byl dost emotivní, ale Bruce zůstal silně připojený k Debianu, protože stále pokračuje v propagaci této distribuce v politických a ekonomických sférách. Stále se sporadicky objevuje na e-mailových konferencích, aby přispěl svou radou a představil své nejnovější iniciativy ve prospěch Debianu."
@@ -532,7 +532,7 @@ msgid "<primary>developers</primary><secondary>Debian developers</secondary>"
 msgstr "<primary>vývojáři</primary> <secondary>vývojáři Debianu</secondary>"
 
 msgid "Debian developers have various responsibilities, and as official project members, they have great influence on the direction the project takes. A Debian developer is generally responsible for at least one package, but according to their available time and desire, they are free to become involved in numerous teams, acquiring, thus, more responsibilities within the project. <ulink type=\"block\" url=\"http://www.debian.org/devel/people\" /> <ulink type=\"block\" url=\"http://www.debian.org/intro/organization\" /> <ulink type=\"block\" url=\"http://wiki.debian.org/Teams\" />"
-msgstr "Vývojáři Debianu mají různé povinnosti a jako oficiální členové projektu mají velký vliv na směřování projektu. Vývojář Debianu je obecně zodpovědný alespoň za jeden balíček, ale podle času, který jsou k dispozici a chuti, se mohou volně zapojit do mnoha týmů a získat tak více zodpovědností v rámci projektu. < ulink typ = \"block\" url = \"http://www.debian.org/devel/people\"/> < ulink typ = \"block\" url = \"http://www.debian.org/intro/organization\"/> < ulink typ = \"block\" url = \"http://wiki.debian.org/Teams\"/>"
+msgstr "Vývojáři Debianu mají různé povinnosti a jako oficiální členové projektu mají velký vliv na směřování projektu. Vývojář Debianu je obecně zodpovědný alespoň za jeden balíček, ale podle času, který jsou k dispozici a chuti, se mohou volně zapojit do mnoha týmů a získat tak více zodpovědností v rámci projektu. <ulink type=\"block\" url=\"http://www.debian.org/devel/people\"/> <ulink type=\"block\" url=\"http://www.debian.org/intro/organization\"/> <ulink type=\"block\" url=\"http://wiki.debian.org/Teams\"/>"
 
 msgid "<emphasis>TOOL</emphasis> Developer's database"
 msgstr "<emphasis>NÁSTROJ</emphasis>Databáze vývojářů"
@@ -544,7 +544,7 @@ msgid "<primary>database</primary><secondary>developer's database</secondary>"
 msgstr "<primary>databáze</primary> <secondary>databáze vývojářů</secondary>"
 
 msgid "Debian has a database including all developers registered with the project, and their relevant information (address, telephone, geographical coordinates such as longitude and latitude, etc.). Some of the information (first and last name, country, username within the project, IRC username, GnuPG key, etc.) is public and available on the Web. <ulink type=\"block\" url=\"http://db.debian.org/\" />"
-msgstr "Debian má databázi zahrnující všechny vývojáře registrovaných v projektu, a jejich relevantní informace (adresa, telefon, zeměpisné souřadnice, jako zeměpisná délka a šířka, atd.). Některé informace (křestní jméno a příjmení, země, uživatelské jméno v rámci projektu, uživatelské jméno IRC, GnuPG klíč atd.) jsou veřejné a jsou dostupné na webu. < ulink typ = \"block\" url = \"http://db.debian.org/\"/>"
+msgstr "Debian má databázi zahrnující všechny vývojáře registrovaných v projektu, a jejich relevantní informace (adresa, telefon, zeměpisné souřadnice, jako zeměpisná délka a šířka, atd.). Některé informace (křestní jméno a příjmení, země, uživatelské jméno v rámci projektu, uživatelské jméno IRC, GnuPG klíč atd.) jsou veřejné a jsou dostupné na webu. <ulink type=\"block\" url=\"http://db.debian.org/\"/>"
 
 msgid "The geographical coordinates allow the creation of a map locating all of the developers around the globe. Debian is truly an international project: its developers can be found on all continents, although the majority are in “Western countries”."
 msgstr "Zeměpisné souřadnice umožňují vytvoření mapy s umístěním všech vývojářů po celém světě. Debian je skutečně mezinárodní projekt: jeho vývojáře lze nalézt na všech kontinentech, i když většina je v “západních zemích”."
@@ -556,7 +556,7 @@ msgid "<primary>world-wide distribution</primary>"
 msgstr "<primary>rozmístění po celém světě</primary>"
 
 msgid "Package maintenance is a relatively regimented activity, very documented or even regulated. It must, in effect, comply with all the standards established by the <emphasis>Debian Policy</emphasis>. Fortunately, there are many tools that facilitate the maintainer's work. The developer can, thus, focus on the specifics of their package and on more complex tasks, such as squashing bugs. <ulink type=\"block\" url=\"http://www.debian.org/doc/debian-policy/\" />"
-msgstr "Údržba balíčků je relativně přísně řízená činnost, hodně dokladovaná nebo dokonce regulovaná. Ve skutečnosti musé být v souladu se všemi standardy stanovenými <emphasis>Zásadami Debianu</emphasis>. Naštěstí existuje mnoho nástrojů, které usnadňují správcovskou činnost. Vývojář se tedy může zaměřit na specifika svého balíčku a na složitější úkoly, jako je například likvidace chyb. < ulink typ = \"block\" url = \"http://www.debian.org/doc/debian-policy/\"/>"
+msgstr "Údržba balíčků je relativně přísně řízená činnost, hodně dokladovaná nebo dokonce regulovaná. Ve skutečnosti musé být v souladu se všemi standardy stanovenými <emphasis>Zásadami Debianu</emphasis>. Naštěstí existuje mnoho nástrojů, které usnadňují správcovskou činnost. Vývojář se tedy může zaměřit na specifika svého balíčku a na složitější úkoly, jako je například likvidace chyb. <ulink type=\"block\" url=\"http://www.debian.org/doc/debian-policy/\"/>"
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Package maintenance, the developer's work"
 msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis>Údržba balíčků, práce vývojáře"
@@ -568,7 +568,7 @@ msgid "<primary>package</primary><secondary>maintenance</secondary>"
 msgstr "<primary>balíček</primary> <secondary>údržba</secondary>"
 
 msgid "Maintaining a package entails, first, “packaging” a program. Specifically, this means to define the means of installation so that, once installed, this program will operate and comply with the rules which the Debian project sets for itself. The result of this operation is saved in a <filename>.deb</filename> file. Effective installation of the program will then require nothing more than extraction of this compressed archive and execution of some pre-installation or post-installation scripts contained therein."
-msgstr "Údržba balíčku znamená nejprve “balení” programu. Konkrétně to znamená definovat prostředky instalace tak, aby po instalaci tento program fungoval a dodržoval pravidla, která projekt Debian pro sebe stanovil. Výsledek této operace je uložen v souboru </filename>.deb<filename>. Účinná instalace programu pak nebude vyžadovat nic víc než extrakci tohoto komprimovaného archivu a spuštění některých předinstalačních nebo poinstalačních zde obsažených skriptů."
+msgstr "Údržba balíčku znamená nejprve “balení” programu. Konkrétně to znamená definovat prostředky instalace tak, aby po instalaci tento program fungoval a dodržoval pravidla, která projekt Debian pro sebe stanovil. Výsledek této operace je uložen v souboru <filename>.deb</filename>. Účinná instalace programu pak nebude vyžadovat nic víc než extrakci tohoto komprimovaného archivu a spuštění některých předinstalačních nebo poinstalačních zde obsažených skriptů."
 
 msgid "After this initial phase, the maintenance cycle truly begins: preparing updates to follow the latest version of the Debian Policy, fixing bugs reported by users, and including new “upstream” versions of the program which naturally continues to develop simultaneously. For instance, at the time of the initial packaging, the program was at version 1.2.3. After some months of development, the original authors release a new stable version, numbered 1.4.0. At this point, the Debian maintainer should update the package, so that users can benefit from its latest stable version."
 msgstr "Po této počáteční fázi, cyklus údržby opravdu začíná: Příprava aktualizací podle nejnovějších Zásad Debianu, opravy chyb hlášených uživateli a zahrnutí nových “upstreamových” verzí programu, které se přirozeně i nadále současně vyvíjejí. Například v době počátečního balení byl program ve verzi 1.2.3. Po několika měsících vývoje, původní autoři vydávají novou stabilní verzi, očíslovanou 1.4.0. V tuto chvíli by měl správce Debianu balíček aktualizovat, aby uživatelé mohli využívat nejnovější stabilní verzi."
@@ -580,13 +580,13 @@ msgid "<primary>policy</primary>"
 msgstr "<primary>zásady</primary>"
 
 msgid "The Policy, an essential element of the Debian Project, establishes the norms ensuring both the quality of the packages and perfect interoperability of the distribution. Thanks to this Policy, Debian remains consistent despite its gigantic size. This Policy is not fixed in stone, but continuously evolves thanks to proposals formulated on the <email>debian-policy@lists.debian.org</email> mailing list. Amendments that are agreed upon by all interested parties are accepted and applied to the text by a small group of maintainers who have no editorial responsibility (they only include the modifications agreed upon by the Debian developers that are members of the above-mentioned list). You can read current amendment proposals on the bug tracking system: <ulink type=\"block\" url=\"http://bugs.debian.org/debian-policy\" />"
-msgstr "Zásady, které jsou základním prvkem projektu Debian, stanovují normy zajišťující jak kvalitu balíčků, tak dokonalou součinnost distribuce. Díky těmto zásadám zůstává Debian konzistentní i přes svou značnou velikost. Tato politika není napevno stanovena, ale neustále se vyvíjí prostřednictvím návrhů formulovaných na seznamu elektronické pošty <email>debian-policy@lists.debian.org</email>. Pozměňovací návrhy schválené všemi zúčastněnými stranami jsou přijímány a sepsány malou skupinou správců, kteří nemají redakční odpovědnost (pouze zahrnují změny odsouhlasené vývojáři Debianu, kteří jsou členy uvedeného seznamu). Aktuální pozměňovací návrhy k systému sledování chyb si můžete přečíst na: < ulink type = \"block\" url = \"http://bugs.debian.org/debian-policy\"/>"
+msgstr "Zásady, které jsou základním prvkem projektu Debian, stanovují normy zajišťující jak kvalitu balíčků, tak dokonalou součinnost distribuce. Díky těmto zásadám zůstává Debian konzistentní i přes svou značnou velikost. Tato politika není napevno stanovena, ale neustále se vyvíjí prostřednictvím návrhů formulovaných na seznamu elektronické pošty <email>debian-policy@lists.debian.org</email>. Pozměňovací návrhy schválené všemi zúčastněnými stranami jsou přijímány a sepsány malou skupinou správců, kteří nemají redakční odpovědnost (pouze zahrnují změny odsouhlasené vývojáři Debianu, kteří jsou členy uvedeného seznamu). Aktuální pozměňovací návrhy k systému sledování chyb si můžete přečíst na: <ulink type=\"block\" url=\"http://bugs.debian.org/debian-policy\"/>"
 
 msgid "<emphasis>COMMUNITY</emphasis> Policy editorial process"
 msgstr "<emphasis>KOMUNITA</emphasis> Proces vydávání Zásad"
 
 msgid "Anyone can propose an amendment to the Debian Policy just by submitting a bug report with a severity level of “wishlist” against the <emphasis role=\"pkg\">debian-policy</emphasis> package. The process that then starts is documented in <filename>/usr/share/doc/debian-policy/Process.html</filename>: if it is acknowledged that the problem revealed must be resolved by creating a new rule in the Debian Policy, a discussion begins on the <email>debian-policy@lists.debian.org</email> mailing list until consensus is reached and a proposal issued. Someone then drafts a desired amendment and submits it for approval (in the form of a patch to review). As soon as two other developers approve the fact that the proposed amendment reflects the consensus reached in the previous discussion (they “second” it), the proposal can be included in the official document by one of the <emphasis role=\"pkg\">debian-policy</emphasis> package maintainers. If the process fails at one of these steps, the maintainers close the bug, classifying the proposal as rejected."
-msgstr "Kdokoli může navrhnout změnu v Zásadách Debianu pouhým odesláním chybového hlášení s úrovní závažnosti “přání” proti <emphasis role = \"pkg\" >debian-policy</emphasis> balíčku. Proces, který se spustí, je dokumentován v <filename>/usr/share/doc/debian-policy/Process.html </filename>: Pokud je uznáno, že zjištěný problém musí být vyřešen vytvořením nového pravidla v Zásadách Debianu, začíná diskuze na seznamu elektronické pošty <email>debian-policy@lists.debian.org</email>, dokud není dosaženo shody a návrh je vydán. Někdo potom návrhne požadovanou změnu a předloží ke schválení (v podobě patche k přezkoumání). Jakmile dva další vývojáři schválí skutečnost, že navrhovaná změna odráží shodu dosaženou v předchozí diskusi (proces “secondování”), návrh může být zařazen do úředního dokumentu jedním ze správců balíčku < zdůraznit role = \"pkg\" >debian-policy</emphasis>. Pokud proces selže v jednom z těchto kroků, správci uzavřou chybu a klasifikují návrh jako zamítnutý."
+msgstr "Kdokoli může navrhnout změnu v Zásadách Debianu pouhým odesláním chybového hlášení s úrovní závažnosti “přání” proti <emphasis role = \"pkg\" >debian-policy</emphasis> balíčku. Proces, který se spustí, je dokumentován v <filename>/usr/share/doc/debian-policy/Process.html </filename>: Pokud je uznáno, že zjištěný problém musí být vyřešen vytvořením nového pravidla v Zásadách Debianu, začíná diskuze na seznamu elektronické pošty <email>debian-policy@lists.debian.org</email>, dokud není dosaženo shody a návrh je vydán. Někdo potom návrhne požadovanou změnu a předloží ke schválení (v podobě patche k přezkoumání). Jakmile dva další vývojáři schválí skutečnost, že navrhovaná změna odráží shodu dosaženou v předchozí diskusi (proces “secondování”), návrh může být zařazen do úředního dokumentu jedním ze správců balíčku <emphasis role = \"pkg\" >debian-policy</emphasis>. Pokud proces selže v jednom z těchto kroků, správci uzavřou chybu a klasifikují návrh jako zamítnutý."
 
 msgid "<emphasis>DEBIAN POLICY</emphasis> The documentation"
 msgstr "<emphasis>ZÁSADY DEBIANU</emphasis> dokumentace"
@@ -607,7 +607,7 @@ msgid "<primary><filename>NEWS.Debian.gz</filename></primary>"
 msgstr "<primary> <filename>NEWS.Debian.gz</filename> </primary>"
 
 msgid "Documentation for each package is stored in <filename>/usr/share/doc/<replaceable>package</replaceable>/</filename>. This directory often contains a <filename>README.Debian</filename> file describing the Debian specific adjustments made by the package maintainer. It is, thus, wise to read this file prior to any configuration, in order to benefit from their experience. We also find a <filename>changelog.Debian.gz</filename> file describing the changes made from one version to the next by the Debian maintainer. This is not to be confused with the <filename>changelog.gz</filename> file (or equivalent), which describes the changes made by the upstream developers. The <filename>copyright</filename> file includes information about the authors and the license covering the software. Finally, we may also find a file named <filename>NEWS.Debian.gz</filename>, which allows the Debian developer to communicate important information regarding updates; if <emphasis>apt-listchanges</emphasis> is installed, then these messages are automatically displayed. All other files are specific to the software in question. We especially would like to point out the <filename>examples</filename> sub-directory, which frequently contains examples of configuration files."
-msgstr "Dokumentace pro každý balíček je uložena v <filename>/usr/share/doc/<replaceable>balíček</replaceable>/</filename>. Tento adresář často obsahuje soubor <filename>README.Debian</filename>, popisující specifické úpravy Debianu, které provádí správce balíčku. Je tedy moudré přečíst si tento soubor před jakýmkoliv nastavováním, a těžit z těchto zkušeností. Nalezneme také soubor <filename>changelog.Debian.gz</filename> popisující změny provedené správcem Debianu při přechodu z jedné verze na následující. To by se nemělo zaměňovat se souborem <filename>changelog.gz</filename> (nebo jeho obdobami), který popisuje změny provedené upstreamovými vývojáři. Soubor <Filename>copyright</filename> obsahuje informace o autorech a o licenci vztahující se na software. A na závěr také můžeme najít soubor s názvem <filename>NEWS.Debian.gz</filename>, který vývojářům Debianu umožňuje sdělovat důležité informace týkající se aktualizací; Pokud je nainstalován <emphasis>apt-listchanges</emphasis>, zobrazí se tyto zprávy automaticky. Všechny ostatní soubory jsou specifické pro daný software. Především bychom chtěli poukázat na podadresář <filename>examples</filename>, který často obsahuje příklady konfiguračních souborů."
+msgstr "Dokumentace pro každý balíček je uložena v <filename>/usr/share/doc/<replaceable>balíček</replaceable>/</filename>. Tento adresář často obsahuje soubor <filename>README.Debian</filename>, popisující specifické úpravy Debianu, které provádí správce balíčku. Je tedy moudré přečíst si tento soubor před jakýmkoliv nastavováním, a těžit z těchto zkušeností. Nalezneme také soubor <filename>changelog.Debian.gz</filename> popisující změny provedené správcem Debianu při přechodu z jedné verze na následující. To by se nemělo zaměňovat se souborem <filename>changelog.gz</filename> (nebo jeho obdobami), který popisuje změny provedené upstreamovými vývojáři. Soubor <filename>copyright</filename> obsahuje informace o autorech a o licenci vztahující se na software. A na závěr také můžeme najít soubor s názvem <filename>NEWS.Debian.gz</filename>, který vývojářům Debianu umožňuje sdělovat důležité informace týkající se aktualizací; Pokud je nainstalován <emphasis>apt-listchanges</emphasis>, zobrazí se tyto zprávy automaticky. Všechny ostatní soubory jsou specifické pro daný software. Především bychom chtěli poukázat na podadresář <filename>examples</filename>, který často obsahuje příklady konfiguračních souborů."
 
 msgid "The Policy provides considerable cover of the technical aspects of packaging. The size of the project also raises organizational problems; these are dealt with by the Debian Constitution, which establishes a structure and means for decision making. In other words, a formal governance system."
 msgstr "Zásady do značné míry pokrývají technické aspekty balíčků. Velikost projektu také vyvolává organizační problémy; ty jsou řešeny Stanovami Debianu, které vytváří strukturu a prostředky pro rozhodování. Jinými slovy, formální systém řízení."
@@ -682,7 +682,7 @@ msgid "Finally, the constitution defines the position of “project secretary”
 msgstr "A konečně stanovy definují pozici “tajemníka projektu”, který má na starosti organizaci hlasování v souvislosti s různými volbami a obecnými usneseními."
 
 msgid "The “general resolution” procedure is fully detailed in the constitution, from the initial discussion period to the final counting of votes. For further details see: <ulink type=\"block\" url=\"http://www.debian.org/devel/constitution.en.html\" />"
-msgstr "Postup “všeobecného usnesení” je podrobně popsán ve stanovách, od počátečního období diskuse až po konečné sčítání hlasů. Další podrobnosti viz: < ulink type = \"block\" url = \"http://www.debian.org/devel/constitution.en.html\"/>"
+msgstr "Postup “všeobecného usnesení” je podrobně popsán ve stanovách, od počátečního období diskuse až po konečné sčítání hlasů. Další podrobnosti viz: <ulink type=\"block\" url=\"http://www.debian.org/devel/constitution.en.html\"/>"
 
 msgid "<primary>general resolution</primary>"
 msgstr "<primary>obecné usnesení</primary>"
@@ -889,88 +889,88 @@ msgid "Existing Debian Sub-Projects"
 msgstr "Současné podprojekty Debianu"
 
 msgid "To each their own Debian! A sub-project is a group of volunteers interested in adapting Debian to specific needs. Beyond the selection of a sub-group of programs intended for a particular domain (education, medicine, multimedia creation, etc.), sub-projects are also involved in improving existing packages, packaging missing software, adapting the installer, creating specific documentation, and more."
-msgstr "Každému jeho vlastní Debian! Podprojekt je skupina dobrovolníků zajímajících se o přizpůsobení Debianu zvláštním požadavkům. Za výběrem podskupiny programů stojí jejich směřování k určité oblasti (vzdělávání, lékařství, multimediální tvorba, apod.), podprojekty jsou také mimo jiné zahrnuty ve zdokonalování existujících balíčků, balení chybějícího softwaru, adaptace instalátorů, tvoření zvláštní dokumentace."
+msgstr ""
 
 msgid "<emphasis>VOCABULARY</emphasis> Sub-project and derivative distribution"
-msgstr "<emphasis>SLOVNÍK</emphasis> Podprojekt a odvozená distribuce"
+msgstr ""
 
 msgid "<primary>derivative distribution</primary>"
-msgstr "<primary>odvozená distribuce</primary>"
+msgstr ""
 
 msgid "The development process for a derivative distribution consists in starting with a particular version of Debian and making a number of modifications to it. The infrastructure used for this work is completely external to the Debian project. There isn't necessarily a policy for contributing improvements. This difference explains how a derivative distribution may “diverge” from its origins, and why they have to regularly resynchronize with their source in order to benefit from improvements made upstream."
-msgstr "Vývojový proces odvozené distribuce spočívá v začátcích s určitou verzí Debianu a k ní vytváření určitého počtu modifikací. Infrastruktura používaná pro tuto práci je zcela vně debianovského projektu. Zde nejsou nutné žádné zásady pro vylepšení plynoucí ze spolupráce. Tento rozdíl vysvětluje jak moc se může odvozená distribuce “odchylovat” od svého originálu a proč musejí pravidelně resynchronizovat svůj zdrojový kód, aby mohli těžit z upstreamových vylepšení."
+msgstr ""
 
 msgid "On the other hand, a sub-project can not diverge, since all the work on it consists of directly improving Debian in order to adapt it to a specific goal."
-msgstr "Na druhou stranu, podprojekt se nemůže odchylovat, protože veškerá na něm vykonaná práce spočívá v přímém zdokonalování Debianu za účelem jeho adaptace ke zvláštnímu úkolu."
+msgstr ""
 
 msgid "The most known distribution derived from Debian is, without a doubt, Ubuntu, but there are many. See <xref linkend=\"derivative-distributions\" /> to learn about their particularities and their positioning in relationship to Debian."
-msgstr "Nejznáměšjší distribucí odvozenou z Debianu je bezpochyby Ubuntu, ale je jich hodně. Pokud se chcete o nich dozvědět více podrobností a jejich pozici ve vztahu vůči Debianu, navštivte <xref linkend=\"derivative-distributions\" />."
+msgstr ""
 
 msgid "Here is a small selection of current sub-projects:"
-msgstr "Zde je malý výběr současných podprojektů:"
+msgstr ""
 
 msgid "Debian-Junior, by Ben Armstrong, offering an appealing and easy to use Debian system for children;"
-msgstr "Debian-Junior, od Bena Armstronga, nabízející přitažlivé a snadné použití debianovského systému pro děti."
+msgstr ""
 
 msgid "Debian-Edu, by Petter Reinholdtsen, focused on the creation of a specialized distribution for the academic world;"
-msgstr "Debian-Edu, od Pettera Reinholdtsena, zaměřený na vytvoření speciální distribuce do akademického prostředí;"
+msgstr ""
 
 msgid "Debian Med, by Andreas Tille, dedicated to the medical field;"
-msgstr "Debian Med, od Andrease Tilleho, věnuje se lékařství;"
+msgstr ""
 
 msgid "Debian Multimedia which deals with audio and multimedia work;"
-msgstr "Debian Multimedia se zaobírá audiem a multimediální tvorbou;"
+msgstr ""
 
 msgid "Debian-Desktop which focuses on the desktop and coordinates artwork for the default theme;"
-msgstr "Debian-Desktop který se zaměřuje na plochu a koordinuje uměleckou tvorbu pro výchozí téma;"
+msgstr ""
 
 msgid "Debian GIS which takes care of Geographical Information Systems applications and users;"
-msgstr "Debian GIS, který se stará o aplikace Geografického informačního systému;"
+msgstr ""
 
 msgid "Debian Accessibility, finally, improving Debian to match the requirements of people with disabilities."
-msgstr "Debian Accessibility, na závěr, zdokonaluje Debian, aby uspokojil požadavky lidí s omezením."
+msgstr ""
 
 msgid "This list will most likely continue to grow with time and improved perception of the advantages of Debian sub-projects. Fully supported by the existing Debian infrastructure, they can, in effect, focus on work with real added value, without worrying about remaining synchronized with Debian, since they are developed within the project."
-msgstr "Tento seznam se bude pravděpodobně postupem času a větším vnímáním výhod podprojektů Debianu stále rozrůstat. Za plné podpory současné infrastruktury Debianu, se mohou, v podstatě, plně věnovat práci s čistou přidanou hodnotou, bez starostí o ostaní slaďování s Debianem, protože jsou vyvíjené v rámci projektu."
+msgstr ""
 
 msgid "Administrative Teams"
-msgstr "Administrativní týmy"
+msgstr ""
 
 msgid "Most administrative teams are relatively closed and recruit only by cooptation. The best means to become a part of one is to intelligently assist the current members, demonstrating that you have understood their objectives and methods of operation."
-msgstr "Většina administrativních týmů je relativně uzavřená a nabírá nové členy interním zvolením. Nejlepším způsobem jak se stát jejich součástí je intelegentně asistovat současným členům a dávat najevo, že rozumíte jejich cílům a metodám práce."
+msgstr ""
 
 msgid "The ftpmasters are in charge of the official archive of Debian packages. They maintain the program that receives packages sent by developers and automatically stores them, after some checks, on the reference server (<literal>ftp-master.debian.org</literal>)."
-msgstr "Ftpmasteři mají na starosti oficiální archív debianovských balíčků. Obhospodařují program, který se přejímá balíčky poslané vývojáři a automaticky je po následné kontrole ukládá na referenční server (<literal>ftp-master.debian.org</literal>)."
+msgstr ""
 
 msgid "They must also verify the licenses of all new packages, in order to ensure that Debian may distribute them, prior to including them in the corpus of existing packages. When a developer wishes to remove a package, they address this team through the bug tracking system and the <emphasis>ftp.debian.org</emphasis> “pseudo-package”."
-msgstr "Musí také ověřovat licence všech nových balíčků, za účelem ujištění se, je může Debian rozšiřovat, před jejich zahrnutím do tělesa ostatních, už existujících balíčků. Pokud si vývojář přeje balíček vyjmout, oslovuje tento tým skrze systém sledování chyb a <emphasis>ftp.debian.org</emphasis> “pseudo-package”."
+msgstr ""
 
 msgid "<primary>ftpmaster</primary>"
-msgstr "<primary>ftpmaster</primary>"
+msgstr ""
 
 msgid "<emphasis>VOCABULARY</emphasis> The pseudo-package, a monitoring tool"
-msgstr "<emphasis>SLOVNÍČEK</emphasis> Pseudo-package, monitorovací nástroj"
+msgstr ""
 
 msgid "<primary>pseudo-package</primary>"
-msgstr "<primary>pseudo-package</primary>"
+msgstr ""
 
 msgid "The bug tracking system, initially designed to associate bug reports with a Debian package, has proved very practical to manage other matters: lists of problems to be resolved or tasks to manage without any link to a particular Debian package. The “pseudo-packages” allow, thus, certain teams to use the bug tracking system without associating a real package with their team. Everyone can, thus, report issues that needs to be dealt with. For instance, the BTS has a <emphasis>ftp.debian.org</emphasis> entry that is used to report and track problems on the official package archive or simply to request removal of a package. Likewise, the <emphasis>www.debian.org</emphasis> pseudo-package refers to errors on the Debian website, and <emphasis>lists.debian.org</emphasis> gathers all the problems concerning the mailing lists."
-msgstr "Systém sledování chyb, původně vyvinutý pro spojení chyby s balíčkem Debianu, se v praxi osvědčil v zabezpečení dalších záležitostí: seznamů problémů k řešení nebo provádění úkolů bez provázanosti s konkrétním balíčkem Debianu.“Pseudo-packages” tedy dovolují jistým týmům používat systém sledování chyb bez spojení opravdového balíčku s jejich týmem. Každý tedy může hlásit záležitosti, které je zapotřebí řešit. Například BTS má <emphasis>ftp.debian.org</emphasis> vstup, který se používá k nahlašování a sledování problémů v oficiálním archivu balíčků nebo jednoduše k žádostem o odstranění balíčku. Obdobně,<emphasis>www.debian.org</emphasis> pseudo-package odkazuje na chyby na internetových stránkách Debianu a <emphasis>lists.debian.org</emphasis> shromažďuje všechny problémy týkající se mailing listů."
+msgstr ""
 
 msgid "<emphasis>TOOL</emphasis> FusionForge, the Swiss Army Knife of collaborative development"
-msgstr "<emphasis>NÁSTROJ</emphasis> FusionForge, švýcarský nůž společného vývoje"
+msgstr ""
 
 msgid "<primary><literal>alioth</literal></primary>"
-msgstr "<primary><literal>alioth</literal></primary>"
+msgstr ""
 
 msgid "<primary>FusionForge</primary>"
-msgstr "<primary>FusionForge</primary>"
+msgstr ""
 
 msgid "FusionForge is a program that enables creation of sites similar to <literal>www.sourceforge.net</literal>, <literal>alioth.debian.org</literal>, or even <literal>savannah.gnu.org</literal>. It hosts projects and provides a range of services that facilitate collaborative development. Each project will have a dedicated virtual space there, including a web site, several “ticketing” systems to track — most commonly — bugs and patches, a survey tool, file storage, forums, version control system repositories, mailing lists and various other related services."
-msgstr "FusionForge je program, který umožňuje vytvoření stránek podobných <literal>www.sourceforge.net</literal>, <literal>alioth.debian.org</literal> nebo třeba <literal>savannah.gnu.org</literal>. Hostí projekty a poskytuje řadu služeb, které usnadňují společný vývoj. Každý projekt zde má přidělen svůj virtuální prostor, včetně internetových stránek, různých “ticketových” systémů ke sledování - většinou zároveň chyb a oprav, průzkumových nástrojů, souborových úložišť, fór, repozitářů se systémem kontroly verzí, mailing listů a různých jiných souvisejících služeb."
+msgstr ""
 
 msgid "<literal>alioth.debian.org</literal> is Debian's FusionForge server, administered by Tollef Fog Heen, Stephen Gran, and Roland Mas. Any project involving one or more Debian developers can be hosted there. <ulink type=\"block\" url=\"http://alioth.debian.org/\" />"
-msgstr "<literal>alioth.debian.org</literal> je FusionForge server Debianu, spravován Tollefem Fog Heenem, Stephenem Granem, a Rolandem Masem. Jakýkoliv projekt zahrnující jednoho nebo více vývojářů Debianu zde může být umístěn <ulink type=\"block\" url=\"http://alioth.debian.org/\" />"
+msgstr ""
 
 msgid "Although rather complex internally, due to the broad range of services that it provides, FusionForge is otherwise relatively easy to install, thanks to the exceptional work of Roland Mas and Christian Bayle on the <emphasis role=\"pkg\">fusionforge</emphasis> Debian package."
 msgstr ""
