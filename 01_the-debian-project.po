@@ -973,46 +973,46 @@ msgid "<literal>alioth.debian.org</literal> is Debian's FusionForge server, admi
 msgstr "<literal>alioth.debian.org</literal> je FusionForge server Debianu, spravován Tollefem Fog Heenem, Stephenem Granem, a Rolandem Masem. Jakýkoliv projekt zahrnující jednoho nebo více vývojářů Debianu zde může být umístěn <ulink type=\"block\" url=\"http://alioth.debian.org/\" />"
 
 msgid "Although rather complex internally, due to the broad range of services that it provides, FusionForge is otherwise relatively easy to install, thanks to the exceptional work of Roland Mas and Christian Bayle on the <emphasis role=\"pkg\">fusionforge</emphasis> Debian package."
-msgstr ""
+msgstr "I když je uvnitř spíše komplexní díky širokému spektru služeb, které poskytuje, se jinak FusionForge relativně snadno instaluje, díky vyjímečné práci Rolanda Mase a Christiana Bayleho na <emphasis role=\"pkg\">fusionforge</emphasis> balíčku Debianu."
 
 msgid "The <emphasis>Debian System Administrators</emphasis> (DSA) team (<email>debian-admin@lists.debian.org</email>), as one might expect, is responsible for system administration of the many servers used by the project. They ensure optimal functioning of all base services (DNS, Web, e-mail, shell, etc.), install software requested by Debian developers, and take all precautions in regards to security. <ulink type=\"block\" url=\"https://dsa.debian.org\" />"
-msgstr ""
+msgstr "Tým <emphasis>Debian System Administrators</emphasis> (DSA) (<email>debian-admin@lists.debian.org</email>), jak už název napovídá, je zodpovědný za systémovou administraci řádky servrů používaných projektem. Zabezpečují optimální funkčnost všech základních služeb (DNS, Web, e-mail, shell, apod.), instalačního softwaru požadovaného vývojáři Debianu a provádějí veškerá preventivní bezpečnostní opatření."
 
 msgid "<primary><emphasis>debian-admin</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis>debian-admin</emphasis></primary>"
 
 msgid "<primary>DSA (Debian System Administrators)</primary>"
-msgstr ""
+msgstr "<primary>DSA (Systémový administrátor Debianu)</primary>"
 
 msgid "<emphasis>TOOL</emphasis> Debian Package Tracker"
-msgstr ""
+msgstr "<emphasis>NÁSTROJ</emphasis> Sledovač balíčků Debianu"
 
 msgid "<primary>package tracking system</primary>"
-msgstr ""
+msgstr "<primary>systém pro sledování balíčků</primary>"
 
 msgid "<primary>system</primary><secondary>package tracking system</secondary>"
-msgstr ""
+msgstr "<primary>systém</primary><secondary>systém pro sledování balíčků</secondary>"
 
 msgid "<primary>Debian Package Tracker</primary>"
-msgstr ""
+msgstr "<primary>Sledovač balíčků Debianu</primary>"
 
 msgid "<primary>tracker</primary><secondary>Debian Package Tracker</secondary>"
-msgstr ""
+msgstr "<primary>sledovač</primary><secondary>Sledovač balíčků Debianu</secondary>"
 
 msgid "<primary>package</primary><secondary>Debian Package Tracker</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary><secondary>Sledovač balíčků Debianu</secondary>"
 
 msgid "<primary>PTS</primary>"
-msgstr ""
+msgstr "<primary>PTS</primary>"
 
 msgid "<primary>DDPO</primary>"
-msgstr ""
+msgstr "<primary>DDPO</primary>"
 
 msgid "<primary>Debian Developer's Packages Overview</primary>"
-msgstr ""
+msgstr "<primary>Přehled balíčků pro vývojáře Debianu</primary>"
 
 msgid "This is one of Raphaël's creations. The basic idea is, for a given package, to centralize as much information as possible on a single page. Thus, one can quickly check the status of a program, identify tasks to be completed, and offer one's assistance. This is why this page gathers all bug statistics, available versions in each distribution, progress of a package in the <emphasis role=\"distribution\">Testing</emphasis> distribution, the status of translations of descriptions and debconf templates, the possible availability of a new upstream version, notices of noncompliance with the latest version of the Debian Policy, information on the maintainer, and any other information that said maintainer wishes to include. <ulink type=\"block\" url=\"https://tracker.debian.org/\" />"
-msgstr ""
+msgstr "Toto je jeden z Raphaëlových výtvorů. Základní myšlenkou je pro daný balíček nashromáždit co možná nejvíce inforamací na jedné stránce. Takže se dá rychle překontrolovat status programu, zjistit úloly, co se mají provést a nabídnout podporu. Proto tato stránka shromažďuje veškeré statistiky chyb, v každé distribuci verze, které jsou k dispozici, pokroky balíčku v <emphasis role=\"distribution\">testovací</emphasis> distribuci, status překladů popisů a šablon debconf, případnou dostupnost nových upstreamových verzí, poznámky o neshodách s nejnovější verzí Zásad Debianu, informaci o správci a další informace, které si správce přál uvést. <ulink type=\"block\" url=\"https://tracker.debian.org/\" />"
 
 msgid "An e-mail subscription service completes this web interface. It automatically sends the following selected information to the list: bugs and related discussions, availability of a new version on the Debian servers, new translations available for proofreading, etc."
 msgstr ""
