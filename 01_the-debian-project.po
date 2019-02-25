@@ -1114,16 +1114,16 @@ msgid "The (very small) <command>debian-cd</command> program team has an even mo
 msgstr "Velmi malý programátorský tým pro <command>debian-cd</command> má neméně skromný úkol. Velké množství spolupracovníků je zodpovědných za svoji architekturu, protože hlavní vývojář nemůže znát drobné nuance ani znát přesný způsob spuštění instalátoru z CD-ROM."
 
 msgid "Many teams must collaborate with others in the activity of packaging: <email>debian-qa@lists.debian.org</email> tries, for example, to ensure quality at all levels of the Debian project. The <email>debian-policy@lists.debian.org</email> list develops Debian Policy according to proposals from all over the place. The teams in charge of each architecture (<email>debian-<replaceable>architecture</replaceable>@lists.debian.org</email>) compile all packages, adapting them to their particular architecture, if needed."
-msgstr ""
+msgstr "Mnoho týmů spolu musí splupracovat na aktivitě balíčkování: <email>debian-qa@lists.debian.org</email> se kupříkladu pokouší zajistit kvalitu projektu Debian na všech úrovních. Seznam <email>debian-policy@lists.debian.org</email> rozvíjí Zásady Debianu podle návrhů ze všech míst. Týmy, které mají na starosti některou z architektur (<email>debian-<replaceable>architecture</replaceable>@lists.debian.org</email>) sestavují všechny balíčky, adoptují je tak na své jednotlivé architektury, pokud je třeba."
 
 msgid "Other teams manage the most important packages in order to ensure maintenance without placing too heavy a load on a single pair of shoulders; this is the case with the C library and <email>debian-glibc@lists.debian.org</email>, the C compiler on the <email>debian-gcc@lists.debian.org</email> list, or Xorg on the <email>debian-x@lists.debian.org</email> (this group is also known as the X Strike Force)."
-msgstr ""
+msgstr "Další týmy řídí nejdůležitější balíčky za účelem zajištění údržby aniž by naložili příliš velký náklad pouze na jedna ramena; toto je příklad knihovny jazyka C a <email>debian-glibc@lists.debian.org</email>, kompilátoru C na seznamu <email>debian-gcc@lists.debian.org</email> nebo Xorg na <email>debian-x@lists.debian.org</email> (tato skupina je také známá jako X Strike Force)."
 
 msgid "Follow Debian News"
-msgstr ""
+msgstr "Sledujte debianovské zprávy"
 
 msgid "As already mentioned, the Debian project evolves in a very distributed, very organic way. As a consequence, it may be difficult at times to stay in touch with what happens within the project without being overwhelmed with a never-ending flood of notifications."
-msgstr ""
+msgstr "Jak už bylo zmíněno, projekt Debianu se rozvíjí hodně rozptýleným, velmi organickým způsobem. To má za následek, že někdy může být obtížné být stále v kontaktu s tím, co se děje v rámci projektu, bez toho, aniž by byl člověk zaplaven nikdy nekončícím přívalem oznámení."
 
 msgid "If you only want the most important news about Debian, you probably should subscribe to the <email>debian-announce@lists.debian.org</email> list. This is a very low-traffic list (around a dozen messages a year), and only gives the most important announcements, such as the availability of a new stable release, the election of a new Project Leader, or the yearly Debian Conference. <ulink type=\"block\" url=\"https://lists.debian.org/debian-announce/\" />"
 msgstr ""
