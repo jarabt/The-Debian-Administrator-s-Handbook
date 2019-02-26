@@ -1126,19 +1126,19 @@ msgid "As already mentioned, the Debian project evolves in a very distributed, v
 msgstr "Jak už bylo zmíněno, projekt Debianu se rozvíjí hodně rozptýleným, velmi organickým způsobem. To má za následek, že někdy může být obtížné být stále v kontaktu s tím, co se děje v rámci projektu, bez toho, aniž by byl člověk zaplaven nikdy nekončícím přívalem oznámení."
 
 msgid "If you only want the most important news about Debian, you probably should subscribe to the <email>debian-announce@lists.debian.org</email> list. This is a very low-traffic list (around a dozen messages a year), and only gives the most important announcements, such as the availability of a new stable release, the election of a new Project Leader, or the yearly Debian Conference. <ulink type=\"block\" url=\"https://lists.debian.org/debian-announce/\" />"
-msgstr ""
+msgstr "Pokud chcete o Debianu pouze ty nejdůležitější zprávy, měli by jste se pravděpodobně upsat na seznam <email>debian-announce@lists.debian.org</email>. To je seznam s velmi malým provozem (pár zpráv ročně)a poskytuje pouze nejdůležitější oznámení, jako zpřístupnění nového stabilního vadání, volba nového projektového šéfa nebo výroční konference Debianu. <ulink type=\"block\" url=\"https://lists.debian.org/debian-announce/\" />"
 
 msgid "<primary>Debian Project News</primary>"
-msgstr ""
+msgstr "<primary>Zprávy projektu Debian</primary>"
 
 msgid "More general (and regular) news about Debian are sent to the <email>debian-news@lists.debian.org</email> list. The traffic on this list is quite reasonable too (usually around a handful of messages a month), and it includes the semi-regular “Debian Project News”, which is a compilation of various small bits of information about what happens in the project. Since all Debian developers can contribute these news when they think they have something noteworthy to make public, the DPN gives a valuable insight while staying rather focused on the project as a whole. <ulink type=\"block\" url=\"https://lists.debian.org/debian-news/\" />"
-msgstr ""
+msgstr "Hodně povšechné (a pravidelné) zprávy o Debianu jsou posílány na seznam <email>debian-news@lists.debian.org</email>. Provoz na tomto seznamu je také velmi rozumný (obvykle několik zpráv měsíčně) a zahrnuje téměř pravidelné “Zprávy projektu Debian”, které jsou souhrnem různých menších kousků informací o tom, co se na projektu děje. Protože všichni vývojáři Debianu se mohou podílet na těchto zprávách, pokud si myslí, že mají něco, co stojí za to zveřejnit, tyto zprávy (z anglického originálu DPN) dávají cenný náhled dovnitř, zatímco zůstávají zaměřeny na projekt jako celek. <ulink type=\"block\" url=\"https://lists.debian.org/debian-news/\" />"
 
 msgid "<emphasis>COMMUNITY</emphasis> The publicity and press teams"
-msgstr ""
+msgstr "<emphasis>KOMUNITA</emphasis> Týmy pro publicitu a tisk"
 
 msgid "Debian's official communication channels are managed by volunteers of the Debian publicity team and of the press team. Members of the latter are delegates of the Debian Project Leader and handle official press releases. The publicity team is much less formal and welcomes contributions from everybody, be it to write articles for “Debian Project News” or to animate the <emphasis>@debian</emphasis> Identi.ca microblogging account. <ulink type=\"block\" url=\"http://wiki.debian.org/Teams/Press\" /> <ulink type=\"block\" url=\"http://wiki.debian.org/Teams/Publicity\" />"
-msgstr ""
+msgstr "Oficiální komunikační kanály Debianu jsou řízené dobrovolníky z teamu pro publicitu Debianu a týmu pro tisk. Členové toho posledního jmenovaného jsou zástupci vedoucího projektu Debian a mají na starosti oficiální tisková prohlášení. Tým pro publicitu je mnohem méně formální a vítá spolupráci každého, kdo má v úmyslu psát články pro “Zprávy projektu Debian” nebo oživit <emphasis>@debian</emphasis> Identi.ca účet pro microblogging. <ulink type=\"block\" url=\"http://wiki.debian.org/Teams/Press\" /> <ulink type=\"block\" url=\"http://wiki.debian.org/Teams/Publicity\" />"
 
 msgid "For more information about the evolution of Debian and what is happening at some point in time in various teams, there's also the <email>debian-devel-announce@lists.debian.org</email> list. As its name implies, the announcements it carries will probably be more interesting to developers, but it also allows interested parties to keep an eye on what happens in more concrete terms than just when a stable version is released. While <email>debian-announce@lists.debian.org</email> gives news about the user-visible results, <email>debian-devel-announce@lists.debian.org</email> gives news about how these results are produced. As a side note, “d-d-a” (as it is sometimes referred to) is the only list that Debian developers must be subscribed to. <ulink type=\"block\" url=\"https://lists.debian.org/debian-devel-announce/\" />"
 msgstr ""
