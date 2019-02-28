@@ -1141,49 +1141,49 @@ msgid "Debian's official communication channels are managed by volunteers of the
 msgstr "Oficiální komunikační kanály Debianu jsou řízené dobrovolníky z teamu pro publicitu Debianu a týmu pro tisk. Členové toho posledního jmenovaného jsou zástupci vedoucího projektu Debian a mají na starosti oficiální tisková prohlášení. Tým pro publicitu je mnohem méně formální a vítá spolupráci každého, kdo má v úmyslu psát články pro “Zprávy projektu Debian” nebo oživit <emphasis>@debian</emphasis> Identi.ca účet pro microblogging. <ulink type=\"block\" url=\"http://wiki.debian.org/Teams/Press\" /> <ulink type=\"block\" url=\"http://wiki.debian.org/Teams/Publicity\" />"
 
 msgid "For more information about the evolution of Debian and what is happening at some point in time in various teams, there's also the <email>debian-devel-announce@lists.debian.org</email> list. As its name implies, the announcements it carries will probably be more interesting to developers, but it also allows interested parties to keep an eye on what happens in more concrete terms than just when a stable version is released. While <email>debian-announce@lists.debian.org</email> gives news about the user-visible results, <email>debian-devel-announce@lists.debian.org</email> gives news about how these results are produced. As a side note, “d-d-a” (as it is sometimes referred to) is the only list that Debian developers must be subscribed to. <ulink type=\"block\" url=\"https://lists.debian.org/debian-devel-announce/\" />"
-msgstr ""
+msgstr "Pro více informací o vývoji Debianu a o dění v určitém časovém okamžiku v různých týmech je tu také seznam <email>debian-devel-announce@lists.debian.org</email>. Jak už jeho jméno napovídá, oznámení, která přináší, budou pravděpodobně více zajímavá pro vývojáře, ale také umožňuje zainteresovaným stranám sledovat konkrétnější data o tom, co se děje, než pouze informace o vypuštění nové verze. Zatímco <email>debian-announce@lists.debian.org</email> poskytuje novinky o výsledcích, které jsou pro uživatele viditelné, <email>debian-devel-announce@lists.debian.org</email> dává informace o tom, jak bylo těchto výsledků dosaženo. Pouze poznámka na okraj, “d-d-a” (jak se mu někdy říká) je jediný seznam, který musí vývojáři odebírat. <ulink type=\"block\" url=\"https://lists.debian.org/debian-devel-announce/\" />"
 
 msgid "<primary>Planet Debian</primary>"
-msgstr ""
+msgstr "<primary>Planet Debian</primary>"
 
 msgid "A more informal source of information can also be found on Planet Debian, which aggregates articles posted by Debian contributors on their respective blogs. While the contents do not deal exclusively with Debian development, they provide a view into what is happening in the community and what its members are up to. <ulink type=\"block\" url=\"http://planet.debian.org/\" />"
-msgstr ""
+msgstr "Neformálnější zdroj informací můžete nalézt na Planet Debian, která shromažďuje články uveřejněné přispěvateli Debianu na jejich vlastních blocích. I když se obsah nezaobírá výhradně vývojem Debianu, poskytuje pohled na dění v komunitě a na to, na co se její členové právě chystají. <ulink type=\"block\" url=\"http://planet.debian.org/\" />"
 
 msgid "<primary>microblog</primary>"
-msgstr ""
+msgstr "<primary>microblog</primary>"
 
 msgid "<primary>Identi.ca</primary>"
-msgstr ""
+msgstr "<primary>Identi.ca</primary>"
 
 msgid "<primary>Twitter</primary>"
-msgstr ""
+msgstr "<primary>Twitter</primary>"
 
 msgid "<primary>Facebook</primary>"
-msgstr ""
+msgstr "<primary>Facebook</primary>"
 
 msgid "<primary>Google+</primary>"
-msgstr ""
+msgstr "<primary>Google+</primary>"
 
 msgid "<primary>social networks</primary>"
-msgstr ""
+msgstr "<primary>social networks</primary>"
 
 msgid "<primary>network</primary><secondary>social networks</secondary>"
-msgstr ""
+msgstr "<primary>network</primary><secondary>social networks</secondary>"
 
 msgid "The project is also well represented on social networks. While Debian only has an official presence on platforms built with free software (like the Identi.ca microblogging platform, powered by <emphasis>pump.io</emphasis>), there are many Debian contributors who are animating Twitter accounts, Facebook pages, Google+ pages, and more. <ulink type=\"block\" url=\"https://identi.ca/debian\" /> <ulink type=\"block\" url=\"https://twitter.com/debian\" /> <ulink type=\"block\" url=\"https://www.facebook.com/debian\" /> <ulink type=\"block\" url=\"https://plus.google.com/111711190057359692089\" />"
-msgstr ""
+msgstr "Projekt se také dobře prezentuje na sociálních sítích. Ikdyž má Debian oficiální prezentaci pouze na platformách postavených na volném softwaru, (jako je mikroblogová platforma Identi.ca, zabezpečená <emphasis>pump.io</emphasis>), je mnoho přispěvatelů Debianu, kteří oživují Twitterové účty, Facebookové strány, stránky Google+ a další.  <ulink type=\"block\" url=\"https://identi.ca/debian\" /> <ulink type=\"block\" url=\"https://twitter.com/debian\" /> <ulink type=\"block\" url=\"https://www.facebook.com/debian\" /> <ulink type=\"block\" url=\"https://plus.google.com/111711190057359692089\" />"
 
 msgid "The Role of Distributions"
-msgstr ""
+msgstr "Role distribucí"
 
 msgid "<primary>Linux distribution</primary><secondary>role</secondary>"
-msgstr ""
+msgstr "<primary>Linuxová distribuce</primary><secondary>role</secondary>"
 
 msgid "A GNU/Linux distribution has two main objectives: install a free operating system on a computer (either with or without an existing system or systems), and provide a range of software covering all of the users' needs."
-msgstr ""
+msgstr "GNU/Linuxová distribuce má dva hlavní úkoly: nainstalovat volný operační systém na počítač (ať už s již přítomným operačním systémem nebo bez něj), a poskytovat software, rozsahem pokrývající veškeré uživatelské potřeby."
 
 msgid "The Installer: <command>debian-installer</command>"
-msgstr ""
+msgstr "Instalátor: <command>debian-installer</command>"
 
 msgid "The <command>debian-installer</command>, designed to be extremely modular in order to be as generic as possible, targets the first objective. It covers a broad range of installation situations and in general, greatly facilitates the creation of a derivative installer corresponding to a particular case."
 msgstr ""
