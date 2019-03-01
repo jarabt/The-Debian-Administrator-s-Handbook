@@ -1186,49 +1186,49 @@ msgid "The Installer: <command>debian-installer</command>"
 msgstr "Instalátor: <command>debian-installer</command>"
 
 msgid "The <command>debian-installer</command>, designed to be extremely modular in order to be as generic as possible, targets the first objective. It covers a broad range of installation situations and in general, greatly facilitates the creation of a derivative installer corresponding to a particular case."
-msgstr ""
+msgstr "<command>debian-installer</command>, který je navržený extrémě modulově, aby byl co možno nejvíce obecný, má za cíl první úkol. Pokrývá široký rozsah instalačních situací a obecně, podstatně usnadňuje vytvoření odvozeného instalátoru vyhovujícímu konkrétnímu případu."
 
 msgid "This modularity, which also makes it very complex, may be daunting for the developers discovering this tool; but whether used in graphical or text mode, the user's experience is still similar. Great efforts have been made to reduce the number of questions asked at installation time, in particular thanks to the inclusion of automatic hardware detection software."
-msgstr ""
+msgstr "Tato modulovost, která jej také dělá velice komplexním, může být, při objevování tohoto nástroje, pro vývojáře znepokojující; ale pokud je použitý v textovém nebo grafickém módu, uživatelská zkušenost je stále stejná. Velký kus práce byl odveden co do snížení počtu otázek položevých během instalačního procesu, obzvláště díky zahrnutí softwaru pro automatické rozeznávání hardwaru."
 
 msgid "It is interesting to note that distributions derived from Debian differ greatly on this aspect, and provide a more limited installer (often confined to the i386 or amd64 architectures), but more user-friendly for the uninitiated. On the other hand, they usually refrain from straying too far from package contents in order to benefit as much as possible from the vast range of software offered without causing compatibility problems."
-msgstr ""
+msgstr "Je zajímavé sledovat, jak se ostatní, od Debianu odvozené distribuce, podstatně v tomto aspektu od Debianu liší a poskytují instalátory více omezené (vztahující se pouze na architektury i386 nebo amd64), ale více přátelské pro nezasvěcené. Na druhou stranu, se povětšinou nepouští daleko od obsahu balíčků za účelem profitování co možná nejvíce z rozsáhlé palety softwaru bez působení problémů s kompatabilitou."
 
 msgid "The Software Library"
-msgstr ""
+msgstr "Softwarová knihovna"
 
 msgid "Quantitatively, Debian is undeniably the leader in this respect, with over 21,000 source packages. Qualitatively, Debian’s policy and long testing period prior to releasing a new stable version justify its reputation for stability and consistency. As far as availability, everything is available on-line through many mirrors worldwide, with updates pushed out every six hours."
-msgstr ""
+msgstr "Co do počtu, Debian je nesporně na čele v tomto ohledu, s více než 21 000 zdrojovými balíčky. Kvalitativně, zásady Debianu a dlouhý čas na testování před vypuštěním nové stabilní verze odůvodňuje jeho dobrou pověst ve stabilitě a důslednosti. To samé přístupnost, všechno je přístupné on-line prostřednictvím celosvětových kopií datových úložišť, s aktualizacemi po každých šesti hodinách."
 
 msgid "Many retailers sell CD-ROMs on the Internet at a very low price (often at cost), the “images” for which are freely available for download. There is only one drawback: the low frequency of releases of new stable versions (their development sometimes takes more than two years), which delays the inclusion of new software."
-msgstr ""
+msgstr "Mnoho prodejců prodává CD-ROMY na internetu za velmi nízké ceny (často pokrývající pouze náklady), jsou to “obrazy”, které se dají zadarmo stáhnout. Je tu jedna nevýhoda: nízká četnost vydání nových stabulních verzí (jejich vývoj zabere kolikrát více než dva roky), zpožďuje zahrnutí nového softwaru." 
 
 msgid "Most new free software programs quickly find their way into the development version which allows them to be installed. If this requires too many updates due to their dependencies, the program can also be recompiled for the stable version of Debian (see <xref linkend=\"debian-packaging\" /> for more information on this topic)."
-msgstr ""
+msgstr "Většina nových volných softwarových programů si rychle nalezne cestu do vývojové verze, což jim umožní být nainstalovanými. Pokud to vyžaduje příliš mnoho aktualizací a závislostí, program může být znova sestaven pro stabilní verzi Debianu (pro více informací o tématu navštivte <xref linkend=\"debian-packaging\" />)."
 
 msgid "Lifecycle of a Release"
-msgstr ""
+msgstr "Životní cyklus vydání"
 
 msgid "<primary>lifecycle</primary>"
-msgstr ""
+msgstr "<primary>životní cyklus</primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Unstable</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"distribution\">Nestabilní</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Testing</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"distribution\">Testovací</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Stable</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"distribution\">Stabilní</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Experimental</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"distribution\">Experimentální</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Oldstable</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"distribution\">Starostabilní</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"distribution\">Oldoldstable</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"distribution\">Starostarostabilní</emphasis></primary>"
 
 msgid "The project will simultaneously have three to six different versions of each program, named <emphasis role=\"distribution\">Experimental</emphasis>, <emphasis role=\"distribution\">Unstable</emphasis>, <emphasis role=\"distribution\">Testing</emphasis>, <emphasis role=\"distribution\">Stable</emphasis>, <emphasis role=\"distribution\">Oldstable</emphasis>, and even <emphasis role=\"distribution\">Oldoldstable</emphasis>. Each one corresponds to a different phase in development. For a good understanding, let us take a look at a program's journey, from its initial packaging to inclusion in a stable version of Debian."
 msgstr ""
