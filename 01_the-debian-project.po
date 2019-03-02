@@ -1126,7 +1126,7 @@ msgid "As already mentioned, the Debian project evolves in a very distributed, v
 msgstr "Jak už bylo zmíněno, projekt Debianu se rozvíjí hodně rozptýleným, velmi organickým způsobem. To má za následek, že někdy může být obtížné být stále v kontaktu s tím, co se děje v rámci projektu, bez toho, aniž by byl člověk zaplaven nikdy nekončícím přívalem oznámení."
 
 msgid "If you only want the most important news about Debian, you probably should subscribe to the <email>debian-announce@lists.debian.org</email> list. This is a very low-traffic list (around a dozen messages a year), and only gives the most important announcements, such as the availability of a new stable release, the election of a new Project Leader, or the yearly Debian Conference. <ulink type=\"block\" url=\"https://lists.debian.org/debian-announce/\" />"
-msgstr "Pokud chcete o Debianu pouze ty nejdůležitější zprávy, měli by jste se pravděpodobně upsat na seznam <email>debian-announce@lists.debian.org</email>. To je seznam s velmi malým provozem (pár zpráv ročně)a poskytuje pouze nejdůležitější oznámení, jako zpřístupnění nového stabilního vadání, volba nového projektového šéfa nebo výroční konference Debianu. <ulink type=\"block\" url=\"https://lists.debian.org/debian-announce/\" />"
+msgstr "Pokud chcete o Debianu pouze ty nejdůležitější zprávy, měli by jste se pravděpodobně upsat na seznam <email>debian-announce@lists.debian.org</email>. To je seznam s velmi malým provozem (pár zpráv ročně)a poskytuje pouze nejdůležitější oznámení, jako zpřístupnění nového stabilního vydání, volba nového projektového šéfa nebo výroční konference Debianu. <ulink type=\"block\" url=\"https://lists.debian.org/debian-announce/\" />"
 
 msgid "<primary>Debian Project News</primary>"
 msgstr "<primary>Zprávy projektu Debian</primary>"
@@ -1231,55 +1231,56 @@ msgid "<primary><emphasis role=\"distribution\">Oldoldstable</emphasis></primary
 msgstr "<primary><emphasis role=\"distribution\">Starostarostabilní</emphasis></primary>"
 
 msgid "The project will simultaneously have three to six different versions of each program, named <emphasis role=\"distribution\">Experimental</emphasis>, <emphasis role=\"distribution\">Unstable</emphasis>, <emphasis role=\"distribution\">Testing</emphasis>, <emphasis role=\"distribution\">Stable</emphasis>, <emphasis role=\"distribution\">Oldstable</emphasis>, and even <emphasis role=\"distribution\">Oldoldstable</emphasis>. Each one corresponds to a different phase in development. For a good understanding, let us take a look at a program's journey, from its initial packaging to inclusion in a stable version of Debian."
-msgstr ""
+msgstr "Projekt mívá současně od každého programu něco mezi třemi až šesti verzemi, pojmenovanými <emphasis role=\"distribution\">Experimentální</emphasis>, <emphasis role=\"distribution\">Nestabilní</emphasis>, <emphasis role=\"distribution\">Testovací</emphasis>, <emphasis role=\"distribution\">Stabilní</emphasis>, <emphasis role=\"distribution\">Starostabilní</emphasis>, a konečně <emphasis role=\"distribution\">Starostarostabilní</emphasis>."
 
 msgid "<emphasis>VOCABULARY</emphasis> Release"
-msgstr ""
+msgstr "<emphasis>SLOVNÍČEK</emphasis> Vydání"
 
 msgid "<primary>release</primary>"
-msgstr ""
+msgstr "<primary>vydání</primary>"
 
 msgid "The term “release”, in the Debian project, indicates a particular version of a distribution (e.g., “unstable release” means “the unstable version”). It also indicates the public announcement of the launch of any new version (stable)."
-msgstr ""
+msgstr "Termín “vydání”, v projektu Debian, označuje určitou verzi distribuce (např.“nestabilní vydání” znamená “nestabilní verzi”). Také to indikuje ozmámení veřejnosti o vypuštění nové nové verze (stabilní)."
 
 msgid "The <emphasis role=\"distribution\">Experimental</emphasis> Status"
-msgstr ""
+msgstr "<emphasis role=\"distribution\">Experimentální</emphasis> Status"
 
 msgid "First let us take a look at the particular case of the <emphasis role=\"distribution\">Experimental</emphasis> distribution: this is a group of Debian packages corresponding to the software currently in development, and not necessarily completed, explaining its name. Not everything passes through this step; some developers add packages here in order to get feedback from more experienced (or braver) users."
-msgstr ""
+msgstr "Nejdříve nám dovolte vás nechat nahlédnout do případu <emphasis role=\"distribution\">Experimentální</emphasis> distribuce: je to skupina debianovských balíčků odpovídajících softwaru v současné době ve vývoji a ne nutně kompletních, což vysvětluje jejich pojmenování. Ne vše projde tímto krokem; někteří vývojáři sem přidávají balíčky za účelem získání zpětné vazby od zkušenějších (nebo odvážnějších) uživatelů."
 
 msgid "Otherwise, this distribution frequently houses important modifications to base packages, whose integration into <emphasis role=\"distribution\">Unstable</emphasis> with serious bugs would have critical repercussions. It is, thus, a completely isolated distribution, its packages never migrate to another version (except by direct, express intervention of the maintainer or the ftpmasters). It is also not self-contained: only a subset of the existing packages are present in <emphasis role=\"distribution\">Experimental</emphasis>, and it generally does not include the base system. This distribution is therefore mostly useful in combination with another, self-contained, distribution such as <emphasis role=\"distribution\">Unstable</emphasis>."
-msgstr ""
+msgstr "Jinak, tato distribuce často uchovává důležité modifikace základních balíčků, jejichž začlenění do <emphasis role=\"distribution\">Nestabilní</emphasis>, se závažnými chybami, by mělo kritické následky. Je to tak úplně uzavřená distribuce, jejíž balíčky nikdy nepřejdou do jiné verze (kromě přímého, zvláštního zásahu správce nebo ftpmastera). Není také soběstačná: pouze část existujících balíčků je přítomna v <emphasis role=\"distribution\">Experimentální</emphasis> a celkově nezahrnuje základní systém. Tato distribuce je tak nejvíce použitelná v kombinaci s jinou, soběstačnou distribucí, jako je <emphasis role=\"distribution\">Nestabilní</emphasis>."
 
 msgid "The <emphasis role=\"distribution\">Unstable</emphasis> Status"
-msgstr ""
+msgstr "The <emphasis role=\"distribution\">Nestabilní</emphasis> Status"
+
 
 msgid "Let us turn back to the case of a typical package. The maintainer creates an initial package, which they compile for the <emphasis role=\"distribution\">Unstable</emphasis> version and place on the <literal>ftp-master.debian.org</literal> server. This first event involves inspection and validation from the ftpmasters. The software is then available in the <emphasis role=\"distribution\">Unstable</emphasis> distribution, which is the “cutting edge” distribution chosen by users who are more concerned with having up to date packages than worried about serious bugs. They discover the program and then test it."
-msgstr ""
+msgstr "Vraťme se k případu typického balíčku. Správce vytvoří prvotní balíček, který sestaví pro <emphasis role=\"distribution\">Nestabilní</emphasis> verzi a umístí na server <literal>ftp-master.debian.org</literal>. Tato první akce zahrnuje kontrolu a potvrzení platnosti ftpmasterem. Software je potom k dispozici v <emphasis role=\"distribution\">Nestabilní</emphasis> distribuci, která je “ostrou” distribucí vyhledávanou uživateli, jejichž zájem je spíše mít aktuální balíčky než si dělat starosti se závažnými chybami. Prozkoumávají program a testují ho."
 
 msgid "If they encounter bugs, they report them to the package's maintainer. The maintainer then regularly prepares corrected versions, which they upload to the server."
-msgstr ""
+msgstr "Pokud narazí na chybu, nahlásí ji správci balíčku. Správce poté obvykle připraví opravené verze, které se nahrají na server."
 
 msgid "Every newly updated package is updated on all Debian mirrors around the world within six hours. The users then test the corrections and search for other problems resulting from the modifications. Several updates may then occur rapidly. During these times, autobuilder robots come into action. Most frequently, the maintainer has only one traditional PC and has compiled their package on the amd64 (or i386) architecture; the autobuilders take over and automatically compile versions for all the other architectures. Some compilations may fail; the maintainer will then receive a bug report indicating the problem, which is then to be corrected in the next versions. When the bug is discovered by a specialist for the architecture in question, the bug report may come with a patch ready to use."
-msgstr ""
+msgstr "Každý nově aktualizovaný balíček je aktualizovaný na všech kopiích datových úložišť po celém světě během šesti hodin. Uživatelé potom testují opravy a hledají další problémy vyplývající z modifikací. Další aktualizace potom rychle následují. Během této doby nastupují samostavící roboti. Nejčastěji, správce má pouze jedno běžné PC a sestavuje balíčky na architekturách amd64 (nebo i386); samostavitelé přebírají práci a automaticky sestavují verze pro ostatní architektury. Nekteré kompilace mohou selhat; v tom případě správce obdrží chybové hlášení popisující problém, který je určen k opravě v další verzi. Pokud chybu objeví specialista pro danou architekturu, chybové hlášení může přijít s opravou, připravenou k použití."
 
 msgid "<primary>autobuilder</primary>"
-msgstr ""
+msgstr "<primary>samostavitel</primary>"
 
 msgid "Compilation of a package by the autobuilders"
-msgstr ""
+msgstr "Sestavení balíčku samostavitelem"
 
 msgid "<emphasis>QUICK LOOK</emphasis> <command>buildd</command>, the Debian package recompiler"
-msgstr ""
+msgstr "<emphasis>RYCHLÉ NAHLÉDNUTÍ</emphasis> <command>buildd</command>, kompilátor balíčků Debianu"
 
 msgid "<primary><command>buildd</command></primary>"
-msgstr ""
+msgstr "<primary><command>buildd</command></primary>"
 
 msgid "<primary>build daemon</primary>"
-msgstr ""
+msgstr "<primary>stavební démon</primary>"
 
 msgid "<emphasis>buildd</emphasis> is the abbreviation of “build daemon”. This program automatically recompiles new versions of Debian packages on the architectures on which it is hosted (cross-compilation is avoided as much as possible)."
-msgstr ""
+msgstr "<emphasis>buildd</emphasis> je zkratka z anglického originálu “stavební démon”. Tento program automaticky znovusestavuje nové verze balíčků Debianu na architekturách, na kterých se vyskytuje (křížovému sestavování se předchází jak jen to jde)."
 
 msgid "Thus, to produce binaries for the <literal>arm64</literal> architecture, the project has <literal>arm64</literal> machines available. The <emphasis>buildd</emphasis> program runs on them continuously and creates binary packages for <literal>arm64</literal> from source packages sent by Debian developers."
 msgstr ""
