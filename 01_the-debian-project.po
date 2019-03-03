@@ -1283,25 +1283,25 @@ msgid "<emphasis>buildd</emphasis> is the abbreviation of “build daemon”. Th
 msgstr "<emphasis>buildd</emphasis> je zkratka z anglického originálu “stavební démon”. Tento program automaticky znovusestavuje nové verze balíčků Debianu na architekturách, na kterých se vyskytuje (křížovému sestavování se předchází jak jen to jde)."
 
 msgid "Thus, to produce binaries for the <literal>arm64</literal> architecture, the project has <literal>arm64</literal> machines available. The <emphasis>buildd</emphasis> program runs on them continuously and creates binary packages for <literal>arm64</literal> from source packages sent by Debian developers."
-msgstr ""
+msgstr "Takže, k sestavování binárních kódů pro architekturu <literal>arm64</literal>, má projekt k dispozici zařízení <literal>arm64</literal>. Program <emphasis>buildd</emphasis> na nich běží nepřetržitě a vytváří binární balíčky pro <literal>arm64</literal> ze zdrojových balíčků zaslaných vývojáři Debianu."
 
 msgid "This software is used on all the computers serving as autobuilders for Debian. By extension, the term <emphasis>buildd</emphasis> frequently is used to refer to these machines, which are generally reserved solely for this purpose."
-msgstr ""
+msgstr "Tento software se používá na všech počítačích sloužících v roli samostavitelů pro Debian. Přeneseně se tento termín <emphasis>buildd</emphasis> často používá pro tato zařízení, která jsou obvykle vyčleněna pouze pro tyto účely."
 
 msgid "Migration to <emphasis role=\"distribution\">Testing</emphasis>"
-msgstr ""
+msgstr "Přechod do  <emphasis role=\"distribution\">Testovací</emphasis>"
 
 msgid "A bit later, the package will have matured; compiled on all the architectures, it will not have undergone recent modifications. It is then a candidate for inclusion in the <emphasis role=\"distribution\">Testing</emphasis> distribution — a group of <emphasis role=\"distribution\">Unstable</emphasis> packages chosen according to some quantifiable criteria. Every day a program automatically selects the packages to include in <emphasis role=\"distribution\">Testing</emphasis>, according to elements guaranteeing a certain level of quality:"
-msgstr ""
+msgstr "Po chvíli, balíček dospěl; sestaven na všechny architektury, ještě nepodstoupil poslední úpravy. Je tedy uchazečem o zařazení do <emphasis role=\"distribution\">Testovací</emphasis> distribuce - skupiny <emphasis role=\"distribution\">nestabilních</emphasis> balíčků, vybraných podle jistých kvalifikačních kritérií. Každý den program automaticky vybere balíčky k zařazení do <emphasis role=\"distribution\">Testovací</emphasis>, na základě prvků, které zaručují určitou úroveň kvality:"
 
 msgid "lack of critical bugs, or, at least fewer than the version currently included in <emphasis role=\"distribution\">Testing</emphasis>;"
-msgstr ""
+msgstr "jsou bez závažných chyb nebo minimálně jich mají méně, než současná verze zahrnutá v <emphasis role=\"distribution\">Testovací</emphasis>;"
 
 msgid "at least 10 days spent in <emphasis role=\"distribution\">Unstable</emphasis>, which is sufficient time to find and report any serious problems;"
-msgstr ""
+msgstr "minimálně deset dnů strávených v <emphasis role=\"distribution\">Nestabilní</emphasis>, což je dostatečný čas k nalezení a nahlášení závažných problémů;"
 
 msgid "successful compilation on all officially supported architectures;"
-msgstr ""
+msgstr "úspěšné sestavení na všech oficiálně podporovaných architekturách;"
 
 msgid "dependencies that can be satisfied in <emphasis role=\"distribution\">Testing</emphasis>, or that can at least be moved there together with the package in question."
 msgstr ""
