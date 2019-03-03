@@ -1338,22 +1338,22 @@ msgid "The Promotion from <emphasis role=\"distribution\">Testing</emphasis> to 
 msgstr "Povýšení z <emphasis role=\"distribution\">Testovací</emphasis> na <emphasis role=\"distribution\">Stabilní</emphasis>"
 
 msgid "Let us suppose that our package is now included in <emphasis role=\"distribution\">Testing</emphasis>. As long as it has room for improvement, its maintainer must continue to improve it and restart the process from <emphasis role=\"distribution\">Unstable</emphasis> (but its later inclusion in <emphasis role=\"distribution\">Testing</emphasis> is generally faster: unless it changed significantly, all of its dependencies are already available). When it reaches perfection, the maintainer has completed their work. The next step is the inclusion in the <emphasis role=\"distribution\">Stable</emphasis> distribution, which is, in reality, a simple copy of <emphasis role=\"distribution\">Testing</emphasis> at a moment chosen by the Release Manager. Ideally this decision is made when the installer is ready, and when no program in <emphasis role=\"distribution\">Testing</emphasis> has any known critical bugs."
-msgstr "Předpokládejme, že je náš balíček nyní součástí <emphasis role=\"distribution\">Testovací</emphasis>.   "
+msgstr "Předpokládejme, že je náš balíček nyní součástí <emphasis role=\"distribution\">Testovací</emphasis>. Pokud je stále co zlepšovat, je jeho správce povinen ho vylepšit a znovu začít proces z <emphasis role=\"distribution\">Nestabilní</emphasis> (ale jeho pozdní začlenění do <emphasis role=\"distribution\">Testovací</emphasis> je obvykle rychlejší: pokud se nezměnil podstatně, všechny jeho závislosti jsou již k dispozici). Když dosáhne dokonalosti, správce dokončil svou práci. Následným krokem je jeho zahrnutí do <emphasis role=\"distribution\">Stabilní</emphasis> distribuce, což je ve skutečnosti pouze kopie <emphasis role=\"distribution\">Testovací</emphasis> v okamžiku, který zvolí manažer vydání. Ideálně je tohoto rozhodnutí dosaženo, když je připraven instalátor a žádný program v <emphasis role=\"distribution\">Testovací</emphasis> nemá žádné známé závažné chyby."
 
 msgid "Since this moment never truly arrives, in practice, Debian must compromise: remove packages whose maintainer has failed to correct bugs on time, or agree to release a distribution with some bugs in the thousands of programs. The Release Manager will have previously announced a freeze period, during which each update to <emphasis role=\"distribution\">Testing</emphasis> must be approved. The goal here is to prevent any new version (and its new bugs), and to only approve updates fixing bugs."
-msgstr ""
+msgstr "Protože tento moment ve skutečnosti nikdy opravdu nenastane, musí Debian dělat kompromisy: odstranit balíčky, jejichž správce neopravil chyby včas nebo odsouhlasit vydání distribuce s nějakými chybami v tisícovkách programů. Manažer vydání dopředu oznámí období klidu, během kterého musí být každá aktualizace do <emphasis role=\"distribution\">Testovací</emphasis> schválena. Účelem je předejít novým verzím (a jejich chybám) a pouze schválit aktualizace, které opravují chyby." 
 
 msgid "A package's path through the various Debian versions"
-msgstr ""
+msgstr "Cesta balíčku různými verzemi Debianu."
 
 msgid "<emphasis>VOCABULARY</emphasis> Freeze: the home straight"
-msgstr ""
+msgstr "<emphasis>SLOVNÍČEK</emphasis> Klid: jsme skoro doma"
 
 msgid "<primary>freeze</primary>"
-msgstr ""
+msgstr "<primary>klid</primary>"
 
 msgid "During the freeze period, development of the <emphasis role=\"distribution\">Testing</emphasis> distribution is blocked; no more automatic updates are allowed. Only the Release Managers are then authorized to change packages, according to their own criteria. The purpose is to prevent the appearance of new bugs by introducing new versions; only thoroughly examined updates are authorized when they correct significant bugs."
-msgstr ""
+msgstr "Během období klidu je vývoj <emphasis role=\"distribution\">Testovací</emphasis> distribuce zablokován; žádné další automatické aktualizace nejsou povoleny. Pouze manažeři vydání jsou oprávněni měnit balíčky, podle svých vlastních kritérií. Účelem je předejít výskytu nových chyb způsobených představením nových verzí; pouze důkladně prozkoumané aktualizace jsou povoleny, pokud opravují podstatné chyby."
 
 msgid "After the release of a new stable version, the Stable Release Manager manages all further development (called “revisions”, ex: 7.1, 7.2, 7.3 for version 7). These updates systematically include all security patches. They will also include the most important corrections (the maintainer of a package must prove the gravity of the problem that they wish to correct in order to have their updates included)."
 msgstr ""
