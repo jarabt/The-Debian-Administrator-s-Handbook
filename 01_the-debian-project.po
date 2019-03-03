@@ -1304,40 +1304,41 @@ msgid "successful compilation on all officially supported architectures;"
 msgstr "úspěšné sestavení na všech oficiálně podporovaných architekturách;"
 
 msgid "dependencies that can be satisfied in <emphasis role=\"distribution\">Testing</emphasis>, or that can at least be moved there together with the package in question."
-msgstr ""
+msgstr "závislosti mouhou být uspokojeny v <emphasis role=\"distribution\">Testovací</emphasis> nebo zde minimálně mohou být dány dohromady s požadovaným balíčkem."
 
 msgid "This system is clearly not infallible; critical bugs are regularly found in packages included in <emphasis role=\"distribution\">Testing</emphasis>. Still, it is generally effective, and <emphasis role=\"distribution\">Testing</emphasis> poses far fewer problems than <emphasis role=\"distribution\">Unstable</emphasis>, being for many, a good compromise between stability and novelty."
-msgstr ""
+msgstr "Tento systém není úplně neomylný; závažné chyby se pravidelně vyskytují v balíčcích zahrnutých do <emphasis role=\"distribution\">Testovací</emphasis>. Přesto, je to obvykle efektivní a <emphasis role=\"distribution\">Testovací</emphasis> vykazuje daleko méně problémů než <emphasis role=\"distribution\">Nestabilní</emphasis> a pro mnohé, je dobrým kompromisem mezi stabilitou a novinkami."
 
 msgid "<emphasis>NOTE</emphasis> Limitations of <emphasis role=\"distribution\">Testing</emphasis>"
-msgstr ""
+msgstr "<emphasis>POZNÁMKA</emphasis> Omezení <emphasis role=\"distribution\">Testovací</emphasis>"
+
 
 msgid "While very interesting in principle, <emphasis role=\"distribution\">Testing</emphasis> does have some practical problems: the tangle of cross-dependencies between packages is such that a package can rarely move there completely on its own. With packages all depending upon each other, it is sometimes necessary to migrate a large number of packages simultaneously, which is impossible when some are uploading updates regularly. On the other hand, the script identifying the families of related packages works hard to create them (this would be an NP-complete problem, for which, fortunately, we know some good heuristics). This is why we can manually interact with and guide this script by suggesting groups of packages, or imposing the inclusion of certain packages in a group, even if this temporarily breaks some dependencies. This functionality is accessible to the Release Managers and their assistants."
-msgstr ""
+msgstr "I když v podstatě velmi zajímavá, má <emphasis role=\"distribution\">Testovací</emphasis> v praxi pár problémů: změť křížových závislostí mezi balíčky znamená, že balíček se sem může přestěhovat jen velice zřídka sám o sobě. S balíčky navzájem závislými jednoho na druhém, je kolikrát nezbytné přesunout velký počet balíčků zároveň, což je nemožné, pokud některé pravidelně nahrávají aktualizace. Na druhou stranu, skript rozpoznávající skupiny provázaných balíčků tvrdě pracuje na jejich vytvoření (mohlo by se jednat o NP-kompletní problém na který naštěstí máme dobrou heuristiku). Proto můžeme manuálně zasahovat a vést skript za pomocí navrhování skupin balíčků nebo zadání začlenění určitých balíčků do skupiny, i když to na přechodnou dobu poruší některé závislosti. Tyto funkce jsou dostupné pro manažery vydání a jejich asistenty."
 
 msgid "Recall that an NP-complete problem is of an exponential algorithmic complexity according to the size of the data, here being the length of the code (the number of figures) and the elements involved. The only way to resolve it is frequently to examine all possible configurations, which could require enormous means. A heuristic is an approximate, but satisfying, solution."
-msgstr ""
+msgstr "Pokud si nevybavujete, NP-kompletní problém je exponenciální algoritmická složitost v závislosti na velikosti dat, zde v podobě délky kódu (počtu čísel) a zahrnutých prvků. Jediný způsob, jak to vyřešit, je často vyzkoušet všechna možná uspořádání, což může vyžadovat enormní prostředky. Heuristika je sice přibližné, ale uspokojující řešení."
 
 msgid "<emphasis>COMMUNITY</emphasis> The Release Manager"
-msgstr ""
+msgstr "<emphasis>KOMUNITA</emphasis> manažer vydání"
 
 msgid "<primary>Release Manager</primary>"
-msgstr ""
+msgstr "<primary>manažer vydání</primary>"
 
 msgid "<primary>Stable Release Manager</primary>"
-msgstr ""
+msgstr "<primary>manažer stabilního vydání</primary>"
 
 msgid "Release Manager is an important title, associated with heavy responsibilities. The bearer of this title must, in effect, manage the release of a new, stable version of Debian, and define the process for development of <emphasis role=\"distribution\">Testing</emphasis> until it meets the quality criteria for <emphasis role=\"distribution\">Stable</emphasis>. They also define a tentative schedule (not always followed)."
-msgstr ""
+msgstr "Manažer vydání je velmi důležitá funkce, spojená s velkou odpovědností. Nositel tohoto titulu musí, v podstatě, řídit vydání nové, stabilní verze Debianu a vymezit proces vývoje <emphasis role=\"distribution\">Testovací</emphasis> dokud nevyhoví kritériům kvality <emphasis role=\"distribution\">Stabilní</emphasis>. Stanovuje také předběžný časový plán (který se nedaří vždy dodržet)."
 
 msgid "We also have Stable Release Managers, often abbreviated SRM, who manage and select updates for the current stable version of Debian. They systematically include security patches and examine all other proposals for inclusion, on a case by case basis, sent by Debian developers eager to update their package in the stable version."
-msgstr ""
+msgstr "Máme také manažery stabilních verzí, často z anglického výrazu zkracované na SRM, kteří řídí vybrané aktualizace pro současnou stabilní verzi Debianu. Systematicky zařazují bezpečnostní opravy a zkoumají všechny ostatní návrhy na zařazení, postupem případ od případu, zaslané vývojáři Debianu dychtivými za aktualizací balíčku ve stabilní verzi."
 
 msgid "The Promotion from <emphasis role=\"distribution\">Testing</emphasis> to <emphasis role=\"distribution\">Stable</emphasis>"
-msgstr ""
+msgstr "Povýšení z <emphasis role=\"distribution\">Testovací</emphasis> na <emphasis role=\"distribution\">Stabilní</emphasis>"
 
 msgid "Let us suppose that our package is now included in <emphasis role=\"distribution\">Testing</emphasis>. As long as it has room for improvement, its maintainer must continue to improve it and restart the process from <emphasis role=\"distribution\">Unstable</emphasis> (but its later inclusion in <emphasis role=\"distribution\">Testing</emphasis> is generally faster: unless it changed significantly, all of its dependencies are already available). When it reaches perfection, the maintainer has completed their work. The next step is the inclusion in the <emphasis role=\"distribution\">Stable</emphasis> distribution, which is, in reality, a simple copy of <emphasis role=\"distribution\">Testing</emphasis> at a moment chosen by the Release Manager. Ideally this decision is made when the installer is ready, and when no program in <emphasis role=\"distribution\">Testing</emphasis> has any known critical bugs."
-msgstr ""
+msgstr "Předpokládejme, že je náš balíček nyní součástí <emphasis role=\"distribution\">Testovací</emphasis>.   "
 
 msgid "Since this moment never truly arrives, in practice, Debian must compromise: remove packages whose maintainer has failed to correct bugs on time, or agree to release a distribution with some bugs in the thousands of programs. The Release Manager will have previously announced a freeze period, during which each update to <emphasis role=\"distribution\">Testing</emphasis> must be approved. The goal here is to prevent any new version (and its new bugs), and to only approve updates fixing bugs."
 msgstr ""
