@@ -1359,40 +1359,40 @@ msgid "After the release of a new stable version, the Stable Release Manager man
 msgstr "Po vydání nové stabilní verze, manažer stabilního vydání řídí další vývoj (zvaný “revize”, např.: 7.1, 7.2, 7.3 pro verzi 7). Tyto aktualizace systematicky zahrnují všechny bezpečnostní opravy. Obsahují také nejdůležitější korekce (správce balíčku prokázat závažnost problému, který mají opravit, za účelem zahrnutí jejich aktualizací)."
 
 msgid "At the end of the journey, our hypothetical package is now included in the stable distribution. This journey, not without its difficulties, explains the significant delays separating the Debian Stable releases. This contributes, over all, to its reputation for quality. Furthermore, the majority of users are satisfied using one of the three distributions simultaneously available. The system administrators, concerned above all about the stability of their servers, don't need the latest and greatest version of GNOME; they can choose Debian <emphasis role=\"distribution\">Stable</emphasis>, and they will be satisfied. End users, more interested in the latest versions of GNOME or KDE than in rock-solid stability, will find Debian <emphasis role=\"distribution\">Testing</emphasis> to be a good compromise between a lack of serious problems and relatively up to date software. Finally, developers and more experienced users may blaze the trail, testing all the latest developments in Debian <emphasis role=\"distribution\">Unstable</emphasis> right out of the gate, at the risk of suffering the headaches and bugs inherent in any new version of a program. To each their own Debian!"
-msgstr "A na konci této cesty je náš hypotetický balíček nyní zahrnut do stabilní distribuce. Tato cesta, ne bez těžkostí, vysvětluje značná zpoždění různých stabilních vydání Debianu. Toto přispívá, přes všechno, k jeho dobré pověsti co do kvality. Navíc, většina uživatelů je spokojena s užíváním jedné ze tří distribucí, které jsou zároveň k dispozici.      "
+msgstr "A na konci této cesty je náš hypotetický balíček nyní zahrnut do stabilní distribuce. Tato cesta, ne bez těžkostí, vysvětluje značná zpoždění různých stabilních vydání Debianu. Toto přispívá, přes všechno, k jeho dobré pověsti co do kvality. Navíc, většina uživatelů je spokojena s užíváním jedné ze tří distribucí, které jsou zároveň k dispozici. Správci systémů, kteří mjí na starosti především stabilitu svých serverů, nepotřebují nejnovější a nejúžasnější verzi GNOME; mohou si vybrat Debian <emphasis role=\"distribution\">Stabilní</emphasis> a budou spokojni. Koneční uživatelé, které víc zajímá poslední verze GNOME a KDE než skálopevná stabilita, shledají, že Debian <emphasis role=\"distribution\">Testovací</emphasis> je dobrým kompromisem mezi tím nemít závažné problémy a mít relativně aktuální software. A konečně vývojáři a více zkušení uživatelé mohou být průkopníky a razit cestu testováním všech posledních vymožeností v Debianu <emphasis role=\"distribution\">Nestabilním</emphasis>, hned, jak vyjdou ze dveří, za riskování bolehlavů a chyb neoddělitelně spjatých s jakoukoliv novou verzí programu. Každému Debian podle jeho představ!"
 
 msgid "<emphasis>CULTURE</emphasis> GNOME and KDE, graphical desktop environments"
-msgstr ""
+msgstr "<emphasis>KULTURA</emphasis> GNOME a KDE, grafická desktopová prostředí"
 
 msgid "GNOME (GNU Network Object Model Environment) and KDE (K Desktop Environment) are the two most popular graphical desktop environments in the free software world. A desktop environment is a set of programs grouped together to allow easy management of the most common operations through a graphical interface. They generally include a file manager, office suite, web browser, e-mail program, multimedia accessories, etc. The most visible difference resides in the choice of the graphical library used: GNOME has chosen GTK+ (free software licensed under the LGPL), and KDE has selected Qt (a company-backed project, available nowadays both under the GPL and a commercial license). <ulink type=\"block\" url=\"http://www.gnome.org/\" /> <ulink type=\"block\" url=\"http://www.kde.org/\" />"
-msgstr ""
+msgstr "GNOME (GNU Network Object Model Environment) a KDE (K Desktop Environment) jsou dvě nejpopulárnější grafická desktopová prostředí ve světě volného softwaru. Desktopové prostředí je sada programů seskupených dohromady a umožňující snadné řízení nejběžnějších operací pomocí grafického rozhraní. Obvykle obsahují správce souborů, kancelářskou sadu, internetový prohlížeč, emailový program, multimediální doplňky, apod. Nejviditelnější jsou rozdíly vycházející z výběru použité grafické knihovny: GNOME si vybralo GTK+ (volný software pod licencí LGPL) a KDE zvolilo Qt (projekt s firmou v pozadí, v současnosti obojí pod licencí GPL a komerční licencí). <ulink type=\"block\" url=\"http://www.gnome.org/\" /> <ulink type=\"block\" url=\"http://www.kde.org/\" />"
 
 msgid "Chronological path of a program packaged by Debian"
-msgstr ""
+msgstr "Chronologická cesta programu zabaleného Debianem"
 
 msgid "The <emphasis role=\"distribution\">Oldstable</emphasis> and <emphasis role=\"distribution\">Oldoldstable</emphasis> Status"
-msgstr ""
+msgstr "<emphasis role=\"distribution\">Starostabilní</emphasis> a <emphasis role=\"distribution\">Starostarostabilní</emphasis> status"
 
 msgid "<primary>Long Term Support (LTS)</primary>"
-msgstr ""
+msgstr "<primary>Dlouhodobá podpora (LTS)</primary>"
 
 msgid "<primary>support</primary><secondary>Long Term Support (LTS)</secondary>"
-msgstr ""
+msgstr "<primary>podpora</primary><secondary>Dlouhodobá podpora (LTS)</secondary>"
 
 msgid "Each <emphasis role=\"distribution\">Stable</emphasis> release has an expected lifetime of about 5 years and given that releases tend to happen every 2 years, there can be up to 3 supported releases at a given point of time. When a new stable release happens, the former release becomes <emphasis role=\"distribution\">Oldstable</emphasis> and the one even before becomes <emphasis role=\"distribution\">Oldoldstable</emphasis>."
-msgstr ""
+msgstr "Každé <emphasis role=\"distribution\">Stabilní</emphasis> vydání mý předpokládanou životnost kolem pěti let a za předpokladu, že vydání zpravidla přicházejí co dva roky, se mohou vyskytovat až 3 podporovaná vydání v jeden časový okamžik. Jakmile vyjde nové vydání, původní se stane <emphasis role=\"distribution\">Starostabilní</emphasis> a to předešlé <emphasis role=\"distribution\">Starostarostabilní</emphasis>."
 
 msgid "This Long Term Support (LTS) of Debian releases is a recent initiative: individual contributors and companies joined forces to create the Debian LTS team. Older releases which are no longer supported by the Debian security team fall under the responsibility of this new team."
-msgstr ""
+msgstr "Tato dlouhodobá podpora (LTS) vydání Debianu je současnou iniciativou: jednotliví přispěvatelé a firmy spojili síly k vytvoření LTS týmu Debianu. Starší vydání, která už nejsou podporovaná bezpečnostním týmem Debianu spadnou do pravomoce tohoto nového týmu."
 
 msgid "The Debian security team handles security support in the current <emphasis role=\"distribution\">Stable</emphasis> release and also in the <emphasis role=\"distribution\">Oldstable</emphasis> release (but only for as long as is needed to ensure one year of overlap with the current stable release). This amounts roughly to three years of support for each release. The Debian LTS team handles the last (two) years of security support so that each releases benefits from at least 5 years of support and so that users can upgrade from version N to N+2. <ulink type=\"block\" url=\"https://wiki.debian.org/LTS\" />"
-msgstr ""
+msgstr "Bezpečnostní tým Debianu zabezpečuje bezpečnostní podporu v současném <emphasis role=\"distribution\">Stabilním</emphasis> vydání a také ve <emphasis role=\"distribution\">Starostabilním</emphasis> vydání (ale pouze na tak dlouho, jak je potřeba k zabezpečení překrytí jednoho roku se současným stabilním vydáním). To dělá zhruba do tří let podpory pro každé vydání. LTS tým Debianu obstarává poslední (dva) roky bezpečnostní podpory, takže každé vydání profituje z minimálně pěti let podpory, to znamená, že uživatelé mohou přecházet z N na N+2. <ulink type=\"block\" url=\"https://wiki.debian.org/LTS\" />"
 
 msgid "<emphasis>COMMUNITY</emphasis> Companies sponsoring the LTS effort"
-msgstr ""
+msgstr "<emphasis>KOMUNITA</emphasis> Firmy podporující snahu LTS"
 
 msgid "Long Term Support is a difficult commitment to make in Debian because volunteers tend to avoid the work that is not very fun. And providing security support for 5 years old software is — for many contributors — a lot less fun than packaging new upstream versions or developing new features."
-msgstr ""
+msgstr "Dlouhodobá podpora je obtížný závazek k činnosti v Debianu, protože dobrovolníci mají tendenci se vyhýbat práci, která není moc zábavná. A poskytovat bezpečnostní podporu pět let starému sofrwaru je - pro mnoho přispěvatelů - méně zábavná, než balíčkovat nové upstreamové verze nebo vyvíjet nové prvky."
 
 msgid "To bring this project to life, the project counted on the fact that long term support was particularly relevant for companies and that they would be willing to mutualize the cost of this security support."
 msgstr ""
