@@ -106,7 +106,7 @@ msgid "<primary>subproject</primary>"
 msgstr "<primary>dílčí projekt</primary>"
 
 msgid "All the Debian tools operate in this direction: <command>debian-cd</command> has for a long time now allowed the creation of a set of CD-ROMs containing only a pre-selected set of packages; <command>debian-installer</command> is also a modular installer, easily adapted to special needs. <command>APT</command> will install packages from various origins, while guaranteeing the overall consistency of the system."
-msgstr "Všechny nástroje Debianu fungují v tomto sledu: <command>debian-cd</command> má již dlouhou dobu povoleno vytvoření sady CD-ROM obsahujících pouze předem vybraný soubor balíků; <command>debian-installer</command> je také modulární instalátor, který se snadno přizpůsobí zvláštním potřebám. <command>APT</command> bude instalovat balíky z různých zdrojů a zároveň garantovat celkovou konzistenci systému."
+msgstr "Všechny nástroje Debianu fungují tímto směrem: <command>debian-cd</command> má již dlouhou dobu povoleno vytvoření sady CD-ROM obsahujících pouze předem vybraný soubor balíků; <command>debian-installer</command> je také modulární instalátor, který se snadno přizpůsobí zvláštním potřebám. <command>APT</command> bude instalovat balíky z různých zdrojů a zároveň garantovat celkovou konzistenci systému."
 
 msgid "<emphasis>TOOL</emphasis> Creating a Debian CD-ROM"
 msgstr "<emphasis>NÁSTROJ</emphasis> Vytvoření CD-ROM Debianu"
@@ -121,7 +121,7 @@ msgid "<emphasis>BACK TO BASICS</emphasis> To each computer, its architecture"
 msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Do každého počítače, jeho architektura"
 
 msgid "The term “architecture” indicates a type of computer (the most known include Mac or PC). Each architecture is differentiated primarily according to its processor, usually incompatible with other processors. These differences in hardware involve varying means of operation, thus requiring that software be compiled specifically for each architecture."
-msgstr "Termín “architektura” označuje typ počítače (mezi nejvíce známé patří Mac nebo PC). U každé architektury dělá odlišnost především její procesor, obvykle nekompatibilní s ostatními procesory. Tyto rozdíly v hardwaru obnášejí různé provozní prostředky, což vyžaduje, aby byl software kompilován specificky pro každou architekturu."
+msgstr "Termín “architektura” označuje typ počítače (mezi nejvíce známé patří Mac nebo PC). Každá architektura se rozlišuje především podle procesoru, obvykle nekompatibilním s ostatními procesory. Tyto rozdíly v hardwaru zahrnují různé provozní prostředky, což vyžaduje, aby byl software kompilován specificky pro každou architekturu."
 
 msgid "<primary>architecture</primary>"
 msgstr "<primary>architektura</primary>"
