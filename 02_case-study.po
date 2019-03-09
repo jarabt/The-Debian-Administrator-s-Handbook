@@ -4,87 +4,87 @@ msgstr ""
 "POT-Creation-Date: 2015-10-01 18:00+0200\n"
 "PO-Revision-Date: 2015-10-01 18:00+0200\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: None\n"
-"Language: en-US \n"
+"Language-Team: Jaroslav Tesař\n"
+"Language: cs-CZ \n"
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Publican v4.3.2\n"
 
 msgid "Falcot Corp"
-msgstr ""
+msgstr "Falcot Corp"
 
 msgid "SMB"
-msgstr ""
+msgstr "SMB"
 
 msgid "Strong Growth"
-msgstr ""
+msgstr "Silný růst"
 
 msgid "Master Plan"
-msgstr ""
+msgstr "Hlavní plán"
 
 msgid "Migration"
-msgstr ""
+msgstr "Přesun"
 
 msgid "Cost Reduction"
-msgstr ""
+msgstr "Úsora nákladů"
 
 msgid "Presenting the Case Study"
-msgstr ""
+msgstr "Představení případové studie"
 
 msgid "In the context of this book, you are the system administrator of a growing small business. The time has come for you to redefine the information systems master plan for the coming year in collaboration with your directors. You choose to progressively migrate to Debian, both for practical and economical reasons. Let's see in more detail what's in store for you…"
-msgstr ""
+msgstr "V kontextu této knihy jste systémový administrátor malého rostoucího podniku. Nadešel pro vás čas pro znovustanovení hlavního plánu informačního systému pro nadcházející rok ve spolupráci s vašimi řediteli. Zvolili jste postupně přejít na Debian, zároveň z praktických i ekonomických důvoků. Podívejme se podrobněji, co tu pro vás máme..."
 
 msgid "We have envisioned this case study to approach all modern information system services currently used in a medium sized company. After reading this book, you will have all of the elements necessary to install Debian on your servers and fly on your own wings. You will also learn how to efficiently find information in the event of difficulties."
-msgstr ""
+msgstr "Sestavili jsme tuto případovou studii za účelem přiblížení všech moderních služeb v současnosti používaných v informačních systémech středně velké firmy. Po přečtení této knihy budete mít všechny prvky nutné k instalaci Debianu na vaše servery a být svým vlastním pánem. Také se naučíte, jak efektivně najít informace v případě těžkostí."
 
 msgid "Fast Growing IT Needs"
-msgstr ""
+msgstr "Rychle rostoucí požadavky na IT"
 
 msgid "Falcot Corp is a manufacturer of high quality audio equipment. The company is growing strongly, and has two facilities, one in Saint-Étienne, and another in Montpellier. The former has around 150 employees; it hosts a factory for the manufacturing of speakers, a design lab, and all administrative office. The Montpellier site is smaller, with only about 50 workers, and produces amplifiers."
-msgstr ""
+msgstr "Falcot Corp je výrobce vysoce kvalitního audio vybavení. Firma rychle roste a má dvě provozovny, jednu v Saint-Étienne a druhou v Montpellier. Ta první jmenovaná má asi 150 zaměstnanců a poskytuje zázemítovárně na výrobu reproduktorů, designové lanoratoři a všem kancelářím pro administrativu. Pobočka v Montpellier je menší, s asi padesáti zaměstanci a vyrábí zesilovače."
 
 msgid "<emphasis>NOTE</emphasis> Fictional company created for case study"
-msgstr ""
+msgstr "<emphasis>POZNÁMKA</emphasis> Smyšlená firma vytvořená pro tuto případovou studii"
 
 msgid "The Falcot Corp company used as an example here is completely fictional. Any resemblance to an existing company is purely coincidental. Likewise, some example data throughout this book may be fictional."
-msgstr ""
+msgstr "Firma Falcot Corp, která je zde uvedená jako příklad je zcela smyšlená. Jakákoliv podobnost s existující firmou je čistě náhodná. Podobně, data příkladů v této knize mohou být fiktivní."
 
 msgid "The computer system has had difficulty keeping up with the company's growth, so they are now determined to completely redefine it to meet various goals established by management:"
-msgstr ""
+msgstr "Počítačový systém měl potíže držet krok s růstem podniku, takže je rozhodnuto jej úplně předefinovat k dosažení různých cílů stanovených managementem:"
 
 msgid "modern, easily scalable infrastructure;"
-msgstr ""
+msgstr "modenrní, snadno rozšiřitelná infrastruktura;"
 
 msgid "reducing cost of software licenses thanks to use of Open Source software;"
-msgstr ""
+msgstr "snížit náklady na softwarové licence, díky užívání Open Source softwaru;"
 
 msgid "installation of an e-commerce website, possibly B2B (business to business, i.e. linking of information systems between different companies, such as a supplier and its clients);"
-msgstr ""
+msgstr "zřízení internetové stránky pro elektronickou komerci, pravděpodobně B2B (bussiness to bussiness, tedy propojení informačních systémů mezi různými podniky, jako dodavatele a jeho klienta;"
 
 msgid "significant improvement in security to better protect trade secrets related to new products."
-msgstr ""
+msgstr "podstatné zdokonalení v bezbečnosti k lepšímu zabezpečení obchodních tajemství souvisejících s novými výrobky."
 
 msgid "The entire information system will be overhauled with these goals in mind."
-msgstr ""
+msgstr "Celý informační systém bude důkladně prohlédnut a opraven v duchu těchto cílů."
 
 msgid "<primary>master plan</primary>"
-msgstr ""
+msgstr "<primary>hlavní plán</primary>"
 
 msgid "<primary>migration</primary>"
-msgstr ""
+msgstr "<primary>přechod</primary>"
 
 msgid "With your collaboration, IT management has conducted a slightly more extensive study, identifying some constraints and defining a plan for migration to the chosen Open Source system, Debian."
-msgstr ""
+msgstr "Za vaší spoluúčasti, IT management sestavil mírně rozsáhlou studii, pojmenovávající omezení a stanovující plán přechodu na Open Source systém, Debian."
 
 msgid "A significant constraint identified is that the accounting department uses specific software, which only runs on <trademark>Microsoft Windows</trademark>. The laboratory, for its part, uses computer aided design software that runs on <trademark>OS X</trademark>."
-msgstr ""
+msgstr "Podstatným jmenovaným omezením je, že účtárna používá zvláštní software, který běží pouze na <trademark>Microsoft Windows</trademark>. Laboratoř, pro změnu, používá počítačový designový software, který funguje na <trademark>OS X</trademark>."
 
 msgid "Overview of the Falcot Corp network"
-msgstr ""
+msgstr "Všeobecný náhled na síť Falcot Corp"
 
 msgid "The switch to Debian will be gradual; a small business, with limited means, cannot reasonably change everything overnight. For starters, the IT staff must be trained in Debian administration. The servers will then be converted, starting with the network infrastructure (routers, firewalls, etc.) followed by the user services (file sharing, Web, SMTP, etc.). Then the office computers will be gradually migrated to Debian, for each department to be trained (internally) during the deployment of the new system."
-msgstr ""
+msgstr "Přechod na Debian bude postupný; malý podnik, s omezenými prostředky, nemůže z dobrých důvodů změnit všechno přes noc. Pro začátečníky, IT zaměstnanci musí být proškoleni ve správcování Debianu. Servery budou přestavěny, počínaje síťovou infrastrukturou (routery, firewally apod.), následovány uživatelskými službami (sdílením souborů, prohlížením internetových stránek, SMTP apod.). Potom budou kancelářské počítače postupně přestavěny na Debian a každé oddělení bude během provádění přechodu interně proškolováno na nový systém."
 
 msgid "Why a GNU/Linux Distribution?"
 msgstr ""
