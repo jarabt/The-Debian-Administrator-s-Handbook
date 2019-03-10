@@ -141,13 +141,13 @@ msgid "Since Debian <emphasis role=\"distribution\">Squeeze</emphasis>, it is po
 msgstr "Od Debianu <emphasis role=\"distribution\">Squeeze</emphasis>, je možné používat Debian s jádrem FreeBSD na 32 nebo 64 bitových počítačích; to je to, co <literal>kfreebsd-i386</literal> a <literal>kfreebsd-amd64</literal> znamenají. I když tyto architektury nejsou “oficiálními architekturami pro vydání”, více, jak 90 % softwaru nabalíčkovaného Debianem je pro ně k dispozici."
 
 msgid "These architectures may be an appropriate choice for Falcot Corp administrators, especially for a firewall (the kernel supports three different firewalls: IPF, IPFW, PF) or for a NAS (network attached storage system, for which the ZFS filesystem has been tested and approved)."
-msgstr ""
+msgstr "Tyto architektury mohou být správnou volbou pro správce Falcot Corp, zvláště kvůli firewallu (jádro podporuje tři různé firewally: IPF, IPFW, PF) nebo NAS (síťovému datovému úložišti, pro které byl souborový systém ZFS testován a schválen)."
 
 msgid "Why the Debian Distribution?"
-msgstr ""
+msgstr "Proč distribuce Debian?"
 
 msgid "Once the Linux family has been selected, a more specific option must be chosen. Again, there are plenty of criteria to consider. The chosen distribution must be able to operate for several years, since the migration from one to another would entail additional costs (although less than if the migration were between two totally different operating systems, such as Windows or OS X)."
-msgstr ""
+msgstr "Jakmile byla vybrána rodina Linuxu, další konkrétnější volba musí provedena. Znovu, existuje spousta hledisek ke zvážení. Zvolená distribuce musí být schopna provozu po řadu let, protože přechod z jedné na druhou by sebou přinesl další náklady (i když méně, než kdyby se přecházelo mezi úplně odlišnými operačními systémy, jako je Windows nebo OS X)."
 
 msgid "Sustainability is, thus, essential, and it must guarantee regular updates and security patches over several years. The timing of updates is also significant, since, with so many machines to manage, Falcot Corp can not handle this complex operation too frequently. The IT department, therefore, insists on running the latest stable version of the distribution, benefiting from the best technical assistance, and guaranteed security patches. In effect, security updates are generally only guaranteed for a limited duration on older versions of a distribution."
 msgstr ""
