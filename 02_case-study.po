@@ -150,40 +150,40 @@ msgid "Once the Linux family has been selected, a more specific option must be c
 msgstr "Jakmile byla vybrána rodina Linuxu, další konkrétnější volba musí provedena. Znovu, existuje spousta hledisek ke zvážení. Zvolená distribuce musí být schopna provozu po řadu let, protože přechod z jedné na druhou by sebou přinesl další náklady (i když méně, než kdyby se přecházelo mezi úplně odlišnými operačními systémy, jako je Windows nebo OS X)."
 
 msgid "Sustainability is, thus, essential, and it must guarantee regular updates and security patches over several years. The timing of updates is also significant, since, with so many machines to manage, Falcot Corp can not handle this complex operation too frequently. The IT department, therefore, insists on running the latest stable version of the distribution, benefiting from the best technical assistance, and guaranteed security patches. In effect, security updates are generally only guaranteed for a limited duration on older versions of a distribution."
-msgstr ""
+msgstr "Udržitelnost je tedy nezbytná a distribuce musí garantovat pravidelné aktualizace a bezpečnostní opravy po řadu let. Načasování aktualizací je také důležité, protože s tolika zařízeními na starosti, si Falcot Corp nemůže takovou složitou operaci dovolit příliš často. IT oddělení proto trvá na provozování poslední stabilní verze distribuce a chce tak těžit z nejlepší technické podpory a zaručených bezpečnostních oprav. V podstatě, bezpečnostní aktualizace jsou obyčejně zaručeny pouze na omezenou dobu na starších verzích distribuce."
 
 msgid "Finally, for reasons of homogeneity and ease of administration, the same distribution must run on all the servers (some of which are Sparc machines, currently running Solaris) and office computers."
-msgstr ""
+msgstr "Nakonec, kvůli jednotnosti a snadné správě, stejná distribuce musí běžet na všech serverech (některé z nich jsou stroje Sparc, na kterých běží Solaris) a kancelářských počítačích."
 
 msgid "Commercial and Community Driven Distributions"
-msgstr ""
+msgstr "Komerční a komunitou řízené distribuce"
 
 msgid "There are two main categories of Linux distributions: commercial and community driven. The former, developed by companies, are sold with commercial support services. The latter are developed according to the same open development model as the free software of which they are comprised."
-msgstr ""
+msgstr "Existují dvě hlavní kategorie distribucí Linuxu: komerční a ty, řízené komunitou. Ty první, vyvinuté podniky, jsou prodávány s komerčními podpůrnými službami. Ty druhé jsou vyvinuté podle stejného vývojářského modelu jako volný software, ze kterého vzešly."
 
 msgid "A commercial distribution will have, thus, a tendency to release new versions more frequently, in order to better market updates and associated services. Their future is directly connected to the commercial success of their company, and many have already disappeared (Caldera Linux, StormLinux, etc.)."
-msgstr ""
+msgstr "Komerční distribuce budou mít tedy tendenci vydávat nové verze častěji, za účelem lépe prodávat aktualizace a přidružené služby. Jejich budoucnost je přímo spojena s obchodním úspěchem jejich podniku a mnohé z nich už zanikly (Caldera Linux, StormLinux, a další)."
 
 msgid "A community distribution doesn't follow any schedule but its own. Like the Linux kernel, new versions are released when they are stable, never before. Its survival is guaranteed, as long as it has enough individual developers or third party companies to support it."
-msgstr ""
+msgstr "Distribuce komunity nefunguje podle žádného rozpisu, ale funguje podle sebe. Stejně jako jádro Linuxu, tak i nové verze jsou vydávány pokud jsou stabilní, a nikdy dříve. Její přežití je zaručeno, pokud bude mít dostatek vývojářů nebo podniků třetích stran ke své podpoře."
 
 msgid "<primary>distribution</primary><secondary>community Linux distribution</secondary>"
-msgstr ""
+msgstr "<primary>distribuce</primary><secondary>Linuxová distribuce komunity</secondary>"
 
 msgid "<primary>distribution</primary><secondary>commercial Linux distribution</secondary>"
-msgstr ""
+msgstr "<primary>distribuce</primary><secondary>komerční Linuxová distribuce</secondary>"
 
 msgid "A comparison of various Linux distributions led to the choice of Debian for various reasons:"
-msgstr ""
+msgstr "Srovnání různých Linuxových distribucí vedlo k volvě Debianu z různých důvodů:"
 
 msgid "It is a community distribution, with development ensured independently from any commercial constraints; its objectives are, thus, essentially of a technical nature, which seem to favor the overall quality of the product."
-msgstr ""
+msgstr "Je to distribuce komunity, s vývojem zaručeně nezávislým na komerčních omezeních; jejich motivy jsou tedy zásadně technické povahy, což se zdá je ku prospěchu všeobecné kvality produktu."
 
 msgid "Of all community distributions, it is the most significant from many perspectives: in number of contributors, number of software packages available, and years of continuous existence. The size of its community is an incontestable witness to its continuity."
-msgstr ""
+msgstr "Pro všechny distribuce komunit je to to nejpodstatnější z mnoha pohledů: v počtu přispěvatelů, počtu dostupných softwarových balíčků a roků existence bez přerušení. Velikost její komunity neoddiskutovatelně svědčí o její kontinuitě."
 
 msgid "Statistically, new versions are released every 18 to 24 months, and they are supported for 5 years, a schedule which is agreeable to administrators."
-msgstr ""
+msgstr "Statisticky, nové verze jsou vydávány co 18 až 24 měsíců, a jsou podporovány po pět let, plán, který je pro správce odsouhlasitelný."
 
 msgid "A survey of several French service companies specialized in free software has shown that all of them provide technical assistance for Debian; it is also, for many of them, their chosen distribution, internally. This diversity of potential providers is a major asset for Falcot Corp's independence."
 msgstr ""
