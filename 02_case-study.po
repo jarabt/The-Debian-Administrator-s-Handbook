@@ -186,29 +186,29 @@ msgid "Statistically, new versions are released every 18 to 24 months, and they 
 msgstr "Statisticky, nové verze jsou vydávány co 18 až 24 měsíců, a jsou podporovány po pět let, plán, který je pro správce odsouhlasitelný."
 
 msgid "A survey of several French service companies specialized in free software has shown that all of them provide technical assistance for Debian; it is also, for many of them, their chosen distribution, internally. This diversity of potential providers is a major asset for Falcot Corp's independence."
-msgstr ""
+msgstr "Výzkum několika francouzských servisních firem, které se specializují na volný software ukázal, že všechny poskytují technickou podoru pro Debian; je také, pro mnohé z nich, jejich interně vybraná distribuce. Tato rozmanitost potenciálních poskytovatelů je hlavní předností co do nezávislosti pro firmu Falcot Corp."
 
 msgid "Finally, Debian is available on a multitude of architectures, including ppc64el for OpenPOWER processors; it will, thus, be possible to install it on Falcot Corp's latest IBM servers."
-msgstr ""
+msgstr "A konečně, Debian je k dispozici na celé spoustě architektur, počínaje ppc64el pro OpenPOWER procesory, až po poslední servery IBM, které Falcot Corp vlastní."
 
 msgid "<emphasis>IN PRACTICE</emphasis> Debian Long Term Support"
-msgstr ""
+msgstr "<emphasis>V PRAXI</emphasis> dlouhodobá podpora Debianu"
 
 msgid "The Debian Long Term Support (LTS) project started in 2014 and aims to provide 5 years of security support to all stable Debian releases. As LTS is of primary importance to organizations with large deployments, the project tries to pool resources from Debian-using companies. <ulink type=\"block\" url=\"https://wiki.debian.org/LTS\" />"
-msgstr ""
+msgstr "Projekt dlouhodobé podpory Debianu (LTS) začal v roce 2014 a má za cíl poskytovat pětiletou bezpečnostní podporu všem stabilním vydáním Debianu. Za prvořadé důležitosti LTS pro organizace s obsažnými nasazeními aplikací, projekt se snaží sdílet zdroje s firmami používajícími Debian. <ulink type=\"block\" url=\"https://wiki.debian.org/LTS\" />"
 
 msgid "Falcot Corp is not big enough to let one member of its IT staff contribute to the LTS project, so the company opted to subscribe to Freexian's Debian LTS contract and provides financial support. Thanks to this, the Falcot administrators know that the packages they use will be handled in priority and they have a direct contact with the LTS team in case of problems. <ulink type=\"block\" url=\"https://wiki.debian.org/LTS/Funding\" /> <ulink type=\"block\" url=\"http://www.freexian.com/services/debian-lts.html\" />"
-msgstr ""
+msgstr "Podnik Falcot Corp není dostatečně velký na to, aby mohl jednoho člena IT týmu nechat spolupracovat na projektu LTS, tak se firma zavázala upsat na smlouvu LTS Debianu firmy Freexian a poskytnout finanční podporu. Díky tomu správci Falcotu vědí, že balíčky, které používají, budou obhospodařovány přednostně a že budou mít přímý kontakt s týmem LTS v případě problémů."
 
 msgid "Once Debian has been chosen, the matter of which version to use must be decided. Let us see why the administrators have picked Debian Jessie."
-msgstr ""
+msgstr "Když byl vybrán Debian, otázka, kterou verzi používat musí být zodpovězena. Podívejme se, proč správci vybrali Debian Jessie."
 
 msgid "Why Debian Jessie?"
-msgstr ""
+msgstr "Proč Debian Jessie?"
 
 msgid "Every Debian release starts its life as a continuously changing distribution, also known as “<emphasis role=\"distribution\">Testing</emphasis>”. But at the time we write those lines, Debian Jessie is the latest “<emphasis role=\"distribution\">Stable</emphasis>” version of Debian."
-msgstr ""
+msgstr "Každé vydání Debianu započalo svoji existenci jako nepřetržitě se měnící distribuce, také známá jako “<emphasis role=\"distribution\">Testovací</emphasis>”. Ale v době, kdy píšeme tyto řádky, je Debian Jessie poslední “<emphasis role=\"distribution\">stabilní</emphasis>” verzí Debianu."
 
 msgid "The choice of Debian Jessie is well justified based on the fact that any administrator concerned about the quality of their servers will naturally gravitate towards the stable version of Debian. Even if the previous stable release might still be supported for a while, Falcot administrators aren't considering it because its support period will not last long enough and because the latest version brings new interesting features that they care about."
-msgstr ""
+msgstr "Volba Debianu Jessie je dobře odůvodněna faktem, že kterýkoliv správce se zájmem o kvalitu svých serverů bude přirozeně tíhnout ke stabilní verzi Debianu. I když předchozí stabilní verze může být ještě po nějakou dobu podporována, správci Falcotu o ní nepřemýšlí, protože její podpora nepotrvá dostatečně dlouho a protože poslední verze přináší nové zajímavé prvky, o které mají zájem."
 
