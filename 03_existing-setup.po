@@ -63,58 +63,58 @@ msgid "<primary>Avahi</primary>"
 msgstr "<primary>Avahi</primary>"
 
 msgid "OS X machines provide, and are able to use, network services such as file servers and printer sharing. These services are published on the local network, which allows other machines to discover them and make use of them without any manual configuration, using the Bonjour implementation of the Zeroconf protocol suite. Debian includes another implementation, called Avahi, which provides the same functionality."
-msgstr ""
+msgstr "Zařízení OS X poskytují, a mohou používat, síťové služby jako jsou souborové servery a sdílení tiskáren. Tyto služby jsou zveřejněny na lokální síti, což umožňuje ostatním zařízením je prozkoumat a mít prospěch z jejich používání bez nějakého manuálního nastavování, za použití zavedení Bonjour z protokolové sady Zeroconf. Debian zahrnje jiné zavedení, které se nazývá Avahi a poskytuje ten samý rozsah funkcí."
 
 msgid "<primary>AFP</primary>"
-msgstr ""
+msgstr "<primary>AFP</primary>"
 
 msgid "<primary>AppleShare</primary>"
-msgstr ""
+msgstr "<primary>AppleShare</primary>"
 
 msgid "In the other direction, the Netatalk daemon can be used to provide file servers to OS X machines on the network. It implements the AFP (AppleShare) protocol as well as the required notifications so that the servers can be autodiscovered by the OS X clients."
-msgstr ""
+msgstr "Opačným směrem, Netatalk démon může být použit k poskytování souborových serverů vůči zařízením OS X v síti. Zavádí AFP (AppleShere) protokol stejně jako požadovaná oznámení, takže servery mohou být automaticky rozpoznány klienty OS X."
 
 msgid "<primary>AppleTalk</primary>"
-msgstr ""
+msgstr "<primary>AppleTalk</primary>"
 
 msgid "Older Mac OS networks (before OS X) used a different protocol called AppleTalk. For environments involving machines using this protocol, Netatalk also provides the AppleTalk protocol (in fact, it started as a reimplementation of that protocol). It ensures the operation of the file server and print queues, as well as time server (clock synchronization). Its router function allows interconnection with AppleTalk networks."
-msgstr ""
+msgstr "Starší sítě Mac OS (před OS X) používaly odlišné protokoly nazývané AppleTalk. Pro prostředí zahrnující zařízení používající tento protokol, Netatalk také poskytuje protokol AppleTalk (v podstatě, začal jako znovuzavedení tohoto protokolu). To zabezpečuje funkčnost souborového serveru a tiskových front, stejně jako časového serveru (časové sladění hodin). Jeho směrovací funkce umožňuje vzájemné spojení se sítěmi AppleTalk."
 
 msgid "Integration with Other Linux/Unix Machines"
-msgstr ""
+msgstr "Začlenění s ostatními zařízeními Linux/Unix"
 
 msgid "Finally, NFS and NIS, both included, guarantee interaction with Unix systems. NFS ensures file server functionality, while NIS creates user directories. The BSD printing layer, used by most Unix systems, also allows sharing of print queues."
-msgstr ""
+msgstr "A nakonec, NFS a NIS, obě zahrnuté, zaručují spolupráci s Unixovými systémy. NFS zabezpečuje funkčnost souborového serveru, zatímco NIS vytváří uživatelské adresáře. Tisková vrstva BSD, používaná většinou Unixových systémů, také umožňuje sdílení tiskových front."
 
 msgid "Coexistence of Debian with OS X, Windows and Unix systems"
-msgstr ""
+msgstr "Soužití Debianu s OS X, Windows a systémy Unix"
 
 msgid "How To Migrate"
-msgstr ""
+msgstr "Jak přejít"
 
 msgid "<primary>migration</primary>"
-msgstr ""
+msgstr "<primary>přechod</primary>"
 
 msgid "In order to guarantee continuity of the services, each computer migration must be planned and executed according to the plan. This principle applies whatever the operating system used."
-msgstr ""
+msgstr "Za účelem pokračování služeb bez přerušení, musí být každý počítačový přechod naplánován a proveden podle plánu. Tato zásada platí pro použití jakéhokoliv operačního systému."
 
 msgid "Survey and Identify Services"
-msgstr ""
+msgstr "Průzkum a identifikace služeb"
 
 msgid "As simple as it seems, this step is essential. A serious administrator truly knows the principal roles of each server, but such roles can change, and sometimes experienced users may have installed “wild” services. Knowing that they exist will at least allow you to decide what to do with them, rather than delete them haphazardly."
-msgstr ""
+msgstr "Jakkoliv se tento krok zdá jednoduchý, je zásadní. Správný správce skutečně zná základní funkce každého serveru, ale takové funkce se mohou změnit a někdy i zkušení uživatelé mohli nainstalovat “divoké” služby. Vědomí, že existují, vám může minimálně umožnit se rozhodnout jak s nimi naložit, spíše, než je nahodile vymazat."
 
 msgid "For this purpose, it is wise to inform your users of the project before migrating the server. To involve them in the project, it may be useful to install the most common free software programs on their desktops prior to migration, which they will come across again after the migration to Debian; Libre Office and the Mozilla suite are the best examples here."
-msgstr ""
+msgstr "Za tímto účelem je moudré před přechodem serveru informovat uživatele o projektu. K jejich zapojení do projektu může být užitečné nainstalovat nejběžnější programy volného softwaru na jejich počítače ještě před přechodem, programy, se kterým přijdou do styku znovu po přechodu na Debian; Libre Office a sada Mozilla jsou zde nejlepšími příklady  "
 
 msgid "Network and Processes"
-msgstr ""
+msgstr "Síť a procesy"
 
 msgid "<primary><command>nmap</command></primary>"
-msgstr ""
+msgstr "<primary><command>nmap</command></primary>"
 
 msgid "The <command>nmap</command> tool (in the package with the same name) will quickly identify Internet services hosted by a network connected machine without even requiring to log in to it. Simply call the following command on another machine connected to the same network:"
-msgstr ""
+msgstr "Nástroj <command>nmap</command> (v balíčku pod stejným jménem) rychle rozpozná internetové služby nacházející se na zařízení připojeného k síti bez toho, aniž by se k němu přihlásil. Jednoduše spusťte následující příkaz na jiném zařízení připojeného ke stejné síti:"
 
 msgid ""
 "\n"
@@ -128,6 +128,16 @@ msgid ""
 "\n"
 "Nmap done: 1 IP address (1 host up) scanned in 0.13 seconds</computeroutput>"
 msgstr ""
+"\n"
+"<computeroutput>$ </computeroutput><userinput>nmap mirwiz</userinput>\n"
+"<computeroutput>Starting Nmap 6.47 ( http://nmap.org ) at 2015-03-24 11:34 CET\n"
+"Nmap scan report for mirwiz (192.168.1.104)\n"
+"Host is up (0.0037s latency).\n"
+"Not shown: 999 closed ports\n"
+"PORT   STATE SERVICE\n"
+"22/tcp open  ssh\n"
+"\n"
+"Nmap done: 1 IP address (1 host up) scanned in 0.13 seconds</computeroutput>"
 
 msgid "<emphasis>ALTERNATIVE</emphasis> Use <command>netstat</command> to find the list of available services"
 msgstr ""
