@@ -140,19 +140,19 @@ msgstr ""
 "Nmap done: 1 IP address (1 host up) scanned in 0.13 seconds</computeroutput>"
 
 msgid "<emphasis>ALTERNATIVE</emphasis> Use <command>netstat</command> to find the list of available services"
-msgstr ""
+msgstr "<emphasis>ALTERNATIVA</emphasis> Použití <command>netstatu</command> k nalezení seznamu dostupných služeb"
 
 msgid "On a Linux machine, the <command>netstat -tupan</command> command will show the list of active or pending TCP sessions, as well UDP ports on which running programs are listening. This facilitates identification of services offered on the network."
-msgstr ""
+msgstr "Na Linuxových zařízeních, příkaz <command>netstat -tupan</command> ukáže seznam aktivních nebo dosud nevyřízených TCP akcí, stejně jako UDP rozhraní (portů), na kterých běžící programy čekají na odezvu. To usnadňuje identifikaci služeb nabízených sítí."
 
 msgid "<emphasis>GOING FURTHER</emphasis> IPv6"
-msgstr ""
+msgstr "<emphasis>JDEME DÁLE</emphasis> IPv6"
 
 msgid "Some network commands may work either with IPv4 (the default usually) or with IPv6. These include the <command>nmap</command> and <command>netstat</command> commands, but also others, such as <command>route</command> or <command>ip</command>. The convention is that this behavior is enabled by the <parameter>-6</parameter> command-line option."
-msgstr ""
+msgstr "Některé síťové příkazy mohou fungovat buď s IPv4 (obyčejně výchozí) nebo s IPv6. Mezi ně patří příkazy <command>nmap</command> a <command>netstat</command>, ale také další, jako <command>route</command> nebo <command>ip</command>. Je zvykem, že toto chování je umožněno <parameter>-6</parameter> volbou na příkazovém řádku."
 
 msgid "If the server is a Unix machine offering shell accounts to users, it is interesting to determine if processes are executed in the background in the absence of their owner. The command <command>ps auxw</command> displays a list of all processes with their user identity. By checking this information against the output of the <command>who</command> command, which gives a list of logged in users, it is possible to identify rogue or undeclared servers or programs running in the background. Looking at <filename>crontabs</filename> (tables listing automatic actions scheduled by users) will often provide interesting information on functions fulfilled by the server (a complete explanation of <command>cron</command> is available in <xref linkend=\"sect.task-scheduling-cron-atd\" />)."
-msgstr ""
+msgstr "Pokud je serverem Unixové zařízení nabízející uživatelům shellové účty, je zajímavé určit, zda jsou procesy prováděny na pozadí za nepřítomnosti svých majitelů. Příkaz <command>ps auxw</command> zobrazuje seznam všech procesů s jejich uživatelskou totožností.   "
 
 msgid "In any case, it is essential to backup your servers: this allows recovery of information after the fact, when users will report specific problems due to the migration."
 msgstr ""
