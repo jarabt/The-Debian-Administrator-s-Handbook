@@ -152,16 +152,16 @@ msgid "Some network commands may work either with IPv4 (the default usually) or 
 msgstr "Některé síťové příkazy mohou fungovat buď s IPv4 (obyčejně výchozí) nebo s IPv6. Mezi ně patří příkazy <command>nmap</command> a <command>netstat</command>, ale také další, jako <command>route</command> nebo <command>ip</command>. Je zvykem, že toto chování je umožněno <parameter>-6</parameter> volbou na příkazovém řádku."
 
 msgid "If the server is a Unix machine offering shell accounts to users, it is interesting to determine if processes are executed in the background in the absence of their owner. The command <command>ps auxw</command> displays a list of all processes with their user identity. By checking this information against the output of the <command>who</command> command, which gives a list of logged in users, it is possible to identify rogue or undeclared servers or programs running in the background. Looking at <filename>crontabs</filename> (tables listing automatic actions scheduled by users) will often provide interesting information on functions fulfilled by the server (a complete explanation of <command>cron</command> is available in <xref linkend=\"sect.task-scheduling-cron-atd\" />)."
-msgstr "Pokud je serverem Unixové zařízení nabízející uživatelům shellové účty, je zajímavé určit, zda jsou procesy prováděny na pozadí za nepřítomnosti svých majitelů. Příkaz <command>ps auxw</command> zobrazuje seznam všech procesů s jejich uživatelskou totožností.   "
+msgstr "Pokud je serverem Unixové zařízení nabízející uživatelům shellové účty, je zajímavé určit, zda jsou procesy prováděny na pozadí za nepřítomnosti svých majitelů. Příkaz <command>ps auxw</command> zobrazuje seznam všech procesů s jejich uživatelskou totožností. Kontrolou těchto informací s výstupem příkazu <command>who</command>, který poskytuje seznam přihlášených uživatelů, je možné identifikovat škodlivé nebo nedeklarované servery nebo programy běžící na pozadí. Pohledem na <filename>crontabs</filename> (tabulka vypisující automatické akce naplánované uživateli) často poskytuje zajímavé informace o funkcích naplňovaných serverem (kompletní vysvětlení <command>cron</command> je k dispozici na <xref linkend=\"sect.task-scheduling-cron-atd\" />)."
 
 msgid "In any case, it is essential to backup your servers: this allows recovery of information after the fact, when users will report specific problems due to the migration."
-msgstr ""
+msgstr "V každém případě ja důležité zálohovat vaše servery: to umožní navrácení informací poté, co budou uživatelé hlásit určité problémy po přechodu."
 
 msgid "Backing up the Configuration"
-msgstr ""
+msgstr "Zálohování nastavení"
 
 msgid "It is wise to retain the configuration of every identified service in order to be able to install the equivalent on the updated server. The bare minimum is to make a backup copy of the configuration files."
-msgstr ""
+msgstr "Je moudré ponechat si nastavení každé rozpoznané služby kvůli tomu, abychom byli schopni nainstalovat obdobu na aktualizovaný server. Nutné minimum je si udělat zálohovou kopii souborů nastavení."
 
 msgid "For Unix machines, the configuration files are usually found in <filename>/etc/</filename>, but they may be located in a sub-directory of <filename>/usr/local/</filename>. This is the case if a program has been installed from sources, rather than with a package. In some cases, one may also find them under <filename>/opt/</filename>."
 msgstr ""
