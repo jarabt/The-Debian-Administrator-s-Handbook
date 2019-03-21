@@ -164,13 +164,13 @@ msgid "It is wise to retain the configuration of every identified service in ord
 msgstr "Je moudré ponechat si nastavení každé rozpoznané služby kvůli tomu, abychom byli schopni nainstalovat obdobu na aktualizovaný server. Nutné minimum je si udělat zálohovou kopii souborů nastavení."
 
 msgid "For Unix machines, the configuration files are usually found in <filename>/etc/</filename>, but they may be located in a sub-directory of <filename>/usr/local/</filename>. This is the case if a program has been installed from sources, rather than with a package. In some cases, one may also find them under <filename>/opt/</filename>."
-msgstr ""
+msgstr "Pro Unixová zařízení jsou soubory nastavení obyčejně nalezeny v <filename>/etc/</filename>, ale mohou být umístěny i v podadresáři <filename>/usr/local/</filename>. Toto je případ, pokud byl program nainstalován ze zdrojových souborů a ne za pomoci balíčku. V některých případech se mohou nalézat také pod <filename>/opt/</filename>."
 
 msgid "For data managing services (such as databases), it is strongly recommended to export the data to a standard format that will be easily imported by the new software. Such a format is usually in text mode and documented; it may be, for example, an SQL dump for a database, or an LDIF file for an LDAP server."
-msgstr ""
+msgstr "Pro služby obhospodařující data (jako jsou databáze) se důrazně doporučuje vyexportovat data do standardního formátu, který se snadno vimportuje novým softwarem. Takový formát je obvykle v textovém režimu a je zdokumentován; může to být například výpis SQL pro databáze nebo soubor LDIF pro servery LDAP."
 
 msgid "Database backups"
-msgstr ""
+msgstr "Zálohy databáze"
 
 msgid "Each server software is different, and it is impossible to describe all existing cases in detail. Compare the documentation for the existing and the new software to identify the exportable (thus, re-importable) portions and those which will require manual handling. Reading this book will clarify the configuration of the main Linux server programs."
 msgstr ""
