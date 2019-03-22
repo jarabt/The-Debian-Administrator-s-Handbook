@@ -176,19 +176,19 @@ msgid "Each server software is different, and it is impossible to describe all e
 msgstr "Každý serverový sofrware je jiný a je nemožné popsat všechny existující případy do detailu. Srovnejte dokumentaci současného a nového sofrwaru a identifikujte části, které je možno exportovat (tedy re-importovat) a části, které budou vyžadovat manuální činnost. Čtení této knihy objasní nastavení hlavních programů Linuxového serveru."
 
 msgid "Taking Over an Existing Debian Server"
-msgstr ""
+msgstr "Převzetí současného Debianového serveru"
 
 msgid "<primary>recovering a Debian machine</primary>"
-msgstr ""
+msgstr "<primary>obnovení zařízení Debianového zařízení</primary>"
 
 msgid "<primary>exploring a Debian machine</primary>"
-msgstr ""
+msgstr "<primary>prozkoumání Debianového zařízení</primary>"
 
 msgid "<primary>taking over a Debian server</primary>"
-msgstr ""
+msgstr "<primary>převzetí Debianového serveru</primary>"
 
 msgid "To effectively take over its maintenance, one may analyze a machine already running with Debian."
-msgstr ""
+msgstr "    "
 
 msgid "The first file to check is <filename>/etc/debian_version</filename>, which usually contains the version number for the installed Debian system (it is part of the <emphasis>base-files</emphasis> package). If it indicates <literal><replaceable>codename</replaceable>/sid</literal>, it means that the system was updated with packages coming from one of the development distributions (either testing or unstable)."
 msgstr ""
