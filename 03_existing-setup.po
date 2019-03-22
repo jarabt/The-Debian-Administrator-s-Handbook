@@ -188,13 +188,13 @@ msgid "<primary>taking over a Debian server</primary>"
 msgstr "<primary>převzetí Debianového serveru</primary>"
 
 msgid "To effectively take over its maintenance, one may analyze a machine already running with Debian."
-msgstr "    "
+msgstr "K efektivnímu převzetí údržby se dá zanalyzovat zařízení, na kterém už Debian běží."
 
 msgid "The first file to check is <filename>/etc/debian_version</filename>, which usually contains the version number for the installed Debian system (it is part of the <emphasis>base-files</emphasis> package). If it indicates <literal><replaceable>codename</replaceable>/sid</literal>, it means that the system was updated with packages coming from one of the development distributions (either testing or unstable)."
-msgstr ""
+msgstr "Prvním souborem ke kontrole by měl být <filename>/etc/debian_version</filename>, který obvykle obsahuje číslo verze nainstalovaného systému Debianu (je součástí balíčku <emphasis>base-files</emphasis>). Pokud ukazuje <literal><replaceable>kódové jméno</replaceable>/sid</literal>, znamená to, že systém byl aktualizovaný s balíčky pocházejících z jedné z vývojových distribucí (buď testovací nebo nestabilní)."
 
 msgid "The <command>apt-show-versions</command> program (from the Debian package of the same name) checks the list of installed packages and identifies the available versions. <command>aptitude</command> can also be used for these tasks, albeit in a less systematic manner."
-msgstr ""
+msgstr "Program <command>apt-show-versions</command> (z balíčku Debianu toho samého jména) kontroluje seznam nainstalovaných balíčků a rozpoznává dostupné verze. <command>aptitude</command> může také zastat takové úkoly, třebaže méně systematickým způsobem."
 
 msgid "A glance at the <filename>/etc/apt/sources.list</filename> file (and <filename>/etc/apt/sources.list.d/</filename> directory) will show where the installed Debian packages likely came from. If many unknown sources appear, the administrator may choose to completely reinstall the computer's system to ensure optimal compatibility with the software provided by Debian."
 msgstr ""
