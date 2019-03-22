@@ -173,7 +173,7 @@ msgid "Database backups"
 msgstr "Zálohy databáze"
 
 msgid "Each server software is different, and it is impossible to describe all existing cases in detail. Compare the documentation for the existing and the new software to identify the exportable (thus, re-importable) portions and those which will require manual handling. Reading this book will clarify the configuration of the main Linux server programs."
-msgstr " "
+msgstr "  "
 
 msgid "Taking Over an Existing Debian Server"
 msgstr ""
