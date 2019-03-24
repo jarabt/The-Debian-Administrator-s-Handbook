@@ -4,87 +4,87 @@ msgstr ""
 "POT-Creation-Date: 2015-10-06 16:10+0200\n"
 "PO-Revision-Date: 2015-10-06 16:10+0200\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: None\n"
-"Language: en-US \n"
+"Language-Team: Jaroslav Tesař\n"
+"Language: cs-CZ \n"
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Publican v4.3.2\n"
 
 msgid "Installation"
-msgstr ""
+msgstr "Instalace"
 
 msgid "Partitioning"
-msgstr ""
+msgstr "Rozdělení"
 
 msgid "Formatting"
-msgstr ""
+msgstr "Formátování"
 
 msgid "File System"
-msgstr ""
+msgstr "Systém souborů"
 
 msgid "Boot Sector"
-msgstr ""
+msgstr "Bootovací sektor"
 
 msgid "Hardware Detection"
-msgstr ""
+msgstr "Rozpoznání hardwaru"
 
 msgid "To use Debian, you need to install it on a computer; this task is taken care of by the <emphasis>debian-installer</emphasis> program. A proper installation involves many operations. This chapter reviews them in their chronological order."
-msgstr ""
+msgstr "Aby jste mohli používat Debian, musíte ho na počítač nainstalovat; splnění tohoto úkolu zabezpečuje program <emphasis>debian-installer</emphasis>. Správná instalace zahrnuje mnoho operací. Tato kapitola se jim věnuje postupně chronologicky."
 
 msgid "<primary>installation</primary><secondary>of the system</secondary>"
-msgstr ""
+msgstr "<primary>instalace</primary><secondary>systému</secondary>"
 
 msgid "<emphasis>BACK TO BASICS</emphasis> A catch-up course in the appendices"
-msgstr ""
+msgstr "<emphasis>ZPÁTKY K ZÁKLADŮM</emphasis> Doučovací kurz v přílohách"
 
 msgid "Installing a computer is always simpler when you are familiar with the way it works. If you are not, make a quick detour to <xref linkend=\"short-remedial-course\" /> before reading this chapter."
-msgstr ""
+msgstr "Instalace počítače je vždy jednodušší, pokud je vám známo, jak funguje. Pokud ne, vemte to krátkou oklikou přes <xref linkend=\"short-remedial-course\" /> před čtením této kapitoly. "
 
 msgid "The installer for <emphasis role=\"distribution\">Jessie</emphasis> is based on <command>debian-installer</command>. Its modular design enables it to work in various scenarios and allows it to evolve and adapt to changes. Despite the limitations implied by the need to support a large number of architectures, this installer is very accessible to beginners, since it assists users at each stage of the process. Automatic hardware detection, guided partitioning, and graphical user interfaces have solved most of the problems that newbies used to face in the early years of Debian."
-msgstr ""
+msgstr "Instalátor <emphasis role=\"distribution\">Jessie</emphasis> je založen na <command>debian-installeru</command>. Jeho modulární uspořádání mu umožňuje práci podle různých scénářů a dovoluje mu vyvíjet se a adaptovat podle změn. Navzdory omezení vyplývajících z potřeby podpory velkého počtu architektur, je tento instalátor velmi přístupný začátečníkům, protože pomáhá uživatelům v každé fázi tohoto procesu. Automatické rozpoznání hardwaru, průvodce rozdělením a grafická uživatelská rozhraní vyřešili většinu problémů, kterým nováčci čelili v raných letech Debianu."
 
 msgid "<primary>installer</primary>"
-msgstr ""
+msgstr "<primary>instalátor</primary>"
 
 msgid "<primary><command>debian-installer</command></primary>"
-msgstr ""
+msgstr "<primary><command>debian-installer</command></primary>"
 
 msgid "Installation requires 80 MB of RAM (Random Access Memory) and at least 700 MB of hard drive space. All Falcot computers meet these criteria. Note, however, that these figures apply to the installation of a very limited system without a graphical desktop. A minimum of 512 MB of RAM and 5 GB of hard drive space are really recommended for a basic office desktop workstation."
-msgstr ""
+msgstr "Instalace vyžaduje 80 MB RAM (paměti náhodného přístupu) a minimálně 700 MB místa na pevné paměťové jednotce. Všechny počítače Falcotu tato kritéria splňují. Mějte každopádně na paměti, že tato čísla se vztahují na instalaci velmi omezeného systému bez grafického uživatelského prostředí. Minimum 512 MB RAM a 5 GB na pevné jednotce je reálné doporučení pro základní stolní kancelářské stanice."
 
 msgid "<emphasis>BEWARE</emphasis> Upgrading from Wheezy"
-msgstr ""
+msgstr "<emphasis>UPOZORNĚNÍ</emphasis> Upgrade z Wheezyho"
 
 msgid "If you already have Debian Wheezy installed on your computer, this chapter is not for you! Unlike other distributions, Debian allows updating a system from one version to the next without having to reinstall the system. Reinstalling, in addition to being unnecessary, could even be dangerous, since it could remove already installed programs."
-msgstr ""
+msgstr "Pokud už máte na svém počítači nainstalovaný Debian Wheezy, není tato kapitola pro vás! Narozdíl od ostatních distribucí, Debian umožňuje aktualizování systému z jedné verze na druhou bez nutnosti další instalace. Přeinstalování, mimo to, že není nezbytné, může být naopak nebezpečné, protože odstraní již nainstalované programy."
 
 msgid "The upgrade process will be described in <xref linkend=\"sect.dist-upgrade\" />."
-msgstr ""
+msgstr "Proces upgradování bude popsán v <xref linkend=\"sect.dist-upgrade\" />."
 
 msgid "Installation Methods"
-msgstr ""
+msgstr "Metody instalace"
 
 msgid "A Debian system can be installed from several types of media, as long as the BIOS of the machine allows it. You can for instance boot with a CD-ROM, a USB key, or even through a network."
-msgstr ""
+msgstr "Systém Debian může být nainstalovaný z různých typů médií, pokud to BIOS daného zařízení umožní. Bootovat můžete například s CD-ROM, USB zařízením nebo třeba prostřednictvím sítě. "
 
 msgid "<emphasis>BACK TO BASICS</emphasis> BIOS, the hardware/software interface"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> BIOS, hardware/softwarové rozhraní"
 
 msgid "<primary>BIOS</primary>"
-msgstr ""
+msgstr "<primary>BIOS</primary>"
 
 msgid "<primary>Basic Input/Output System</primary>"
-msgstr ""
+msgstr "<primary>základní systém vstupu/výstupu</primary>"
 
 msgid "BIOS (which stands for Basic Input/Output System) is a software that is included in the motherboard (the electronic board connecting all peripherals) and executed when the computer is booted, in order to load an operating system (via an adapted bootloader). It stays in the background to provide an interface between the hardware and the software (in our case, the Linux kernel)."
-msgstr ""
+msgstr "BIOS (z anglického Basic Input/Output System) je software, který je obsažený v základní desce (elektronické desce propojující všechna periferní zařízení) a spuštěný, když je počítač bootován, za účelem nahrání operačního systému (prostřednictvím uzpůsobeného bootloaderu). Stojí v pozadí a poskytuje rozhraní mezi hardwarem a softwarem (v našem případě Linuxovým jádrem)."
 
 msgid "Installing from a CD-ROM/DVD-ROM"
-msgstr ""
+msgstr "Instalace z CD-ROM/DVD-ROM"
 
 msgid "The most widely used installation method is from a CD-ROM (or DVD-ROM, which behaves exactly the same way): the computer is booted from this media, and the installation program takes over."
-msgstr ""
+msgstr "Nejrozšířenější instalační metoda je z CD-ROM (nebo DVD-ROM, který se chová úplně stejně): počítač je bootován z tohoto média a instalační program se ujme své funkce."
 
 msgid "Various CD-ROM families have different purposes: <emphasis>netinst</emphasis> (network installation) contains the installer and the base Debian system; all other programs are then downloaded. Its “image”, that is the ISO-9660 filesystem that contains the exact contents of the disk, only takes up about 150 to 280 MB (depending on architecture). On the other hand, the complete set offers all packages and allows for installation on a computer that has no Internet access; it requires around 84 CD-ROMs (or 12 DVD-ROMs, or two Blu-ray disks). But the programs are divided among the disks according to their popularity and importance; the first three disks will be sufficient for most installations, since they contain the most used software."
 msgstr ""
