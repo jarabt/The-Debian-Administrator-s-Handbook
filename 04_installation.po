@@ -93,40 +93,40 @@ msgid "There is a last type of image, known as <filename>mini.iso</filename>, wh
 msgstr "Potom je tu poslední obraz, známý jako <filename>mini.iso</filename>, který je dostupný pouze jako vedlejší produkt instalátoru. Tento obraz obsahuje pouze minimum potřebné k nastavení sítě a všechno ostatní je stáhnuto (včetně částí samotného instalátoru, což je důvod, proč mají tyto obrazy tendenci padat, když je vydána nová verze instalátoru). Tyto obrazy mohou být nalezeny na běžných zrcadlových serverech Debianu pod adresářem <filename>dists/<replaceable>release</replaceable>/main/installer-<replaceable>arch</replaceable>/current/images/netboot/</filename> directory."
 
 msgid "<primary><filename>mini.iso</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>mini.iso</filename></primary>"
 
 msgid "<emphasis>TIP</emphasis> Multi-architecture disks"
-msgstr ""
+msgstr "<emphasis>TIP</emphasis> Multi-architekturní disky"
 
 msgid "Most installation CD- and DVD-ROMs work only with a specific hardware architecture. If you wish to download the complete images, you must take care to choose those which work on the hardware of the computer on which you wish to install them."
-msgstr ""
+msgstr "Většina instalačních CD a DVD pracuje pouze s určitou hardwarovou architekturou. Pokud si přejete stáhnout komplentí obrazy, musíte pečlivě vybírat ty, které fungují na hardwaru počítače, na kterém si je přejete nainstalovat."
 
 msgid "Some CD/DVD-ROM images can work on several architectures. We thus have a CD-ROM image combining the <emphasis>netinst</emphasis> images of the <emphasis>i386</emphasis> and <emphasis>amd64</emphasis> architectures. There is also a DVD-ROM image that contains the installer and a selection of binary packages for <emphasis>i386</emphasis> and <emphasis>amd64</emphasis>, as well as the corresponding source packages."
-msgstr ""
+msgstr "Některé CD/DVD obrazy mohou fungovat na různých architekturách. A tak máme CD obraz kombinující obrazy <emphasis>netinst</emphasis> pro <emphasis>i386</emphasis> a <emphasis>amd64</emphasis> architekturu. Existuje také DVD obraz, který obsahuje instalátor a výběr binárních balíčků pro <emphasis>i386</emphasis> a <emphasis>amd64</emphasis>, stejně, jako odpovídající zdrojové balíčky."
 
 msgid "<primary>CD-ROM</primary><secondary>installation CD-ROM</secondary>"
-msgstr ""
+msgstr "<primary>CD</primary><secondary>instalační CD</secondary>"
 
 msgid "<primary>CD-ROM</primary><secondary><emphasis>netinst CD-ROM</emphasis></secondary>"
-msgstr ""
+msgstr "<primary>CD</primary><secondary><emphasis>netinst CD</emphasis></secondary>"
 
 msgid "<primary>DVD-ROM</primary><secondary>installation DVD-ROM</secondary>"
-msgstr ""
+msgstr "<primary>DVD</primary><secondary>instalační DVD</secondary>"
 
 msgid "<primary>DVD-ROM</primary><secondary><emphasis>netinst DVD-ROM</emphasis></secondary>"
-msgstr ""
+msgstr "<primary>DVD</primary><secondary><emphasis>netinst DVD</emphasis></secondary>"
 
 msgid "To acquire Debian CD-ROM images, you may of course download them and burn them to disk. You may also purchase them, and, thus, provide the project with a little financial support. Check the website to see the list of CD-ROM image vendors and download sites. <ulink type=\"block\" url=\"http://www.debian.org/CD/index.html\" />"
-msgstr ""
+msgstr "Za účelem pořízení CD obrazů, si je můžete samozřejmě stáhnout a vypálit na disk. Můžete si je také koupit, a tím poskytnout projektu menší finanční podporu. Prozkoumejte internetovou stránku a podívejte se na seznam prodejců CD obrazů a stránek pro stáhnutí."
 
 msgid "Booting from a USB Key"
-msgstr ""
+msgstr "Bootování z USB klíčenky"
 
 msgid "<primary>USB key</primary>"
-msgstr ""
+msgstr "<primary>USB klíčenka</primary>"
 
 msgid "Since most computers are able to boot from USB devices, you can also install Debian from a USB key (this is nothing more than a small flash-memory disk)."
-msgstr ""
+msgstr "Protože je většina počítačů schopna bootovat z USB zařízení, můžete instalovat Debian také z USB klíčenky (což je v podstatě malý disk s flash pamětí)."
 
 msgid "The installation manual explains how to create a USB key that contains the <command>debian-installer</command>. The procedure is very simple because ISO images for i386 and amd64 are hybrid images that can boot from a CD-ROM as well as from a USB key."
 msgstr ""
