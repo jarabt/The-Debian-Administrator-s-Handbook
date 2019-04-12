@@ -129,46 +129,46 @@ msgid "Since most computers are able to boot from USB devices, you can also inst
 msgstr "Protože je většina počítačů schopna bootovat z USB zařízení, můžete instalovat Debian také z USB klíčenky (což je v podstatě malý disk s flash pamětí)."
 
 msgid "The installation manual explains how to create a USB key that contains the <command>debian-installer</command>. The procedure is very simple because ISO images for i386 and amd64 are hybrid images that can boot from a CD-ROM as well as from a USB key."
-msgstr ""
+msgstr "Instalační manuál vysvětluje, jak vytvořit USB klíčenku, která obsahuje <command>debian-installer</command>. Postup je velmi snadný, protože ISO obrazy pro i386 a amd64 jsou hybridní obrazy, které je možno bootovat jak z CD, tak z USB klíčenky."
 
 msgid "You must first identify the device name of the USB key (ex: <literal>/dev/sdb</literal>); the simplest means to do this is to check the messages issued by the kernel using the <command>dmesg</command> command. Then you must copy the previously downloaded ISO image (for example debian-8.0.0-amd64-i386-netinst.iso) with the command <command>cat debian-8.0.0-amd64-i386-netinst.iso &gt;/dev/sdb; sync</command>. This command requires administrator rights, since it accesses the USB key directly and blindly erases its content."
-msgstr ""
+msgstr "Nejdříve musíte identifikovat jméno zařízení USB klíčenky (např.: <literal>/dev/sdb</literal>); nejjednodušší způsob, jak tak učinit, je zkontrolovat zprávu, kterou vytvoří jádro za použítí příkazu <command>dmesg</command>. Potom musíte zkopírovat ISO obraz, který jste předtím stáhli (například debian-8.0.0-amd64-i386-netinst.iso) příkazem <command>cat debian-8.0.0-amd64-i386-netinst.iso &gt;/dev/sdb; sync</command>. Tento příkaz vyžaduje administrátorská práva, protože přistupuje do USB klíčenky přímo a natvrdo smaže její obsah."
 
 msgid "A more detailed explanation is available in the installation manual. Among other things, it describes an alternative method of preparing a USB key that is more complex, but that allows to customize the installer's default options (those set in the kernel command line). <ulink type=\"block\" url=\"http://www.debian.org/releases/stable/amd64/ch04s03.html\" />"
-msgstr ""
+msgstr "Detailnější vysvětlení je k dispozici v instalačním manuálu. Tak, jako ostatní věci, popisuje alternativní metodu přípravy USB klíčenky, která je složitější, ale umožňuje přizpůsobit přednastavené uživatelské volby (ty, které jsou nastaveny v příkazovém řádku jádra). <ulink type=\"block\" url=\"http://www.debian.org/releases/stable/amd64/ch04s03.html\" />"
 
 msgid "Installing through Network Booting"
-msgstr ""
+msgstr "Instalace za pomocí síťového bootování"
 
 msgid "<primary>installation</primary><secondary><emphasis>netboot installation</emphasis></secondary>"
-msgstr ""
+msgstr "<primary>instalace</primary><secondary><emphasis>netboot instalace</emphasis></secondary>"
 
 msgid "<primary>installation</primary><secondary><emphasis>PXE installation</emphasis></secondary>"
-msgstr ""
+msgstr "<primary>instalace</primary><secondary><emphasis>PXE instalace</emphasis></secondary>"
 
 msgid "<primary>installation</primary><secondary><emphasis>TFTP installation</emphasis></secondary>"
-msgstr ""
+msgstr "<primary>instalace</primary><secondary><emphasis>TFTP instalalace</emphasis></secondary>"
 
 msgid "Many BIOSes allow booting directly from the network by downloading a kernel and a minimal filesystem image. This method (which has several names, such as <acronym>PXE</acronym> or <acronym>TFTP</acronym> boot) can be a life-saver if the computer does not have a CD-ROM reader, or if the BIOS can't boot from such media."
-msgstr ""
+msgstr "Mnoho BIOSů umožňuje bootování přímo ze sítě za použití stáhnutí obrazu jádra a minimálního systému souborů. Tato metoda (která se různě nazývá, jako <acronym>PXE</acronym> nebo <acronym>TFTP</acronym> bootování) nás může spasit, pokud počítač namá CD-ROM nebo pokud BIOS nemůže bootovat z takových médií."
 
 msgid "This installation method works in two steps. First, while booting the computer, the BIOS (or the network card) issues a BOOTP/DHCP request to automatically acquire an IP address. When a BOOTP or DHCP server returns a response, it includes a filename, as well as network settings. After having configured the network, the client computer then issues a TFTP (Trivial File Transfer Protocol) request for a file whose name was previously indicated. Once this file is acquired, it is executed as though it were a bootloader. This then launches the Debian installation program, which is executed as though it were running from the hard drive, a CD-ROM, or a USB key."
-msgstr ""
+msgstr "Tato instalační metoda pracuje ve dvou krocích. První, když při bootování počítače BIOS (nebo síťová karta) vytvoří BOOTP/DHCP požadavek na automatické získání IP adresy. Pokud server BOOTP nebo DHCP vrátí odezvu, zahrnuje jak jméno souboru, tak nastavení sítě. Po nastavení sítě, klientský počítač vydá TFTP (Trivial File Transfer Protocol) požadavek na soubor, jehož jméno bylo předtím oznámeno. Po jeho získání je tento soubor spuštěn jako by to byl bootloader. Ten poté nahodí instalační program Debianu, který je spuštěn, jako by běžel z harddisku, CD nebo USB klíčenky."
 
 msgid "All the details of this method are available in the installation guide (“Preparing files for TFTP Net Booting” section). <ulink type=\"block\" url=\"http://www.debian.org/releases/stable/amd64/ch05s01.html#boot-tftp\" /> <ulink type=\"block\" url=\"http://www.debian.org/releases/stable/amd64/ch04s05.html\" />"
-msgstr ""
+msgstr "Všechny detaily této metody jsou k dispozici v instalačním průvodci (sekci “Příprava souborů pro TFTP síťové bootování”). <ulink type=\"block\" url=\"http://www.debian.org/releases/stable/amd64/ch05s01.html#boot-tftp\" /> <ulink type=\"block\" url=\"http://www.debian.org/releases/stable/amd64/ch04s05.html\" />"
 
 msgid "Other Installation Methods"
-msgstr ""
+msgstr "Další metody instalace"
 
 msgid "When we have to deploy customized installations for a large number of computers, we generally choose an automated rather than a manual installation method. Depending on the situation and the complexity of the installations to be made, we can use FAI (Fully Automatic Installer, described in <xref linkend=\"sect.fai\" />), or even a customized installation CD with preseeding (see <xref linkend=\"sect.d-i-preseeding\" />)."
-msgstr ""
+msgstr "Pokud musíme rozmístit uživatelsky přizpůsobené instalace na velký počet počítačů, obyčejně zvolíme automatickou, spíše, než manuální instalační metodu. V závislosti na situaci a na tom, o jak složitou instalaci se jedná, můžeme použít FAI (plně automatický instalátor, popsaný v <xref linkend=\"sect.fai\" />) nebo také nastavitelné instalační CD s přednastaveními (nahlédněte do <xref linkend=\"sect.d-i-preseeding\" />)."
 
 msgid "Installing, Step by Step"
-msgstr ""
+msgstr "Instalace, krok za krokem"
 
 msgid "Booting and Starting the Installer"
-msgstr ""
+msgstr "Bootování a nastartování instalátoru"
 
 msgid "Once the BIOS has begun booting from the CD- or DVD-ROM, the Isolinux bootloader menu appears. At this stage, the Linux kernel is not yet loaded; this menu allows you to choose the kernel to boot and enter possible parameters to be transferred to it in the process."
 msgstr ""
