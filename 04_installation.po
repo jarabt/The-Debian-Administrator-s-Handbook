@@ -171,25 +171,25 @@ msgid "Booting and Starting the Installer"
 msgstr "Bootování a nastartování instalátoru"
 
 msgid "Once the BIOS has begun booting from the CD- or DVD-ROM, the Isolinux bootloader menu appears. At this stage, the Linux kernel is not yet loaded; this menu allows you to choose the kernel to boot and enter possible parameters to be transferred to it in the process."
-msgstr ""
+msgstr "Jakmile se BIOS začne bootovat z CD nebo DVD-ROM, objeví se Isolinuxové menu bootloaderu. V této fázi ještě není Linuxové jádro nahráno; toto menu vám umožní si vybrat jádro, určené k bootování a zadat možné paramatry, které se k němu během procesu přenesou."
 
 msgid "For a standard installation, you only need to choose “Install” or “Graphical install” (with the arrow keys), then press the <keycap>Enter</keycap> key to initiate the remainder of the installation process. If the DVD-ROM is a “Multi-arch” disk, and the machine has an Intel or AMD 64 bit processor, the menu options “64 bit install” and “64 bit graphical install” enable the installation of the 64 bit variant (<emphasis>amd64</emphasis>) instead of the default 32 bit variant (<emphasis>i386</emphasis>). In practice, the 64 bit version can almost always be used: most recent processors are 64 bit processors and the 64 bit version deals better with the large amount of RAM that new computers tend to have."
-msgstr ""
+msgstr "Pro běžnou instalaci musíte pouze vybrat “Instalaci” nebo “Grafickou instalaci” (za pomocí kláves s šipkami), potom zmáčknout <keycap>Enter</keycap> pro zahájení zbytku instalačního procesu. Pokud je DVD-ROM  “Multi-arch” disk a zařízení má 64-bitový procesor Intel nebo AMD, možnosti menu “64 bit install” a “64 bit graphical install” vám umožní instalaci 64-bitové varianty (<emphasis>amd64</emphasis>) namísto přednastavené 32-bitové varianty (<emphasis>i386</emphasis>). V praxi, 64-bitová verze může být skoro vždy použita: nejnovější procesory mají 64-bitové procesory a 64-bitová verze lépe zachází s větším objemem RAM, kterým nové počítače mají tendenci disponovat."
 
 msgid "<emphasis>GOING FURTHER</emphasis> 32 or 64 bits?"
-msgstr ""
+msgstr "<emphasis>JDEME DÁLE</emphasis> 32 nebo 64 bit?"
 
 msgid "<primary>PAE</primary>"
-msgstr ""
+msgstr "<primary>PAE</primary>"
 
 msgid "<primary>Physical Address Extension</primary>"
-msgstr ""
+msgstr "<primary>Nástavba fyzické adresy</primary>"
 
 msgid "<primary>32/64 bits, choice</primary>"
-msgstr ""
+msgstr "<primary>32/64 bit, volba</primary>"
 
 msgid "The fundamental difference between 32 and 64 bit systems is the size of memory addresses. In theory, a 32 bit system can not work with more than 4 GB of RAM (2<superscript>32</superscript> bytes). In practice, it is possible to work around this limitation by using the <literal>686-pae</literal> kernel variant, so long as the processor handles the PAE (Physical Address Extension) functionality. Using it does have a notable influence on system performance, however. This is why it is useful to use the 64 bit mode on a server with a large amount of RAM."
-msgstr ""
+msgstr "Zásadní rozdíl mezi 32 a 64-bitovým systémem je velikost paměťových adres. Teoreticky nemůže 32-bitový systém pracovat s více než 4 GB RAM (2<superscript>32</superscript> bajtů). V praxi je možné toto omezení obejít za pomoci varianty jádra <literal>686-pae</literal>, za předpokladu, že procesor zvládá funkcionalitu PAE (nástavbu fyzické adresy). Každopádně, využití této možnosti má významný vliv na výkonnost systému. To je důvod, proč je užitečné použít 64-bitový mód na serverech s velkým objemem RAM."
 
 msgid "For an office computer (where a few percent difference in performance is negligible), you must keep in mind that some proprietary programs are not available in 64 bit versions (such as Skype, for example). It is technically possible to make them work on 64 bit systems, but you have to install the 32 bit versions of all the necessary libraries (see <xref linkend=\"sect.multi-arch\" />), and sometimes to use <command>setarch</command> or <command>linux32</command> (in the <emphasis role=\"pkg\">util-linux</emphasis> package) to trick applications regarding the nature of the system. <indexterm><primary><command>setarch</command></primary></indexterm> <indexterm><primary><command>linux32</command></primary></indexterm>"
 msgstr ""
