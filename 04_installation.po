@@ -225,61 +225,61 @@ msgid "Each menu entry hides a specific boot command line, which can be configur
 msgstr "Každý vstup menu skrývá specifický bootovací příkazový řádek, který může být v případě potřeby nakonfigutován zmáčknutím klávesy <keycap>TAB</keycap> před potvrzením vstupu a bootováním. Vstup menu “Help” zobrazuje staré rozhraní příkazového řádku, kde klávesy <keycap>F1</keycap> až <keycap>F10</keycap> zobrazují rozdílné pomocné obrazovky upřesňující různé dostupné možnosti k zadání. Zřídkakdy budete používat tuto možnost vyjma některých velmi zvláštních případů."
 
 msgid "The “expert” mode (accessible in the “Advanced options” menu) details all possible options in the process of installation, and allows navigation between the various steps without them happening automatically in sequence. Be careful, this very verbose mode can be confusing due to the multitude of configuration choices that it offers."
-msgstr ""
+msgstr "Mód s názvem “expert” (přístupný v menu “Advanced options”) upřesňuje veškeré možné volby v procesu instalace a umožňuje navigaci mezi různými kroky bez jejich automatického provedení v posloupnosti. Buďte opatrní, tento upovídaný mód může být matoucí kvůli spoustě konfiguračních možností, které nabízí."
 
 msgid "Boot screen"
-msgstr ""
+msgstr "Bootovací obrazovka"
 
 msgid "Once booted, the installation program guides you step by step throughout the process. This section presents each of these steps in detail. Here we follow the process of an installation from a Multi-Arch DVD-ROM (more specifically, the beta4 version of the installer for Jessie); <emphasis>netinst</emphasis> installations, as well as the final release of the installer, may look slightly different. We will also address installation in graphical mode, but the only difference from “classic” (text-mode) installation is in the visual appearance."
-msgstr ""
+msgstr "Jakmile se dokončí bootování, instalační program vás provede procesem krok za krokem. Tato sekce předkládá každý z těchto kroků detailně. Zde popisujeme proces instalace z Multi-Arch DVD-ROM (pro více architektur, speciálně beta4 verzi instalátoru pro Jessie); <emphasis>netinst</emphasis> instalace, stejně jako poslední vydání instalátoru, mohou vypadat trošku rozdílně."
 
 msgid "Selecting the language"
-msgstr ""
+msgstr "Výběr jazyka"
 
 msgid "<primary>choice</primary><secondary>of language</secondary>"
-msgstr ""
+msgstr "<primary>volba</primary><secondary>jazyka</secondary>"
 
 msgid "The installation program begins in English, but the first step allows the user to choose the language that will be used in the rest of the process. Choosing French, for example, will provide an installation entirely translated into French (and a system configured in French as a result). This choice is also used to define more relevant default choices in subsequent stages (notably the keyboard layout)."
-msgstr ""
+msgstr "Instalční program začíná v angličtině, ale první krok umožňuje uživateli si vybrat jazyk, který bude používat po zbytek procesu. Například při výběru francouzštiny, se provede instalace kompletně přeložená do francouzštiny (a systém bude ve výsledku také ve francouzštině). Tato volba je také použita k definování dalších důležitých přednastavených možností v následujících krocích (především rozvržení klávesnice)."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Navigating with the keyboard"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Navigování za pomocí klávesnice"
 
 msgid "Some steps in the installation process require you to enter information. These screens have several areas that may “have focus” (text entry area, checkboxes, list of choices, OK and Cancel buttons), and the <keycap>TAB</keycap> key allows you to move from one to another."
-msgstr ""
+msgstr "Některé kroky v instalačním procesu vyžadují vložení informací. Tyto obrazovky mají různé oblasti, které mohou mít svá zaměření (místa pro vložení textu, okénka na zatrhávání, seznamy možností, tlačítka OK a Cancel) a klávesa <keycap>TAB</keycap> vám umožní se přemisťovat z jednoho na druhé."
 
 msgid "In graphical mode, you can use the mouse as you would normally on an installed graphical desktop."
-msgstr ""
+msgstr "V grafickém módu můžete požívat myš, stejně jako v normálním nainstalovaném grafickém prostředí."
 
 msgid "Selecting the country"
-msgstr ""
+msgstr "Výběr země"
 
 msgid "<primary>choice</primary><secondary>of country</secondary>"
-msgstr ""
+msgstr "<primary>volba</primary><secondary>země</secondary>"
 
 msgid "The second step consists in choosing your country. Combined with the language, this information enables the program to offer the most appropriate keyboard layout. This will also influence the configuration of the time zone. In the United States, a standard QWERTY keyboard is suggested, and a choice of appropriate time zones is offered."
-msgstr ""
+msgstr "Druhý krok spočívá ve výběru země. V kombivaci s jazykem tato informace umožňuje programu nabídnout to nejvhodnější rozložení klávesnice. To také ovlivní nastavení časové zóny. Ve Spojených státech je doporučena standardní klávesnice QWERTY a nabídnuta volba vhodné časové zóny."
 
 msgid "Selecting the keyboard layout"
-msgstr ""
+msgstr "Výběr rozložení klávesnice"
 
 msgid "<primary>keyboard layout</primary>"
-msgstr ""
+msgstr "<primary>rozložení klávesnice</primary>"
 
 msgid "<primary>layout, keyboard</primary>"
-msgstr ""
+msgstr "<primary>rozložení, klávesnice</primary>"
 
 msgid "The proposed “American English” keyboard corresponds to the usual QWERTY layout."
-msgstr ""
+msgstr "Navrhnutá “American English” klávesnice odpovídá obvyklému QWERTY rozložení."
 
 msgid "Choice of keyboard"
-msgstr ""
+msgstr "Volba klávesnice"
 
 msgid "Detecting Hardware"
-msgstr ""
+msgstr "Rozeznávání hardwaru"
 
 msgid "This step is completely automatic in the vast majority of cases. The installer detects your hardware, and tries to identify the CD-ROM drive used in order to access its content. It loads the modules corresponding to the various hardware components detected, and then “mounts” the CD-ROM in order to read it. The previous steps were completely contained in the boot image included on the CD, a file of limited size and loaded into memory by the BIOS when booting from the CD."
-msgstr ""
+msgstr "Tento krok je plně automatický v drtivé většině případů. Instalátor rozezná hardware a pokusí se identifikovat jednotku CD-ROM použitou za účelem přístupu k jejímu obsahu. Nahraje moduly odpovídající různým rozpoznaným hardwarovým komponentům a potom “nastaví” CD-ROM za účelem čtení z něho. Předcházející kroky byly zcela zahrnuty v bootovacím obrazu obsaženém na CD - souboru omezené velikosti a nahrány do paměti BIOSem za bootování z CD."
 
 msgid "The installer can work with the vast majority of drives, especially standard ATAPI peripherals (sometimes called IDE and EIDE). However, if detection of the CD-ROM reader fails, the installer offers the choice to load a kernel module (for instance from a USB key) corresponding to the CD-ROM driver."
 msgstr ""
