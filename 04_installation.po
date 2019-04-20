@@ -282,46 +282,46 @@ msgid "This step is completely automatic in the vast majority of cases. The inst
 msgstr "Tento krok je plně automatický v drtivé většině případů. Instalátor rozezná hardware a pokusí se identifikovat jednotku CD-ROM použitou za účelem přístupu k jejímu obsahu. Nahraje moduly odpovídající různým rozpoznaným hardwarovým komponentům a potom “nastaví” CD-ROM za účelem čtení z něho. Předcházející kroky byly zcela zahrnuty v bootovacím obrazu obsaženém na CD - souboru omezené velikosti a nahrány do paměti BIOSem za bootování z CD."
 
 msgid "The installer can work with the vast majority of drives, especially standard ATAPI peripherals (sometimes called IDE and EIDE). However, if detection of the CD-ROM reader fails, the installer offers the choice to load a kernel module (for instance from a USB key) corresponding to the CD-ROM driver."
-msgstr ""
+msgstr "Instalátor je schopen pracovat s drtivou většinou jednotek, především se standardními ATAPI periferními zařízeními (někdy nazývanými IDE a EIDE). Každopádně, pokud rozpoznávání CD-ROM selže, instalátor nabídne možnost nahrát modul jádra (například z USB klíčenky) odpovídající jednotce CD-ROM."
 
 msgid "Loading Components"
-msgstr ""
+msgstr "Nahrávání komponentů"
 
 msgid "With the contents of the CD now available, the installer loads all the files necessary to continue with its work. This includes additional drivers for the remaining hardware (especially the network card), as well as all the components of the installation program."
-msgstr ""
+msgstr "S nyní přístupným obsahem CD, instalátor nahraje všechny soubory potřebné k pokračování ve své činnosti. To zahrnuje přídavné jednotky pro zbývající hardware (obzvláště síťovou kartu), stejně, jako všechny komponenty instalačního programu."
 
 msgid "Detecting Network Hardware"
-msgstr ""
+msgstr "Rozeznávání síťového hardwaru"
 
 msgid "This automatic step tries to identify the network card and load the corresponding module. If automatic detection fails, you can manually select the module to load. If no module works, it is possible to load a specific module from a removable device. This last solution is usually only needed if the appropriate driver is not included in the standard Linux kernel, but available elsewhere, such as the manufacturer's website."
-msgstr ""
+msgstr "Tento automatický krok se pokouší identifikovat síťovou kartu a nahrát odpovídající modul. Pokud je automatické rozpoznávání neúspěšné, můžete manuálně vybrat modul, který se má nahrát. Pokud nefunguje žádný modul, je možné nahrát odpovídající modul z odnímatelného zařízení. Toto poslední řešení je potřeba pouze pokud není vhodná jednotka zahrnuta ve standardním Linuxovém jádru, ale k dispozici někde jinde, jako třeba na stránkách výrobce."
 
 msgid "This step must absolutely be successful for <emphasis>netinst</emphasis> installations, since the Debian packages must be loaded from the network."
-msgstr ""
+msgstr "Tento krok musí být nutně úspěšný pro <emphasis>netinst</emphasis> instalace, protože balíčky Debianu se musí nahrát ze sítě."
 
 msgid "Configuring the Network"
-msgstr ""
+msgstr "Nastavení sítě"
 
 msgid "<primary>configuration</primary><secondary>network</secondary><tertiary>static</tertiary>"
-msgstr ""
+msgstr "<primary>nastavení</primary><secondary>sítě</secondary><tertiary>statické</tertiary>"
 
 msgid "<primary>configuration</primary><secondary>network</secondary><tertiary>DHCP</tertiary>"
-msgstr ""
+msgstr "<primary>nastavení</primary><secondary>sítě</secondary><tertiary>DHCP</tertiary>"
 
 msgid "In order to automate the process as much as possible, the installer attempts an automatic network configuration by DHCP (for IPv4) and by IPv6 network discovery. If this fails, it offers more choices: try again with a normal DHCP configuration, attempt DHCP configuration by declaring the name of the machine, or set up a static network configuration."
-msgstr ""
+msgstr "Za účelem maximálního možného zautomatizování procesu, se instalátor pokouší o automatické síťové nastavení za pomocí DHCP (pro IPv4) a IPv6 prozkoumávání sítě. Pokud toto selže, nabídne další možnosti: zkuste znovu normální DHCP konfiguraci, pokuste se o nastavení za pomocí deklarace jména zařízení nebo nastavte statickou síťovou konfiguraci."
 
 msgid "This last option requires an IP address, a subnet mask, an IP address for a potential gateway, a machine name, and a domain name."
-msgstr ""
+msgstr "Tato poslední možnost vyžaduje IP adresu, masku podsítě, IP adresu pro potenciální brány, jméno zařízení a doménové jméno."
 
 msgid "<emphasis>TIP</emphasis> Configuration without DHCP"
-msgstr ""
+msgstr "<emphasis>TIP</emphasis> Nastavení bez DHCP"
 
 msgid "If the local network is equipped with a DHCP server that you do not wish to use because you prefer to define a static IP address for the machine during installation, you can add the <userinput>netcfg/use_dhcp=false</userinput> option when booting from the CD-ROM. You just need to go to the desired menu entry by pressing the <keycap>TAB</keycap> key and add the desired option before pressing the <keycap>Enter</keycap> key."
-msgstr ""
+msgstr "Pokud je místní síť vybavená DHCP serverem, který si nepřejete použít z toho důvodu, že preferujete stanovit statickou IP adresu zařízení během instalace, můžete přidat <userinput>netcfg/use_dhcp=false</userinput> možnost během bootování z CD-ROM. Musíte pouze vstoupit do požadované položky menu stisknutím klávesy <keycap>TAB</keycap> a zadat zamýšlenou volbu před stisknutím klávesy <keycap>Enter</keycap>."
 
 msgid "<emphasis>BEWARE</emphasis> Do not improvise"
-msgstr ""
+msgstr "<emphasis>MĚJTE SE NA POZORU</emphasis> Neimprovizujte"
 
 msgid "Many local area networks are based on an implicit assumption that all machines can be trusted, and inadequate configuration of a single computer will often perturb the whole network. As a result, do not connect your machine to a network without first agreeing with its administrator on the appropriate settings (for example, the IP address, netmask, and broadcast address)."
 msgstr ""
