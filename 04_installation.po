@@ -378,55 +378,55 @@ msgid "<emphasis>CULTURE</emphasis> Uses of partitioning"
 msgstr "<emphasis>KULTURA</emphasis> Použití dělení"
 
 msgid "Partitioning, an indispensable step in installation, consists in dividing the available space on the hard drives (each subdivision thereof being called a “partition”) according to the data to be stored on it and the use for which the computer is intended. This step also includes choosing the filesystems to be used. All of these decisions will have an influence on performance, data security, and the administration of the server."
-msgstr ""
+msgstr "Dělení, nezbytný krok instalace, spočívá v rozdělení dostupného místa na pevné paměťové jednotce (každá sekce se potom nazývá “díl”) podle dat, která budou na něm uložena a použití, pro které je počítač určen."
 
 msgid "The partitioning step is traditionally difficult for new users. It is necessary to define the various portions of the disks (or “partitions”) on which the Linux filesystems and virtual memory (swap) will be stored. This task is complicated if another operating system that you want to keep is already on the machine. Indeed, you will then have to make sure that you do not alter its partitions (or that you resize them without causing damage)."
-msgstr ""
+msgstr "Dělení je tradičně obtížné pro nové uživatele. Je nezbytné definovat různé části disku (nebo “díly”) na kterých bude Linuxový systém souborů a virtuální paměti (swapu) uložen. Tento úkol je komplikovaný, pokud je na zařízení již jiný operační systém, který chcete zachovat. Samozřejmě, musíte se potom ujistit, že jste neupravili jeho oddíly (nebo nezměnili jejich velikost a způsobili poškození)."
 
 msgid "Fortunately, the partitioning software has a “guided” mode which recommends partitions for the user to make — in most cases, you can simply validate the software's suggestions."
-msgstr ""
+msgstr "Naštěstí, software na dělení má “průvodcovský” mód, který doporučí, jaké dělení provést — ve většině případů, můžete jednoduše potvrzovat návrhy tohoto softwaru."
 
 msgid "Choice of partitioning mode"
-msgstr ""
+msgstr "Výběr dělícího módu"
 
 msgid "The first screen in the partitioning tool offers the choice of using an entire hard drive to create various partitions. For a (new) computer which will solely use Linux, this option is clearly the simplest, and you can choose the option “Guided - use entire disk”. If the computer has two hard drives for two operating systems, setting one drive for each is also a solution that can facilitate partitioning. In both of these cases, the next screen offers to choose the disk where Linux will be installed by selecting the corresponding entry (for example, “SCSI1 (0,0,0) (sda) - 12.9 GB ATA VBOX HARDDISK”). You then start guided partitioning."
-msgstr ""
+msgstr "První obrazovka v dělícím nástroji nabízí možnost použití celé pevné paméťové jednotky k vytvoření různých oddílů. Pro (nový) počítač, který bude používat pouze Linux, je tato možnost jasně nejjednodušší a můžete zvolit možnost “Řízené - použij celý disk”. Pokud má počítač dvě pevné paměťové jednotky pro dva operační systémy, nastavit jeden pro každý z nich je také řešení, které zjednodušší dělení. V obou těchto případech, následující obrazovka nabídne volbu disku, na který bude Linux nainstalován výběrem odpovídající položky (například, “SCSI1 (0,0,0) (sda) - 12.9 GB ATA VBOX HARDDISK”). Poté můžete spustit řízené dělení."
 
 msgid "Disk to use for guided partitioning"
-msgstr ""
+msgstr "Disk, pro který se použije řízené dělení"
 
 msgid "Guided partitioning can also set up LVM logical volumes instead of partitions (see below). Since the remainder of the operation is the same, we will not go over the option “Guided - use entire disk and set up LVM” (encrypted or not)."
-msgstr ""
+msgstr "Řízené dělení může také nastavit LVM logické objemy narozdíl od oddílů (viz. níže). Protože zbytek operace je stejný, nebudeme procházet možnost “Řízené - použij celý disk a nastav LVM” (kódované či ne) až do konce."
 
 msgid "In other cases, when Linux must work alongside other already existing partitions, you need to choose manual partitioning."
-msgstr ""
+msgstr "V ostatních případech, pokud Linux bude pracovat vedle již existujících oddílů, musíte zvolit manuální dělení"
 
 msgid "Guided partitioning"
-msgstr ""
+msgstr "Řízené dělení"
 
 msgid "<primary>partitioning</primary><secondary>guided partitioning</secondary>"
-msgstr ""
+msgstr "<primary>dělení</primary><secondary>řízené dělení</secondary>"
 
 msgid "The guided partitioning tool offers three partitioning methods, which correspond to different usages."
-msgstr ""
+msgstr "Nástroj pro řízené dělení nabízí tři dělící metody, které odovídají různým použitím."
 
 msgid "The first method is called “All files in one partition”. The entire Linux system tree is stored in a single filesystem, corresponding to the root <filename>/</filename> directory. This simple and robust partitioning fits perfectly for personal or single-user systems. In fact, two partitions will be created: the first will house the complete system, the second the virtual memory (swap)."
-msgstr ""
+msgstr "První metoda se jmenuje “Všechny soubory do jednoho oddílu”. Celý Linuxový systémový strom je uložen do jednoho souborového systému, odpovídajícímu kořenovému <filename>/</filename> adresáři. Toto jednoduché a robustní dělení se bezvadně hodí pro osobní systémy nebo systémy určené pro jednoho uživatele. V podstatě budou vytvořeny dva oddíly: první bude domovem pro celý systém, druhý  pro virtuální paměť (swap)."
 
 msgid "The second method, “Separate <filename>/home/</filename> partition”, is similar, but splits the file hierarchy in two: one partition contains the Linux system (<filename>/</filename>), and the second contains “home directories” (meaning user data, in files and subdirectories available under <filename>/home/</filename>)."
-msgstr ""
+msgstr "Druhá metoda, “Oddělený <filename>/home/</filename> oddíl”, je podobná, ale rozdělí hierarchii souborů do dvou: jeden oddíl obsahuje systém Linuxu (<filename>/</filename>) a druhý obsahuje “domovské adresáře” (tím jsou míněna uživatelská data v souborech a podadresářích přístupných pod <filename>/home/</filename>)."
 
 msgid "The last partitioning method, called “Separate <filename>/home</filename>, <filename>/var</filename>, and <filename>/tmp</filename> partitions”, is appropriate for servers and multi-user systems. It divides the file tree into many partitions: in addition to the root (<filename>/</filename>) and user accounts (<filename>/home/</filename>) partitions, it also has partitions for server software data (<filename>/var/</filename>), and temporary files (<filename>/tmp/</filename>). These divisions have several advantages. Users can not lock up the server by consuming all available hard drive space (they can only fill up <filename>/tmp/</filename> and <filename>/home/</filename>). The daemon data (especially logs) can no longer clog up the rest of the system."
-msgstr ""
+msgstr "Poslední metoda dělení se nazývá “Oddělené <filename>/home</filename>, <filename>/var</filename>, a <filename>/tmp</filename> oddíly” a je vhodná pro servery a systémy s více uživateli. Rozdělí souborový strom do mnoha oddílů: navíc ke kořenu (<filename>/</filename>) a oddílům uživatelských kont (<filename>/home/</filename>), má také oddíly pro serverová softwarová data (<filename>/var/</filename>) a dočasné soubory (<filename>/tmp/</filename>). Tato dělení mají pár výhod. Uživatelé nemohou uzamknout server tím, že spotřebují veškeré volné místo na pevné paměťové jednotce (mohou pouze naplnit <filename>/tmp/</filename> a <filename>/home/</filename>). Data démonů (především logy) již více nemohou ucpat zbytek systému."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Choosing a filesystem"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Výběr systému souborů"
 
 msgid "<primary>system</primary><secondary>filesystem</secondary>"
-msgstr ""
+msgstr "<primary>systém</primary><secondary>systém souborů</secondary>"
 
 msgid "<primary>file</primary><secondary>system</secondary>"
-msgstr ""
+msgstr "<primary>soubor</primary><secondary>systém</secondary>"
 
 msgid "A filesystem defines the way in which data is organized on the hard drive. Each existing filesystem has its merits and limitations. Some are more robust, others more effective: if you know your needs well, choosing the most appropriate filesystem is possible. Various comparisons have already been made; it seems that ReiserFS is particularly efficient for reading many small files; <emphasis>XFS</emphasis>, in turn, works faster with large files. <emphasis>Ext4</emphasis>, the default filesystem for Debian, is a good compromise, based on the three previous versions of filesystems historically used in Linux (<emphasis>ext</emphasis>, <emphasis>ext2</emphasis> and <emphasis>ext3</emphasis>). <emphasis>Ext4</emphasis> overcomes certain limitations of <emphasis>ext3</emphasis> and is particularly appropriate for very large capacity hard drives. Another option would be to experiment with the very promising <emphasis>btrfs</emphasis>, which includes numerous features that require, to this day, the use of LVM and/or RAID."
 msgstr ""
