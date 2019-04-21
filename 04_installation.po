@@ -324,58 +324,58 @@ msgid "<emphasis>BEWARE</emphasis> Do not improvise"
 msgstr "<emphasis>MĚJTE SE NA POZORU</emphasis> Neimprovizujte"
 
 msgid "Many local area networks are based on an implicit assumption that all machines can be trusted, and inadequate configuration of a single computer will often perturb the whole network. As a result, do not connect your machine to a network without first agreeing with its administrator on the appropriate settings (for example, the IP address, netmask, and broadcast address)."
-msgstr ""
+msgstr "Mnoho místních sítí je založeno na vlastním předpokladu, že všechna zařízení jsou důvěryhodná a nedostatečné nastavení jednoho počítače často nadělá starosti celé síti. Z toho plyne, nezapojujte zařízení do sítě, aniž by jste se nejdříve nedohodli s jeho správcem na odpovídajícím nastavení (například IP adrese, masce sítě a adrese pro broadcast)."
 
 msgid "Administrator Password"
-msgstr ""
+msgstr "Heslo administrátora"
 
 msgid "<primary>account</primary><secondary>administrator account</secondary>"
-msgstr ""
+msgstr "<primary>účet</primary><secondary>administrátorský účet</secondary>"
 
 msgid "The super-user root account, reserved for the machine's administrator, is automatically created during installation; this is why a password is requested. The installer also asks for a confirmation of the password to prevent any input error which would later be difficult to amend."
-msgstr ""
+msgstr "Kořenový účet super-uživatele, rezervovaný pro správce zařízení, je automaticky vytvořen během instalace; z toho důvodu je požadováno heslo. Instalátor také zažádá o potvrzení tohoto hesla, aby předešel chybě při zadávání, která by se později obtížně napravovala."
 
 msgid "<emphasis>SECURITY</emphasis> Administrator password"
-msgstr ""
+msgstr "<emphasis>BEZPEČNOST</emphasis> Heslo správce"
 
 msgid "The root user's password should be long (8 characters or more) and impossible to guess. Indeed, any computer (and a fortiori any server) connected to the Internet is regularly targeted by automated connection attempts with the most obvious passwords. Sometimes it may even be subject to dictionary attacks, in which many combinations of words and numbers are tested as password. Avoid using the names of children or parents, dates of birth, etc.: many of your co-workers might know them, and you rarely want to give them free access to the computer in question."
-msgstr ""
+msgstr "Heslo kořenového uživatele by mělo být dlouhé (8 znaků nebo více) a těžko k uhádnutí. Samozřejmě, jakýkoliv počítač (a tím spíše jakýkoliv server) připojený na internet bývá běžně terčem automatických pokusů o připojení za pomoci nejběžnějších hesel. Někdy může být dokonce i předmětem slovníkových útoků, kdy je jako potenciální heslo testováno množství kombinací slov a čísel. Vyhněte se používání jmen dětí a rodičů, datumů narození apod.: mnoho vašich spolupracovníků je může znát a málokdy jim chcete dát volný přístup k danému počítači."
 
 msgid "These remarks are equally applicable for other user passwords, but the consequences of a compromised account are less drastic for users without administrative rights."
-msgstr ""
+msgstr "Tyto poznámky se stejně hodí i pro hesla ostatních uživatelů, ale následky nalomeného účtu nejsou tak drastické pro uživatele bez správcovských práv."
 
 msgid "If inspiration is lacking, do not hesitate to use password generators, such as <command>pwgen</command> (in the package of the same name)."
-msgstr ""
+msgstr "Pokud dochází inspirace, neváhejte použít generátory hesel, jako je <command>pwgen</command> (v balíčku pod tím samým jménem)."
 
 msgid "Creating the First User"
-msgstr ""
+msgstr "Vytvoření prvního uživatele"
 
 msgid "Debian also imposes the creation of a standard user account so that the administrator doesn't get into the bad habit of working as root. The precautionary principle essentially means that each task is performed with the minimum required rights, in order to limit the damage caused by human error. This is why the installer will ask for the complete name of this first user, their username, and their password (twice, to prevent the risk of erroneous input)."
-msgstr ""
+msgstr "Debian také vyžaduje vytvoření účtu běžného uživatele, takže se administrátor vyvaruje špatného návyku pracovat jako uživatel s nejvyšším oprávněním (root). Tento preventivní princip v podstatě znamená, že každá úloha je provedena s minimálními požadovanými právy, za účelem omezení škod způsobených lidským faktorem. To je důvod, proč instalátor žádá celé jméno tohoto prvního uživatale, jeho uživatelské jméno a heslo (dvakrát, aby se zabránilo chybnému zadání)."
 
 msgid "Name of the first user"
-msgstr ""
+msgstr "Jméno prvního uživatele"
 
 msgid "Configuring the Clock"
-msgstr ""
+msgstr "Nastavení hodin"
 
 msgid "If the network is available, the system's internal clock is updated (in a one-shot way) from an NTP server. This way the timestamps on logs will be correct from the first boot. For them to remain consistently precise over time, an NTP daemon needs to be set up after initial installation (see <xref linkend=\"sect.time-synchronization\" />)."
-msgstr ""
+msgstr "Pokud je k dispozici síť, jsou systémové hodiny aktualizovány (způsobem jednoho pokusu) z NTP serveru. Takto budou časová razítka na záznamech správná od prvního bootování. Aby zůstala i nadále stále přesná, musí být po počáteční instalaci nařízeni NTP démoni (více na <xref linkend=\"sect.time-synchronization\" />)."
 
 msgid "Detecting Disks and Other Devices"
-msgstr ""
+msgstr "Rozpoznávání disků a dalších zařízení"
 
 msgid "This step automatically detects the hard drives on which Debian may be installed. They will be presented in the next step: partitioning."
-msgstr ""
+msgstr "Tento krok automaticky rozpozná pevné paměťové jednotky, na které může být Debian nainstalován. Ty budou prezentovány v dalším kroku: dělení."
 
 msgid "Starting the Partitioning Tool"
-msgstr ""
+msgstr "Spuštění dělícího nástroje"
 
 msgid "<primary>partitioning</primary>"
-msgstr ""
+msgstr "<primary>dělení</primary>"
 
 msgid "<emphasis>CULTURE</emphasis> Uses of partitioning"
-msgstr ""
+msgstr "<emphasis>KULTURA</emphasis> Použití dělení"
 
 msgid "Partitioning, an indispensable step in installation, consists in dividing the available space on the hard drives (each subdivision thereof being called a “partition”) according to the data to be stored on it and the use for which the computer is intended. This step also includes choosing the filesystems to be used. All of these decisions will have an influence on performance, data security, and the administration of the server."
 msgstr ""
