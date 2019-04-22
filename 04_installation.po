@@ -432,50 +432,43 @@ msgid "A filesystem defines the way in which data is organized on the hard drive
 msgstr "Systém souborů definuje způsob, jakým jsou data na pevné paměťové jednotce organizována. Každý souborový systém má své přednosti i omezení. Některé jsou robustní, jiné více efektivní: pokud znáte dobře své potřeby, je možné si vybrat ten nejvhodnější souborový systém. Nejrůznější srovnání již byla učiněna; zdá se, že ReiserFS je především efektivní pro čtení velkého množství malých souborů; zatímco <emphasis>XFS</emphasis> pracuje rychleji s velkými soubory. <emphasis>Ext4</emphasis>, přednastavený souborový systém pro Debian, je dobrým kompromisem, založený na třech předcházejících verzích souborového systému historicky použitých v Linuxu (<emphasis>ext</emphasis>, <emphasis>ext2</emphasis> a <emphasis>ext3</emphasis>). <emphasis>Ext4</emphasis> překonal jistá omezení <emphasis>ext3</emphasis> a je vhodný zejména pro pevné paměťové jednotky s velmi rozsáhlou kapacitou. Další možností by bylo zaexperimentovat se slibným <emphasis>btrfs</emphasis>, který v sobě zahrnuje řadu funkcí, které v současnoti vyžadují použití LVM a/nebo RAID."
 
 msgid "A journalized filesystem (such as <emphasis>ext3</emphasis>, <emphasis>ext4</emphasis>, <emphasis>btrfs</emphasis>, <emphasis>reiserfs</emphasis>, or <emphasis>xfs</emphasis>) takes special measures to make it possible to return to a prior consistent state after an abrupt interruption without completely analyzing the entire disk (as was the case with the <emphasis>ext2</emphasis> system). This functionality is carried out by filling in a journal that describes the operations to conduct prior to actually executing them. If an operation is interrupted, it will be possible to “replay” it from the journal. Conversely, if an interruption occurs during an update of the journal, the last requested change is simply ignored; the data being written could be lost, but since the data on the disk has not changed, they have remained coherent. This is nothing more nor less than a transactional mechanism applied to the filesystem."
-msgstr "Žurnálovací souborové systémy (jako jsou <emphasis>ext3</emphasis>, <emphasis>ext4</emphasis>, <emphasis>btrfs</emphasis>, <emphasis>reiserfs</emphasis>, nebo <emphasis>xfs</emphasis>) činí speciální opatření, aby byl možný návrat k poslenímu konzistentnímu stavu po neočekávaném přerušení bez kompletní analýzy celého disku (což byl případ <emphasis>ext2</emphasis> systému). Tato funkčnost je prováděna za pomocí vyplňování žurnálu, který popisuje operace 
-
-
-
-
-
-
-  "
+msgstr "Žurnálovací souborové systémy (jako jsou <emphasis>ext3</emphasis>, <emphasis>ext4</emphasis>, <emphasis>btrfs</emphasis>, <emphasis>reiserfs</emphasis>, nebo <emphasis>xfs</emphasis>) činí speciální opatření, aby byl možný návrat k poslenímu konzistentnímu stavu po neočekávaném přerušení bez kompletní analýzy celého disku (což byl případ <emphasis>ext2</emphasis> systému). Tato funkčnost je prováděna za pomocí vyplňování žurnálu, který popisuje operace, které se mají provést před jejich skutečným provedením. Pokud je nějaké oprace přerušena, bude ji možné z tohoto žurnálu “znovu přehrát”. A naopak, pokud se vyskytne nějaké přerušení během aktualizace žurnálu, poslední požadovaná změna je jednoduše ingnorována; data, co byla zapisována mohou být ztracena, ale protože data na disku se nezměnila, zůstávají konzistentní. Není to nic jiného, než transakční mechanismus uplatněný na systému souborů."
 
 msgid "After choosing the type of partition, the software calculates a suggestion, and describes it on the screen; the user can then modify it if needed. You can, in particular, choose another filesystem if the standard choice (<emphasis>ext4</emphasis>) isn't appropriate. In most cases, however, the proposed partitioning is reasonable and it can be accepted by selecting the “Finish partitioning and write changes to disk” entry."
-msgstr ""
+msgstr "Po vybrání typu dělení, software vypočítá návrh a popíše ho na obrazovce; uživatel jej potom může, pokud je to zapotřebí, pozměnit. Můžete si zejména zvolit jiný systém souborů, pokud standardní volba (<emphasis>ext4</emphasis>) není vhodná. Ve většině případů ovšem bývá navrhované dělení opodstatněné a může být odsouhlaseno zvolením možnosti “Ukonči dělení a zapiš změny na disk”."
 
 msgid "Validating partitioning"
-msgstr ""
+msgstr "Potvrzení dělení"
 
 msgid "Manual Partitioning"
-msgstr ""
+msgstr "Manuální dělení"
 
 msgid "<primary>partitioning</primary><secondary>manual partitioning</secondary>"
-msgstr ""
+msgstr "<primary>dělení</primary><secondary>manuální dělení</secondary>"
 
 msgid "Manual partitioning allows greater flexibility, allowing the user to choose the purpose and size of each partition. Furthermore, this mode is unavoidable if you wish to use software RAID."
-msgstr ""
+msgstr "Manuální dělení nabízí větší flexibilitu tím, že umožňuje uživateli vybrat účel a velikost každého oddílu. Navíc, tento mód je nevyhnutelný, pokud si přejete použít softwarové RAID."
 
 msgid "<emphasis>IN PRACTICE</emphasis> Shrinking a Windows partition"
-msgstr ""
+msgstr "<emphasis>V PRAXI</emphasis> Zmenšení oddílu Windows"
 
 msgid "<primary>resize a partition</primary>"
-msgstr ""
+msgstr "<primary>změna velikosti oddílu</primary>"
 
 msgid "<primary>shrink a partition</primary>"
-msgstr ""
+msgstr "<primary>změnit velikost oddílu</primary>"
 
 msgid "To install Debian alongside an existing operating system (Windows or other), you must have some available hard drive space that is not being used by the other system in order to be able to create the partitions dedicated to Debian. In most cases, this means shrinking a Windows partition and reusing the freed space."
-msgstr ""
+msgstr "Pro instalaci Debianu vedle již existujícího operačního systému (Windows nebo jiného), musíte mít nějaké místo na pevné paměťové jednotce, co není používáno jiným systémem, aby jste byli schopni vytvořit oddíly určené Debianu. Ve většině případů to znamená zmenšení oddílu pro Windows a znovupoužití uvolněného místa."
 
 msgid "The Debian installer allows this operation when using the manual mode for partitioning. You only need to choose the Windows partition and enter its new size (this works the same with both FAT and NTFS partitions)."
-msgstr ""
+msgstr "Instalátor Debianu umožňuje tuto operaci, pokud použijete manuální mód pro dělení. Musíte pouze vybrat oddíl Windows a zadat jeho novou velikost (funguje to stejně s oběma oddíly FAT i NTFS)."
 
 msgid "The first screen displays the available disks, their partitions, and any possible free space that has not yet been partitioned. You can select each displayed element; pressing the <keycap>Enter</keycap> key then gives a list of possible actions."
-msgstr ""
+msgstr "První obrazovka zobrazuje dostupně disky, jejich oddíly a možné volné místo, co ještě nebylo děleno. Můžete vybrat každý zobrazený element; stisknutím klávesy <keycap>Enter</keycap> potom dostanete seznam možných akcí."
 
 msgid "You can erase all partitions on a disk by selecting it."
-msgstr ""
+msgstr "Můžete smazat všechny oddíly na disku, tím, že je vyberete."
 
 msgid "When selecting free space on a disk, you can manually create a new partition. You can also do this with guided partitioning, which is an interesting solution for a disk that already contains another operating system, but which you may wish to partition for Linux in a standard manner. See <xref linkend=\"sect.install-autopartman-mode\" /> for more details on guided partitioning."
 msgstr ""
