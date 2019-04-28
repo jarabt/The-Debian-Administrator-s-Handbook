@@ -471,7 +471,7 @@ msgid "You can erase all partitions on a disk by selecting it."
 msgstr "Můžete smazat všechny oddíly na disku, tím, že je vyberete."
 
 msgid "When selecting free space on a disk, you can manually create a new partition. You can also do this with guided partitioning, which is an interesting solution for a disk that already contains another operating system, but which you may wish to partition for Linux in a standard manner. See <xref linkend=\"sect.install-autopartman-mode\" /> for more details on guided partitioning."
-msgstr ""
+msgstr " "
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Mount point"
 msgstr ""
