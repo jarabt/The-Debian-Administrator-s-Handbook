@@ -471,16 +471,16 @@ msgid "You can erase all partitions on a disk by selecting it."
 msgstr "Můžete smazat všechny oddíly na disku, tím, že je vyberete."
 
 msgid "When selecting free space on a disk, you can manually create a new partition. You can also do this with guided partitioning, which is an interesting solution for a disk that already contains another operating system, but which you may wish to partition for Linux in a standard manner. See <xref linkend=\"sect.install-autopartman-mode\" /> for more details on guided partitioning."
-msgstr " "
+msgstr "Jakmile vyberete volné místo na disku, můžete manuálně vytvořit nové dělení. To ovšem lze udělat také za pomoci řízeného dělení, což je zajímavé řešení pro disk, který již obsahuje jiný operační systém, ale který můžete chtít dělit pro Linux normálním způsobem. Více o řízeném dělení naleznete na <xref linkend=\"sect.install-autopartman-mode\" />."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Mount point"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Přípojný bod"
 
 msgid "<primary>mount point</primary>"
-msgstr ""
+msgstr "<primary>přípojný bod</primary>"
 
 msgid "<primary>point, mount point</primary>"
-msgstr ""
+msgstr "<primary>bod, přípojný bod</primary>"
 
 msgid "The mount point is the directory tree that will house the contents of the filesystem on the selected partition. Thus, a partition mounted at <filename>/home/</filename> is traditionally intended to contain user data."
 msgstr ""
