@@ -483,64 +483,64 @@ msgid "<primary>point, mount point</primary>"
 msgstr "<primary>bod, přípojný bod</primary>"
 
 msgid "The mount point is the directory tree that will house the contents of the filesystem on the selected partition. Thus, a partition mounted at <filename>/home/</filename> is traditionally intended to contain user data."
-msgstr ""
+msgstr "Přípojný bod je adresářový strom, který poskytuje útočíště obsahu souborového systému na vybraném oddílu. A tak, oddíl připojený na <filename>/home/</filename> je tradičně určený k tomu, aby obsahoval uživatelská data."
 
 msgid "When this directory is named “<filename>/</filename>”, it is known as the <emphasis>root</emphasis> of the file tree, and therefore the root of the partition that will actually host the Debian system."
-msgstr ""
+msgstr "Pokud je adresář nazvaný “<filename>/</filename>”, je známý jako <emphasis>kořen</emphasis> souborového systému a tedy jako kořen oddílu, který bude ve skutečnosti hostit systém Debianu."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Virtual memory, swap"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Virtuální paměť, swap"
 
 msgid "<primary>virtual memory</primary>"
-msgstr ""
+msgstr "<primary>virtuální paměť</primary>"
 
 msgid "<primary>swap</primary>"
-msgstr ""
+msgstr "<primary>swap</primary>"
 
 msgid "<primary>partition</primary><secondary>swap partition</secondary>"
-msgstr ""
+msgstr "<primary>oddíl</primary><secondary>swapový oddíl</secondary>"
 
 msgid "<primary>swap partition</primary>"
-msgstr ""
+msgstr "<primary>swapový oddíl</primary>"
 
 msgid "Virtual memory allows the Linux kernel, when lacking sufficient memory (RAM), to free a bit of storage by storing the parts of the RAM that have been inactive for some time on the swap partition of the hard disk."
-msgstr ""
+msgstr "Virtuální paměť umožňuje Linuxovému jádru, v případě nedostatku paměti (RAM), uvolnit kousek místa tím, že uloží části RAM, které byly neaktivní nějaký čas do oddílu pro swap na pevném disku."
 
 msgid "To simulate the additional memory, Windows uses a swap file that is directly contained in a filesystem. Conversely, Linux uses a partition dedicated to this purpose, hence the term “swap partition”."
-msgstr ""
+msgstr "K simulaci přídavné paměti Windows používá swapový soubor, který je přímo zahrnut v souborovém systému. Naproti tomu Linux používá oddíl vyčlěněný pro tento účel, odtud název “swapový oddíl”."
 
 msgid "When choosing a partition, you can indicate the manner in which you are going to use it:"
-msgstr ""
+msgstr "Při výběru dělení můžete označit způsob, jakým jej budete používat."
 
 msgid "format it and include it in the file tree by choosing a mount point;"
-msgstr ""
+msgstr "naformátovat jej do souborovém stromu výběrem přípojného bodu;"
 
 msgid "use it as a swap partition;"
-msgstr ""
+msgstr "požít jej jako swapový oddíl;"
 
 msgid "make it into a “physical volume for encryption” (to protect the confidentiality of data on certain partitions, see below);"
-msgstr ""
+msgstr "začlenit jej do “fyzického svazku pro zakódování” (za účelem chránit důvěrnost dat na určitém oddílu, viz. níže);"
 
 msgid "make it a “physical volume for LVM” (this concept is discussed in greater detail later in this chapter);"
-msgstr ""
+msgstr "udělat z něj “fyzický svazek pro LVM” (tento postup je detailněji popsán později v této kapitole);"
 
 msgid "use it as a RAID device (see later in this chapter);"
-msgstr ""
+msgstr "použít jej jako zařízení RAID (viz. dále v této kapitole);"
 
 msgid "you can also choose not to use it, and therefore leave it unchanged."
-msgstr ""
+msgstr "můžete si také vybrat jej nepoužívat, v tom případě to nechat nezměněné."
 
 msgid "Configuring Multidisk Devices (Software RAID)"
-msgstr ""
+msgstr "Nastavení vícediskových zařízení (softwarový RAID)"
 
 msgid "<primary>RAID</primary><secondary>Software RAID</secondary>"
-msgstr ""
+msgstr "<primary>RAID</primary><secondary>softwarový RAID</secondary>"
 
 msgid "<primary>Software RAID</primary>"
-msgstr ""
+msgstr "<primary>softwarový RAID</primary>"
 
 msgid "<primary>device</primary><secondary>multi-disk device</secondary>"
-msgstr ""
+msgstr "<primary>zařízení</primary><secondary>vícediskové zařízení</secondary>"
 
 msgid "Some types of RAID allow the duplication of information stored on hard drives to prevent data loss in the event of a hardware problem affecting one of them. Level 1 RAID keeps a simple, identical copy (mirror) of a hard drive on another drive, while level 5 RAID splits redundant data over several disks, thus allowing the complete reconstruction of a failing drive."
 msgstr ""
