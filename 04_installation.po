@@ -552,22 +552,22 @@ msgid "You must then choose “Configure software RAID” in the partitioning to
 msgstr "Potom musíte zvolit “nastavit software RAID” v dělícím nástroji, abychom zkombinovali tyto dva oddíly do nového virtuálního disku a vybrat “vytvořit MD zařízení” na nastavovací obrazovce. Následně je zapotřebí zodpovědět sadu otázek o tomto novém zařízení. První dotaz se týká úrovně RAID, která se má použít a která je v našem případě “RAID1”. Druhá otázka je o počtu aktivních zařízení — v našem případě dvou, což je počet oddílů, které mají být zahrnuty v tomto MD zařízení. Další otázka je dotaz na počet záložních zařízení — 0; neplánovali jsme žádný přídavný disk, který by zaskočil za disk s případným defektem. Poslední otázka po vás požaduje výběr oddílů pro RAID zařízení — to budou právě ty dva, které jsme vyčlenili pro tento účel (ujistěte se, že jste vybrali oddíly, které výslovně zmiňují “raid”)."
 
 msgid "Back to the main menu, a new virtual “RAID” disk appears. This disk is presented with a single partition which can not be deleted, but whose use we can choose (just like for any other partition)."
-msgstr ""
+msgstr "Zpátky ke hlavnímu menu, objeví se nový virtuální disk “RAID”. Tento disk představuje jeden oddíl, který nemůže být vymazán, ale jehož použití si můžeme zvolit (stejně jako pro každý jiný oddíl)."
 
 msgid "For further details on RAID functions, please refer to <xref linkend=\"sect.raid-soft\" />."
-msgstr ""
+msgstr "Pro další detaily o funkcích RAID prosím přejděte na <xref linkend=\"sect.raid-soft\" />."
 
 msgid "Configuring the Logical Volume Manager (LVM)"
-msgstr ""
+msgstr "Nastavení řízení logických disků (LVM)"
 
 msgid "<primary>LVM</primary><secondary>during installation</secondary>"
-msgstr ""
+msgstr "<primary>LVM</primary><secondary>během instalace</secondary>"
 
 msgid "<primary>Logical Volume Manager</primary><secondary>during installation</secondary>"
-msgstr ""
+msgstr "<primary>Řízení logických disků</primary><secondary>během instalace</secondary>"
 
 msgid "LVM allows you to create “virtual” partitions that span over several disks. The benefits are twofold: the size of the partitions are no longer limited by individual disks but by their cumulative volume, and you can resize existing partitions at any time, possibly after adding an additional disk when needed."
-msgstr ""
+msgstr "LVM vám umožňuje vytvořit “virtuální” oddíly, které se přesahují několik disků. Výhody jsou dvojí: jednak velikost oddílů již více není limitovaná jednotlivými disky, ale součtem jejich objemů a jednak můžete kdykoliv změnit velikost již existujících oddílů, třeba po přidání dodatečného disku, v případě potřeby."
 
 msgid "LVM uses a particular terminology: a virtual partition is a “logical volume”, which is part of a “volume group”, or an association of several “physical volumes”. Each of these terms in fact corresponds to a “real” partition (or a software RAID device)."
 msgstr ""
