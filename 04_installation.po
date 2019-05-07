@@ -570,52 +570,52 @@ msgid "LVM allows you to create “virtual” partitions that span over several 
 msgstr "LVM vám umožňuje vytvořit “virtuální” oddíly, které se přesahují několik disků. Výhody jsou dvojí: jednak velikost oddílů již více není limitovaná jednotlivými disky, ale součtem jejich objemů a jednak můžete kdykoliv změnit velikost již existujících oddílů, třeba po přidání dodatečného disku, v případě potřeby."
 
 msgid "LVM uses a particular terminology: a virtual partition is a “logical volume”, which is part of a “volume group”, or an association of several “physical volumes”. Each of these terms in fact corresponds to a “real” partition (or a software RAID device)."
-msgstr ""
+msgstr "LVM používá specifickou tetminologii: virtuální oddíl je “logický oddíl”, který je částí “svazku” nebo sdružením několika “fyzických oddílů”. Každý z těchto termínů v podstatě odpovídá “reálnému” oddílu (nebo zařízení softwarového RAID)."
 
 msgid "<primary>volume</primary><secondary>logical volume</secondary>"
-msgstr ""
+msgstr "<primary>oddíl</primary><secondary>logický oddíl</secondary>"
 
 msgid "<primary>volume</primary><secondary>physical volume</secondary>"
-msgstr ""
+msgstr "<primary>oddíl</primary><secondary>fyzický oddíl</secondary>"
 
 msgid "<primary>group</primary><secondary>of volumes</secondary>"
-msgstr ""
+msgstr "<primary>svazek</primary><secondary>oddílů</secondary>"
 
 msgid "<primary>volume</primary><secondary>group</secondary>"
-msgstr ""
+msgstr "<primary>oddíl</primary><secondary>svazek</secondary>"
 
 msgid "This technique works in a very simple way: each volume, whether physical or logical, is split into blocks of the same size, which are made to correspond by LVM. The addition of a new disk will cause the creation of a new physical volume, and these new blocks can be associated to any volume group. All of the partitions in the volume group that is thus expanded will have additional space into which they can extend."
-msgstr ""
+msgstr "Tato technika funguje velice jednoduchým způsobem: každý oddíl, ať už fyzický nebo logický, je rozčleněn do bloků o stejné velikosti, které jsou vytvořeny tak, aby odpovídaly LVM. Přidání nového disku způsobí vytvoření nového fyzického oddílu a tyto bloky mohou být přiřazeny do ktoréhokoliv svazku. Všechny oddíly ve svazku, který je takto rozšířen mají přídavné místo, kam se mohou rozšířit."
 
 msgid "The partitioning tool configures LVM in several steps. First you must create on the existing disks the partitions that will be “physical volumes for LVM”. To activate LVM, you need to choose “Configure the Logical Volume Manager (LVM)”, then on the same configuration screen “Create a volume group”, to which you will associate the existing physical volumes. Finally, you can create logical volumes within this volume group. Note that the automatic partitioning system can perform all these steps automatically."
-msgstr ""
+msgstr "Dělící nástroj nastavuje LVM v několika krocích. Nejdříve musíte vytvořit na stávajícím disku oddíly, které se stanou “fyzickými oddíly pro LVM”. K aktivaci LVM musíte zvolit “Nastavit řízení logických disků (LVM)”, poté na té samé obrazovce “Vytvořit svazek”, ke kterému přiřadíte současné fyzické oddíly. Nakonec můžete vytvořit logické oddíly v rámci tohoto svazku. Vězte, že automatický systém dělení může provést všechny tyto kroky automaticky."
 
 msgid "In the partitioning menu, each physical volume will appear as a disk with a single partition which can not be deleted, but that you can use as desired."
-msgstr ""
+msgstr "V menu dělení se každý fyzický oddíl objeví jako disk s jedním oddílem, který nemůže být smazán, ale který můžete dle libosti využívat."
 
 msgid "The usage of LVM is described in further detail in <xref linkend=\"sect.lvm\" />."
-msgstr ""
+msgstr "Použití LVM je detailněji popsáno v <xref linkend=\"sect.lvm\" />."
 
 msgid "Setting Up Encrypted Partitions"
-msgstr ""
+msgstr "Zřízení zakódovaných oddílů"
 
 msgid "<primary>LUKS</primary>"
-msgstr ""
+msgstr "<primary>LUKS</primary>"
 
 msgid "<primary>dm-crypt</primary>"
-msgstr ""
+msgstr "<primary>dm-crypt</primary>"
 
 msgid "<primary>partition</primary><secondary>encrypted</secondary>"
-msgstr ""
+msgstr "<primary>dělení</primary><secondary>zakódované</secondary>"
 
 msgid "<primary>partition encryption</primary>"
-msgstr ""
+msgstr "<primary>zakódování oddílu</primary>"
 
 msgid "<primary>confidentiality</primary><secondary>files</secondary>"
-msgstr ""
+msgstr "<primary>důvěrnost</primary><secondary>soubory</secondary>"
 
 msgid "<primary>file</primary><secondary>confidentiality</secondary>"
-msgstr ""
+msgstr "<primary>soubor</primary><secondary>důvěrnost</secondary>"
 
 msgid "To guarantee the confidentiality of your data, for instance in the event of the loss or theft of your computer or a hard drive, it is possible to encrypt the data on some partitions. This feature can be added underneath any filesystem, since, as for LVM, Linux (and more particularly the dm-crypt driver) uses the Device Mapper to create a virtual partition (whose content is protected) based on an underlying partition that will store the data in an encrypted form (thanks to LUKS, Linux Unified Key Setup, a standard format that enables the storage of encrypted data as well as meta-information that indicates the encryption algorithms used)."
 msgstr ""
