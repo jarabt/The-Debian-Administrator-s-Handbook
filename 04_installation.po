@@ -630,40 +630,40 @@ msgid "The Debian installer will warn the user if they try to make an encrypted 
 msgstr "Instalátor Debianu varuje uživatele, pokud se pokusí vytvořit kódovaný oddíl, zatímco swapový oddíl kódovaný není."
 
 msgid "To create an encrypted partition, you must first assign an available partition for this purpose. To do so, select a partition and indicate that it is to be used as a “physical volume for encryption”. After partitioning the disk containing the physical volume to be made, choose “Configure encrypted volumes”. The software will then propose to initialize the physical volume with random data (making the localization of the real data more difficult), and will ask you to enter an “encryption passphrase”, which you will have to enter every time you boot your computer in order to access the content of the encrypted partition. Once this step has been completed, and you have returned to the partitioning tool menu, a new partition will be available in an “encrypted volume”, which you can then configure just like any other partition. In most cases, this partition is used as a physical volume for LVM so as to protect several partitions (LVM logical volumes) with the same encryption key, including the swap partition (see sidebar <xref linkend=\"sidebar.encrypted-swap-partition\" />)."
-msgstr ""
+msgstr "Pro vytvoření kódovaného oddílu musíte nejdříve určit oddíl k tomuto účelu, který je k dispozici. Aby jste tak učinili, vyberte oddíl a označte jej, že bude použit jako “fyzický oddíl pro zakódování”. Po dělení disku, které obsahovalo fyzický oddíl, který měl být vytvořen, vyberte “Nastavit kódované oddíly”. Software potom navrhne nastartování fyzického oddílu náhodnými daty (čímž více ztíží lokalizaci skutečných dat) a požádá vás o zadání “kódovací vstupní fráze”, kterou budete muset vždy zadat při bootování vašeho počítače, aby jste získali přístup k obsahu zakódovaného oddílu. Jakmile dokončíte tento krok a vrátíte se do menu dělícího nástroje, nové dělení bude k dispozici v “zakódovaném oddílu”, které můžete nastavit jako každé jiné dělení. Ve většině případů je toto dělení použito jako fyzický oddíl pro LVM a tím se chrání několik oddílů (logických oddílů LVM) stejným kódovacím klíčem, včetně swapového oddílu (viz. postranní poznámka <xref linkend=\"sidebar.encrypted-swap-partition\" />)."
 
 msgid "Installing the Base System"
-msgstr ""
+msgstr "Instalace základního systému"
 
 msgid "<primary>system</primary><secondary>base</secondary>"
-msgstr ""
+msgstr "<primary>systém</primary><secondary>základní</secondary>"
 
 msgid "This step, which doesn't require any user interaction, installs the Debian “base system” packages. This includes the <command>dpkg</command> and <command>apt</command> tools, which manage Debian packages, as well as the utilities necessary to boot the system and start using it."
-msgstr ""
+msgstr "Tento krok, který nevyžaduje žádnou interakci uživatele, nainstaluje balíčky “základního systému”. To zahrnuje nástroje <command>dpkg</command> a <command>apt</command>, které organizují balíčky Debianu, stejně jako programy nezbytné k bootování systému a jeho užívání."
 
 msgid "Installation of the base system"
-msgstr ""
+msgstr "Instalace základního systému"
 
 msgid "Configuring the Package Manager (<command>apt</command>)"
-msgstr ""
+msgstr "Nastavení manažera balíčků (<command>apt</command>)"
 
 msgid "<primary>configuration</primary><secondary>initial configuration of APT</secondary>"
-msgstr ""
+msgstr "<primary>nastavení</primary><secondary>počáteční nastavení APT</secondary>"
 
 msgid "<primary>APT</primary><secondary>initial configuration</secondary>"
-msgstr ""
+msgstr "<primary>APT</primary><secondary>počáteční nastavení</secondary>"
 
 msgid "In order to be able to install additional software, APT needs to be configured and told where to find Debian packages. This step is as automated as possible. It starts with a question asking if it must use a network source for packages, or if it should only look for packages on the CD-ROM."
-msgstr ""
+msgstr "Abychom byli schopni nainstalovat další sofrware, APT musí být nastaven a instruován, kde má najít balíčky Debianu. Tento krok je v maximální míře zautomatizován. Začíná dotazem, zda musí použít zdroj balíčků v síti nebo zda má pouze hledat balíčky na CD-ROM."
 
 msgid "<emphasis>NOTE</emphasis> Debian CD-ROM in the drive"
-msgstr ""
+msgstr "<emphasis>ZPRÁVA</emphasis> Debian CD-ROM v jednotce"
 
 msgid "If the installer detects a Debian installation disk in the CD/DVD reader, it is not necessary to configure APT to go looking for packages on the network: APT is automatically configured to read packages from a removable media drive. If the disk is part of a set, the software will offer to “explore” other disks in order to reference all of the packages stored on them."
-msgstr ""
+msgstr "Pokud instalátor zaznamená instalační disk Debianu ve čtecím zařízení CD/DVD, není nutné nastavovat APT k vyhledánání balíčků na síti: APT je automaticky nastaven ke čtení balíčků z jednotky odnímatelného média. Pokud je disk součástí sady, software nabídne “prohledat” další disky za účelem projití všech balíčků na nich uložených."
 
 msgid "If getting packages from the network is requested, the next two questions allow to choose a server from which to download these packages, by choosing first a country, then a mirror available in that country (a mirror is a public server hosting copies of all the files of the Debian master archive)."
-msgstr ""
+msgstr "Pokud je požadováno, aby byly balíčky vzaty ze sítě, další dvě otázky umožní výběr serveru, ze kterého se mají balíčky stáhnout, nejdříve prostřednictvím výběru země a potom kopie datového úložiště, které je v dané zemi k dispozici (v doslovném překladu zrcadla - veřejného serveru, na kterém jsou kopie všech souborů hlavního archivu Debianu)."
 
 msgid "Selecting a Debian mirror"
 msgstr ""
