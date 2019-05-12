@@ -405,28 +405,28 @@ msgid "The <literal>Breaks</literal> field has an effect similar to that of the 
 msgstr "Pole <literal>Breaks</literal> má stejný účinek jako pole <literal>Conflicts</literal>, ale zvláštním způsobem. Signalizuje, že instalace balíčku “naruší” jiný balíček (nebo jeho konkrétní verzi). Obyčejně, tato nekompatabilita mezi balíčky je přechodná a vztah <literal>Breaks</literal> se konkrétně vzahuje na nekompatabilní verze."
 
 msgid "<command>dpkg</command> will refuse to install a package that breaks an already installed package, and <command>apt</command> will try to resolve the problem by updating the package that would be broken to a newer version (which is assumed to be fixed and, thus, compatible again)."
-msgstr ""
+msgstr "<command>dpkg</command> odmítne nainstalovat balíček, který naruší již nainstalovaný balíček a <command>apt</command> se pokusí vyřešit problém aktualizací balíčku, který by byl porušen, na novou verzi (u které se předpokládá, že bude opravena a takto znova kompatabilní)."
 
 msgid "This type of situation may occur in the case of updates without backwards compatibility: this is the case if the new version no longer functions with the older version, and causes a malfunction in another program without making special provisions. The <literal>Breaks</literal> field prevents the user from running into these problems."
-msgstr ""
+msgstr "Podobná situace může nastat v případě aktualizace bez zpětné kompatability: to je případ, kdy nová verze již více nepracuje se starší verzí a zapříčiní selhání v jiném programu bez podniknutí zvláštních opatření. Pole <literal>Breaks</literal> zamezuje uživateli, aby se do těchto problémů dostal."
 
 msgid "Provided Items: the <literal>Provides</literal> Field"
-msgstr ""
+msgstr "Poskytované položky: pole <literal>Provides</literal>"
 
 msgid "<primary><literal>Provides</literal>, header field</primary>"
-msgstr ""
+msgstr "<primary><literal>Provides</literal>, hlavičkové pole</primary>"
 
 msgid "This field introduces the very interesting concept of a “virtual package”. It has many roles, but two are of particular importance. The first role consists in using a virtual package to associate a generic service with it (the package “provides” the service). The second indicates that a package completely replaces another, and that for this purpose it can also satisfy the dependencies that the other would satisfy. It is thus possible to create a substitution package without having to use the same package name."
-msgstr ""
+msgstr "Toto pole představuje velmi zajímavé pojetí “virtuálního balíčku”. Má mnoho funkcí, ale dvě jsou obzvláště důležité. První role spočívá v používání virtuálního balíčku k jeho vztažení se k obecným službám (balíček “poskytuje” službu). Druhá dává najevo, že balíček kompletně nahrazuje jiný a to za tím účelem, aby také uspokojoval závislosti, které by ten druhý také uspokojoval. Je tak možné vytvořit náhradní balíček bez nutnosti použití stejného balíčkového jména."
 
 msgid "<emphasis>VOCABULARY</emphasis> Meta-package and virtual package"
-msgstr ""
+msgstr "<emphasis>SLOVNÍČEK</emphasis> Meta-balíček a virtuální balíček"
 
 msgid "<primary>package</primary><secondary>virtual package</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary><secondary>virtuální balíček</secondary>"
 
 msgid "<primary>virtual package</primary>"
-msgstr ""
+msgstr "<primary>virtuální balíček</primary>"
 
 msgid "It is essential to clearly distinguish meta-packages from virtual packages. The former are real packages (including real <filename>.deb</filename> files), whose only purpose is to express dependencies."
 msgstr ""
