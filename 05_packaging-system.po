@@ -309,46 +309,46 @@ msgid "<primary>package</primary><secondary>dependency</secondary>"
 msgstr "<primary>balíček</primary><secondary>závislost</secondary>"
 
 msgid "The dependencies are defined in the <literal>Depends</literal> field in the package header. This is a list of conditions to be met for the package to work correctly — this information is used by tools such as <command>apt</command> in order to install the required libraries, in appropriate versions fulfilling the dependencies of the package to be installed. For each dependency, it is possible to restrict the range of versions that meet that condition. In other words, it is possible to express the fact that we need the package <emphasis role=\"pkg\">libc6</emphasis> in a version equal to or greater than “2.15” (written “<command>libc6 (&gt;= 2.15)</command>”). Version comparison operators are as follows:"
-msgstr ""
+msgstr "Závislosti jsou definovány v poli <literal>Depends</literal> balíčkové hlacičky. Toto je seznam podmínek, které mají být splněny, aby balíček správně pracoval — tyto informace používají nástroje jako <command>apt</command> k instalaci požadovaných knihoven ve správných verzích a splnil tak závislosti balíčku k instalaci. Pro každou závislost je možné omezit rozsah verzí, které vyhovují této podmínce. Jinými slovy, je možné vyjádřit fakt, že potřebujeme balíček <emphasis role=\"pkg\">libc6</emphasis> ve stejné nebo vyšší verzi než “2.15” (psáno “<command>libc6 (&gt;= 2.15)</command>”). Srovnávací operátory pro verze jsou tyto:"
 
 msgid "<command>&lt;&lt;</command>: less than;"
-msgstr ""
+msgstr "<command>&lt;&lt;</command>: menší než;"
 
 msgid "<command>&lt;=</command>: less than or equal to;"
-msgstr ""
+msgstr "<command>&lt;=</command>: menší než nebo rovno;"
 
 msgid "<command>=</command>: equal to (note that “<literal>2.6.1</literal>” is not equal to “<literal>2.6.1-1</literal>”);"
-msgstr ""
+msgstr "<command>=</command>: rovno (všimněte si, že “<literal>2.6.1</literal>” se nerovná “<literal>2.6.1-1</literal>”);"
 
 msgid "<command>&gt;=</command>: greater than or equal to;"
-msgstr ""
+msgstr "<command>&gt;=</command>: větší nebo rovno;"
 
 msgid "<command>&gt;&gt;</command>: greater than."
-msgstr ""
+msgstr "<command>&gt;&gt;</command>: větší než."
 
 msgid "In a list of conditions to be met, the comma serves as a separator. It must be interpreted as a logical “and”. In conditions, the vertical bar (“|”) expresses a logical “or” (it is an inclusive “or”, not an exclusive “either/or”). Carrying greater priority than “and”, it can be used as many times as necessary. Thus, the dependency “(A or B) and C” is written <command>A | B, C</command>. In contrast, the expression “A or (B and C)” should be written as “(A or B) and (A or C)”, since the <literal>Depends</literal> field does not tolerate parentheses that change the order of priorities between the logical operators “or” and “and”. It would thus be written <command>A | B, A | C</command>. <ulink type=\"block\" url=\"http://www.debian.org/doc/debian-policy/ch-relationships.html\" />"
-msgstr ""
+msgstr "V seznamu podmínek, co mají být splněny, čárka sloužní jako oddělovač. To musí být interpretováno jako logické “a”. V podmínkách, vertikální tyč (“|”) vyjadřuje logické “nebo” (je to inkluzivní “nebo”, ne exkluzivní “buď a nebo”). Tím, že má vyšší prioritu než “a”, může být použito tolikrát, kolikrát to bude nutné. Proto, závislost “(A nebo B) a C” se píše <command>A | B, C</command>. Naproti tomu výraz “A nebo (B a C)” by měl být napsán jako “(A nebo B) a (A nebo C)”, protože pole <literal>Depends</literal> netoleruje závorky, které mění pořadí priorit mezi logickými operátory “nebo” a “a”. Proto by to bylo napsáno <command>A | B, A | C</command>. <ulink type=\"block\" url=\"http://www.debian.org/doc/debian-policy/ch-relationships.html\" />"
 
 msgid "<primary>meta-package</primary>"
-msgstr ""
+msgstr "<primary>meta-balíček</primary>"
 
 msgid "The dependencies system is a good mechanism for guaranteeing the operation of a program, but it has another use with “meta-packages”. These are empty packages that only describe dependencies. They facilitate the installation of a consistent group of programs preselected by the meta-package maintainer; as such, <command>apt install <replaceable>meta-package</replaceable></command> will automatically install all of these programs using the meta-package's dependencies. The <emphasis role=\"pkg\">gnome</emphasis>, <emphasis role=\"pkg\">kde-full</emphasis> and <emphasis role=\"pkg\">linux-image-amd64</emphasis> packages are examples of meta-packages."
-msgstr ""
+msgstr "Systém závislostí je dobrý mechanismus pro zaručení chodu programu, ale má další využití v rámci “meta-balíčků”. Existují prázdné balíčky, které pouze popisují závislosti. Usnadňují instalaci konzistentí skupiny programů předvybraných údržbářem balíčku; takže <command>apt install <replaceable>meta-package</replaceable></command> automaticky nainstaluje všechny tyto programy za užití závislostí meta-balíčku. Balíčky <emphasis role=\"pkg\">gnome</emphasis>, <emphasis role=\"pkg\">kde-full</emphasis> a <emphasis role=\"pkg\">linux-image-amd64</emphasis> jsou příklady meta-balíčků."
 
 msgid "<emphasis>DEBIAN POLICY</emphasis> <literal>Pre-Depends</literal>, a more demanding <literal>Depends</literal>"
-msgstr ""
+msgstr "<emphasis>POLITIKA DEBIANU</emphasis> <literal>Pre-Depends</literal>, náročnější <literal>Depends</literal>"
 
 msgid "<primary><literal>Pre-Depends</literal>, header field</primary>"
-msgstr ""
+msgstr "<primary><literal>Pre-Depends</literal>, hlavičkové pole</primary>"
 
 msgid "<primary>pre-dependency</primary>"
-msgstr ""
+msgstr "<primary>před-závislost</primary>"
 
 msgid "“Pre-dependencies”, which are listed in the “<literal>Pre-Depends</literal>” field in the package headers, complete the normal dependencies; their syntax is identical. A normal dependency indicates that the package in question must be unpacked and configured before configuration of the package declaring the dependency. A pre-dependency stipulates that the package in question must be unpacked and configured before execution of the pre-installation script of the package declaring the pre-dependency, that is before its installation."
-msgstr ""
+msgstr "“Před-závislosti”, které jsou vyjmenovány v poli “<literal>Pre-Depends</literal>” balíčkové hlavičky, doplňují normální závislosti; jejich syntax je identický. Normální závislost značí, že daný balíček musí být rozbalen a nastaven před nastavením balíčku, který deklaruje tuto závislost. Před-závislost říká, že daný balíček musí být rozbalen a nastaven před spuštěním předinstalačního skriptu balíčku deklarujícího tuto před-závislost, což je před jeho instalací."
 
 msgid "A pre-dependency is very demanding for <command>apt</command>, because it adds a strict constraint on the ordering of the packages to install. As such, pre-dependencies are discouraged unless absolutely necessary. It is even recommended to consult other developers on <email>debian-devel@lists.debian.org</email> before adding a pre-dependency. It is generally possible to find another solution as a work-around."
-msgstr ""
+msgstr "Před-závislost je velmi náročná pro <command>apt</command>, protože přidává přísné omezení na seřazení balíčků k instalaci. Z toho důvodu se od před-závislosti odrazuje, pokud nejsou nezbytně nutné. Spíše se doporučuje poradit se s ostaními vývojáři na <email>debian-devel@lists.debian.org</email> před tím, než před-závislost přidáte. Obyčejně je možné nalézt jiné řešení  a problém obejít."
 
 msgid "<emphasis>DEBIAN POLICY</emphasis> <literal>Recommends</literal>, <literal>Suggests</literal>, and <literal>Enhances</literal> fields"
 msgstr ""
