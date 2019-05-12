@@ -351,58 +351,58 @@ msgid "A pre-dependency is very demanding for <command>apt</command>, because it
 msgstr "Před-závislost je velmi náročná pro <command>apt</command>, protože přidává přísné omezení na seřazení balíčků k instalaci. Z toho důvodu se od před-závislosti odrazuje, pokud nejsou nezbytně nutné. Spíše se doporučuje poradit se s ostaními vývojáři na <email>debian-devel@lists.debian.org</email> před tím, než před-závislost přidáte. Obyčejně je možné nalézt jiné řešení  a problém obejít."
 
 msgid "<emphasis>DEBIAN POLICY</emphasis> <literal>Recommends</literal>, <literal>Suggests</literal>, and <literal>Enhances</literal> fields"
-msgstr ""
+msgstr "<emphasis>POLITIKA DEBIANU</emphasis> pole <literal>Recommends</literal>, <literal>Suggests</literal>, a <literal>Enhances</literal>"
 
 msgid "<primary><literal>Recommends</literal>, header field</primary>"
-msgstr ""
+msgstr "<primary><literal>Recommends</literal>, pole hlavičky</primary>"
 
 msgid "<primary><literal>Suggests</literal>, header field</primary>"
-msgstr ""
+msgstr "<primary><literal>Suggests</literal>, pole hlavičky</primary>"
 
 msgid "The <literal>Recommends</literal> and <literal>Suggests</literal> fields describe dependencies that are not compulsory. The “recommended” dependencies, the most important, considerably improve the functionality offered by the package but are not indispensable to its operation. The “suggested” dependencies, of secondary importance, indicate that certain packages may complement and increase their respective utility, but it is perfectly reasonable to install one without the others."
-msgstr ""
+msgstr "Pole <literal>Recommends</literal> a <literal>Suggests</literal> popisují závislosti, které nejsou nutné. Závislosti “recommended”, nejdůležitější, podstatně zdokonalují funkcionalitu, kterou balíček nabízí, ale nejsou nezbytné pro jeho operace. Závislosti “suggested”, s druhořadou důležitostí, označují, že jisté balíčky mohou doplnit a zvýšit svou příslušnou užitečnost, ale je naprosto bez problémů instalovat jeden bez druhého."
 
 msgid "You should always install the “recommended” packages, unless you know exactly why you do not need them. Conversely, it is not necessary to install “suggested” packages unless you know why you need them."
-msgstr ""
+msgstr "Měli by jste vždycky instalovat balíčky “recommended”, pokud přesně nevíte, proč je nepotřebujete. A naopak, není nutné instalovat balíčky “suggested”, pokud nevíte, proč je potřebujete."
 
 msgid "<primary><literal>Enhances</literal>, header field</primary>"
-msgstr ""
+msgstr "<primary><literal>Enhances</literal>, pole hlavičky</primary>"
 
 msgid "The <literal>Enhances</literal> field also describes a suggestion, but in a different context. It is indeed located in the suggested package, and not in the package that benefits from the suggestion. Its interest lies in that it is possible to add a suggestion without having to modify the package that is concerned. Thus, all add-ons, plug-ins, and other extensions of a program can then appear in the list of suggestions related to the software. Although it has existed for several years, this last field is still largely ignored by programs such as <command>apt</command> or <command>synaptic</command>. Its purpose is for a suggestion made by the <literal>Enhances</literal> field to appear to the user in addition to the traditional suggestions — found in the <literal>Suggests</literal> field."
-msgstr ""
+msgstr "Pole <literal>Enhances</literal> také popisuje návrh, ale v jiné souvislosti. Nalézá se to v navrhovaném balíčku a ne v balíčku, který z návrhu těží. Jeho zajímavost spočívá v tom, že je možné přidat návrh bez toho, aniž by bylo potřeba měnit daný balíček. To umožňuje, aby všechny doplňky, zásuvné moduly a další nástavby byly uvedeny v seznamu doporučení pro software. I když existuje již několik let, je toto pole stále do značné míry ignorováno programy jako <command>apt</command> nebo <command>synaptic</command>. Jeho účelem je ukázat uživateli návrh, který je na řádku <literal>Enhances</literal>, kromě tradičních návrhů, které se nalézají v poli <literal>Suggests</literal>."
 
 msgid "Conflicts: the <literal>Conflicts</literal> field"
-msgstr ""
+msgstr "Konflikty: pole <literal>Conflicts</literal>"
 
 msgid "<primary>conflicts</primary>"
-msgstr ""
+msgstr "<primary>konflikty</primary>"
 
 msgid "<primary><literal>Conflicts</literal>, header field</primary>"
-msgstr ""
+msgstr "<primary><literal>Conflicts</literal>, pole hlavičky</primary>"
 
 msgid "<primary>package</primary><secondary>conflict</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary><secondary>konflikty</secondary>"
 
 msgid "The <literal>Conflicts</literal> field indicates when a package cannot be installed simultaneously with another. The most common reasons for this are that both packages include a file of the same name, or provide the same service on the same TCP port, or would hinder each other's operation."
-msgstr ""
+msgstr "Pole <literal>Conflicts</literal> poukazuje na to, pokud balíček nemůže být nainstalovaný zároveň s jiným. Nejčastějším důvodem bývá to, že oba balíčky obsahují soubor stejného jména nebo poskytují stejnou službu na stejném TCP portu nebo překáží jeden druhému v činnosti."
 
 msgid "<command>dpkg</command> will refuse to install a package if it triggers a conflict with an already installed package, except if the new package specifies that it will “replace” the installed package, in which case <command>dpkg</command> will choose to replace the old package with the new one. <command>apt</command> always follows your instructions: if you choose to install a new package, it will automatically offer to uninstall the package that poses a problem."
-msgstr ""
+msgstr "<command>dpkg</command> odmítne nainstalovat balíček, pokud to spustí konflikt s již nainstalovaným balíčkem, ledaže by nový balíček říkal, že “nahradí” nainstalovaný balíček, v tom případě <command>dpkg</command> zvolí nahrazení starého balíčku za nový. <command>apt</command> vždy následuje vaše instrukce: pokud zvolíte instalaci nového balíčku, automaticky nabídne odinstalování balíčku, který představuje problém."
 
 msgid "Incompatibilities: the <literal>Breaks</literal> Field"
-msgstr ""
+msgstr "Nekompatabilita: pole <literal>Breaks</literal>"
 
 msgid "<primary>incompatibilities</primary>"
-msgstr ""
+msgstr "<primary>nekompatabilita</primary>"
 
 msgid "<primary><literal>Breaks</literal>, header field</primary>"
-msgstr ""
+msgstr "<primary><literal>Breaks</literal>, hlavičkové pole</primary>"
 
 msgid "<primary>package</primary><secondary>incompatibility</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary><secondary>nekompatabilita</secondary>"
 
 msgid "The <literal>Breaks</literal> field has an effect similar to that of the <literal>Conflicts</literal> field, but with a special meaning. It signals that the installation of a package will “break” another package (or particular versions of it). In general, this incompatibility between two packages is transitory, and the <literal>Breaks</literal> relationship specifically refers to the incompatible versions."
-msgstr ""
+msgstr "Pole <literal>Breaks</literal> má stejný účinek jako pole <literal>Conflicts</literal>, ale zvláštním způsobem. Signalizuje, že instalace balíčku “naruší” jiný balíček (nebo jeho konkrétní verzi). Obyčejně, tato nekompatabilita mezi balíčky je přechodná a vztah <literal>Breaks</literal> se konkrétně vzahuje na nekompatabilní verze."
 
 msgid "<command>dpkg</command> will refuse to install a package that breaks an already installed package, and <command>apt</command> will try to resolve the problem by updating the package that would be broken to a newer version (which is assumed to be fixed and, thus, compatible again)."
 msgstr ""
