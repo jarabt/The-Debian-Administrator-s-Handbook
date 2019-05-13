@@ -438,7 +438,7 @@ msgid "Providing a “Service”"
 msgstr "Poskytování “služby”"
 
 msgid "Let us discuss the first case in greater detail with an example: all mail servers, such as <emphasis role=\"pkg\">postfix</emphasis> or <emphasis role=\"pkg\">sendmail</emphasis> are said to “provide” the <emphasis role=\"pkg\">mail-transport-agent</emphasis> virtual package. Thus, any package that needs this service to be functional (e.g. a mailing list manager, such as <emphasis role=\"pkg\">smartlist</emphasis> or <emphasis role=\"pkg\">sympa</emphasis>) simply states in its dependencies that it requires a <emphasis role=\"pkg\">mail-transport-agent</emphasis> instead of specifying a large yet incomplete list of possible solutions (e.g. <command>postfix | sendmail | exim4 | …</command>). Furthermore, it is useless to install two mail servers on the same machine, which is why each of these packages declares a conflict with the <emphasis role=\"pkg\">mail-transport-agent</emphasis> virtual package. A conflict between a package and itself is ignored by the system, but this technique will prohibit the installation of two mail servers side by side."
-msgstr "xxxxxxxxxxxxxxxx     "
+msgstr ""
 
 msgid "<emphasis>DEBIAN POLICY</emphasis> List of virtual packages"
 msgstr ""
