@@ -456,49 +456,49 @@ msgid "The <literal>Provides</literal> field is also interesting when the conten
 msgstr "Pole <literal>Provides</literal> je také zajímavé, pokud je obsah nějakého balíčku zahrnutý ve větším balíčku. Například modul Perlu <emphasis role=\"pkg\">libdigest-md5-perl</emphasis> byl volitelný v Perlu 5.6 a jako standard byl zahrnutý v Perlu 5.8 (a pozdějších verzích, jako 5.20, který je přítomný v <emphasis role=\"distribution\">Jessie</emphasis>). Jako takový, balíček <emphasis role=\"pkg\">perl</emphasis> od verze 5.8 prohlašuje <literal>Provides: libdigest-md5-perl</literal>, takže závislosti na tento balíček jsou naplněny, pokud má uživatel Perl 5.8 (nebo novější). Balíček <emphasis role=\"pkg\">libdigest-md5-perl</emphasis> samotný byl nakonec vymazán, protože už neměl žádný význam, když staré verze Perlu byly odstraněny."
 
 msgid "Use of a <literal>Provides</literal> field in order to not break dependencies"
-msgstr ""
+msgstr "Použití pole <literal>Provides</literal>, aby se neporušily závislosti"
 
 msgid "This feature is very useful, since it is never possible to anticipate the vagaries of development, and it is necessary to be able to adjust to renaming, and other automatic replacement, of obsolete software."
-msgstr ""
+msgstr "Tato funkce je velice užitečná, protože se nikdy nedají předpovídat vrtochy vývoje a je nezbytné mít možnost přizpůsobit se přejmenovávání a jinému automatickému nahrazování starého softwaru."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Perl, a programming language"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Perl, programovací jazyk"
 
 msgid "<primary>Perl</primary>"
-msgstr ""
+msgstr "<primary>Perl</primary>"
 
 msgid "<primary>CPAN</primary>"
-msgstr ""
+msgstr "<primary>CPAN</primary>"
 
 msgid "Perl (Practical Extraction and Report Language) is a very popular programming language. It has many ready-to-use modules that cover a vast spectrum of applications, and that are distributed by the CPAN (Comprehensive Perl Archive Network) servers, an exhaustive network of Perl packages. <ulink type=\"block\" url=\"http://www.perl.org/\" /> <ulink type=\"block\" url=\"http://www.cpan.org/\" />"
-msgstr ""
+msgstr "Perl (praktický extrakční a reportovací jazyk) je velmi populární programovací jazyk. Má mnoho modulů připravených k použití, které mají široké spektrum uplatnění a jsou distribuovány servery CPAN (všeobecné archivační sítě Perlu), vyčerpávající sítě balíčků Perlu. <ulink type=\"block\" url=\"http://www.perl.org/\" /> <ulink type=\"block\" url=\"http://www.cpan.org/\" />"
 
 msgid "Since it is an interpreted language, a program written in Perl does not require compilation prior to execution. This is why they are called “Perl scripts”."
-msgstr ""
+msgstr "Protože to je interpretovaný jazyk, program psaný v Perlu nevyžaduje kompilaci před spuštěním. To je důvod, proč se jim říká “Perlové skripty”."
 
 msgid "Past Limitations"
-msgstr ""
+msgstr "Minulá omezení"
 
 msgid "Virtual packages used to suffer from some limitations, the most significant of which was the absence of a version number. To return to the previous example, a dependency such as <literal>Depends: libdigest-md5-perl (&gt;= 1.6)</literal>, despite the presence of Perl 5.10, would never be considered as satisfied by the packaging system — while in fact it most likely is satisfied. Unaware of this, the package system chose the least risky option, assuming that the versions do not match."
-msgstr ""
+msgstr "Virtuální balíčky trpěly některými omezeními, z nichž nejvýznamnějším byla absence čísla verze. Vraťme se k předcházejícímu příkladu, závislost jako je <literal>Depends: libdigest-md5-perl (&gt;= 1.6)</literal>, navzdory přítomnosti Perl 5.10, nebude nikdy považována za splněnou balíčkovým systémem — i když je de facto pravděpodobně splněná. Neuvědomujíc si toto, balíčkový systém si vybere nejméně riskantní možnost, předpokládajíc, že verze neodpovídají."
 
 msgid "This limitation has been lifted in <emphasis role=\"pkg\">dpkg</emphasis> 1.17.11, and is no longer relevant in Jessie. Packages can assign a version to the virtual packages they provide with a dependency such as <literal>Provides: libdigest-md5-perl (= 1.8)</literal>."
-msgstr ""
+msgstr "Toto omezení bylo odstraněno v <emphasis role=\"pkg\">dpkg</emphasis> 1.17.11 a již více není v Jessie podstatné. Balíčky mohou připisovat verzi virtuálním balíčkům, které poskytují se závislostí, jako <literal>Provides: libdigest-md5-perl (= 1.8)</literal>."
 
 msgid "Replacing Files: The <literal>Replaces</literal> Field"
-msgstr ""
+msgstr "Nahrazení souborů: pole <literal>Replaces</literal>"
 
 msgid "<primary>replacement</primary>"
-msgstr ""
+msgstr "<primary>nahrazení</primary>"
 
 msgid "<primary><literal>Replaces</literal>, header field</primary>"
-msgstr ""
+msgstr "<primary><literal>Replaces</literal>, pole hlavičky</primary>"
 
 msgid "<primary>package</primary><secondary>replacement</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary><secondary>nahrazení</secondary>"
 
 msgid "The <literal>Replaces</literal> field indicates that the package contains files that are also present in another package, but that the package is legitimately entitled to replace them. Without this specification, <command>dpkg</command> fails, stating that it can not overwrite the files of another package (technically, it is possible to force it to do so with the <literal>--force-overwrite</literal> option, but that is not considered standard operation). This allows identification of potential problems and requires the maintainer to study the matter prior to choosing whether to add such a field."
-msgstr ""
+msgstr "Pole <literal>Replaces</literal> značí, že balíček obsahuje soubory, které jsou také přítomny v jiném balíčku, ale balíček je legitimně oprávněn je nahradit. Bez tohoto přesného vymezení <command>dpkg</command> selže, prohlašujíc, že nemůže přepsat soubory jiného balíčku (technicky vzato, je možné ho přinutit k této činnosti pomocí možnosti <literal>--force-overwrite</literal>, to ale není považováno za standardní operaci). To umožňuje identifikaci možných problémů a vyžaduje, aby správce záležitost prostudoval před tím, než zvolí, zda toto pole přidat."
 
 msgid "The use of this field is justified when package names change or when a package is included in another. This also happens when the maintainer decides to distribute files differently among various binary packages produced from the same source package: a replaced file no longer belongs to the old package, but only to the new one."
 msgstr ""
