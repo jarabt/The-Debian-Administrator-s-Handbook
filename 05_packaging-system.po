@@ -501,64 +501,64 @@ msgid "The <literal>Replaces</literal> field indicates that the package contains
 msgstr "Pole <literal>Replaces</literal> značí, že balíček obsahuje soubory, které jsou také přítomny v jiném balíčku, ale balíček je legitimně oprávněn je nahradit. Bez tohoto přesného vymezení <command>dpkg</command> selže, prohlašujíc, že nemůže přepsat soubory jiného balíčku (technicky vzato, je možné ho přinutit k této činnosti pomocí možnosti <literal>--force-overwrite</literal>, to ale není považováno za standardní operaci). To umožňuje identifikaci možných problémů a vyžaduje, aby správce záležitost prostudoval před tím, než zvolí, zda toto pole přidat."
 
 msgid "The use of this field is justified when package names change or when a package is included in another. This also happens when the maintainer decides to distribute files differently among various binary packages produced from the same source package: a replaced file no longer belongs to the old package, but only to the new one."
-msgstr ""
+msgstr "Použití tohoto pole je opodstatněné v případě změny jména balíčku nebo když je balíček obsažen v jiném balíčku. To se mimo jiné děje tehdy, když se správce rozhodne distribuovat soubory různě mezi různými binárními balíčky, které jsou vyrobeny ze stejného binárního balíčku: nahrazený soubor již nepatří starému balíčku, ale tomu novému."
 
 msgid "If all of the files in an installed package have been replaced, the package is considered to be removed. Finally, this field also encourages <command>dpkg</command> to remove the replaced package where there is a conflict."
-msgstr ""
+msgstr "Pokud byly nahrazeny všechny soubory v instalovaném balíčku, balíček je považován za odstraněný. A konečně, toto pole také vede <command>dpkg</command> k odstranění nahrazeného balíčku v případě, že dojde ke konfliktu."
 
 msgid "<emphasis>GOING FURTHER</emphasis> The <literal>Tag</literal> field"
-msgstr ""
+msgstr "<emphasis>JDEME DÁLE</emphasis> Pole <literal>Tag</literal>"
 
 msgid "In the <emphasis role=\"pkg\">apt</emphasis> example above, we can see the presence of a field that we have not yet described, the <literal>Tag</literal> field. This field does not describe a relationship between packages, but is simply a way of categorizing a package in a thematic taxonomy. This classification of packages according to several criteria (type of interface, programming language, domain of application, etc.) has been available for a long time. Despite this, not all packages have accurate tags and it is not yet integrated in all Debian tools; <command>aptitude</command> displays these tags, and allows them to be used as search criteria. For those who are repelled by <command>aptitude</command>'s search criteria, the following website allows navigation of the tag database: <ulink type=\"block\" url=\"http://debtags.alioth.debian.org/\" />"
-msgstr ""
+msgstr "Ve výše uvedeném příkladu s <emphasis role=\"pkg\">apt</emphasis>, uvidíme přítomnost pole, které jsme ještě nepopsali, pole <literal>Tag</literal>. Toto pole nepopisuje žádný vztah mezi balíčky, ale je jednoduše způsobem kategorizování balíčku za pomoci tematické taxonomie. Tato kladifikace balíčků podle různých kritérií (typu rozhraní, programovacího jazyka, oboru uplatnění apod.) byla k dispozici po dlouhou dobu. Navzdory tomu, ne všechny balíčky mají přesné tagy a je to věc, která ještě nebyla do všech nástrojů Debianu začleněna; <command>aptitude</command> zobrazuje tyto tagy a umožňuje jim, aby byly použity jako vyhledávající kritéria. Pro ty, kteří nejsou příznivci vyhledávajících kritérií <command>aptitude</command>, následující internetová stránka umožňuje orientovat se v databázi tagů: <ulink type=\"block\" url=\"http://debtags.alioth.debian.org/\" />"
 
 msgid "Configuration Scripts"
-msgstr ""
+msgstr "Nastavovací skripty"
 
 msgid "<primary><filename>postinst</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>postinst</filename></primary>"
 
 msgid "<primary><filename>preinst</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>preinst</filename></primary>"
 
 msgid "<primary><filename>postrm</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>postrm</filename></primary>"
 
 msgid "<primary><filename>prerm</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>prerm</filename></primary>"
 
 msgid "<primary><filename>control.tar.gz</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>control.tar.gz</filename></primary>"
 
 msgid "In addition to the <filename>control</filename> file, the <filename>control.tar.gz</filename> archive for each Debian package may contain a number of scripts, called by <command>dpkg</command> at different stages in the processing of a package. The Debian Policy describes the possible cases in detail, specifying the scripts called and the arguments that they receive. These sequences may be complicated, since if one of the scripts fails, <command>dpkg</command> will try to return to a satisfactory state by canceling the installation or removal in progress (insofar as it is possible)."
-msgstr ""
+msgstr "Mimo souboru <filename>control</filename>, archiv <filename>control.tar.gz</filename> u každého balíčku Debianu může obsahovat několik skriptů, které jsou volány <command>dpkg</command> v různých fázích zpracovávání balíčku. Stanovy Debianu detailně popisují možné případy a upřesňují volané skripty a argumenty, které tyto skripty přijímají. Jejich posloupnosti mohou být komplikované, protože, pokud jeden selže, <command>dpkg</command> se pokusí vrátit do uspokojivého stavu a zruší instalaci nebo odstraňování za chodu (pokud je to možné).              "
 
 msgid "<emphasis>GOING FURTHER</emphasis> <command>dpkg</command>'s database"
-msgstr ""
+msgstr "<emphasis>JDEME DÁLE</emphasis> databáze <command>dpkg</command>"
 
 msgid "<primary><filename>/var/lib/dpkg/</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>/var/lib/dpkg/</filename></primary>"
 
 msgid "<primary>dpkg</primary><secondary>database</secondary>"
-msgstr ""
+msgstr "<primary>dpkg</primary><secondary>database</secondary>"
 
 msgid "All of the configuration scripts for installed packages are stored in the <filename>/var/lib/dpkg/info/</filename> directory, in the form of a file prefixed with the package's name. This directory also includes a file with the <filename>.list</filename> extension for each package, containing the list of files that belong to that package."
-msgstr ""
+msgstr "Veškeré nastavovací skripty pro nainstalované balíčky jsou uloženy v adresáři <filename>/var/lib/dpkg/info/</filename> ve formě souboru s předponou jména balíčku. Tento adresář také obsahuje pro každý balíček soubor s příponou <filename>.list</filename>, který obsahuje seznam souborů, které náleží tomuto balíčku."
 
 msgid "The <filename>/var/lib/dpkg/status</filename> file contains a series of data blocks (in the format of the famous mail headers, RFC 2822) describing the status of each package. The information from the <filename>control</filename> file of the installed packages is also replicated there."
-msgstr ""
+msgstr "Soubor <filename>/var/lib/dpkg/status</filename> obsahuje sérii bloků dat (ve formátu známé poštovní hlavičky RFC 2822) popisující stav každého z balíčků. Jsou tu také zopakovány informace ze souboru <filename>control</filename> o nainstalovaných balíčcích."
 
 msgid "In general, the <filename>preinst</filename> script is executed prior to installation of the package, while the <filename>postinst</filename> follows it. Likewise, <filename>prerm</filename> is invoked before removal of a package and <filename>postrm</filename> afterwards. An update of a package is equivalent to removal of the previous version and installation of the new one. It is not possible to describe in detail all the possible scenarios here, but we will discuss the most common two: an installation/update and a removal."
-msgstr ""
+msgstr "Obecně, skript <filename>preinst</filename> je spuštěn před instalací balíčku, zatímco <filename>postinst</filename> ji následuje. Obdobně, <filename>prerm</filename> je vyvolán před odstraněním balíčku a <filename>postrm</filename> potom. Aktualizace balíčku je stejná jako odstranění předcházející verze a instalace verze nové. Není zde možné popsat detailně veškeré možné scénáře, ale budeme se věnovat dvěma nejběžnějším: instalaci/aktualizaci a odstranění."
 
 msgid "<emphasis>CAUTION</emphasis> Symbolic names of the scripts"
-msgstr ""
+msgstr "<emphasis>UPOZORNĚNÍ</emphasis> Symbolická jména skriptů"
 
 msgid "The sequences described in this section call configuration scripts by specific names, such as <command>old-prerm</command> or <command>new-postinst</command>. They are, respectively, the <command>prerm</command> script contained in the old version of the package (installed before the update) and the <command>postinst</command> script contained in the new version (installed by the update)."
-msgstr ""
+msgstr "Posloupnosti popsané v této sekci volají nastavovací skripty symbolickými jmény, jako je <command>old-prerm</command> nebo <command>new-postinst</command>. Jsou to v podstatě skript <command>prerm</command> obsažený ve staré verzi balíčku (instalovaném před aktualizací) a skript <command>postinst</command> obsažený v nové verzi (instalované aktualizací)."
 
 msgid "<emphasis>TIP</emphasis> State diagrams"
-msgstr ""
+msgstr "<emphasis>TIP</emphasis> Stavové diagramy"
 
 msgid "Manoj Srivastava made these diagrams explaining how the configuration scripts are called by <command>dpkg</command>. Similar diagrams have also been developed by the Debian Women project; they are a bit simpler to understand, but less complete. <ulink type=\"block\" url=\"https://people.debian.org/~srivasta/MaintainerScripts.html\" /> <ulink type=\"block\" url=\"https://wiki.debian.org/MaintainerScripts\" />"
 msgstr ""
