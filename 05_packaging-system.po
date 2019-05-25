@@ -561,64 +561,64 @@ msgid "<emphasis>TIP</emphasis> State diagrams"
 msgstr "<emphasis>TIP</emphasis> Stavové diagramy"
 
 msgid "Manoj Srivastava made these diagrams explaining how the configuration scripts are called by <command>dpkg</command>. Similar diagrams have also been developed by the Debian Women project; they are a bit simpler to understand, but less complete. <ulink type=\"block\" url=\"https://people.debian.org/~srivasta/MaintainerScripts.html\" /> <ulink type=\"block\" url=\"https://wiki.debian.org/MaintainerScripts\" />"
-msgstr ""
+msgstr "Manoj Srivastana udělal tyto diagramy, které vysvětlují jak jsou nastavovací skripty volány <command>dpkg</command>. Stejné diagramy byly také vyvinuty projektem Debianské ženy; jsou trochu snazší na porozumění, ale méně kompletní. <ulink type=\"block\" url=\"https://people.debian.org/~srivasta/MaintainerScripts.html\" /> <ulink type=\"block\" url=\"https://wiki.debian.org/MaintainerScripts\" />"
 
 msgid "Installation and Upgrade"
-msgstr ""
+msgstr "Instalace a vylepšení verze"
 
 msgid "<primary><command>dpkg</command></primary><secondary>internal operation</secondary>"
-msgstr ""
+msgstr "<primary><command>dpkg</command></primary><secondary>vnitřní proces</secondary>"
 
 msgid "Here is what happens during an installation (or an update):"
-msgstr ""
+msgstr "Zde je to, co se děje během instalace (nebo během aktualizace):"
 
 msgid "For an update, <command>dpkg</command> calls the <command>old-prerm upgrade <replaceable>new-version</replaceable></command>."
-msgstr ""
+msgstr "Z důvodu aktualizace, <command>dpkg</command> zavolá <command>old-prerm upgrade <replaceable>new-version</replaceable></command>."
 
 msgid "Still for an update, <command>dpkg</command> then executes <command>new-preinst upgrade <replaceable>old-version</replaceable></command>; for a first installation, it executes <command>new-preinst install</command>. It may add the old version in the last parameter, if the package has already been installed and removed since (but not purged, the configuration files having been retained)."
-msgstr ""
+msgstr "Stále pro aktualizaci, <command>dpkg</command> poté spustí <command>new-preinst upgrade <replaceable>old-version</replaceable></command>; za účelem instalace spustí <command>new-preinst install</command>. Může přidat starou verzi do posledního parametru, pokud byl balíček již nainstalován a odstraněn (ale ne vyčištěn, nastavovací soubory se zachovaly)."
 
 msgid "The new package files are then unpacked. If a file already exists, it is replaced, but a backup copy is temporarily made."
-msgstr ""
+msgstr "Soubory nového balíčku jsou poté rozbaleny. Pokud soubor již existuje, je nahrazen, ale záložní kopie se dočasně vytvoří."
 
 msgid "For an update, <command>dpkg</command> executes <command>old-postrm upgrade <replaceable>new-version</replaceable></command>."
-msgstr ""
+msgstr "Pro aktualizaci, <command>dpkg</command> splustí <command>old-postrm upgrade <replaceable>new-version</replaceable></command>."
 
 msgid "<command>dpkg</command> updates all of the internal data (file list, configuration scripts, etc.) and removes the backups of the replaced files. This is the point of no return: <command>dpkg</command> no longer has access to all of the elements necessary to return to the previous state."
-msgstr ""
+msgstr "<command>dpkg</command> aktualizuje všechna interní data (seznam souborů, nastavovací skripty, apod.) a odstraní zálohy nahrazených souborů. Toto je bod, ze kterého není návratu: <command>dpkg</command> již více nemá přístup ke všem prvkům nutným k návratu do předcházejícího stavu."
 
 msgid "<command>dpkg</command> will update the configuration files, asking the user to decide if it is unable to automatically manage this task. The details of this procedure are discussed in <xref linkend=\"sect.conffiles\" />."
-msgstr ""
+msgstr "<command>dpkg</command> aktualizuje nastavovací soubory a vyzve uživatele, aby se rozhodl, zda bude nemožné automaticky řídit tento úkol. Detailům tohoto procesu se věnuje <xref linkend=\"sect.conffiles\" />."
 
 msgid "Finally, <command>dpkg</command> configures the package by executing <command>new-postinst configure <replaceable>last-version-configured</replaceable></command>."
-msgstr ""
+msgstr "Nakonec, <command>dpkg</command> nastaví balíček spuštěním <command>new-postinst configure <replaceable>last-version-configured</replaceable></command>."
 
 msgid "Package Removal"
-msgstr ""
+msgstr "Odstranění balíčků"
 
 msgid "Here is what happens during a package removal:"
-msgstr ""
+msgstr "Toto se stane během odstranění balíčku:"
 
 msgid "<command>dpkg</command> calls <command>prerm remove</command>."
-msgstr ""
+msgstr "<command>dpkg</command> zavolá <command>prerm remove</command>."
 
 msgid "<command>dpkg</command> removes all of the package's files, with the exception of the configuration files and configuration scripts."
-msgstr ""
+msgstr "<command>dpkg</command> odstraní všechny soubory balíčku, s vyjímkou nastavovacích souborů a konfiguračních skriptů."
 
 msgid "<command>dpkg</command> executes <command>postrm remove</command>. All of the configuration scripts, except <filename>postrm</filename>, are removed. If the user has not used the “purge” option, the process stops here."
-msgstr ""
+msgstr "<command>dpkg</command> spustí <command>postrm remove</command>. Všechny nastavovací skripty, kromě <filename>postrm</filename>, se odstraní. Pokud uživatel nepoužije volbu “purge”, proces se tady zastaví."
 
 msgid "For a complete purge of the package (command issued with <command>dpkg --purge</command> or <command>dpkg -P</command>), the configuration files are also deleted, as well as a certain number of copies (<filename>*.dpkg-tmp</filename>, <filename>*.dpkg-old</filename>, <filename>*.dpkg-new</filename>) and temporary files; <command>dpkg</command> then executes <command>postrm purge</command>."
-msgstr ""
+msgstr "K úplnému očištění od balíčku (příkaz vydán jako <command>dpkg --purge</command> nebo <command>dpkg -P</command>), nastavovací soubory se také vymažou, stejně jako jisté množství kopií (<filename>*.dpkg-tmp</filename>, <filename>*.dpkg-old</filename>, <filename>*.dpkg-new</filename>) a přechodných souborů; <command>dpkg</command> poté spustí <command>postrm purge</command>."
 
 msgid "<emphasis>VOCABULARY</emphasis> Purge, a complete removal"
-msgstr ""
+msgstr "<emphasis>SLOVNÍČEK</emphasis> Vyčištění, úplné odstranění"
 
 msgid "<primary>purge of a package</primary>"
-msgstr ""
+msgstr "<primary>vyčištění od balíčku</primary>"
 
 msgid "When a Debian package is removed, the configuration files are retained in order to facilitate possible re-installation. Likewise, the data generated by a daemon (such as the content of an LDAP server directory, or the content of a database for an SQL server) are usually retained."
-msgstr ""
+msgstr "Pokud je balíček Debianu odstraněn, nastavovací soubory se zachovají za účelem usnadnění případné re-instalace. Obdobně, data vygenerovaná démonem (jako je obsah serverového adresářeLDAP nebo obsah databáze pro server SQL) se obvykle zachovají."
 
 msgid "To remove all data associated with a package, it is necessary to “purge” the package with the command, <command>dpkg -P <replaceable>package</replaceable></command>, <command>apt-get remove --purge <replaceable>package</replaceable></command> or <command>aptitude purge <replaceable>package</replaceable></command>."
 msgstr ""
