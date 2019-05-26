@@ -621,7 +621,7 @@ msgid "When a Debian package is removed, the configuration files are retained in
 msgstr "Pokud je balíček Debianu odstraněn, nastavovací soubory se zachovají za účelem usnadnění případné re-instalace. Obdobně, data vygenerovaná démonem (jako je obsah serverového adresářeLDAP nebo obsah databáze pro server SQL) se obvykle zachovají."
 
 msgid "To remove all data associated with a package, it is necessary to “purge” the package with the command, <command>dpkg -P <replaceable>package</replaceable></command>, <command>apt-get remove --purge <replaceable>package</replaceable></command> or <command>aptitude purge <replaceable>package</replaceable></command>."
-msgstr ""
+msgstr "K odstranění veškerých dat spojených s balíčkem je nutné “vymazat” balíček za pomoci příkazu <command>dpkg -P <replaceable>balíček</replaceable></command>, <command>apt-get remove --purge <replaceable>balíček</replaceable></command> nebo <command>aptitude purge <replaceable>balíček</replaceable></command>."
 
 msgid "Given the definitive nature of such data removals, a purge should not be taken lightly."
 msgstr ""
