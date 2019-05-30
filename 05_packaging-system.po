@@ -624,43 +624,43 @@ msgid "To remove all data associated with a package, it is necessary to “purge
 msgstr "K odstranění veškerých dat spojených s balíčkem je nutné “vymazat” balíček za pomoci příkazu <command>dpkg -P <replaceable>balíček</replaceable></command>, <command>apt-get remove --purge <replaceable>balíček</replaceable></command> nebo <command>aptitude purge <replaceable>balíček</replaceable></command>."
 
 msgid "Given the definitive nature of such data removals, a purge should not be taken lightly."
-msgstr ""
+msgstr "Z důvodu absolutní povahy takovýchto odstraňování dat, čištění by nemělo být bráno na lehkou váhu."
 
 msgid "<primary><filename>config</filename>, <command>debconf</command> script</primary>"
-msgstr ""
+msgstr "<primary><filename>config</filename>, <command>debconf</command> script</primary>"
 
 msgid "The four scripts detailed above are complemented by a <filename>config</filename> script, provided by packages using <command>debconf</command> to acquire information from the user for configuration. During installation, this script defines in detail the questions asked by <command>debconf</command>. The responses are recorded in the <command>debconf</command> database for future reference. The script is generally executed by <command>apt</command> prior to installing packages one by one in order to group all the questions and ask them all to the user at the beginning of the process. The pre- and post-installation scripts can then use this information to operate according to the user's wishes."
-msgstr ""
+msgstr "Čtyři skripty uvedené výše jsou doplněny <filename>config</filename> skriptem, poskytovaným balíčky za použití <command>debconf</command> za účelem nabytí informací od uživatele kvůli nastavení. Během instalace tento skript detailně definuje otázky položené <command>debconf</command>. Odpovědi jsou zaznamenány v databázi <command>debconf</command> kvůli pozdějším odkazům. Skript je obyčejně spuštěn <command>apt</command> před instalováním balíčků jednoho po druhém za účelem seskupení všech otázek a pokládání jich všech uživateli v počátku tohoto procesu. Před- a po-instalační skripty mohou potom použít tyto informace k fungování podle uživatelových přání."
 
 msgid "<emphasis>TOOL</emphasis> <command>debconf</command>"
-msgstr ""
+msgstr "<emphasis>NÁSTROJ</emphasis> <command>debconf</command>"
 
 msgid "<primary><command>debconf</command></primary>"
-msgstr ""
+msgstr "<primary><command>debconf</command></primary>"
 
 msgid "<command>debconf</command> was created to resolve a recurring problem in Debian. All Debian packages unable to function without a minimum of configuration used to ask questions with calls to the <command>echo</command> and <command>read</command> commands in <filename>postinst</filename> shell scripts (and other similar scripts). But this also means that during a large installation or update the user must stay with their computer to respond to various questions that may arise at any time. These manual interactions have now been almost entirely dispensed with, thanks to the <command>debconf</command> tool."
-msgstr ""
+msgstr "<command>debconf</command> byl vytvořen za účelem vyřešit opakující se problém v Debianu. Všechny balíčky Debianu, které nebyly schopny fungovat bez minimálního nastavení pokládávaly otázky za pomoci volání příkazů <command>echo</command> a <command>read</command> v shellovských skriptech <filename>postinst</filename> (a podobných skriptech). Ale to také znamená, že během obsáhlé instalace nebo aktualizace musel uživatel zůstat s počítačem a odpovídat na různé dotazy, které se mohly vyskytnout kdykoliv. Tyto manuální interakce se téměř úplně přestaly používat díky nástroji <command>debconf</command>."
 
 msgid "<command>debconf</command> has many interesting features: it requires the developer to specify user interaction; it allows localization of all the strings displayed to users (all translations are stored in the <filename>templates</filename> file describing the interactions); it has different frontends to display the questions to the user (text mode, graphical mode, non-interactive); and it allows creation of a central database of responses to share the same configuration with several computers... but the most important is that it is now possible to present all of the questions in a row to the user, prior to starting a long installation or update process. The user can go about their business while the system handles the installation on its own, without having to stay there staring at the screen waiting for questions."
-msgstr ""
+msgstr "<command>debconf</command> má mnoho zajímavých fukcí: vyžaduje, aby vývojář přesně vymezil uživatelovu interakci; umožňuje lokalizaci všech řetězců, které se zobrazují uživateli (všechny překlady jsou uloženy v souborech <filename>templates</filename> popisujících interakce); jsou tu různé frontendy ke zobrazení otázek uživateli (textový mód, grafický mód, ne-interakitní); a umožňuje vytvoření centrální databáze odpovědí k tomu, aby bylo možné sdílení stejného nastavení různými počítači... ale nejdůležitější je, že je nyní možné představit uživateli všechny otázky za sebou v řadě, před započetím dlouhého instalačního nebo aktualizačního procesu. Uživatel může jít po svých zatímco systém zvládá instalaci ve vlastní režii, bez toho, aniž by uživatel zíral na obrazovku v očekávání dotazů."
 
 msgid "Checksums, List of Configuration Files"
-msgstr ""
+msgstr "Checksums, seznam souborů nastavení"
 
 msgid "<primary><filename>md5sums</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>md5sums</filename></primary>"
 
 msgid "<primary><filename>conffiles</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>conffiles</filename></primary>"
 
 msgid "<primary>checksums</primary>"
-msgstr ""
+msgstr "<primary>checksums</primary>"
 
 msgid "<primary>files</primary><secondary>configuration files</secondary>"
-msgstr ""
+msgstr "<primary>soubory</primary><secondary>soubory nastavení</secondary>"
 
 msgid "<primary>configuration</primary><secondary>files</secondary>"
-msgstr ""
+msgstr "<primary>nastavení</primary><secondary>soubory</secondary>"
 
 msgid "In addition to the maintainer scripts and control data already mentioned in the previous sections, the <filename>control.tar.gz</filename> archive of a Debian package may contain other interesting files. The first, <filename>md5sums</filename>, contains the MD5 checksums for all of the package's files. Its main advantage is that it allows <command>dpkg --verify</command> (which we will study in <xref linkend=\"sect.dpkg-verify\" />) to check if these files have been modified since their installation. Note that when this file doesn't exist, <command>dpkg</command> will generate it dynamically at installation time (and store it in the dpkg database just like other control files)."
 msgstr ""
