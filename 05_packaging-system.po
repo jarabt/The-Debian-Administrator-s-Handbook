@@ -700,7 +700,7 @@ msgid "<emphasis>GOING FURTHER</emphasis> Force dpkg to ask configuration file q
 msgstr "<emphasis>JDEME DÁLE</emphasis> Přimění dpkg k dotazovánín a nastavovací soubor"
 
 msgid "The <command>--force-confask</command> option requires <command>dpkg</command> to display the questions about the configuration files, even in cases where they would not normally be necessary. Thus, when reinstalling a package with this option, <command>dpkg</command> will ask the questions again for all of the configuration files modified by the administrator. This is very convenient, especially for reinstalling the original configuration file if it has been deleted and no other copy is available: a normal re-installation won't work, because <command>dpkg</command> considers removal as a form of legitimate modification, and, thus, doesn't install the desired configuration file."
-msgstr ""
+msgstr "Možnost <command>--force-confask</command> požaduje po <command>dpkg</command> zobrazení otázek o souborech nastavení, i v případech, kdy by běžně nebyly nutné. Takže, když se reinstaluje balíček s touto volbou, <command>dpkg</command> položí otázky znovu pro všechny soubory nastavení, které byly administrátorem upraveny. To je velmi pohodlné, především pro reinstalaci původního souboru nastavení, pokud byl vymazán a žádná jiná kopie není k dispozici: běžná reinstalace nebude fungovat, protože <command>dpkg</command> považuje odstranění za legitimní formu úpravy a proto nenaistaluje pžadovaný nastavovací soubor."
 
 msgid "Structure of a Source Package"
 msgstr ""
