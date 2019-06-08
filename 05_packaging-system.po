@@ -849,49 +849,49 @@ msgid "Since Debian <emphasis role=\"distribution\">Squeeze</emphasis>, Debian d
 msgstr "Od Debianu <emphasis role=\"distribution\">Squeeze</emphasis> měli vývojáři Debianu možnost použít nový formát, který napravoval mhoho problémů původního formátu. Formát <literal>3.0 (quilt)</literal> je schopen kombinovat mnohonásobné upstreamové balíčky v jednom zdrojovém balíčku: k obvyklému <filename>.orig.tar.gz</filename>, mohou být zahrnuty doplňkové archivy <filename>.orig-<replaceable>komponenta</replaceable>.tar.gz</filename>. To se hodí pro software, který je distribuován v několika upstreamových komponentách, ale pro který je požadován jeden zdrojový balíček. Tyto archívy mohou být také komprimovány pomocí <command>bzip2</command> nebo <command>xz</command> spíše než <command>gzip</command>, což šetří místo na disku a síťové zdroje. A konečně, zkostnatělá oprava <filename>.diff.gz</filename> je nahrazena archivem <filename>.debian.tar.gz</filename> obsahujícím pokyny ke kompilaci a sadu upstreamových oprav zpracovaných správcem balíčku. Ty jsou zaznamenány v kompatabilním formátu s <command>quilt</command> — nástrojem, který usnadňuje řízení série po sobě jdoucích oprav."
 
 msgid "The <filename>.orig.tar.gz</filename> file is an archive containing the source code as provided by the original developer. Debian package maintainers are asked to not modify this archive in order to be able to easily check the origin and integrity of the file (by simple comparison with a checksum) and to respect the wishes of some authors."
-msgstr ""
+msgstr "Soubor <filename>.orig.tar.gz</filename> je archiv, který obsahuje zdrojový kód tak, jak jej poskytuje vývojář. Správce balíčku Debianu je požádán, aby neupravoval tento archiv za účelem snadné kontroly původu a celistvosti souboru (použitím jednoduchého srovnání za pomoci checksumu) a respektování přání některých autorů."
 
 msgid "The <filename>.debian.tar.gz</filename> contains all of the modifications made by the Debian maintainer, especially the addition of a <filename>debian</filename> directory containing the instructions to execute to construct a Debian package."
-msgstr ""
+msgstr "<filename>.debian.tar.gz</filename> obsahuje všechny úpravy vytvořené správcem Debianu, zvláště doplnění adresářem <filename>debian</filename>, jehož obsahem jsou pokyny ke spuštění a vytvoření balíčku Debianu."   
 
 msgid "<emphasis>TOOL</emphasis> Decompressing a source package"
-msgstr ""
+msgstr "<emphasis>NÁSTROJ</emphasis> Dekomprimace zdrojového balíčku"
 
 msgid "<primary><command>dpkg-source</command></primary>"
-msgstr ""
+msgstr "<primary><command>dpkg-source</command></primary>"
 
 msgid "<primary>decompressing, source package</primary>"
-msgstr ""
+msgstr "<primary>dekomprimace, zdrojový balíček</primary>"
 
 msgid "<primary>uncompressing, source package</primary>"
-msgstr ""
+msgstr "<primary>odkomprimování, zdrojový balíček</primary>"
 
 msgid "<primary>unpacking</primary><secondary>source package</secondary>"
-msgstr ""
+msgstr "<primary>rozbalení</primary><secondary>zdrojový balíček</secondary>"
 
 msgid "If you have a source package, you can use the <command>dpkg-source</command> command (from the <emphasis role=\"pkg\">dpkg-dev</emphasis> package) to decompress it:"
-msgstr ""
+msgstr "Pokud máte zdrojový balíček, můžete použít příkaz <command>dpkg-source</command> (z balíčku <emphasis role=\"pkg\">dpkg-dev</emphasis>) k dekomprimaci:"
 
 msgid "<computeroutput>$ </computeroutput><userinput>dpkg-source -x package_0.7-1.dsc</userinput>"
-msgstr ""
+msgstr "<computeroutput>$ </computeroutput><userinput>dpkg-source -x package_0.7-1.dsc</userinput>"
 
 msgid "You can also use <command>apt-get</command> to download a source package and unpack it right away. It requires that the appropriate <literal>deb-src</literal> lines be present in the <filename>/etc/apt/sources.list</filename> file, however (for further details, see <xref linkend=\"sect.apt-sources.list\" />). These are used to list the “sources” of source packages (meaning the servers on which a group of source packages are hosted)."
-msgstr ""
+msgstr "Můžete také použít <command>apt-get</command> ke stažení zdrojového balíčku a jeho okamžitému rozbalení. To každopádně vyžaduje přítomnost příslušných <literal>deb-src</literal> řádků v souboru <filename>/etc/apt/sources.list</filename> (pro detailnější informace nahlédněte do <xref linkend=\"sect.apt-sources.list\" />). Používají se k vypsání “zdrojů” zdrojového balíčku (čímž se rozumí servery, na které jsou skupiny zdrojových balíčků umístěny)." 
 
 msgid "<computeroutput>$ </computeroutput><userinput>apt-get source <replaceable>package</replaceable></userinput>"
-msgstr ""
+msgstr "<computeroutput>$ </computeroutput><userinput>apt-get source <replaceable>balíček</replaceable></userinput>"
 
 msgid "Usage within Debian"
-msgstr ""
+msgstr "Použití v rámci Debianu"
 
 msgid "The source package is the foundation of everything in Debian. All Debian packages come from a source package, and each modification in a Debian package is the consequence of a modification made to the source package. The Debian maintainers work with the source package, knowing, however, the consequences of their actions on the binary packages. The fruits of their labors are thus found in the source packages available from Debian: you can easily go back to them and everything stems from them."
-msgstr ""
+msgstr "Zdrojový balíček je v Debianu základem všeho. Všechny balíčky Debianu mají svůj původ ve zdrojovém balíčku a každá úprava v balíčku Debianu je důsledkem úpravy učiněné na zdrojovém balíčku. Správci Debianu každopádně pracují se zdrojovým balíčkem s vědomím důsledků své činnosti na binární balíček. Ovoce jejich práce tak může být nalezeno ve zdrojových balíčcích, které jsou od Debianu k dispozici: snadno se k nim můžete vrátit a všechno z nich vyčíst."
 
 msgid "When a new version of a package (source package and one or more binary packages) arrives on the Debian server, the source package is the most important. Indeed, it will then be used by a network of machines of different architectures for compilation on the various architectures supported by Debian. The fact that the developer also sends one or more binary packages for a given architecture (usually i386 or amd64) is relatively unimportant, since these could just as well have been automatically generated."
-msgstr ""
+msgstr "Jakmile dorazí nová verze balíčku na server Debianu (zdrojový balíček a jeden nebo více binárních balíčků), zdrojový balíček je nejdůležitější. Samozřejmě, bude posléze použit sítí zařízení různých architektur ke kompilaci pro různé, Debianem podporované, architektury. Skutečnost, že vývojář posílá také jeden nebo více binárních balíčků pro danou architekturu (obyčejně i386 nebo amd64) je poměrně nedůležitá, protože by mohly být také automaticky vygenerovány."
 
 msgid "Manipulating Packages with <command>dpkg</command>"
-msgstr ""
+msgstr "Manipulace s balíčkem za použití <command>dpkg</command>"
 
 msgid "<command>dpkg</command> is the base command for handling Debian packages on the system. If you have <filename>.deb</filename> packages, it is <command>dpkg</command> that allows installation or analysis of their contents. But this program only has a partial view of the Debian universe: it knows what is installed on the system, and whatever it is given on the command line, but knows nothing of the other available packages. As such, it will fail if a dependency is not met. Tools such as <command>apt</command>, on the contrary, will create a list of dependencies to install everything as automatically as possible."
 msgstr ""
