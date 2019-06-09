@@ -999,7 +999,7 @@ msgid "<primary>broken dependency</primary>"
 msgstr "<primary>porušená závislost</primary>"
 
 msgid "If you are not careful, the use of an option <literal>--force-*</literal> can lead to a system where the APT family of commands will refuse to function. In effect, some of these options allow installation of a package when a dependency is not met, or when there is a conflict. The result is an inconsistent system from the point of view of dependencies, and the APT commands will refuse to execute any action except those that will bring the system back to a consistent state (this often consists of installing the missing dependency or removing a problematic package). This often results in a message like this one, obtained after installing a new version of <emphasis role=\"pkg\">rdesktop</emphasis> while ignoring its dependency on a newer version of the <emphasis role=\"pkg\">libc6</emphasis>:"
-msgstr ""
+msgstr "Pokud nejste opatrní, použití možnosti <literal>--force-*</literal> může vést k systému, kdy rodina příkazů APT odmítne pracovat. V podstatě, některé z možností umožňují instalaci balíčku, když závislosti nejsou splněny nebo když existuje nějaký konflikt. Výsledkem je nekonzistentní systém z hlediska závislostí a příkazy APT odmítnou spustit jakoukoliv akci, kromě těch, které povedou k navrácení systému zpět do konzistentního stavu (to často spolčívá v instalaci chybějící závislosti nebo odstranění problematického balíčku). Výsledkem často bývá zpráva jako je tato, získaná po instalaci nové verze <emphasis role=\"pkg\">rdesktop</emphasis>, za které se ignorovala jeho závislost na nové verzi <emphasis role=\"pkg\">libc6</emphasis>:"
 
 msgid ""
 "<computeroutput># </computeroutput><userinput>apt full-upgrade\n"
@@ -1009,24 +1009,30 @@ msgid ""
 "  rdesktop: Depends: libc6 (&gt;= 2.5) but 2.3.6.ds1-13etch7 is installed\n"
 "E: Unmet dependencies. Try using -f.</computeroutput>"
 msgstr ""
+"<computeroutput># </computeroutput><userinput>apt full-upgrade\n"
+"</userinput><computeroutput>[...]\n"
+"You might want to run 'apt-get -f install' to correct these.\n"
+"The following packages have unmet dependencies:\n"
+"  rdesktop: Depends: libc6 (&gt;= 2.5) but 2.3.6.ds1-13etch7 is installed\n"
+"E: Unmet dependencies. Try using -f.</computeroutput>"
 
 msgid "A courageous administrator who is certain of the correctness of their analysis may choose to ignore a dependency or conflict and use the corresponding <literal>--force-*</literal> option. In this case, if they want to be able to continue to use <command>apt</command> or <command>aptitude</command>, they must edit <filename>/var/lib/dpkg/status</filename> to delete/modify the dependency, or conflict, that they chose to override."
-msgstr ""
+msgstr "Odvážný administrátor, který si je jistý správností své analýzy, může zvolit ignorování závislosti nebo konfliktu a použít možnost <literal>--force-*</literal>. V tomto případě, pokud chce být schopen pokračovat v používání <command>apt</command> nebo <command>aptitude</command>, musí provést korekturu <filename>/var/lib/dpkg/status</filename> a smazat/upravit závislostnebo konflikt, který si zvolil nebrat v úvahu."
 
 msgid "This manipulation is an ugly hack, and should never be used, except in the most extreme case of necessity. Quite frequently, a more fitting solution is to recompile the package that's causing the problem (see <xref linkend=\"sect.rebuilding-package\" />) or use a new version (potentially corrected) from a repository such as the <literal>stable-backports</literal> one (see <xref linkend=\"sect.backports\" />)."
-msgstr ""
+msgstr "Taková manipulace je škaredé nabourání se a neměla by být nikdy realizována, kromě nejkrajnějších případů nutnosti. Nejčastěji je vhodnější znovu zkompilovat balíček, který zapříčiňuje problém (více v <xref linkend=\"sect.rebuilding-package\" />) nebo použít novou verzi (potenciálně opravenou) z úložiště jako je <literal>stable-backports</literal> (více v <xref linkend=\"sect.backports\" />)."
 
 msgid "<primary>removing a package</primary>"
-msgstr ""
+msgstr "<primary>odstranění balíčku</primary>"
 
 msgid "<primary>purging a package</primary>"
-msgstr ""
+msgstr "<primary>očištění od balíčku</primary>"
 
 msgid "<primary>package</primary><secondary>removal</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary><secondary>odstranění</secondary>"
 
 msgid "<primary>package</primary><secondary>purge</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary><secondary>očištění</secondary>"
 
 msgid "Invoking <command>dpkg</command> with the <literal>-r</literal> or <literal>--remove</literal> option, followed by the name of a package, removes that package. This removal is, however, not complete: all of the configuration files, maintainer scripts, log files (system logs) and other user data handled by the package remain. That way disabling the program is easily done by uninstalling it, and it's still possible to quickly reinstall it with the same configuration. To completely remove everything associated with a package, use the <literal>-P</literal> or <literal>--purge</literal> option, followed by the package name."
 msgstr ""
