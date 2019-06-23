@@ -1521,37 +1521,37 @@ msgstr ""
 "</computeroutput>"
 
 msgid "It is worth noting that <literal>Multi-Arch: same</literal> packages must have their names qualified with their architecture to be unambiguously identifiable. They also have the possibility to share files with other instances of the same package; <command>dpkg</command> ensures that all packages have bit-for-bit identical files when they are shared. Last but not least, all instances of a package must have the same version. They must thus be upgraded together."
-msgstr "  "
+msgstr "Stojí za zmínku, že balíčky <literal>Multi-Arch: same</literal> musí mít svá jména označena svou architekturou, aby byly jednoznačně identifikovatelné. Mají také možnost sdílení souborů s ostatními instancemi toho samého balíčku; <command>dpkg</command> zajišťuje, že všechny balíčky mají bit po bitu stejné soubory, pokud jsou sdíleny. V neposlední řadě, všechny instance balíčku musí mít stejnou verzi. Musí být tedy vylepšovány společně."
 
 msgid "Multi-Arch support also brings some interesting challenges in the way dependencies are handled. Satisfying a dependency requires either a package marked “<literal>Multi-Arch: foreign</literal>” or a package whose architecture matches the one of the package declaring the dependency (in this dependency resolution process, architecture-independent packages are assumed to be of the same architecture than the host). A dependency can also be weakened to allow any architecture to fulfill it, with the <literal><replaceable>package</replaceable>:any</literal> syntax, but foreign packages can only satisfy such a dependency if they are marked “<literal>Multi-Arch: allowed</literal>”."
-msgstr ""
+msgstr "Vícearchitekturová podpora sebou také přínáší některé zajímavé výzvy ve způsobu, jakým jsou řešeny závislosti. Splnění závislosti vyžaduje buď balíček označený “<literal>Multi-Arch: foreign</literal>” nebo balíček, jehož architektura odpovídá jedné z balíčku, který tuto závislost deklaruje (v případě tohoto procesu rozpoznávání závislostí, na architektuře nezávislé balíčky jsou považovány za balíčky stejné architektury jako je hostitel). Závislost může být také oslabena tím, že povolí jakékoli architektuře ji naplnit a to pomocí synaxe <literal><replaceable>package</replaceable>:any</literal>, ale s tím, že cizí balíčky mohou uspokojit takovou závislost pouze pokud jsou označeny “<literal>Multi-Arch: allowed</literal>”."
 
 msgid "Coexistence with Other Packaging Systems"
-msgstr ""
+msgstr "Soužití s jiným balíčkovacím systémem"
 
 msgid "<primary>RPM</primary>"
-msgstr ""
+msgstr "<primary>RPM</primary>"
 
 msgid "<primary>Red Hat Package Manager</primary>"
-msgstr ""
+msgstr "<primary>Red Hat Package Manager</primary>"
 
 msgid "<primary><command>alien</command></primary>"
-msgstr ""
+msgstr "<primary><command>alien</command></primary>"
 
 msgid "Debian packages are not the only software packages used in the free software world. The main competitor is the RPM format of the Red Hat Linux distribution and its many derivatives. Red Hat is a very popular, commercial distribution. It is thus common for software provided by third parties to be offered as RPM packages rather than Debian."
-msgstr ""
+msgstr "Balíčky Debianu nejsou jediné, které jsou ve světě svobodného softwaru používány. Hlavním konkurentem je formát RPM distribuce Red Hat Linux a jejích mnoha derivátů. Red Hat je velmi populární, komerční distribuce. Je tedy běžné pro software, který je poskytován třetími stranami, že je nabízen jako balíčky RPM spíše, než jako balíčky Debianu."
 
 msgid "In this case, you should know that the program <command>rpm</command>, which handles RPM packages, is available as a Debian package, so it is possible to use this package format on Debian. Care should be taken, however, to limit these manipulations to extract the information from a package or to verify its integrity. It is, in truth, unreasonable to use <command>rpm</command> to install an RPM on a Debian system; RPM uses its own database, separate from those of native software (such as <command>dpkg</command>). This is why it is not possible to ensure a stable coexistence of two packaging systems."
-msgstr ""
+msgstr "V tomto případě by jste měli vědět, že program <command>rpm</command>, který obhospodařuje balíčky RPM je k dispozici jako balíček Debianu, takže je možné použít tento balíčkový formát na Debianu. Opatrnost je zde ovšem na místě a je třeba omezit takové manipulace na získání informací z balíčku nebo ověření jeho celistvosti. Popravdě, nemá smysl používat <command>rpm</command> k instalaci nějakého RPM na systém Debianu; RPM používá svou vlastní databázi, oddělenou od té, co náleží domácímu softwaru (jako je <command>dpkg</command>). Proto je nemožné zajistit stabilní soužití dvou balíčkových systmémů."
 
 msgid "On the other hand, the <emphasis role=\"pkg\">alien</emphasis> utility can convert RPM packages into Debian packages, and vice versa."
-msgstr ""
+msgstr "Na druhou stranu, program <emphasis role=\"pkg\">alien</emphasis> umí převádět balíčky RPM na balíčky Debianu a naopak."
 
 msgid "<emphasis>COMMUNITY</emphasis> Encouraging the adoption of <filename>.deb</filename>"
-msgstr ""
+msgstr "<emphasis>KOMUNITA</emphasis> Pobídka k přijetí <filename>.deb</filename>"
 
 msgid "If you regularly use the <command>alien</command> program to install RPM packages coming from one of your providers, do not hesitate to write to them and amicably express your strong preference for the <filename>.deb</filename> format. Note that the format of the package is not everything: a <filename>.deb</filename> package built with <command>alien</command> or prepared for a version of Debian different than that which you use, or even for a derivative distribution like Ubuntu, would probably not offer the same level of quality and integration as a package specifically developed for Debian <emphasis role=\"distribution\">Jessie</emphasis>."
-msgstr ""
+msgstr "Pokud pravidelně používáte program <command>alien</command> k instalaci balíčků RPM přicházejících od jednoho z vašich poskytovatelů, neváhejte jim napsat a přátelsky vyjádřit váši preferenci pro formát <filename>.deb</filename>. Mějte na paměti, že formát balíčku není všechno: balíček <filename>.deb</filename> vytvořený pomocí <command>alien</command> nebo     "
 
 msgid ""
 "\n"
