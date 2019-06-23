@@ -1396,19 +1396,19 @@ msgid "<command>dpkg</command>'s Log File"
 msgstr "Log soubor programu <command>dpkg</command>"
 
 msgid "<command>dpkg</command> keeps a log of all of its actions in <filename>/var/log/dpkg.log</filename>. This log is extremely verbose, since it details every one of the stages through which packages handled by <command>dpkg</command> go. In addition to offering a way to track dpkg's behavior, it helps, above all, to keep a history of the development of the system: one can find the exact moment when each package has been installed or updated, and this information can be extremely useful in understanding a recent change in behavior. Additionally, all versions being recorded, it is easy to cross-check the information with the <filename>changelog.Debian.gz</filename> for packages in question, or even with online bug reports."
-msgstr "<command>dpkg</command> uchovává logové záznamy všech svých akcí v <filename>/var/log/dpkg.log</filename>.          
+msgstr "<command>dpkg</command> uchovává logové záznamy všech svých akcí v <filename>/var/log/dpkg.log</filename>. Tento log je extrémně upovídaný, protože důkladně popisuje každou etapu, kterou balíček, s kterým <command>dpkg</command> manipuluje, prochází. Mimo to, že nabízí způsob zpětného sledování chování dpkg, především uchovává historii vývoje systému: dá se najít přesný moment, kdy byl jakýkoli balíček nainstalován nebo zaktualizován, což může být neobyčejně užitečná informace pro pochopení aktuální změny v chování. Navíc, se záznamem všech verzí, je snadné informace pro všechny dotčené balíčky ověřit s <filename>changelog.Debian.gz</filename> nebo dokonce s hlášeními chyb, které jsou k dispozici online."          
 
 msgid "Multi-Arch Support"
-msgstr ""
+msgstr "Vícearchitekturová podpora"
 
 msgid "<primary>Multi-Arch</primary>"
-msgstr ""
+msgstr "<primary>Vícearchitekturová</primary>"
 
 msgid "<primary>architecture</primary><secondary>multi-arch support</secondary>"
-msgstr ""
+msgstr "<primary>architektura</primary><secondary>vícearchitekturová podpora</secondary>"
 
 msgid "All Debian packages have an <literal>Architecture</literal> field in their control information. This field can contain either “<literal>all</literal>” (for packages that are architecture independent) or the name of the architecture that it targets (like “amd64”, “armhf”, …). In the latter case, by default, <command>dpkg</command> will only accept to install the package if its architecture matches the host's architecture as returned by <command>dpkg --print-architecture</command>."
-msgstr ""
+msgstr "Všechny balíčky Debianu mají ve svých kontrolních informacích pole <literal>Architecture</literal>. Toto pole může obsahovat buď “<literal>all</literal>” (u balíčků, které jsou nazávislé na architektuře) nebo jméno architektury, na kterou se zaměřují (jako je “amd64”, “armhf”, …).   "
 
 msgid "This restriction ensures that users do not end up with binaries compiled for an incorrect architecture. Everything would be perfect except that (some) computers can run binaries for multiple architectures, either natively (an “amd64“ system can run “i386” binaries) or through emulators."
 msgstr ""
