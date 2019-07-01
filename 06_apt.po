@@ -33,22 +33,22 @@ msgid "apt-cdrom"
 msgstr "apt-cdrom"
 
 msgid "Maintenance and Updates: The APT Tools"
-msgstr ""
+msgstr "Údržba a aktualizace: APT nástroje"
 
 msgid "What makes Debian so popular with administrators is how easily software can be installed and how easily the whole system can be updated. This unique advantage is largely due to the <emphasis>APT</emphasis> program, that Falcot Corp administrators studied with enthusiasm."
-msgstr ""
+msgstr "Co dělá Debian tak populárním u správců je to, jak snadno může být software nainstalován a jak snadno může být celý systém aktualizován. Tato jedinečná výhoda existuje především díky programu <emphasis>APT</emphasis>, který byl studován správci Falcot Corp se zaujetím."
 
 msgid "<indexterm><primary>APT</primary></indexterm> <indexterm><primary>Advanced Package Tool</primary></indexterm> APT is the abbreviation for Advanced Package Tool. What makes this program “advanced” is its approach to packages. It doesn't simply evaluate them individually, but it considers them as a whole and produces the best possible combination of packages depending on what is available and compatible (according to dependencies)."
-msgstr ""
+msgstr "<indexterm><primary>APT</primary></indexterm> <indexterm><primary>Advanced Package Tool</primary></indexterm> APT je zkratka pro rozvinutý balíčkový systém. Co dělá tento program “rozvinutým” je jeho přístup k balíčkům. On je pouze jednoduše nevyhodnocuje, on je považuje za celek a vytváří nejlepší možnou kombinaci balíčků v závislosti na tom, co je k dispozici a co je kompatabilní (podle závislostí)."
 
 msgid "<emphasis>VOCABULARY</emphasis> Package source and source package"
-msgstr ""
+msgstr "<emphasis>SLOVNÍK</emphasis> Balíčkový zdroj a zdrojový kód balíčku"
 
 msgid "The word <emphasis>source</emphasis> can be ambiguous. A source package — a package containing the source code of a program — should not be confused with a package source — a repository (website, FTP server, CD-ROM, local directory, etc.) which contains packages."
-msgstr ""
+msgstr "Slovo <emphasis>zdroj</emphasis> může být dvojznačné. Zdrojový kód balíčku  — balíček, který obsahuje zdrojový kód programu — by se neměl zaměňovat za balíčkový zdroj — úložiště (internetová stránka, FTP server, CD disk, místní adresář apod.), které obsahuje balíčky."
 
 msgid "APT needs to be given a “list of package sources”: the file <filename>/etc/apt/sources.list</filename> will list the different repositories (or “sources”) that publish Debian packages. APT will then import the list of packages published by each of these sources. This operation is achieved by downloading <filename>Packages.xz</filename> or a variant using a different compression method (such as <filename>Packages.gz</filename> or <filename>.bz2</filename>) files (in case of a source of binary packages) and <filename>Sources.xz</filename> or a variant (in case of a source of source packages) and by analyzing their contents. When an old copy of these files is already present, APT can update it by only downloading the differences (see sidebar <xref linkend=\"sidebar.apt-pdiff\" />)."
-msgstr ""
+msgstr "APT potřubeje, aby se mu poskytl “seznam balíčkových zdrojů”: soubor <filename>/etc/apt/sources.list</filename> vypisuje různá úložiště (nebo “zdroje”), která vydávají balíčky Debianu. APT poté importuje seznam balíčků vydaných každým z těchto zdrojů. Této operace je dosaženo prostřednictvím stažení <filename>Packages.xz</filename> nebo varianty, která používá soubory s odlišnou metodu komprese (jako je <filename>Packages.gz</filename> nebo <filename>.bz2</filename>) (v případě zdroje binárních balíčků) a <filename>Sources.xz</filename> nebo varianty (v případě zdroje zdrojových kódů balíčků) a prostřednictvím analýzy jejich obsahu. Pokud už existuje starší kopie těchto souborů, APT je může aktualizovat pouze prostřednictvích stažení odlišností (více v postranní poznámce <xref linkend=\"sidebar.apt-pdiff\" />)."
 
 msgid "<primary><filename>Packages.xz</filename></primary>"
 msgstr ""
