@@ -51,58 +51,58 @@ msgid "APT needs to be given a “list of package sources”: the file <filename
 msgstr "APT potřubeje, aby se mu poskytl “seznam balíčkových zdrojů”: soubor <filename>/etc/apt/sources.list</filename> vypisuje různá úložiště (nebo “zdroje”), která vydávají balíčky Debianu. APT poté importuje seznam balíčků vydaných každým z těchto zdrojů. Této operace je dosaženo prostřednictvím stažení <filename>Packages.xz</filename> nebo varianty, která používá soubory s odlišnou metodu komprese (jako je <filename>Packages.gz</filename> nebo <filename>.bz2</filename>) (v případě zdroje binárních balíčků) a <filename>Sources.xz</filename> nebo varianty (v případě zdroje zdrojových kódů balíčků) a prostřednictvím analýzy jejich obsahu. Pokud už existuje starší kopie těchto souborů, APT je může aktualizovat pouze prostřednictvích stažení odlišností (více v postranní poznámce <xref linkend=\"sidebar.apt-pdiff\" />)."
 
 msgid "<primary><filename>Packages.xz</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>Packages.xz</filename></primary>"
 
 msgid "<primary><filename>Sources.xz</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>Sources.xz</filename></primary>"
 
 msgid "<emphasis>BACK TO BASICS</emphasis> <command>gzip</command>, <command>bzip2</command>, <command>LZMA</command> and <command>XZ</command> Compression"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> <command>gzip</command>, <command>bzip2</command>, <command>LZMA</command> a <command>XZ</command> komprese"
 
 msgid "<primary><command>gzip</command></primary>"
-msgstr ""
+msgstr "<primary><command>gzip</command></primary>"
 
 msgid "<primary><command>bzip2</command></primary>"
-msgstr ""
+msgstr "<primary><command>bzip2</command></primary>"
 
 msgid "<primary><command>lzma</command></primary>"
-msgstr ""
+msgstr "<primary><command>lzma</command></primary>"
 
 msgid "<primary><command>xz</command></primary>"
-msgstr ""
+msgstr "<primary><command>xz</command></primary>"
 
 msgid "A <filename>.gz</filename> extension refers to a file compressed with the <command>gzip</command> utility. <command>gzip</command> is the fast and efficient traditional Unix utility to compress files. Newer tools achieve better rates of compression but require more resources (computation time and memory) to compress and uncompress a file. Among them, and by order of appearance, there are <command>bzip2</command> (generating files with a <filename>.bz2</filename> extension), <command>lzma</command> (generating <filename>.lzma</filename> files) and <command>xz</command> (generating <filename>.xz</filename> files)."
-msgstr ""
+msgstr "Přípona <filename>.gz</filename> se vztahuje k souboru zkomprimovaného programem <command>gzip</command>. <command>gzip</command> je rychlý a efektivní tradiční Unixový program určený ke kompresi souborů. Novější nástroje dosahují lepší míry komprese, ale žádají si více zdrojů (výpočtového času a paměti) potřebných ke kompresi a dekompresi souboru. Mezi ně, při seřazení podle četnosti výskytu, patří <command>bzip2</command> (generující soubory s příponou <filename>.bz2</filename>), <command>lzma</command> (generující soubory <filename>.lzma</filename>) a <command>xz</command> (generující soubory <filename>.xz</filename>)."
 
 msgid "Filling in the <filename>sources.list</filename> File"
-msgstr ""
+msgstr "Vyplňování souboru <filename>sources.list</filename>"
 
 msgid "<primary><filename>sources.list</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>sources.list</filename></primary>"
 
 msgid "<primary>source</primary><secondary>of packages</secondary>"
-msgstr ""
+msgstr "<primary>zdroj</primary><secondary>balíčků</secondary>"
 
 msgid "<primary>package</primary><secondary>source of</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary><secondary>zdroj</secondary>"
 
 msgid "<primary><filename>/etc/apt/sources.list</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>/etc/apt/sources.list</filename></primary>"
 
 msgid "Syntax"
-msgstr ""
+msgstr "Syntax"
 
 msgid "Each active line of the <filename>/etc/apt/sources.list</filename> file contains the description of a source, made of 3 parts separated by spaces."
-msgstr ""
+msgstr "Každý aktivní řádek souboru <filename>/etc/apt/sources.list</filename> obsahuje popis zdroje, vytvořený třemi částmi oddělenými mezerami."
 
 msgid "The first field indicates the source type:"
-msgstr ""
+msgstr "První pole označuje typ zdroje:"
 
 msgid "“<literal>deb</literal>” for binary packages,"
-msgstr ""
+msgstr "“<literal>deb</literal>” pro binární balíčky,"
 
 msgid "“<literal>deb-src</literal>” for source packages."
-msgstr ""
+msgstr "“<literal>deb-src</literal>” pro zdrojové balíčky."
 
 msgid "The second field gives the base URL of the source (combined with the filenames present in the <filename>Packages.gz</filename> files, it must give a full and valid URL): this can consist in a Debian mirror or in any other package archive set up by a third party. The URL can start with <literal>file://</literal> to indicate a local source installed in the system's file hierarchy, with <literal>http://</literal> to indicate a source accessible from a web server, or with <literal>ftp://</literal> for a source available on an FTP server. The URL can also start with <literal>cdrom:</literal> for CD-ROM/DVD-ROM/Blu-ray disc based installations, although this is less frequent, since network-based installation methods are more and more common."
 msgstr ""
