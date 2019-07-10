@@ -111,28 +111,28 @@ msgid "The syntax of the last field depends on the structure of the repository. 
 msgstr "Syntax posledního pole záleží na struktuře úložiště. V případě, který je nejvíce jednoduchý, můžete prostě označit podadresář (je vyžadováno lomítko na konci) kýženého zdroje (to je často pouze “<filename>./</filename>”, což znamená nepřítomnost podadresáře — balíčky jsou poté přímo na určeném URL). Ale v nejběžnějším případě budou úložiště strukturována stejně, jako kopie datového úložiště Debianu, s mnohočetnými distribucemi, každá s mnohočetými komponenty. V těchto případech uveďte jméno vybrané distribuce (prostřednictvím “kódového označení” — více v seznamu v postranní poznámce <xref linkend=\"sidebar.bruce-perens\" /> — nebo prostředníctvím “sad” — <literal>stable</literal>, <literal>testing</literal>, <literal>unstable</literal>), potom komponenty (nebo sekce) ke zpřístupnění (vyberte mezi <literal>main</literal>, <literal>contrib</literal> a <literal>non-free</literal> v typických kopiích datových úložišť Debianu)."
 
 msgid "<emphasis>VOCABULARY</emphasis> The <literal>main</literal>, <literal>contrib</literal> and <literal>non-free</literal> archives"
-msgstr ""
+msgstr "<emphasis>SLOVNÍK</emphasis> <literal>main</literal>, <literal>contrib</literal> a <literal>non-free</literal> archivy"
 
 msgid "<primary>section</primary><secondary><literal>main</literal></secondary>"
-msgstr ""
+msgstr "<primary>sekce</primary><secondary><literal>main</literal></secondary>"
 
 msgid "<primary><literal>main</literal>, section</primary>"
-msgstr ""
+msgstr "<primary><literal>main</literal>, sekce</primary>"
 
 msgid "<primary>section</primary><secondary><literal>contrib</literal></secondary>"
-msgstr ""
+msgstr "<primary>sekce</primary><secondary><literal>contrib</literal></secondary>"
 
 msgid "<primary><literal>contrib</literal>, section</primary>"
-msgstr ""
+msgstr "<primary><literal>contrib</literal>, sekce</primary>"
 
 msgid "<primary>section</primary><secondary><literal>non-free</literal></secondary>"
-msgstr ""
+msgstr "<primary>sekce</primary><secondary><literal>non-free</literal></secondary>"
 
 msgid "<primary><literal>non-free</literal>, section</primary>"
-msgstr ""
+msgstr "<primary><literal>non-free</literal>, sekce</primary>"
 
 msgid "<primary>component (of a repository)</primary>"
-msgstr ""
+msgstr "<primary>součást (úložiště)</primary>"
 
 msgid "Debian uses three sections to differentiate packages according to the licenses chosen by the authors of each work. <literal>Main</literal> gathers all packages which fully comply with the Debian Free Software Guidelines."
 msgstr ""
