@@ -202,10 +202,10 @@ msgstr ""
 "deb-src http://ftp.debian.org/debian jessie-backports main contrib non-free"
 
 msgid "This file lists all sources of packages associated with the <emphasis role=\"distribution\">Jessie</emphasis> version of Debian (the current <emphasis role=\"distribution\">Stable</emphasis> as of this writing). We opted to name “jessie” explicitly instead of using the corresponding “stable“ alias (<literal>stable</literal>, <literal>stable-updates</literal>, <literal>stable-backports</literal>) because we don't want to have the underlying distribution changed outside of our control when the next stable release comes out."
-msgstr ""
+msgstr "Tento soubor vypisuje zdroje balíčků spojované s verzí Debianu <emphasis role=\"distribution\">Jessie</emphasis> (v době psaní současná <emphasis role=\"distribution\">Stable</emphasis>. Zvolili jsme přímo jméno “jessie” namísto použití odpovídajícího pseudonymu “stable“ (<literal>stable</literal>, <literal>stable-updates</literal>, <literal>stable-backports</literal>) protože nechceme, aby se dotčená distribuce změnila a dostala mimo naši kontrolu, jakmile se vydá další stabilní verze."
 
 msgid "Most packages will come from the “base repository” which contains all packages but is seldom updated (about once every 2 months for a “point release”). The other repositories are partial (they do not contain all packages) and can host updates (packages with newer version) that APT might install. The following sections will explain the purpose and the rules governing each of those repositories."
-msgstr ""
+msgstr "Nejvíce balíčků pochází ze “základního úložiště”, které zahrnuje všechny balíčky, ale je jen zřídka aktualizované (přibližně jednou za dva měsíce při “bodu uvolněni”). Ostatní úložiště jsou dílčí (neobsahují všechny balíčky) a mohou poskytovat aktualizace (balíčky s novějšími verzemi), které by APT mohl nainstalovat. Následující část vysvětlí účel a pravidla, podle kterých se řídí každé z těchto úložišť."
 
 msgid "Note that when the desired version of a package is available on several repositories, the first one listed in the <filename>sources.list</filename> file will be used. For this reason, non-official sources are usually added at the end of the file."
 msgstr ""
