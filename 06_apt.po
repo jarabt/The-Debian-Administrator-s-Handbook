@@ -208,58 +208,58 @@ msgid "Most packages will come from the “base repository” which contains all
 msgstr "Nejvíce balíčků pochází ze “základního úložiště”, které zahrnuje všechny balíčky, ale je jen zřídka aktualizované (přibližně jednou za dva měsíce při “bodu uvolněni”). Ostatní úložiště jsou dílčí (neobsahují všechny balíčky) a mohou poskytovat aktualizace (balíčky s novějšími verzemi), které by APT mohl nainstalovat. Následující část vysvětlí účel a pravidla, podle kterých se řídí každé z těchto úložišť."
 
 msgid "Note that when the desired version of a package is available on several repositories, the first one listed in the <filename>sources.list</filename> file will be used. For this reason, non-official sources are usually added at the end of the file."
-msgstr ""
+msgstr "Vemte na vědomí, že když je kýžená verze balíčku dostupná na různých úložištích, první, co je vypsaná v souboru <filename>sources.list</filename> bude použita. Z tohoto důvodu bývají neoficiální zdroje většinou uvedeny na konci tohoto souboru."
 
 msgid "As a side note, most of what this section says about <emphasis role=\"distribution\">Stable</emphasis> applies equally well to <emphasis role=\"distribution\">Oldstable</emphasis> since the latter is just an older <emphasis role=\"distribution\">Stable</emphasis> that is maintained in parallel."
-msgstr ""
+msgstr "Mimochodem, většina z toho, co tato sekce říká o <emphasis role=\"distribution\">Stable</emphasis> se stejně tak vztahuje také na <emphasis role=\"distribution\">Oldstable</emphasis>, protože poslední jmenovaná je pouze starší <emphasis role=\"distribution\">Stable</emphasis>, která je souběžně udržovaná."
 
 msgid "Security Updates"
-msgstr ""
+msgstr "Bezpěčnostní aktualizace"
 
 msgid "<primary><literal>security.debian.org</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>security.debian.org</literal></primary>"
 
 msgid "<primary>security updates</primary>"
-msgstr ""
+msgstr "<primary>bezpečnostní aktualizace</primary>"
 
 msgid "<primary>updates</primary><secondary>security updates</secondary>"
-msgstr ""
+msgstr "<primary>aktualizace</primary><secondary>bezpečnostní aktualizace</secondary>"
 
 msgid "The security updates are not hosted on the usual network of Debian mirrors but on <literal>security.debian.org</literal> (on a small set of machines maintained by the <link linkend=\"dsa-team\">Debian System Administrators</link>). This archive contains security updates (prepared by the Debian Security Team and/or by package maintainers) for the <emphasis role=\"distribution\">Stable</emphasis> distribution."
-msgstr ""
+msgstr "Bezpečností aktualizace nejsou poskytovány v rámci běžné sítě kopií datových úložišť Debianu, ale v rámci <literal>security.debian.org</literal> (malé soustavy zařízení spravované <link linkend=\"dsa-team\">systémovými administrátory Debianu</link>). Tento archiv obsahuje bezpečnostní aktualizace (připravené Bezpečnostním týmem Debianu a/nebo správci balíčku) pro distribuci <emphasis role=\"distribution\">Stable</emphasis>."
 
 msgid "The server can also host security updates for <emphasis role=\"distribution\">Testing</emphasis> but this doesn't happen very often since those updates tend to reach <emphasis role=\"distribution\">Testing</emphasis> via the regular flow of updates coming from <emphasis role=\"distribution\">Unstable</emphasis>."
-msgstr ""
+msgstr "Server může také poskytovat prostor bezpečnostním aktualizacím pro <emphasis role=\"distribution\">Testing</emphasis>, což se ale neděje příliš často, protože tyto aktualizace spíše ovlivňují <emphasis role=\"distribution\">Testing</emphasis> prostřednictvím běžného toku aktualizací přicházejících z <emphasis role=\"distribution\">Unstable</emphasis>."
 
 msgid "Stable Updates"
-msgstr ""
+msgstr "Stabilní aktualizace"
 
 msgid "<primary>stable updates</primary>"
-msgstr ""
+msgstr "<primary>stabilní aktualizace</primary>"
 
 msgid "<primary><literal>stable-updates</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>stable-updates</literal></primary>"
 
 msgid "<primary>updates</primary><secondary>stable updates</secondary>"
-msgstr ""
+msgstr "<primary>aktualizace</primary><secondary>stabilní aktualizace</secondary>"
 
 msgid "Stable updates are not security sensitive but are deemed important enough to be pushed to users before the next stable point release."
-msgstr ""
+msgstr "Stabilní aktualizace nejsou bezpečnostně citlivé, ale jsou považováné za dostatečně důležité proto, aby byly postoupeny uživatelům před momentem dalšího stabilního vydání."
 
 msgid "This repository will typically contain fixes for critical bugs which could not be fixed before release or which have been introduced by subsequent updates. Depending on the urgency, it can also contain updates for packages that have to evolve over time… like <emphasis role=\"pkg\">spamassassin</emphasis>'s spam detection rules, <emphasis role=\"pkg\">clamav</emphasis>'s virus database, or the daylight-saving time rules of all timezones (<emphasis role=\"pkg\">tzdata</emphasis>)."
-msgstr ""
+msgstr "Toto úložiště bude obvykle obsahovat opravy kritických chyb, které nemohou být opraveny před vydáním nebo které byly uvedeny prostřednictvím následných aktualizací. Podle naléhavosti, může také obsahovat aktualizace pro balíčky, které se musí průběžně vyvíjet… jako jsou pravidla pro odhalení spamu pro <emphasis role=\"pkg\">spamassassin</emphasis>, virová databáze pro <emphasis role=\"pkg\">clamav</emphasis> nebo pravidla pro dobu přechodu na letní/zimní čas (<emphasis role=\"pkg\">tzdata</emphasis>)."
 
 msgid "In practice, this repository is a subset of the <literal>proposed-updates</literal> repository, carefully selected by the Stable Release Managers."
-msgstr ""
+msgstr "V podstatě je toto úložiště součástí úložiště nazývaného <literal>proposed-updates</literal>, které je pečlivě vybíráno manažery stabilního vadání."
 
 msgid "Proposed Updates"
-msgstr ""
+msgstr "Navrhované aktualizace"
 
 msgid "<primary><literal>proposed-updates</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>proposed-updates</literal></primary>"
 
 msgid "<primary><literal>stable-proposed-updates</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>stable-proposed-updates</literal></primary>"
 
 msgid "Once published, the <emphasis role=\"distribution\">Stable</emphasis> distribution is only updated about once every 2 months. The <literal>proposed-updates</literal> repository is where the expected updates are prepared (under the supervision of the Stable Release Managers)."
 msgstr ""
