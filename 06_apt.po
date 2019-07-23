@@ -262,28 +262,28 @@ msgid "<primary><literal>stable-proposed-updates</literal></primary>"
 msgstr "<primary><literal>stable-proposed-updates</literal></primary>"
 
 msgid "Once published, the <emphasis role=\"distribution\">Stable</emphasis> distribution is only updated about once every 2 months. The <literal>proposed-updates</literal> repository is where the expected updates are prepared (under the supervision of the Stable Release Managers)."
-msgstr ""
+msgstr "Jakmile vypuštěna, je distribuce <emphasis role=\"distribution\">Stable</emphasis> aktualizována pouze jednou za dva měsíce. Úložiště <literal>proposed-updates</literal> je místo, kde se očekávané distribuce přípravují (pod dohledem manažerů stabilního vydání)."
 
 msgid "The security and stable updates documented in the former sections are always included in this repository, but there is more too, because package maintainers also have the opportunity to fix important bugs that do not deserve an immediate release."
-msgstr ""
+msgstr "Bezpečnostní a stabilní aktualizace zdokumentované v předcházejících sekcích jsou vždy v tomto úložišti zahrnuty, ale naleznete toho tady více, protože správci balíčků mají také příležitost opravit závažné chyby, co nestojí za okamžité vydání."
 
 msgid "Anyone can use this repository to test those updates before their official publication. The extract below uses the <literal>jessie-proposed-updates</literal> alias which is both more explicit and more consistent since <literal>wheezy-proposed-updates</literal> also exists (for the <emphasis role=\"distribution\">Oldstable</emphasis> updates):"
-msgstr ""
+msgstr "Kdokoliv má možnost použít toto úložiště k vyzkoušení aktualizací před jejich oficiálním vydáním. Níže uvedený výtah používá alias <literal>jessie-proposed-updates</literal>, který je zároveň jak vyčerpávající, tak konzistentní, zatímco <literal>wheezy-proposed-updates</literal> také existují (pro aktualizace <emphasis role=\"distribution\">Oldstable</emphasis>:"
 
 msgid "deb http://ftp.debian.org/debian jessie-proposed-updates main contrib non-free"
-msgstr ""
+msgstr "deb http://ftp.debian.org/debian jessie-proposed-updates main contrib non-free"
 
 msgid "Stable Backports"
-msgstr ""
+msgstr "Stabilní backporty"
 
 msgid "<primary><literal>stable-backports</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>stable-backports</literal></primary>"
 
 msgid "<primary>backport</primary>"
-msgstr ""
+msgstr "<primary>backport</primary>"
 
 msgid "<primary>updates</primary><secondary>backports</secondary>"
-msgstr ""
+msgstr "<primary>aktualizace</primary><secondary>backporty</secondary>"
 
 msgid "The <literal>stable-backports</literal> repository hosts “package backports”. The term refers to a package of some recent software which has been recompiled for an older distribution, generally for <emphasis role=\"distribution\">Stable</emphasis>."
 msgstr ""
