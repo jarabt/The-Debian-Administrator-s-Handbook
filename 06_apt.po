@@ -289,7 +289,7 @@ msgid "The <literal>stable-backports</literal> repository hosts “package backp
 msgstr "Úložiště <literal>stable-backports</literal> je místo, kde jsou “balíčkové backporty”. Tímto termínem nazíváme balíčky současného softwaru, které byly znovusestaveny pro nějakou starší distribuci, obvykle pro <emphasis role=\"distribution\">Stable</emphasis>."
 
 msgid "When the distribution becomes a little dated, numerous software projects have released new versions that are not integrated into the current <emphasis role=\"distribution\">Stable</emphasis> (which is only modified to address the most critical problems, such as security problems). Since the <emphasis role=\"distribution\">Testing</emphasis> and <emphasis role=\"distribution\">Unstable</emphasis> distributions can be more risky, package maintainers sometimes offer recompilations of recent software applications for <emphasis role=\"distribution\">Stable</emphasis>, which has the advantage to limit potential instability to a small number of chosen packages. <ulink type=\"block\" url=\"http://backports.debian.org\" />"
-msgstr ""
+msgstr "Pokud distribuce nebude už úplně nová, mnohé softwarové projekty vydaly své nové verze, které už nejsou integrovány do současné <emphasis role=\"distribution\">Stable</emphasis> (která je modifikovaná pouze ve vztahu k nejvíce kritickým problémům, jako jsou bezpečnostní problémy).     "
 
 msgid "The <literal>stable-backports</literal> repository is now available on the usual Debian mirrors. But backports for <emphasis role=\"distribution\">Squeeze</emphasis> are still hosted on a dedicated server (<literal>backports.debian.org</literal>), and requires the following <filename>sources.list</filename> entry:"
 msgstr ""
