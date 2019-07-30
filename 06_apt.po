@@ -289,19 +289,19 @@ msgid "The <literal>stable-backports</literal> repository hosts “package backp
 msgstr "Úložiště <literal>stable-backports</literal> je místo, kde jsou “balíčkové backporty”. Tímto termínem nazíváme balíčky současného softwaru, které byly znovusestaveny pro nějakou starší distribuci, obvykle pro <emphasis role=\"distribution\">Stable</emphasis>."
 
 msgid "When the distribution becomes a little dated, numerous software projects have released new versions that are not integrated into the current <emphasis role=\"distribution\">Stable</emphasis> (which is only modified to address the most critical problems, such as security problems). Since the <emphasis role=\"distribution\">Testing</emphasis> and <emphasis role=\"distribution\">Unstable</emphasis> distributions can be more risky, package maintainers sometimes offer recompilations of recent software applications for <emphasis role=\"distribution\">Stable</emphasis>, which has the advantage to limit potential instability to a small number of chosen packages. <ulink type=\"block\" url=\"http://backports.debian.org\" />"
-msgstr "Pokud distribuce nebude už úplně nová, mnohé softwarové projekty vydaly své nové verze, které už nejsou integrovány do současné <emphasis role=\"distribution\">Stable</emphasis> (která je modifikovaná pouze ve vztahu k nejvíce kritickým problémům, jako jsou bezpečnostní problémy).     "
+msgstr "Pokud distribuce nebude úplně nová, mnohé softwarové projekty už vydaly své nové verze, které nejsou integrovány do současné <emphasis role=\"distribution\">Stable</emphasis> (která je modifikovaná pouze ve vztahu k nejvíce kritickým problémům, jako jsou bezpečnostní problémy). Protože distribuce <emphasis role=\"distribution\">Testing</emphasis> a <emphasis role=\"distribution\">Unstable</emphasis> mohou být více riskantní, správcové balíčků někdy nabízejí rekompilace současných softwarových aplikací pro <emphasis role=\"distribution\">Stable</emphasis>, které mají výhodu omezování potenciální nestability na malý počet vybraných balíčků. <ulink type=\"block\" url=\"http://backports.debian.org\" />"
 
 msgid "The <literal>stable-backports</literal> repository is now available on the usual Debian mirrors. But backports for <emphasis role=\"distribution\">Squeeze</emphasis> are still hosted on a dedicated server (<literal>backports.debian.org</literal>), and requires the following <filename>sources.list</filename> entry:"
-msgstr ""
+msgstr "Úložiště <literal>stable-backports</literal> je nyní k dispozici na obvyklých kopiích datového úložiště Debianu. Ale backporty pro <emphasis role=\"distribution\">Squeeze</emphasis> jsou stále uložené na specializovaném serveru (<literal>backports.debian.org</literal>) a vyžadují následující <filename>sources.list</filename> vstup:"
 
 msgid "<primary><literal>backports.debian.org</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>backports.debian.org</literal></primary>"
 
 msgid "deb http://backports.debian.org/debian-backports squeeze-backports main contrib non-free"
-msgstr ""
+msgstr "deb http://backports.debian.org/debian-backports squeeze-backports main contrib non-free"
 
 msgid "Backports from <literal>stable-backports</literal> are always created from packages available in <emphasis role=\"distribution\">Testing</emphasis>. This ensures that all installed backports will be upgradable to the corresponding stable version once the next stable release of Debian is available."
-msgstr ""
+msgstr "Backporty ze <literal>stable-backports</literal> jsou vždy vytvořeny z balíčků dostupných v <emphasis role=\"distribution\">Testing</emphasis>. To zajišťuje, že všechny instalované backporty bude možné zmodernizovat do odpovídající stabilní verze, jakmile je další stabilní vydání Debianu k dispozici."
 
 msgid "Even though this repository provides newer versions of packages, APT will not install them unless you give explicit instructions to do so (or unless you have already done so with a former version of the given backport):"
 msgstr ""
