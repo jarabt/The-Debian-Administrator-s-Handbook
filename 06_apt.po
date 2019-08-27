@@ -382,16 +382,16 @@ msgid "The archive of <emphasis role=\"distribution\">Experimental</emphasis> pa
 msgstr "Archiv balíčků <emphasis role=\"distribution\">Experimental</emphasis> se nachází na všech kopiích datového úložiště Debianu a zahrnuje balíčky, které zatím nejsou ve verzi <emphasis role=\"distribution\">Unstable</emphasis>, z důvodu jejich nižší kvality — jsou to často vývojové verze softwaru nebo předverze (alpha, beta, kandidáti na vydání…). Balíček se sem může poslat po probíhajících postupných změnách, které mohou vytvořit problémy. Správce se je poté pokusí, za pomoci zkušených uživatelů, kteří jsou schopni provádět důležité úkoly, odhalit. Po této první fázi je balíček přemístěn do <emphasis role=\"distribution\">Unstable</emphasis>, kde dosáhne na mnohem větší publikum a kde bude testován mnohem detailněji."
 
 msgid "<emphasis role=\"distribution\">Experimental</emphasis> is generally used by users who do not mind breaking their system and then repairing it. This distribution gives the possibility to import a package which a user wants to try or use as the need arises. That is exactly how Debian approaches it, since adding it in APT's <filename>sources.list</filename> file does not lead to the systematic use of its packages. The line to be added is:"
-msgstr ""
+msgstr "<emphasis role=\"distribution\">Experimental</emphasis> je obyčejně užívána uživateli, kterým nevadí narušení jejich systému a poté jeho náprava. Tato distribuce dává možnost importování balíčku, který uživatel chce zkusit nebo který je potřeba. Takto přesně k tomu Debian přistupuje, protože přidání do souboru <filename>sources.list</filename> programu APT nevede k systematickému použití jejích balíčků. Řádek, který je potřeba přidat je:"
 
 msgid "deb http://ftp.debian.org/debian experimental main contrib non-free"
-msgstr ""
+msgstr "deb http://ftp.debian.org/debian experimental main contrib non-free"
 
 msgid "Non-Official Resources: <literal>mentors.debian.net</literal>"
-msgstr ""
+msgstr "Non-Official Resources: <literal>mentors.debian.net</literal>"
 
 msgid "<primary><literal>mentors.debian.net</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>mentors.debian.net</literal></primary>"
 
 msgid "There are numerous non-official sources of Debian packages set up by advanced users who have recompiled some software (Ubuntu made this popular with their Personal Package Archive service), by programmers who make their creation available to all, and even by Debian developers who offer pre-versions of their package online."
 msgstr ""
