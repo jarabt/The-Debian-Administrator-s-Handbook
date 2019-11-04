@@ -394,64 +394,64 @@ msgid "<primary><literal>mentors.debian.net</literal></primary>"
 msgstr "<primary><literal>mentors.debian.net</literal></primary>"
 
 msgid "There are numerous non-official sources of Debian packages set up by advanced users who have recompiled some software (Ubuntu made this popular with their Personal Package Archive service), by programmers who make their creation available to all, and even by Debian developers who offer pre-versions of their package online."
-msgstr ""
+msgstr "Je řada neoficiálních zdrojů balíčků Debianu vytvořených pokročilými uživateli, kteří znovu zkompilovali nějaký software (Ubuntu toto zpopularizoval pomocí Osobní archivní služby), pcházející od programátorů, kteří dali svůj výtvor k dispozici všem a také od vývojářů Debianu, kteří nabídli předběžné verze svého balíčku online."
 
 msgid "The <literal>mentors.debian.net</literal> site is interesting (although it only provides source packages), since it gathers packages created by candidates to the status of official Debian developer or by volunteers who wish to create Debian packages without going through that process of integration. These packages are made available without any guarantee regarding their quality; make sure that you check their origin and integrity and then test them before you consider using them in production."
-msgstr ""
+msgstr "Internetová stránka <literal>mentors.debian.net</literal> je zajímavá (přesto, že nabízí pouze zdrojové kódy), protože shromažďuje balíčky vytvořené uchazeči o status oficiálního vývojáře Debianu nebo dobrovolníky, kteří si přejí vytvořit balíčky Debianu bez absolvování tohoto integračního procesu. Tyto balíčky jsou k dispozici bez garance jejich kvality; ujistěte se a překontrolujte jejich původ a integritu a otestujte je před tím, než se rozhodnete je použít při produkci."
 
 msgid "<emphasis>COMMUNITY</emphasis> The <literal>debian.net</literal> sites"
-msgstr ""
+msgstr "<emphasis>KOMUNITA</emphasis> Internetové stránky <literal>debian.net</literal>"
 
 msgid "<primary><emphasis>debian.net</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis>debian.net</emphasis></primary>"
 
 msgid "The <emphasis>debian.net</emphasis> domain is not an official resource of the Debian project. Each Debian developer may use that domain name for their own use. These websites can contain unofficial services (sometimes personal sites) hosted on a machine which does not belong to the project and set up by Debian developers, or even prototypes about to be moved on to <emphasis>debian.org</emphasis>. Two reasons can explain why some of these prototypes remain on <emphasis>debian.net</emphasis>: either no one has made the necessary effort to transform it into an official service (hosted on the <emphasis>debian.org</emphasis> domain, and with a certain guarantee of maintenance), or the service is too controversial to be officialized."
-msgstr ""
+msgstr "Doména <emphasis>debian.net</emphasis> není oficiálním zdrojištěm projektu Debian. Každý vývojář Debianu může použít jméno této domény pro své vlastní použití. Tyto internetové stránky mohou obsahovat neoficiální služby (někdy osobní stránky) umístěné na zařízení, které nepatří k projektu a je zřízeno vývojáři Debianu nebo prototypy, které čekají na přemístění na <emphasis>debian.org</emphasis>. Dva důvody mohou vysvětlit, proč některé prototypy zůstávají na <emphasis>debian.net</emphasis>: buď nikdo nevynaložil nezbytné úsilí k jeho přeměně na oficiální službu (umístěnou na doméně <emphasis>debian.org</emphasis> a s jistou garancí údržby) nebo je služba příliš sporná k tomu, aby byla zoficializována.      "
 
 msgid "Installing a package means giving root rights to its creator, because they decide on the contents of the initialization scripts which are run under that identity. Official Debian packages are created by volunteers who have been co-opted and reviewed and who can seal their packages so that their origin and integrity can be checked."
-msgstr ""
+msgstr "Instalace balíčku znamená předání základních práv jeho tvůrci, protože oni rozhodují o obsahu inicializačních skriptů, které se spouští pod touto identitou. Oficiální balíčky Debianu jsou vytvořeny dobrovolníky, kteří byli kolektivně vybráni a přezkoumáni a kteří mohou zapečetit své balíčky, takže jejich původ a integrita může být přezkoumána."
 
 msgid "In general, be wary of a package whose origin you don't know and which isn't hosted on one of the official Debian servers: evaluate the degree to which you can trust the creator, and check the integrity of the package. <ulink type=\"block\" url=\"http://mentors.debian.net/\" />"
-msgstr ""
+msgstr "Obecně, buďte ostražití u balíčků, jejichž původ neznáte a které nejsou umístěny na některém z oficiálních serverů Debianu: ohodnoťte míru, jak moc můžete věřit tvůrci a zkontrolujte integritu balíčku. <ulink type=\"block\" url=\"http://mentors.debian.net/\" />"
 
 msgid "<emphasis>GOING FURTHER</emphasis> Old package versions: <literal>snapshot.debian.org</literal>"
-msgstr ""
+msgstr "<emphasis>JDEME DÁLE</emphasis> Staré verze balíčků: <literal>snapshot.debian.org</literal>"
 
 msgid "<primary><literal>snapshot.debian.org</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>snapshot.debian.org</literal></primary>"
 
 msgid "The <literal>snapshot.debian.org</literal> service, introduced in April 2010, can be used to “go backwards in time” and to find an old version of a package. It can be used for example to identify which version of a package introduced a regression, and more concretely, to come back to the former version while waiting for the regression fix."
-msgstr ""
+msgstr "Služba <literal>snapshot.debian.org</literal>, představena v dubnu 2010, může být použita pro “navrácení se v čase” a nalezení staré verze balíčku. Může být použita například k identifikaci, která verze balíčku představila navrácení se k původnímu stavu nebo konkrétněji, k přechodu k původní verzi, zatímco se čeká na regresní opravu."
 
 msgid "Caching Proxy for Debian Packages"
-msgstr ""
+msgstr "Caching Proxy pro balíčky Debianu"
 
 msgid "<primary>proxy cache</primary>"
-msgstr ""
+msgstr "<primary>proxy cache</primary>"
 
 msgid "<primary>cache, proxy</primary>"
-msgstr ""
+msgstr "<primary>cache, proxy</primary>"
 
 msgid "When an entire network of machines is configured to use the same remote server to download the same updated packages, any administrator knows that it would be beneficial to have an intermediate proxy acting as a network-local cache (see sidebar <xref linkend=\"sidebar.cache\" />)."
-msgstr ""
+msgstr "Když je celá síť zařízení nastavena na použítí stejného vzdáleného serveru ke stahování stejných aktualizovaných balíčků, každý administrátor ví, že by bylo prospěšné mít prostřední proxy, který plní úlohu cache lokální sítě (více v poznámce na straně <xref linkend=\"sidebar.cache\" />)."
 
 msgid "You can configure APT to use a \"standard\" proxy (see <xref linkend=\"sect.apt-config\" /> for the APT side, and <xref linkend=\"sect.http-ftp-proxy\" /> for the proxy side), but the Debian ecosystem offers better options to solve this problem. The dedicated software presented in this section are smarter than a plain proxy cache because they can rely on the specific structure of APT repositories (for instance they know when individual files are obsolete or not, and thus adjust the time during which they are kept)."
-msgstr ""
+msgstr "Můžete nastavit APT na použití \"standard\" proxy (více na <xref linkend=\"sect.apt-config\" /> na straně APT a <xref linkend=\"sect.http-ftp-proxy\" /> na straně proxy), ale ekosystém Debianu nabízí lepší možnost k vyřešení tohoto problému. Specializovaný software prezentovaný v této sekci je chytřejší než čisté proxy cache, protože se může spolehnout na specifickou strukturu úložišť APT (například ví, kdy jsou jednotlivé soubory zastaralé a kdy ne a tak posoudit čas, po který jsou ponechány)."
 
 msgid "<primary><emphasis role=\"pkg\">apt-cacher</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"pkg\">apt-cacher</emphasis></primary>"
 
 msgid "<primary><emphasis role=\"pkg\">apt-cacher-ng</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"pkg\">apt-cacher-ng</emphasis></primary>"
 
 msgid "<emphasis role=\"pkg\">apt-cacher</emphasis> and <emphasis role=\"pkg\">apt-cacher-ng</emphasis> work like usual proxy cache servers. APT's <filename>sources.list</filename> is left unchanged, but APT is configured to use them as proxy for outgoing requests."
-msgstr ""
+msgstr "<emphasis role=\"pkg\">apt-cacher</emphasis> a <emphasis role=\"pkg\">apt-cacher-ng</emphasis> pracují jako běžné proxy cache servery. APT <filename>sources.list</filename> je ponechán nezměněn, ale APT je nastaven na jejich použití coby proxy pro odchozí požadavky."
 
 msgid "<primary><emphasis role=\"pkg\">approx</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"pkg\">approx</emphasis></primary>"
 
 msgid "<emphasis role=\"pkg\">approx</emphasis>, on the other hand, acts like an HTTP server that “mirrors” any number of remote repositories in its top-level URLs. The mapping between those top-level directories and the remote URLs of the repositories is stored in <filename>/etc/approx/approx.conf</filename>:"
-msgstr ""
+msgstr "    "
 
 msgid ""
 "\n"
