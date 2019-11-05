@@ -451,7 +451,7 @@ msgid "<primary><emphasis role=\"pkg\">approx</emphasis></primary>"
 msgstr "<primary><emphasis role=\"pkg\">approx</emphasis></primary>"
 
 msgid "<emphasis role=\"pkg\">approx</emphasis>, on the other hand, acts like an HTTP server that “mirrors” any number of remote repositories in its top-level URLs. The mapping between those top-level directories and the remote URLs of the repositories is stored in <filename>/etc/approx/approx.conf</filename>:"
-msgstr "    "
+msgstr "<emphasis role=\"pkg\">approx</emphasis>, na druhou stranu, hraje úlohu HTTP serveru, který “zrcadlí” jakýkoli počet úložišť na URL své nejvyšší úrovně. Mapování mezi těmito adresáři nějvyšších úrovní a vzdálenými URL úložišť je uloženo na <filename>/etc/approx/approx.conf</filename>:"
 
 msgid ""
 "\n"
@@ -459,9 +459,13 @@ msgid ""
 "debian   http://ftp.debian.org/debian\n"
 "security http://security.debian.org"
 msgstr ""
+"\n"
+"# &lt;name&gt; &lt;repository-base-url&gt;\n"
+"debian   http://ftp.debian.org/debian\n"
+"security http://security.debian.org"
 
 msgid "<emphasis role=\"pkg\">approx</emphasis> runs by default on port 9999 via inetd (see <xref linkend=\"sect.inetd\" />) and requires the users to adjust their <filename>sources.list</filename> file to point to the approx server:"
-msgstr ""
+msgstr "<emphasis role=\"pkg\">approx</emphasis> s přednastavením na port 9999 běží přes inetd (více na <xref linkend=\"sect.inetd\" />) a vyžaduje po uživateli nastavit svůj soubor <filename>sources.list</filename> tak, aby ukazoval na approx server:"
 
 msgid ""
 "# Sample sources.list pointing to a local approx server\n"
@@ -469,24 +473,28 @@ msgid ""
 "deb http://apt.falcot.com:9999/debian jessie main contrib non-free\n"
 "      "
 msgstr ""
+"# Sample sources.list pointing to a local approx server\n"
+"deb http://apt.falcot.com:9999/security jessie/updates main contrib non-free\n"
+"deb http://apt.falcot.com:9999/debian jessie main contrib non-free\n"
+"      "
 
 msgid "<command>aptitude</command>, <command>apt-get</command>, and <command>apt</command> Commands"
-msgstr ""
+msgstr "Příkazy <command>aptitude</command>, <command>apt-get</command> a <command>apt</command>"
 
 msgid "<primary><command>apt</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt</command></primary>"
 
 msgid "<primary><command>apt-get</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt-get</command></primary>"
 
 msgid "<primary><command>aptitude</command></primary>"
-msgstr ""
+msgstr "<primary><command>aptitude</command></primary>"
 
 msgid "APT is a vast project, whose original plans included a graphical interface. It is based on a library which contains the core application, and <command>apt-get</command> is the first front end — command-line based — which was developed within the project. <command>apt</command> is a second command-line based front end provided by APT which overcomes some design mistakes of <command>apt-get</command>."
-msgstr ""
+msgstr "APT je rozsáhlý projekt, jehož původní plány zahrnovaly grafické rozhraní. Je založen na knihovně, která obsahuje jádrovou aplikaci a <command>apt-get</command> je první frontend — založený na příkazové řádce — který byl vyvinut v rámci projektu. <command>apt</command> je druhý frontend založený na příkazové řádce poskytovaný APT, který překonává některé designové chybypříkazu <command>apt-get</command>."
 
 msgid "Numerous other graphical interfaces then appeared as external projects: <command>synaptic</command>, <command>aptitude</command> (which includes both a text mode interface and a graphical one — even if not complete yet), <command>wajig</command>, etc. The most recommended interface, <command>apt</command>, is the one that we will use in the examples given in this section. Note however that <command>apt-get</command> and <command>aptitude</command> have a very similar command line syntax. When there are major differences between <command>apt</command>, <command>apt-get</command> and <command>aptitude</command>, these differences will be detailed."
-msgstr ""
+msgstr "    "
 
 msgid "Initialization"
 msgstr ""
