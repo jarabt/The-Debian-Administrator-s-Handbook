@@ -494,13 +494,13 @@ msgid "APT is a vast project, whose original plans included a graphical interfac
 msgstr "APT je rozsáhlý projekt, jehož původní plány zahrnovaly grafické rozhraní. Je založen na knihovně, která obsahuje jádrovou aplikaci a <command>apt-get</command> je první frontend — založený na příkazové řádce — který byl vyvinut v rámci projektu. <command>apt</command> je druhý frontend založený na příkazové řádce poskytovaný APT, který překonává některé designové chybypříkazu <command>apt-get</command>."
 
 msgid "Numerous other graphical interfaces then appeared as external projects: <command>synaptic</command>, <command>aptitude</command> (which includes both a text mode interface and a graphical one — even if not complete yet), <command>wajig</command>, etc. The most recommended interface, <command>apt</command>, is the one that we will use in the examples given in this section. Note however that <command>apt-get</command> and <command>aptitude</command> have a very similar command line syntax. When there are major differences between <command>apt</command>, <command>apt-get</command> and <command>aptitude</command>, these differences will be detailed."
-msgstr "    "
+msgstr "Celkem dost grafických rozhraní se poté objevilo jako externí projekty: <command>synaptic</command>, <command>aptitude</command> (které zahrnovaly obojí, rozhraní v textovém módu a grafické — i když ještě nedokončené), <command>wajig</command>, apod. Nejdoporučovanější rozhraní, <command>apt</command>, je to, které použijeme v příkladu uvedeném v této sekci. Všiměte si, že <command>apt-get</command> a <command>aptitude</command> mají velmi podobný syntax příkazové řádky. Pokud tu budou nějaké velké rozdíly mezi <command>apt</command>, <command>apt-get</command> a <command>aptitude</command>, detailněji je probereme."
 
 msgid "Initialization"
-msgstr ""
+msgstr "Inicializace"
 
 msgid "For any work with APT, the list of available packages needs to be updated; this can be done simply through <command>apt update</command>. Depending on the speed of your connection, the operation can take a while since it involves downloading a certain number of <filename>Packages</filename>/<filename>Sources</filename>/<filename>Translation-<replaceable>language-code</replaceable></filename> files, which have gradually become bigger and bigger as Debian has developed (at least 10 MB of data for the <literal>main</literal> section). Of course, installing from a CD-ROM set does not require any downloading — in this case, the operation is very fast."
-msgstr ""
+msgstr "   "
 
 msgid "<primary><command>apt update</command></primary>"
 msgstr ""
