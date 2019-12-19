@@ -500,76 +500,76 @@ msgid "Initialization"
 msgstr "Inicializace"
 
 msgid "For any work with APT, the list of available packages needs to be updated; this can be done simply through <command>apt update</command>. Depending on the speed of your connection, the operation can take a while since it involves downloading a certain number of <filename>Packages</filename>/<filename>Sources</filename>/<filename>Translation-<replaceable>language-code</replaceable></filename> files, which have gradually become bigger and bigger as Debian has developed (at least 10 MB of data for the <literal>main</literal> section). Of course, installing from a CD-ROM set does not require any downloading — in this case, the operation is very fast."
-msgstr "   "
+msgstr "Pro jakoukoli práci s APT, seznam balíčků, které jsou k dispozici musí být aktualizován; to může být uděláno jednoduše pomocí <command>apt update</command>. V závislosti na rychlosti vašeho připojení, operace může chvíli zabrat, protože stahování určtého množství <filename>Packages</filename>/<filename>Sources</filename>/<filename>Translation-<replacable>language-code</replacable></filename>souborů, které se dost rapidně stalo větším a větším, jak se Debian rozvinul (minimálně 10MB dat pro sekci <literal>main</literal>). Samozřejmě, instalace z CD-ROM nevyžaduje žádné stahování - v tomto případě je operace velmi rychlá." 
 
 msgid "<primary><command>apt update</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt update</command></primary>"
 
 msgid "<primary><command>apt-get update</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt-get update</command></primary>"
 
 msgid "<primary><command>aptitude update</command></primary>"
-msgstr ""
+msgstr "<primary><command>aptitude update</command></primary>"
 
 msgid "Installing and Removing"
-msgstr ""
+msgstr "Instalace a odstranění"
 
 msgid "<primary>package</primary><secondary>installation</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary><secondary>instalace</secondary>"
 
 msgid "<primary>package</primary><secondary>removal</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary><secondary>odstranění</secondary>"
 
 msgid "<primary>installation</primary><secondary>package installation</secondary>"
-msgstr ""
+msgstr "<primary>instalace</primary><secondary>instalace balíčku</secondary>"
 
 msgid "<primary>removal of a package</primary>"
-msgstr ""
+msgstr "<primary>odstranění balíčku</primary>"
 
 msgid "With APT, packages can be added or removed from the system, respectively with <command>apt install <replaceable>package</replaceable></command> and <command>apt remove <replaceable>package</replaceable></command>. In both cases, APT will automatically install the necessary dependencies or delete the packages which depend on the package that is being removed. The <command>apt purge <replaceable>package</replaceable></command> command involves a complete uninstallation — the configuration files are also deleted."
-msgstr ""
+msgstr "S APT, balíčky mohou být přidány a odstraněny ze systému, respektive pomocí <command>apt install <replaceable>balíček</replaceable></command>. V obou případech, APT bude automaticky instalovat potřebné závislosti nebo mazat balíčky, které závisí na balíčcích, které se odstraňují. Příkaz <command>apt purge <replaceable>balíček</replaceable></command> zahrnuje kompletní odinstalaci - soubory nastavení jsou také vymazány."
 
 msgid "<primary><command>apt install</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt install</command></primary>"
 
 msgid "<primary><command>apt remove</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt remove</command></primary>"
 
 msgid "<primary><command>apt purge</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt purge</command></primary>"
 
 msgid "<primary><command>apt-get install</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt-get install</command></primary>"
 
 msgid "<primary><command>apt-get remove</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt-get remove</command></primary>"
 
 msgid "<primary><command>apt-get purge</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt-get purge</command></primary>"
 
 msgid "<primary><command>aptitude install</command></primary>"
-msgstr ""
+msgstr "<primary><command>aptitude install</command></primary>"
 
 msgid "<primary><command>aptitude remove</command></primary>"
-msgstr ""
+msgstr "<primary><command>aptitude remove</command></primary>"
 
 msgid "<primary><command>aptitude purge</command></primary>"
-msgstr ""
+msgstr "<primary><command>aptitude purge</command></primary>"
 
 msgid "<emphasis>TIP</emphasis> Installing the same selection of packages several times"
-msgstr ""
+msgstr "<emphasis>TIP</emphasis> Instalace té samé selekce balíčků několikrát."
 
 msgid "It can be useful to systematically install the same list of packages on several computers. This can be done quite easily."
-msgstr ""
+msgstr "Může být užitečné systematicky instalovat ten samý seznam balíčků na různých počítačích. To se může udělat opravdu snadno." 
 
 msgid "First, retrieve the list of packages installed on the computer which will serve as the “model” to copy."
-msgstr ""
+msgstr "Nejdříve, získejte zpět seznam balíčků nainstalovaných na počítači, který slouží jako “model” ke kopírování."
 
 msgid "<computeroutput>$ </computeroutput><userinput>dpkg --get-selections &gt;pkg-list</userinput>"
-msgstr ""
+msgstr "<computeroutput>$ </computeroutput><userinput>dpkg --get-selections &gt;pkg-list</userinput>"
 
 msgid "The <filename>pkg-list</filename> file then contains the list of installed packages. Next, transfer the <filename>pkg-list</filename> file onto the computers you want to update and use the following commands:"
-msgstr ""
+msgstr "Soubor <filename>pkg-list</filename> potom obsahuje seznam nainstalovných balíčků. Dále, přemístěte soubor <filename>pkg-list</filename> na počítače, které chcete aktualizovat a použijte následující příkazy:"
 
 msgid ""
 "## Update dpkg's database of known packages\n"
@@ -582,18 +582,27 @@ msgid ""
 "## Ask apt-get to install the selected packages\n"
 "# <userinput>apt-get dselect-upgrade</userinput>"
 msgstr ""
+"## Update dpkg's database of known packages\n"
+"# <userinput>avail=`mktemp`</userinput>\n"
+"# <userinput>apt-cache dumpavail &gt; \"$avail\"</userinput>\n"
+"# <userinput>dpkg --merge-avail \"$avail\"</userinput>\n"
+"# <userinput>rm -f \"$avail\"</userinput>\n"
+"## Update dpkg's selections\n"
+"# <userinput>dpkg --set-selections &lt; pkg-list</userinput>\n"
+"## Ask apt-get to install the selected packages\n"
+"# <userinput>apt-get dselect-upgrade</userinput>"
 
 msgid "The first commands records the list of available packages in the dpkg database, then <command>dpkg --set-selections</command> restores the selection of packages that you wish to install, and the <command>apt-get</command> invocation executes the required operations! <command>aptitude</command> does not have this command."
-msgstr ""
+msgstr "První příkazy zaznamenávají seznam dostupných balíčků v dpkg databázi, <command>dpkg --set-selections</command> potom obnovuje výběr balíčků, které si přejete nainstalovat a zadání <command>apt-get</command> spustí požadované operace! <command>aptitude</command> nemá tento příkaz."
 
 msgid "<emphasis>TIP</emphasis> Removing and installing at the same time"
-msgstr ""
+msgstr "<emphasis>TIP</emphasis> Odstranění a instalace v ten samý čas."
 
 msgid "It is possible to ask <command>apt</command> (or <command>apt-get</command>, or <command>aptitude</command>) to install certain packages and remove others on the same command line by adding a suffix. With an <command>apt install</command> command, add “<literal>-</literal>” to the names of the packages you wish to remove. With an <command>apt remove</command> command, add “<literal>+</literal>” to the names of the packages you wish to install."
-msgstr ""
+msgstr "Je možné požádat <command>apt</command> (nebo <command>apt-get</command>, nebo <command>aptitude</command>) nainstalovat určité balíčky a odstranit jiné na té samé příkazové řádce přidáním přípony. Za pomocí příkazu <command>apt install</command>, přidejte “<literal>-</literal>” ke jménům balíčků, které chcete odstranit. Přákazem <command>apt remove</command>, přidejte “<literal>+</literal>” ke jménům balíčků, které si přejete nainstalovat."
 
 msgid "The next example shows two different ways to install <replaceable>package1</replaceable> and to remove <replaceable>package2</replaceable>."
-msgstr ""
+msgstr "Další příklad ukazuje dva rozdílné způsoby, jak instalovat <replaceable>package1</replaceable> a odstranit <replaceable>package2</replaceable>."
 
 msgid ""
 "# <userinput>apt install <replaceable>package1</replaceable> <replaceable>package2-</replaceable></userinput>\n"
@@ -601,60 +610,64 @@ msgid ""
 "# <userinput>apt remove <replaceable>package1+</replaceable> <replaceable>package2</replaceable></userinput>\n"
 "[...]"
 msgstr ""
+"# <userinput>apt install <replaceable>package1</replaceable> <replaceable>package2-</replaceable></userinput>\n"
+"[...]\n"
+"# <userinput>apt remove <replaceable>package1+</replaceable> <replaceable>package2</replaceable></userinput>\n"
+"[...]"
 
 msgid "This can also be used to exclude packages which would otherwise be installed, for example due to a <literal>Recommends</literal>. In general, the dependency solver will use that information as a hint to look for alternative solutions."
-msgstr ""
+msgstr "To může také být použito k vyloučení balíčků, které by jinak byly nainstalované, například za účelem <literal>Recommends</literal>. Obecně, řešič závislostí použije tyto informace jako nápovědu k vyhledání alternativních řešení."
 
 msgid "<emphasis>TIP</emphasis> <command>apt --reinstall</command> and <command>aptitude reinstall</command>"
-msgstr ""
+msgstr "<emphasis>TIP</emphasis> <command>apt --reinstall</command> a <command>aptitude reinstall</command>"
 
 msgid "<primary>reinstallation</primary>"
-msgstr ""
+msgstr "<primary>opětovná instalace</primary>"
 
 msgid "The system can sometimes be damaged after the removal or modification of files in a package. The easiest way to retrieve these files is to reinstall the affected package. Unfortunately, the packaging system finds that the latter is already installed and politely refuses to reinstall it; to avoid this, use the <literal>--reinstall</literal> option of the <command>apt</command> and <command>apt-get</command> commands. The following command reinstalls <emphasis role=\"pkg\">postfix</emphasis> even if it is already present:"
-msgstr ""
+msgstr "Systém může být někdy poškozen po odstranění nebo změně souborů v balíčku. Nejsnadnějším způsobem znovunabytí těchto souborů je opětovná instalace postiženého balíčku. Naneštěstí balíčkovací systém shledává, že posledně jmenovaný je už nainstalový a zdvořile jej odmítne nainstalovat; aby se tomu předešlo, použijte volbu <literal>--reinstall</literal> příkazů <command>apt</command> and <command>apt-get</command>. Následující příkaz znovu nainstaluje <emphasis role=\"pkg\">postfix</emphasis> i když je už přítomný:"
 
 msgid "<computeroutput># </computeroutput><userinput>apt --reinstall install postfix</userinput>"
-msgstr ""
+msgstr "<computeroutput># </computeroutput><userinput>apt --reinstall install postfix</userinput>"
 
 msgid "The <command>aptitude</command> command line is slightly different, but achieves the same result with <command>aptitude reinstall postfix</command>."
-msgstr ""
+msgstr "Příkaz <command>aptitude</command> je mírně odlišný, ale dosahuje stejných výsledků s <command>aptitude reinstall postfix</command>."
 
 msgid "The problem does not arise with <command>dpkg</command>, but the administrator rarely uses it directly."
-msgstr ""
+msgstr "Problém se nevyskytne u <command>dpkg</command>, ale správce jej málokdy použije přímo."
 
 msgid "Be careful! Using <command>apt --reinstall</command> to restore packages modified during an attack will certainly not recover the system as it was. <xref linkend=\"sect.dealing-with-compromised-machine\" /> details the necessary steps to take with a compromised system."
-msgstr ""
+msgstr "Buďte opatrní! Použití <command>apt --reinstall</command> k obnovení balíčku změněného během útoku jistě neobnoví systém, tak jak byl. <xref linkend=\"sect.dealing-with-compromised-machine\" /> popisuje nezbytné kroky pro kompromitovaný systém."
 
 msgid "If the file <filename>sources.list</filename> mentions several distributions, it is possible to give the version of the package to install. A specific version number can be requested with <command>apt install <replaceable>package</replaceable>=<replaceable>version</replaceable></command>, but indicating its distribution of origin (<emphasis role=\"distribution\">Stable</emphasis>, <emphasis role=\"distribution\">Testing</emphasis> or <emphasis role=\"distribution\">Unstable</emphasis>) — with <command>apt install <replaceable>package</replaceable>/<replaceable>distribution</replaceable></command> — is usually preferred. With this command, it is possible to go back to an older version of a package (if for instance you know that it works well), provided that it is still available in one of the sources referenced by the <filename>sources.list</filename> file. Otherwise the <literal>snapshot.debian.org</literal> archive can come to the rescue (see sidebar <xref linkend=\"sidebar.snapshot.debian.org\" />)."
-msgstr ""
+msgstr "Pokud soubor <filename>sources.list</filename> zmiňuje různé distribuce, je možné dát různé verze balíčů k instalaci. Konkrétní číslo verze může být vyžadováno prostřednictvím <command>apt install <replaceable>package</replaceable>=<replaceable>version</replaceable></command>, ale označení své původní distribuce (<emphasis role=\"distribution\">Stable</emphasis>, <emphasis role=\"distribution\">Testing</emphasis> nebo <emphasis role=\"distribution\">Unstable</emphasis>) — s <command>apt install <replaceable>package</replaceable>/<replaceable>distribution</replaceable></command> - se většinou preferuje. S tímto příkazem, je možné jít zpět ke starší balíčku (pokud například víte, že to dobře funguje), za předpokladu, že je to stále k dispozici v některém ze zdrojů odkazovaných souborem <filename>sources.list</filename>. Jinak archiv <literal>snapshot.debian.org</literal> může dospět k záchraně."
 
 msgid "Installation of the <emphasis role=\"distribution\">unstable</emphasis> version of <emphasis role=\"pkg\">spamassassin</emphasis>"
-msgstr ""
+msgstr "Instalace <emphasis role=\"distribution\">nestabilní</emphasis> verze <emphasis role=\"pkg\">spamassassin</emphasis>"
 
 msgid "<computeroutput># </computeroutput><userinput>apt install spamassassin/unstable</userinput>"
-msgstr ""
+msgstr "<computeroutput># </computeroutput><userinput>apt install spamassassin/unstable</userinput>"
 
 msgid "<emphasis>GOING FURTHER</emphasis> The cache of <filename>.deb</filename> files"
-msgstr ""
+msgstr "<emphasis>JDEME DÁLE</emphasis> Cache souborů <filename>.deb</filename>"
 
 msgid "APT keeps a copy of each downloaded <filename>.deb</filename> file in the directory <filename>/var/cache/apt/archives/</filename>. In case of frequent updates, this directory can quickly take a lot of disk space with several versions of each package; you should regularly sort through them. Two commands can be used: <command>apt-get clean</command> entirely empties the directory; <command>apt-get autoclean</command> only removes packages which can no longer be downloaded (because they have disappeared from the Debian mirror) and are therefore clearly useless (the configuration parameter <literal>APT::Clean-Installed</literal> can prevent the removal of <filename>.deb</filename> files that are currently installed). Note that <command>apt</command> does not support those commands."
-msgstr ""
+msgstr "APT si uchová kopii každého souboru <filename>.deb</filename>" v adresáři <filename>/var/cache/apt/archives/</filename>. V případě častých aktualizací, tento adresář může rychle zabrat hodně diskového místa různými verzemi každého balíčku; měli by jste je pravidelně třídit. Mohou být použity dva příkazy: <command>apt-get clean</command> kompletně vyprázdní adresář; <command>apt-get autoclean</command> pouze odstraní balíčky, které už více nemohou být stáhnuty (protože zmizely z kopie úložiště Debianu) a jsou proto zcela zřejmě nepotřebné (nastavovací parameter <literal>APT::Clean-Installed</literal> může zabránit odstranění souborů <filename>.deb</filename>, které jsou právě nainstalovány). Poukazuji na to, že <command>apt</command> nepodporuje tyto příkazy.              
 
 msgid "System Upgrade"
-msgstr ""
+msgstr "Systémový upgrade"
 
 msgid "<primary>upgrade</primary><secondary>system upgrade</secondary>"
-msgstr ""
+msgstr "<primary>upgrade</primary><secondary>systémový upgrade</secondary>"
 
 msgid "<primary><command>apt upgrade</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt upgrade</command></primary>"
 
 msgid "<primary><command>apt-get upgrade</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt-get upgrade</command></primary>"
 
 msgid "<primary><command>aptitude safe-upgrade</command></primary>"
-msgstr ""
+msgstr "<primary><command>aptitude safe-upgrade</command></primary>"
 
 msgid "Regular upgrades are recommended, because they include the latest security updates. To upgrade, use <command>apt upgrade</command>, <command>apt-get upgrade</command> or <command>aptitude safe-upgrade</command> (of course after <command>apt update</command>). This command looks for installed packages which can be upgraded without removing any packages. In other words, the goal is to ensure the least intrusive upgrade possible. <command>apt-get</command> is slightly more demanding than <command>aptitude</command> or <command>apt</command> because it will refuse to install packages which were not installed beforehand."
 msgstr ""
