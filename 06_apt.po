@@ -996,43 +996,43 @@ msgid "A cache is a temporary storage system used to speed up frequent data acce
 msgstr "Cache je přechodný úložný systém používaný k urychlení častých datových přístupů, pokud je běžná metoda přístupu příliš nákladná (ve smyslu výkonu). Tento přístup může být aplikován v celé řadě situací a v různých stupních, od jádra procesorů až po konečný úložný systém."
 
 msgid "In the case of APT, the reference <filename>Packages</filename> files are those located on Debian mirrors. That said, it would be very ineffective to go through the network for every search that we might want to do in the database of available packages. That is why APT stores a copy of those files (in <filename>/var/lib/apt/lists/</filename>) and searches are done within those local files. Similarly, <filename>/var/cache/apt/archives/</filename> contains a cache of already downloaded packages to avoid downloading them again if you need to reinstall them after a removal."
-msgstr ""
+msgstr "V případě APT, referenční soubory <filename>balíčků</filename> jsou ty, které jsou umístěny na kopiích datových úložišť. Takže, bylo by velmi neefektivní procházet celou síť kvůli každému vyhledávání, které můžeme chtít provést v databázi dostupných balíčků. To je důvod, proč APT ukládá kopii těchto souborů (ve <filename>/var/lib/apt/lists/</filename>) a vyhledávání jsou učiněna v rámci těchto lokálních souborů. Obdobně, <filename>/var/cache/apt/archives/</filename> obsahují cache již stažených balíčků, aby se předešlo jejich opětovného stahování v případě jejich opětovné instalace po jejich odstranění."
 
 msgid "<primary><command>apt show</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt show</command></primary>"
 
 msgid "<primary><command>apt search</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt search</command></primary>"
 
 msgid "<primary><command>apt-cache show</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt-cache show</command></primary>"
 
 msgid "<primary><command>apt-cache search</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt-cache search</command></primary>"
 
 msgid "<primary><command>aptitude show</command></primary>"
-msgstr ""
+msgstr "<primary><command>aptitude show</command></primary>"
 
 msgid "<primary><command>aptitude search</command></primary>"
-msgstr ""
+msgstr "<primary><command>aptitude search</command></primary>"
 
 msgid "The <command>apt-cache</command> command can do keyword-based package searches with <command>apt-cache search <replaceable>keyword</replaceable></command>. It can also display the headers of the package's available versions with <command>apt-cache show <replaceable>package</replaceable></command>. This command provides the package's description, its dependencies, the name of its maintainer, etc. Note that <command>apt search</command>, <command>apt show</command>, <command>aptitude search</command>, <command>aptitude show</command> work in the same way."
-msgstr ""
+msgstr "Příkaz <command>apt-cache</command> může vykonat vyhledávání balíčků na základě klíčového slova pomocí <command>apt-cache search <replaceable>klíčové slovo</replaceable></command>. Může také zobrazit hlavičky dostupných verzí balíčků prostřednictvím <command>apt-cache show <replaceable>balíček</replaceable></command>. Tento příkaz poskytuje popis balíčku, jeho závislosti, jméno svého správce apod. Poukazuji na to, že <command>apt search</command>, <command>apt show</command>, <command>aptitude search</command>, <command>aptitude show</command> fungují stejným způsobem."
 
 msgid "<emphasis>ALTERNATIVE</emphasis> <command>axi-cache</command>"
-msgstr ""
+msgstr "<emphasis>ALTERNATIVA</emphasis> <command>axi-cache</command>"
 
 msgid "<primary><command>axi-cache</command></primary>"
-msgstr ""
+msgstr "<primary><command>axi-cache</command></primary>"
 
 msgid "<primary><emphasis role=\"pkg\">apt-xapian-index</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"pkg\">apt-xapian-index</emphasis></primary>"
 
 msgid "<command>apt-cache search</command> is a very rudimentary tool, basically implementing <command>grep</command> on package's descriptions. It often returns too many results or none at all when you include too many keywords."
-msgstr ""
+msgstr "<command>apt-cache search</command> je velmi primitivní nástroj, v podstatě implementující <command>grep</command> na popisy balíčků. Často vrací příliš mnoho výsledků nebo vůbec žádný, pokud zahrnete příliš mnoho klíčových slov."
 
 msgid "<command>axi-cache search <replaceable>term</replaceable></command>, on the other hand, provides better results, sorted by relevancy. It uses the <emphasis>Xapian</emphasis> search engine and is part of the <emphasis role=\"pkg\">apt-xapian-index</emphasis> package whichs indexes all package information (and more, like the <filename>.desktop</filename> files from all Debian packages). It knows about tags (see sidebar <xref linkend=\"sidebar.debtags\" />) and returns results in a matter of milliseconds."
-msgstr ""
+msgstr "<command>axi-cache search <replaceable>term</replaceable></command>, na druhou stranu, poskytuje lepší výsledky, seřazené podle důležitosti. Používá vyhledávající mašinu <emphasis>Xapian</emphasis> a je součástí balíčku <emphasis role=\"pkg\">apt-xapian-index</emphasis>, který indexuje všechny informace balíčku (a co více, jako soubory <filename>.desktop</filename> ze všech balíčků Debianu). Ví o štítcích (viz. poznámka na straně <xref linkend=\"sidebar.debtags\" />) a vrací výsledky v řádu milisekund." 
 
 msgid ""
 "$ <userinput>axi-cache search package use::searching</userinput>\n"
@@ -1051,39 +1051,54 @@ msgid ""
 "`axi-cache more' will give more results\n"
 "      "
 msgstr ""
+"$ <userinput>axi-cache search package use::searching</userinput>\n"
+"105 results found.\n"
+"Results 1-20:\n"
+"100% packagesearch - GUI for searching packages and viewing package information\n"
+"98% debtags - Enables support for package tags\n"
+"94% debian-goodies - Small toolbox-style utilities \n"
+"93% dpkg-awk - Gawk script to parse /var/lib/dpkg/{status,available} and Packages\n"
+"93% goplay - games (and more) package browser using DebTags\n"
+"[...]\n"
+"87% apt-xapian-index - maintenance and search tools for a Xapian index of Debian packages\n"
+"[...]\n"
+"More terms: search debian searching strigi debtags bsearch libbsearch\n"
+"More tags: suite::debian works-with::software:package role::program interface::commandline implemented-in::c++ admin::package-management use::analysing\n"
+"`axi-cache more' will give more results\n"
+"      "
 
 msgid "<primary><command>apt-cache policy</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt-cache policy</command></primary>"
 
 msgid "<primary><command>apt-cache dumpavail</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt-cache dumpavail</command></primary>"
 
 msgid "<primary><command>apt-cache pkgnames</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt-cache pkgnames</command></primary>"
 
 msgid "Some features are more rarely used. For instance, <command>apt-cache policy</command> displays the priorities of package sources as well as those of individual packages. Another example is <command>apt-cache dumpavail</command> which displays the headers of all available versions of all packages. <command>apt-cache pkgnames</command> displays the list of all the packages which appear at least once in the cache."
-msgstr ""
+msgstr "Některé funkcionality se používají spíše zřídka. Například <command>apt-cache policy</command> zobrazuje priority balíčkových zdrojů, stejně jako jednotlivých balíčků. Jiný příklad je <command>apt-cache dumpavail</command>, který zobrazuje hlavičky všech dostupných verzí všech balíčků. <command>apt-cache pkgnames</command> zobrazuje seznam všech balíčků, které se vyskytují alespoň jedenkrát v cache."
 
 msgid "Frontends: <command>aptitude</command>, <command>synaptic</command>"
-msgstr ""
+msgstr "Frontends: <command>aptitude</command>, <command>synaptic</command>"
 
 msgid "<primary><command>synaptic</command></primary>"
-msgstr ""
+msgstr "<primary><command>synaptic</command></primary>"
 
 msgid "<primary>APT</primary><secondary>interfaces</secondary>"
-msgstr ""
+msgstr "<primary>APT</primary><secondary>rozhraní</secondary>"
 
 msgid "APT is a C++ program whose code mainly resides in the <command>libapt-pkg</command> shared library. Using a shared library facilitates the creation of user interfaces (front-ends), since the code contained in the library can easily be reused. Historically, <command>apt-get</command> was only designed as a test front-end for <command>libapt-pkg</command> but its success tends to obscure this fact."
-msgstr ""
+msgstr "APT je C++ program, kterého kód je umístěn především ve sdílené knihovně <command>libapt-pkg</command>. Použití sdílených knihoven ulehčuje vytvoření uživatelských rozhraní (front-endů), protože kód obsažený v knihovně může být snadno znovu použitý. Historicky, <command>apt-get</command> byl vytvořen pouze jako testovací front-end pro <command>libapt-pkg</command>, ale jeho úspěch tento fakt zamlžuje."
 
 msgid "<command>aptitude</command>"
-msgstr ""
+msgstr "<command>aptitude</command>"
 
 msgid "<command>aptitude</command> is an interactive program that can be used in semi-graphical mode on the console. You can browse the list of installed and available packages, look up all the available information, and select packages to install or remove. The program is designed specifically to be used by administrators, so that its default behaviors are much more intelligent than <command>apt-get</command>'s, and its interface much easier to understand."
-msgstr ""
+msgstr "<command>aptitude</command> je interaktivní program, který může být použitý v polo grafickém módu konzoly. Můžete procházet seznam nainstalovaných a dostupných balíčků, vyhledávat všechny dostupné informace a vybírat balíčky k instalaci a odstranění. Program je vytvořen především pro použití administrátory, takže jeho přednastavené chování je mnohem více inteligentní než to u <command>apt-get</command> a jeho rozhraní více snadné k pochopení."
 
 msgid "The <command>aptitude</command> package manager"
-msgstr ""
+msgstr "Balíčkový manažer <command>aptitude</command>"
 
 msgid "When it starts, <command>aptitude</command> shows a list of packages sorted by state (installed, non-installed, or installed but not available on the mirrors — other sections display tasks, virtual packages, and new packages that appeared recently on mirrors). To facilitate thematic browsing, other views are available. In all cases, <command>aptitude</command> displays a list combining categories and packages on the screen. Categories are organized through a tree structure, whose branches can respectively be unfolded or closed with the <keycombo><keycap>Enter</keycap></keycombo>, <keycombo><keycap>[</keycap></keycombo> and <keycombo><keycap>]</keycap></keycombo> keys. <keycombo><keycap>+</keycap></keycombo> should be used to mark a package for installation, <keycombo><keycap>-</keycap></keycombo> to mark it for removal and <keycombo><keycap>_</keycap></keycombo> to purge it (note than these keys can also be used for categories, in which case the corresponding actions will be applied to all the packages of the category). <keycombo><keycap>u</keycap></keycombo> updates the lists of available packages and <keycombo action=\"simul\"><keycap>Shift</keycap><keycap>u</keycap></keycombo> prepares a global system upgrade. <keycombo><keycap>g</keycap></keycombo> switches to a summary view of the requested changes (and typing <keycombo><keycap>g</keycap></keycombo> again will apply the changes), and <keycombo><keycap>q</keycap></keycombo> quits the current view. If you are in the initial view, this will effectively close <command>aptitude</command>."
 msgstr ""
