@@ -790,19 +790,22 @@ msgid "When APT checks <filename>/etc/apt/preferences</filename>, it first takes
 msgstr "Pokud APT kontroluje <filename>/etc/apt/preferences</filename>, jako první bere v úvahu nejspecifičtější vstupy (nejčastěji ty, které specifikují daný balíček), potom ty nejvíce obecné (zahrnující kupříkladu všechny balíčky distribuce). Pokud některé obecné vstupy existují, použije se první vstup. Dostupná kritéria výběru zahrnují jméno balíčku a zdroj, který ho poskytuje. Každý zdroj balíčku je identifikován informacemi zahrnutých v souboru <filename>Release</filename>, který APT stahuje záraveň se soubory <filename>balíčků</filename>. Specifikuje původ (obyčejně “Debian” v případě balíčků z oficiálních kopií datových úložišť, ale může to být i jméno osoby nebo organizace, pokud se jedná o úložiště třetích stran). Poskytuje také jméno dustribuce (většinou <emphasis role=\"distribution\">Stable</emphasis>, <emphasis role=\"distribution\">Testing</emphasis>, <emphasis role=\"distribution\">Unstable</emphasis> nebo <emphasis role=\"distribution\">Experimental</emphasis> v případě standardních distribucí poskytovaných Debianem) spolu se svou verzí (například 8 pro Debian <emphasis role=\"distribution\">Jessie</emphasis>). Podívejme se na syntax prostřednictvím případových studií tohoto mechanismu." 
 
 msgid "<emphasis>SPECIFIC CASE</emphasis> Priority of <emphasis role=\"distribution\">experimental</emphasis>"
-msgstr ""
+msgstr "<emphasis>ZVLÁŠTNÍ PŘÍPAD</emphasis> Priorita distribuce <emphasis role=\"distribution\">experimental</emphasis>"
 
 msgid "If you listed <emphasis role=\"distribution\">Experimental</emphasis> in your <filename>sources.list</filename> file, the corresponding packages will almost never be installed because their default APT priority is 1. This is of course a specific case, designed to keep users from installing <emphasis role=\"distribution\">Experimental</emphasis> packages by mistake. The packages can only be installed by typing <command>aptitude install <replaceable>package</replaceable>/experimental</command> — users typing this command can only be aware of the risks that they take. It is still possible (though <emphasis>not</emphasis> recommended) to treat packages of <emphasis role=\"distribution\">Experimental</emphasis> like those of other distributions by giving them a priority of 500. This is done with a specific entry in <filename>/etc/apt/preferences</filename>:"
-msgstr ""
+msgstr "Pokud si vypíšete <emphasis role=\"distribution\">Experimental</emphasis> ve vašem souboru <filename>sources.list</filename>, odpovídající balíčky téměř nikdy nebudou nainstalovány, protože jejich přednastavená APT priorita je 1. Toto je samozřejmě speciální případ, určený k tomu, aby si uživatelé neinstalovali balíčky <emphasis role=\"distribution\">Experimental</emphasis> nedopatřením. Balíčky mohou být nainstalovány pouze vypsáním <command>aptitude install <replaceable>balíček</replaceable>/experimental</command> — uživatelé si jen vypsáním tohoto příkazu musí být vědomi rizik, která na sebe berou. Je stále možné (i když se to nedoporučuje) ohodnotit <emphasis role=\"distribution\">Experimental</emphasis> balíčky jako ty z ostatních distribucí tím, že jim dají prioritu 500. Toto se udělá zvláštním zadáním do <filename>/etc/apt/preferences</filename>:"
 
 msgid ""
 "Package: *\n"
 "Pin: release a=experimental\n"
 "Pin-Priority: 500"
 msgstr ""
+"Package: *\n"
+"Pin: release a=experimental\n"
+"Pin-Priority: 500"
 
 msgid "Let's suppose that you only want to use packages from the stable version of Debian. Those provided in other versions should not be installed except if explicitly requested. You could write the following entries in the <filename>/etc/apt/preferences</filename> file:"
-msgstr ""
+msgstr "Předpokládejme, že chcete pouze použít balíčky ze stabilní verze Debianu. Ty, které jsou poskytované v ostatních verzích by neměly být instalovány kromě těch výslovně požadovaných. Mohli by jste napsat následující vstupy do souboru <filename>/etc/apt/preferences</filename>:"
 
 msgid ""
 "Package: *\n"
@@ -813,36 +816,46 @@ msgid ""
 "Pin: release o=Debian\n"
 "Pin-Priority: -10"
 msgstr ""
+"Package: *\n"
+"Pin: release a=stable\n"
+"Pin-Priority: 900\n"
+"\n"
+"Package: *\n"
+"Pin: release o=Debian\n"
+"Pin-Priority: -10"
 
 msgid "<literal>a=stable</literal> defines the name of the selected distribution. <literal>o=Debian</literal> limits the scope to packages whose origin is “Debian”."
-msgstr ""
+msgstr "<literal>a=stable</literal> definuje jméno vybrané distribuce. <literal>o=Debian</literal> omezuje zaměření na balíčky, které mají původ “Debian”."
 
 msgid "Let's now assume that you have a server with several local programs depending on the version 5.14 of Perl and that you want to ensure that upgrades will not install another version of it. You could use this entry:"
-msgstr ""
+msgstr "Nyní předpokládejme, že máte server s různými lokálními programy, se závislosti na verzi 5.14 Perlu a chcete se ujistit, že upgrady nenainstalují jeho jinou verzi. Můžete použít tento zápis:"
 
 msgid ""
 "Package: perl\n"
 "Pin: version 5.14*\n"
 "Pin-Priority: 1001"
 msgstr ""
+"Package: perl\n"
+"Pin: version 5.14*\n"
+"Pin-Priority: 1001"
 
 msgid "The reference documentation for this configuration file is available in the manual page <citerefentry><refentrytitle>apt_preferences</refentrytitle><manvolnum>5</manvolnum></citerefentry>, which you can display with <command>man apt_preferences</command>."
-msgstr ""
+msgstr "Referenční dokumentace pro tento nastavovací soubor je přístupná na manuálové straně <citerefentry><refentrytitle>apt_preferences</refentrytitle><manvolnum>5</manvolnum></citerefentry>, kterou můžete zobrazit pomocí <command>man apt_preferences</command>."
 
 msgid "<emphasis>TIP</emphasis> Comments in <filename>/etc/apt/preferences</filename>"
-msgstr ""
+msgstr "<emphasis>TIP</emphasis> Komentáře v <filename>/etc/apt/preferences</filename>"
 
 msgid "<primary><literal>Explanation</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>Explanation</literal></primary>"
 
 msgid "<primary><literal>Pin</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>Pin</literal></primary>"
 
 msgid "<primary><literal>Pin-Priority</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>Pin-Priority</literal></primary>"
 
 msgid "There is no official syntax to put comments in the <filename>/etc/apt/preferences</filename> file, but some textual descriptions can be provided by putting one or more “<literal>Explanation</literal>” fields at the start of each entry:"
-msgstr ""
+msgstr "Není žádný oficiální syntax ke vložení komentářů do souboru <filename>/etc/apt/preferences</filename>, ale některé popisky mohou být zaopatřeny vložením jednoho nebo více polí “<literal>Explanation</literal>” na začátek každého vstupu:"
 
 msgid ""
 "Explanation: The package xserver-xorg-video-intel provided\n"
@@ -851,24 +864,29 @@ msgid ""
 "Pin: release a=experimental\n"
 "Pin-Priority: 500"
 msgstr ""
+"Explanation: The package xserver-xorg-video-intel provided\n"
+"Explanation: in experimental can be used safely\n"
+"Package: xserver-xorg-video-intel\n"
+"Pin: release a=experimental\n"
+"Pin-Priority: 500"
 
 msgid "Working with Several Distributions"
-msgstr ""
+msgstr "Práce s různými distribucemi"
 
 msgid "<command>apt</command> being such a marvelous tool, it is tempting to pick packages coming from other distributions. For example, after having installed a <emphasis role=\"distribution\">Stable</emphasis> system, you might want to try out a software package available in <emphasis role=\"distribution\">Testing</emphasis> or <emphasis role=\"distribution\">Unstable</emphasis> without diverging too much from the system's initial state."
-msgstr ""
+msgstr "<command>apt</command> jako úžasný nástroj, svádí k vybírání balíčků pocházejících z jiných distribucí. Například, po instalaci systému <emphasis role=\"distribution\">Stable</emphasis> můžete chtít vyzkoušet softwarový balíček přístupný v <emphasis role=\"distribution\">Testing</emphasis> nebo <emphasis role=\"distribution\">Unstable</emphasis> bez toho, aniž by jste se příliš odchýlili od původního stavu systému."
 
 msgid "Even if you will occasionally encounter problems while mixing packages from different distributions, <command>apt</command> manages such coexistence very well and limits risks very effectively. The best way to proceed is to list all distributions used in <filename>/etc/apt/sources.list</filename> (some people always put the three distributions, but remember that <emphasis role=\"distribution\">Unstable</emphasis> is reserved for experienced users) and to define your reference distribution with the <literal>APT::Default-Release</literal> parameter (see <xref linkend=\"sect.apt-upgrade\" />)."
-msgstr ""
+msgstr "I když můžete sem tam narazit na problémy při míchání balíčků z různých distribucí, <command>apt</command> řídí takovou spolu přítomnost velice dobře a omezuje rizika velice efektivně. Nejlepší způsob jak tak učinit, je vypsat všechny použité distribuce do <filename>/etc/apt/sources.list</filename> (někteří lidé zadávají tři distribuce, ale pamatujte no to, že <emphasis role=\"distribution\">Unstable</emphasis> je rezervována pro zkušené uživatele) a na definování vaší referenční distribuce pomocí parametru <literal>APT::Default-Release</literal> (více na <xref linkend=\"sect.apt-upgrade\" />)."
 
 msgid "Let's suppose that <emphasis role=\"distribution\">Stable</emphasis> is your reference distribution but that <emphasis role=\"distribution\">Testing</emphasis> and <emphasis role=\"distribution\">Unstable</emphasis> are also listed in your <filename>sources.list</filename> file. In this case, you can use <command>apt install <replaceable>package</replaceable>/testing</command> to install a package from <emphasis role=\"distribution\">Testing</emphasis>. If the installation fails due to some unsatisfiable dependencies, let it solve those dependencies within <emphasis role=\"distribution\">Testing</emphasis> by adding the <literal>-t testing</literal> parameter. The same obviously applies to <emphasis role=\"distribution\">Unstable</emphasis>."
-msgstr ""
+msgstr "Předpokládejme, že <emphasis role=\"distribution\">Stable</emphasis> je vaší referenční distribucí, ale že <emphasis role=\"distribution\">Testing</emphasis> and <emphasis role=\"distribution\">Unstable</emphasis> jsou také uvedeny v vašem souboru <filename>sources.list</filename>. V tomto případě můžete použít <command>apt install <replaceable>balíček</replaceable>/testing</command> pro instalaci balíčku z <emphasis role=\"distribution\">Testing</emphasis>. Pokud instalace selže kvůli neuspokojeným závislostem, nechte vyřešit tyto závislosti pomocí <emphasis role=\"distribution\">Testing</emphasis> přidáním parametru <literal>-t testing</literal>. To samé samozřejmě platí pro <emphasis role=\"distribution\">Unstable</emphasis>."
 
 msgid "In this situation, upgrades (<command>upgrade</command> and <command>full-upgrade</command>) are done within <emphasis role=\"distribution\">Stable</emphasis> except for packages already upgraded to another distribution: those will follow updates available in the other distributions. We will explain this behavior with the help of the default priorities set by APT below. Do not hesitate to use <command>apt-cache policy</command> (see sidebar <xref linkend=\"sidebar.apt-cache-policy\" />) to verify the given priorities."
-msgstr ""
+msgstr "V této situaci, upgrady (<command>upgrade</command> and <command>full-upgrade</command>) se udělají v rámci <emphasis role=\"distribution\">Stable</emphasis>, kromě balíčků již upgradovaných na jinou distribuci: tyto budou následovat aktualizace přístupné v jiných distribucích. Toto chování vysvětlíme za pomoci přednastavených priorit nastavených APTem níže. Neváhejte použít <command>apt-cache policy</command> (viz. poznámka na straně <xref linkend=\"sidebar.apt-cache-policy\" />) k ověření si daných priorit."
 
 msgid "Everything centers around the fact that APT only considers packages of higher or equal version than the installed one (assuming that <filename>/etc/apt/preferences</filename> has not been used to force priorities higher than 1000 for some packages)."
-msgstr ""
+msgstr "Vše se točí kolem faktu, že APT považuje balíčky "
 
 msgid "<emphasis>TIP</emphasis> <command>apt-cache policy</command>"
 msgstr ""
