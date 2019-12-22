@@ -960,40 +960,40 @@ msgid "<primary><command>debfoster</command></primary>"
 msgstr "<primary><command>debfoster</command></primary>"
 
 msgid "In days where <command>apt</command>, <command>apt-get</command> and <command>aptitude</command> were not able to track automatic packages, there were two utilities producing lists of unnecessary packages: <command>deborphan</command> and <command>debfoster</command>."
-msgstr ""
+msgstr "V časech, kdy u <command>apt</command>, <command>apt-get</command> a <command>aptitude</command> nebyla možnost sledování automatických balíčků, zde byly dvě utility produkující seznamy postradatelných balíčků: <command>deborphan</command> a <command>debfoster</command>."
 
 msgid "<command>deborphan</command> is the most rudimentary of both. It simply scans the <literal>libs</literal> and <literal>oldlibs</literal> sections (in the absence of supplementary instructions) looking for the packages that are currently installed and that no other package depends on. The resulting list can then serve as a basis to remove unneeded packages."
-msgstr ""
+msgstr "<command>deborphan</command> je z nich nejprimitivnější. Pouze prověřuje sekce  <literal>libs</literal> a <literal>oldlibs</literal> (za nepřítomnosti podpůrných instrukcí) hledajíc balíčky, které jsou v současnosti nainstalovány a kterých žádný další balíček nezávisí. Výsledný list potom může sloužit jako základ pro odstranění nepotřebných balíčků."
 
 msgid "<command>debfoster</command> has a more elaborate approach, very similar to APT's one: it maintains a list of packages that have been explicitly installed, and remembers what packages are really required between each invocation. If new packages appear on the system and if <command>debfoster</command> doesn't know them as required packages, they will be shown on the screen together with a list of their dependencies. The program then offers a choice: remove the package (possibly together with those that depend on it), mark it as explicitly required, or ignore it temporarily."
-msgstr ""
+msgstr "<command>debfoster</command> má propracovanější přístup, hodně podobný tomu, co má APT: udržuje seznam balíčků, které byly explicitně nainstalovány a pamatuje si, které balíčky jsou opravdu vyžadovány mezi každým vyvoláním. Pokud se nové balíčky vyskytují v systému a pokud je <command>debfoster</command> nezná jako vyžadované balíčky, budou ukázány na obrazovce zároveň se seznamem svých závislostí. Program poté nabídne volbu: odstranit balíček (pokud možno s tím, na kterém závisí), označit jej jako explicitně vyžadovaný nebo jej přechodně ignorovat."
 
 msgid "The <command>apt-cache</command> Command"
-msgstr ""
+msgstr "Příkaz <command>apt-cache</command>"
 
 msgid "<primary><command>apt-cache</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt-cache</command></primary>"
 
 msgid "<primary>APT</primary><secondary>package search</secondary>"
-msgstr ""
+msgstr "<primary>APT</primary><secondary>package search</secondary>"
 
 msgid "<primary>APT</primary><secondary>header display</secondary>"
-msgstr ""
+msgstr "<primary>APT</primary><secondary>header display</secondary>"
 
 msgid "<primary>search of packages</primary>"
-msgstr ""
+msgstr "<primary>vyhledávání balíčků</primary>"
 
 msgid "<primary>package</primary><secondary>search</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary><secondary>vyhledávání</secondary>"
 
 msgid "The <command>apt-cache</command> command can display much of the information stored in APT's internal database. This information is a sort of cache since it is gathered from the different sources listed in the <filename>sources.list</filename> file. This happens during the <command>apt update</command> operation."
-msgstr ""
+msgstr "Příkaz <command>apt-cache</command> může zobrazit hodně z informací uložených ve vnitřní databázi APTu. Tyto informace jsou součástí cache, protože jsou shromažďovány z různých zdrojů vypsaných v souboru <filename>sources.list</filename>. Toto se děje během operace <command>apt update</command>."
 
 msgid "<emphasis>VOCABULARY</emphasis> Cache"
-msgstr ""
+msgstr "<emphasis>SLOVNÍČEK</emphasis> Cache"
 
 msgid "A cache is a temporary storage system used to speed up frequent data access when the usual access method is expensive (performance-wise). This concept can be applied in numerous situations and at different scales, from the core of microprocessors up to high-end storage systems."
-msgstr ""
+msgstr "Cache je přechodný úložný systém používaný k urychlení častých datových přístupů, pokud je běžná metoda přístupu příliš nákladná (ve smyslu výkonu). Tento přístup může být aplikován v celé řadě situací a v různých stupních, od jádra procesorů až po konečný úložný systém."
 
 msgid "In the case of APT, the reference <filename>Packages</filename> files are those located on Debian mirrors. That said, it would be very ineffective to go through the network for every search that we might want to do in the database of available packages. That is why APT stores a copy of those files (in <filename>/var/lib/apt/lists/</filename>) and searches are done within those local files. Similarly, <filename>/var/cache/apt/archives/</filename> contains a cache of already downloaded packages to avoid downloading them again if you need to reinstall them after a removal."
 msgstr ""
