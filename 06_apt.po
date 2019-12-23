@@ -1131,16 +1131,16 @@ msgid "Here, you can clearly see the power of the search pattern system of <comm
 msgstr "Zde jasně vidíte sílu systému vyhledávacích schémat <command>aptitude</command>, které umožňuje okamžitý výběr všech balíčků v sekcích <literal>libs</literal> a <literal>perl</literal>."
 
 msgid "Beware, if some packages are marked as automatic and if no other package depends on them, they will be removed immediately (after a confirmation request)."
-msgstr ""
+msgstr "Dejte pozor na to, že některé balíčky jsou označeny jako automatické a pokud na nich žádný jiný balíček nezávisí, budou okamžitě odstraněny (po žádosti k potvrzení)."
 
 msgid "Managing Recommendations, Suggestions and Tasks"
-msgstr ""
+msgstr "Doporučení k řízení, návrhy a úkoly"
 
 msgid "Another interesting feature of <command>aptitude</command> is the fact that it respects recommendations between packages while still giving users the choice not to install them on a case by case basis. For example, the <emphasis role=\"pkg\">gnome</emphasis> package recommends <emphasis role=\"pkg\">gdebi</emphasis> (among others). When you select the former for installation, the latter will also be selected (and marked as automatic if not already installed on the system). Typing <keycombo><keycap>g</keycap></keycombo> will make it obvious: <emphasis role=\"pkg\">gdebi</emphasis> appears on the summary screen of pending actions in the list of packages installed automatically to satisfy dependencies. However, you can decide not to install it by deselecting it before confirming the operations."
-msgstr ""
+msgstr "Další zajímavou funkcionalitou <command>aptitude</command> je skutečnost, že respektuje doporučení mezi balíčky a zároveň stále dává uživatelům možnost je neinstalovat na základě případu od případu. Například, balíček <emphasis role=\"pkg\">gnome</emphasis> doporučuje <emphasis role=\"pkg\">gdebi</emphasis> (mezi jinými). Pokud vyberete ten první k instalaci, ten druhý bude také vybrán (a označen za automatický, pokud již není nainstalovaný v systému). Napsání <keycombo><keycap>g</keycap></keycombo> to ozřejmí: <emphasis role=\"pkg\">gdebi</emphasis> se ocitne na obrazovce přehledu akcí k provedení v seznamu balíčků nainstalovaných automaticky k uspokojení závislostí. Každopádně, můžete se rozhodnout jej neinstalovat tím, že zrušíte jeho výběr před tím, než potvrdíte operaci."
 
 msgid "Note that this recommendation tracking feature does not apply to upgrades. For instance, if a new version of <emphasis role=\"pkg\">gnome</emphasis> recommends a package that it did not recommend formerly, the package won't be marked for installation. However, it will be listed on the upgrade screen so that the administrator can still select it for installation."
-msgstr ""
+msgstr "Mějte na paměti, že tato doporučující sledovací funkcionalita se neuplatňuje na upgrady. Například, pokud nová verze <emphasis role=\"pkg\">gnome</emphasis> doporučuje balíček, který dříve nedoporučoval, balíček nebude označen k instalaci. Každopádně, bude vypsán na obrazovku upgradu, takže administrátor jej může stále vybrat k instalaci."
 
 msgid "Suggestions between packages are also taken into account, but in a manner adapted to their specific status. For example, since <emphasis role=\"pkg\">gnome</emphasis> suggests <emphasis role=\"pkg\">dia-gnome</emphasis>, the latter will be displayed on the summary screen of pending actions (in the section of packages suggested by other packages). This way, it is visible and the administrator can decide whether to take the suggestion into account or not. Since it is only a suggestion and not a dependency or a recommendation, the package will not be selected automatically — its selection requires a manual intervention from the user (thus, the package will not be marked as automatic)."
 msgstr ""
