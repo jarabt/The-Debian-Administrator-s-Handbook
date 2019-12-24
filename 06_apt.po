@@ -1164,40 +1164,40 @@ msgid "Beware, this logfile only contains a summary of operations performed by <
 msgstr "Dejte si pozor na to, že tento log soubor pouze obsahuje přehled operací provedených <command>aptitude</command>. Pokud jsou příležitostně použity jiné front-endy (nebo i <command>dpkg</command> sám o sobě), potom budou logy <command>aptitude</command> obsahovat pouze částečný pohled na operace, takže se na něj nemůžete spolehnout a vytvořit si důvěryhodnou historii systému."
 
 msgid "<command>synaptic</command>"
-msgstr ""
+msgstr "<command>synaptic</command>"
 
 msgid "<command>synaptic</command> is a graphical package manager for Debian which features a clean and efficient graphical interface based on GTK+/GNOME. Its many ready-to-use filters give fast access to newly available packages, installed packages, upgradable packages, obsolete packages and so on. If you browse through these lists, you can select the operations to be done on the packages (install, upgrade, remove, purge); these operations are not performed immediately, but put into a task list. A single click on a button then validates the operations, and they are performed in one go."
-msgstr ""
+msgstr "<command>synaptic</command> je grafický balíčkový manažer pro Debian, který se chlubí jasným a efektivním grafickým rozhraním založeným na GTK+/GNOME. Jeho velké množství před připravených filtrů poskytuje rychlý přístup k nově dostupným balíčkům, nainstalovaným balíčkům, zastaralým balíčkům apod. Pokud si projdete tyto seznamy, můžete vybrat operace, které mají být na balíčcích provedeny (instalace, upgrade, odstranění, vyčištění); tyto operace se hned neprovedou, ale jsou dány na seznam úkolů. Jeden jediný klik na tlačítko potom potvrdí operace a ty jsou poté provedeny najednou."
 
 msgid "<command>synaptic</command> package manager"
-msgstr ""
+msgstr "<command>synaptic</command> balíčkový manažer"
 
 msgid "Checking Package Authenticity"
-msgstr ""
+msgstr "Kontrola pravosti balíčků"
 
 msgid "<primary>package</primary><secondary>authenticity check</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary><secondary>kontrola pravosti</secondary>"
 
 msgid "<primary>package</primary><secondary>seal</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary><secondary>pečeť</secondary>"
 
 msgid "<primary>package</primary><secondary>signature</secondary>"
-msgstr ""
+msgstr "<primary>balíček</primary><secondary>podpis</secondary>"
 
 msgid "<primary>signature</primary><secondary>package signature</secondary>"
-msgstr ""
+msgstr "<primary>podpis</primary><secondary>podpis balíčku</secondary>"
 
 msgid "<primary>authentication</primary><secondary>package authentication</secondary>"
-msgstr ""
+msgstr "<primary>ověření pravosti</primary><secondary>ověření pravosti balíčku</secondary>"
 
 msgid "Security is very important for Falcot Corp administrators. Accordingly, they need to ensure that they only install packages which are guaranteed to come from Debian with no tampering on the way. A computer cracker could try to add malicious code to an otherwise legitimate package. Such a package, if installed, could do anything the cracker designed it to do, including for instance disclosing passwords or confidential information. To circumvent this risk, Debian provides a tamper-proof seal to guarantee — at install time — that a package really comes from its official maintainer and hasn't been modified by a third party."
-msgstr ""
+msgstr "Bezpečnost je velmi důležitá pro administrátory Falcot Corp. V souvislosti s tím, potřebují se ujistit, že instalují pouze balíčky, u kterých je garantováno, že pochází od Debianu, nezmanipulované na cestě. Počítačoví hackeři se mohou pokusit přidat škodlivý kód do jinak důvěryhodného balíčku. Takový balíček, pokud je nainstalován, může udělat cokoliv, pro co ho hacker navrhl, například včetně odhalení hesel nebo důvěrných informací. K eliminaci tohoto rizika, Debian poskytuje nezfalšovatelnou pečeť k poskytnutí záruky — v čase instalace — že balíček opravdu pochází od svého oficiálního správce a že nebyl změněn třetí stranou."
 
 msgid "The seal works with a chain of cryptographical hashes and a signature. The signed file is the <filename>Release</filename> file, provided by the Debian mirrors. It contains a list of the <filename>Packages</filename> files (including their compressed forms, <filename>Packages.gz</filename> and <filename>Packages.xz</filename>, and the incremental versions), along with their MD5, SHA1 and SHA256 hashes, which ensures that the files haven't been tampered with. These <filename>Packages</filename> files contain a list of the Debian packages available on the mirror, along with their hashes, which ensures in turn that the contents of the packages themselves haven't been altered either."
-msgstr ""
+msgstr "Pečeť pracuje s řetězcem kryptografických hašů a podpisem. Podepsaný soubor je soubor <filename>Release</filename>, poskytovaný kopiemi datových úložišť Debianu. Obsahuje seznam souborů <filename>Balíčků</filename> (včetně jejich komprimovaných podob, <filename>Packages.gz</filename> a <filename>Packages.xz</filename> a postupných verzí), zároveň s jejich MD5, SHA1 a SHA256 haši, které zabezpečují to, že se se soubory nemanipulovalo. Tyto soubory <filename>balíčků</filename> obsahují seznam balíčků Debianu dostupných na kopii datového úložiště, zároveň s jejich haši, které naopak garantují, že ani obsah balíčků samotných nebyl pozměněn."
 
 msgid "<primary><command>apt-key</command></primary>"
-msgstr ""
+msgstr "<primary><command>apt-key</command></primary>"
 
 msgid "<primary><emphasis role=\"pkg\">debian-archive-keyring</emphasis></primary>"
 msgstr ""
