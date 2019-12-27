@@ -4,147 +4,150 @@ msgstr ""
 "POT-Creation-Date: 2015-10-06 16:10+0200\n"
 "PO-Revision-Date: 2015-10-06 16:10+0200\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: None\n"
-"Language: en-US \n"
+"Language-Team: Jaroslav Tesař\n"
+"Language: cs-CZ \n"
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Publican v4.3.2\n"
 
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentace"
 
 msgid "Solving problems"
-msgstr ""
+msgstr "Řešení problémů"
 
 msgid "Log files"
-msgstr ""
+msgstr "Log soubory"
 
 msgid "README.Debian"
-msgstr ""
+msgstr "README.Debian"
 
 msgid "Manual"
-msgstr ""
+msgstr "Manuál"
 
 msgid "info"
-msgstr ""
+msgstr "info"
 
 msgid "Solving Problems and Finding Relevant Information"
-msgstr ""
+msgstr "Řešení problémů a nalezení relevantních informací"
 
 msgid "For an administrator, the most important skill is to be able to cope with any situation, known or unknown. This chapter gives a number of methods that will — hopefully — allow you to isolate the cause of any problem that you will encounter, so that you may be able to resolve them."
-msgstr ""
+msgstr "Pro administrátora je nejdůležitější dovedností být schopen si vědět rady v jakékoli situaci, známé či neznámé. Tato kapitola vám nabídne několik metod, které — jak doufáme — vám umožní izolovat příčinu jakéhokoli problému na který narazíte, takže ho můžete být schopni vyřešit."
 
 msgid "Documentation Sources"
-msgstr ""
+msgstr "Zdroje dokumentace"
 
 msgid "<primary>documentation</primary>"
-msgstr ""
+msgstr "<primary>dokumentace</primary>"
 
 msgid "Before you can understand what is really going on when there is a problem, you need to know the theoretical role played by each program involved in the problem. To do this, the best reflex to have is consult their documentation; but since these documentations are many and can be scattered far and wide, you should know all the places where they can be found."
-msgstr ""
+msgstr "Než budete schopni porozumět tomu, co se opravdu děje, když se vyskytne problém, potřebujete znát teoretické role, které hraje každý problém, který je do problému zahrnutý. Nejlepší reakcí k tomu tak učinit je nahlédnout do jejich dokumentace; ale protože této dokumentace je tolik a může být rozptýlená daleko široko, měli by jste znát všechna místa, kde může být nalezena."
 
 msgid "Manual Pages"
-msgstr ""
+msgstr "Manuálové stránky"
 
 msgid "<primary><command>man</command></primary>"
-msgstr ""
+msgstr "<primary><command>man</command></primary>"
 
 msgid "<primary><command>apropos</command></primary>"
-msgstr ""
+msgstr "<primary><command>apropos</command></primary>"
 
 msgid "<primary>manual pages</primary>"
-msgstr ""
+msgstr "<primary>manuálové stránky</primary>"
 
 msgid "<emphasis>CULTURE</emphasis> <acronym>RTFM</acronym>"
-msgstr ""
+msgstr "<emphasis>KULTURA</emphasis> <acronym>RTFM</acronym>"
 
 msgid "<primary><acronym>RTFM</acronym></primary>"
-msgstr ""
+msgstr "<primary><acronym>RTFM</acronym></primary>"
 
 msgid "This acronym stands for “Read the F***ing Manual”, but can also be expanded in a friendlier variant, “Read the Fine Manual”. This phrase is sometimes used in (terse) responses to questions from newbies. It is rather abrupt, and betrays a certain annoyance at a question asked by someone who has not even bothered to read the documentation. Some say that this classic response is better than no response at all (since it indicates that the documentation contains the information sought), or than a more verbose and angry answer."
-msgstr ""
+msgstr "Tato zkratka znamená “Read the F***ing Manual”, ale může být převedena také do přátelštější podoby “Read the Fine Manual”. Tato fráze je často použita v (úsečných) odpovědích na dotazy nováčků. Je to do jisté míry strohé a vyjadřuje jistou míru naštvání ohledně dotazu někoho, kdo se neobtěžoval přečíst si dokumentaci. Někteří říkají, že tato klasická odpověď je lepší než odpověď žádná (protože značí, že dokumentace obsahuje kýžené informace) nebo než odpověď vice upovídaná a naštvaná."
 
 msgid "In any case, if someone responds “RTFM” to you, it is often wise not to take offense. Since this answer may be perceived as vexing, you might want to try and avoid receiving it. If the information that you need is not in the manual, which can happen, you might want to say so, preferably in your initial question. You should also describe the various steps that you have personally taken to find information before you raised a question on a forum. Following Eric Raymond's guidelines is a good way to avoid the most common mistakes and get useful answers. <ulink type=\"block\" url=\"http://catb.org/~esr/faqs/smart-questions.html\" />"
-msgstr ""
+msgstr "Každopádně, pokud vám někdo odpoví výrazem “RTFM”, je často moudřejší nepřecházet do útoku. Protože taková odpověď může být chápána jako rozčilující, možná se jejímu přijetí budete snažit předejít. Pokud informace, kterou potřebujete v manuálu není, což se může stát, možná to budete chtít sdělit, nejlépe v prvním dotazu. Měli by jste také popsat kroky, které jste osobně učinili k tomu, informace nalézt, než jste položili dotaz ve fóru. Následovat rady Erica Raymonda je dobrý způsob, jak předejít nejobvyklejším omylům a obdržet užitečné odpovědi. <ulink type=\"block\" url=\"http://catb.org/~esr/faqs/smart-questions.html\" />"
 
 msgid "Manual pages, while relatively terse in style, contain a great deal of essential information. We will quickly go over the command for viewing them. Simply type <command>man <replaceable>manual-page</replaceable></command> — the manual page usually goes by the same name as the command whose documentation is sought. For example, to learn about the possible options for the <command>cp</command> command, you would type the <command>man cp</command> command at the shell prompt (see sidebar <xref linkend=\"sidebar.shell\" />)."
-msgstr ""
+msgstr "Manuálové stránky, i když v poněkud strohém stylu, obsahují spoustu nezbytných informací. Projdeme si rychle tento příkaz, abychom si je prohlédli. Jednoduše napište <command>man <replaceable>manuálová stránka</replaceable></command> — manuálová stránka se ve jménu obvykle shoduje s příkazem, jehož dokumentaci se snažíte nelézt. Například, k získání informací o možných volbách příkazu <command>cp</command>, měli by jste napsat příkaz <command>man cp</command> do textového uživatelského rozhraní. (viz. postranní poznámka <xref linkend=\"sidebar.shell\" />)."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> The shell, a command line interpreter"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Shell, rozhraní příkazové řádky"
 
 msgid "<primary>command line interpreter</primary>"
-msgstr ""
+msgstr "<primary>rozhraní příkazové řádky</primary>"
 
 msgid "<primary>shell</primary>"
-msgstr ""
+msgstr "<primary>shell</primary>"
 
 msgid "A command line interpreter, also called a “shell”, is a program that executes commands that are either entered by the user or stored in a script. In interactive mode, it displays a prompt (usually ending in <literal>$</literal> for a normal user, or by <literal>#</literal> for an administrator) indicating that it is ready to read a new command. <xref linkend=\"short-remedial-course\" /> describes the basics of using the shell."
-msgstr ""
+msgstr "Rozhraní příkazové řádky, také nazývané “shell”, je program, který spouští příkazy, které jsou buď zadány uživatelem nebo uloženy ve skriptu. V interaktivním módu je zobrazen terminál (většinou končící <literal>$</literal> pro běžné uživatele nebo  <literal>#</literal> pro administrátory) značící, že je připraven číst nové příkazy. <xref linkend=\"short-remedial-course\" /> popisuje základy použití shellu."
 
 msgid "The default and most commonly used shell is <command>bash</command> (Bourne Again SHell), but there are others, including <command>dash</command>, <command>csh</command>, <command>tcsh</command> and <command>zsh</command>."
-msgstr ""
+msgstr "Předvolený a nejběžnější shell je <command>bash</command> (Bourne Again SHell), ale jsou tu i další, včetně <command>dash</command>, <command>csh</command>, <command>tcsh</command> a <command>zsh</command>."
 
 msgid "Among other things, most shells offer help during input at the prompt, such as the completion of command or file names (which you can generally activate by pressing the <keycap>tab</keycap> key), or recalling previous commands (history management)."
-msgstr ""
+msgstr "Mimo jiné věci, většina shellů nabízí pomoc během zadávání do terminálu, jako je dokončování příkazů nebo jmen souborů (které většinou aktivujete pomocí stisku klávesy <keycap>tab</keycap>) nebo znovu zavolání předcházejících příkazů (řízení historie)."
 
 msgid "Man pages not only document programs accessible from the command line, but also configuration files, system calls, C library functions, and so forth. Sometimes names can collide. For example, the shell's <command>read</command> command has the same name as the <function>read</function> system call. This is why manual pages are organized in numbered sections:"
-msgstr ""
+msgstr "Manuálové stránky nedokumentují pouze programy přístupné z příkazové řádky, ale také soubory nastavení, volání systému, funkce knihovny C apod. Někdy mohou jména kolidovat. Například, shellovský příkaz <command>read</command> má stejné jméno jako volání systému <function>read</function>. To je důvod, proč jsou manuálové stránky organizovány v očíslovaných sekcích:"
 
 msgid "commands that can be executed from the command line;"
-msgstr ""
+msgstr "příkazy, které mohou být spuštěny z příkazové řádky;"
 
 msgid "system calls (functions provided by the kernel);"
-msgstr ""
+msgstr "volání systému (funkce poskytované jádrem);"
 
 msgid "library functions (provided by system libraries);"
-msgstr ""
+msgstr "funkce knihoven (poskytované systémovými knihovnami);"
 
 msgid "devices (on Unix-like systems, these are special files, usually placed in the <filename>/dev/</filename> directory);"
-msgstr ""
+msgstr "zařízení (na Unixových systémech jsou speciální soubory, obvykle umístěné v adresáři <filename>/dev/</filename>);"
 
 msgid "configuration files (formats and conventions);"
-msgstr ""
+msgstr "soubory nastavení (formáty a konvence);"
 
 msgid "games;"
-msgstr ""
+msgstr "hry"
 
 msgid "sets of macros and standards;"
-msgstr ""
+msgstr "soubory maker a standardů;"
 
 msgid "system administration commands;"
-msgstr ""
+msgstr "systém administrátorských příkazů;"
 
 msgid "kernel routines."
-msgstr ""
+msgstr "rutiny jádra"
 
 msgid "It is possible to specify the section of the manual page that you are looking for: to view the documentation for the <function>read</function> system call, you would type <command>man 2 read</command>. When no section is explicitly specified, the first section that has a manual page with the requested name will be shown. Thus, <command>man shadow</command> returns <citerefentry><refentrytitle>shadow</refentrytitle><manvolnum>5</manvolnum></citerefentry> because there are no manual pages for <foreignphrase>shadow</foreignphrase> in sections 1 to 4."
-msgstr ""
+msgstr "Je možné specifikovat sekci manuálové stránky, kterou hledáte: k nahlédnutí do dokumentace systémového volání <function>read</function> napíšete <command>man 2 read</command>. Pokud žádná sekce není explicitně specifikována, ukáže se první sekce, která má manuálovou stránku s požadovaným jménem. Takže, <command>man shadow</command> vrátí <citerefentry><refentrytitle>shadow</refentrytitle><manvolnum>5</manvolnum></citerefentry>, protože zde nejdou žádné manuálové stránky pro <foreignphrase>shadow</foreignphrase> v sekcích 1 až 4."
 
 msgid "<emphasis>TIP</emphasis> <command>whatis</command>"
-msgstr ""
+msgstr "<emphasis>TIP</emphasis> <command>whatis</command>"
 
 msgid "<primary><command>whatis</command></primary>"
-msgstr ""
+msgstr "<primary><command>whatis</command></primary>"
 
 msgid "If you do not want to look at the full manual page, but only a short description to confirm that it is what you are looking for, simply enter <command>whatis <replaceable>command</replaceable></command>."
-msgstr ""
+msgstr "Pokud nechcete shlédnout celou manuálovou stránku, ale pouze krátký popis k potvrzení si, že to je to, co hledáte, jednoduše zadejte <command>whatis <replaceable>příkaz</replaceable></command>."
 
 msgid ""
 "\n"
 "<computeroutput>$ </computeroutput><userinput>whatis scp</userinput>\n"
 "<computeroutput>scp (1)     - secure copy (remote file copy program)</computeroutput>"
 msgstr ""
+"\n"
+"<computeroutput>$ </computeroutput><userinput>whatis scp</userinput>\n"
+"<computeroutput>scp (1)     - secure copy (remote file copy program)</computeroutput>"
 
 msgid "This short description is included in the <emphasis>NAME</emphasis> section at the beginning of all manual pages."
-msgstr ""
+msgstr "Tento krátký popis je zahrnut v sekci <emphasis>NAME</emphasis> na počátku každé manuálové stránky."
 
 msgid "Of course, if you do not know the names of the commands, the manual is not going to be of much use to you. This is the purpose of the <command>apropos</command> command, which helps you conduct a search in the manual pages, or more specifically in their short descriptions. Each manual page begins essentially with a one line summary. <command>apropos</command> returns a list of manual pages whose summary mentions the requested keyword(s). If you choose them well, you will find the name of the command that you need."
-msgstr ""
+msgstr "Samozřejmě, pokud neznáte jména příkazů, nebudete mít příliš mnoho užitku z manuálu. Toto je účel příkazu <command>apropos</command>, který pomáhá řídit vyhledávání v manuálových stránkách, nebo přesněji v jejich krátkých popisech. Každá manuálová stránka začíná v podstatě jedním řádkem stručného přehledu. <command>apropos</command> vrací seznam manuálových stránek, jejichž stručný přehled zmiňuje požadované klíčové slovo (slova). Pokud je dobře zvolíte, naleznete jméno příkazu, který hledáte."
 
 msgid "Finding <command>cp</command> with <command>apropos</command>"
-msgstr ""
+msgstr "Nalezení <command>cp</command> pomocí <command>apropos</command>"
 
 msgid ""
 "\n"
@@ -158,69 +161,79 @@ msgid ""
 "ntfscp (8)           - copy file to an NTFS volume.\n"
 "</computeroutput>"
 msgstr ""
+"\n"
+"<computeroutput>$ </computeroutput><userinput>apropos \"copy file\"</userinput>\n"
+"<computeroutput>cp (1)               - copy files and directories\n"
+"cpio (1)             - copy files to and from archives\n"
+"gvfs-copy (1)        - Copy files\n"
+"gvfs-move (1)        - Copy files\n"
+"hcopy (1)            - copy files from or to an HFS volume\n"
+"install (1)          - copy files and set attributes\n"
+"ntfscp (8)           - copy file to an NTFS volume.\n"
+"</computeroutput>"
 
 msgid "<emphasis>TIP</emphasis> Browsing by following links"
-msgstr ""
+msgstr "<emphasis>TIP</emphasis> Browsing by following links"
 
 msgid "Many manual pages have a “SEE ALSO” section, usually at the end. It refers to other manual pages relevant to similar commands, or to external documentation. In this way, it is possible to find relevant documentation even when the first choice is not optimal."
-msgstr ""
+msgstr "Manuálové stránky mají také sekci “SEE ALSO”, většinou na konci. Ta odkazuje na další manuálové stránky relevantní pro podobné příkazy nebo pro externí dokumentaci. Takto je možné nalézt relevantní dokumentaci i když první volba nebyla optimální."
 
 msgid "The <command>man</command> command is not the only means of consulting the manual pages, since <command>konqueror</command> (in KDE) and <command>yelp</command> (under GNOME) programs also offer this possibility. There is also a web interface, provided by the <command>man2html</command> package, which allows you to view manual pages in a web browser. On a computer where this package is installed, use this URL: <ulink type=\"block\" url=\"http://localhost/cgi-bin/man/man2html\" />"
-msgstr ""
+msgstr "Příkaz <command>man</command> není pouze jedním jediným prostředkem pro nahlížení do manuálových stránek, protože programy <command>konqueror</command> (v KDE) a <command>yelp</command> (pod GNOME) také takovou možnost nabízejí. Existuje také webové rozhraní, poskytované balíčkem <command>man2html</command> package, které vám umožní zobrazení manuálových stránek v internetovém prohlížeči. Na počítači, kde je balíček nainstalován, použijte tuto adresu: <ulink type=\"block\" url=\"http://localhost/cgi-bin/man/man2html\" />"
 
 msgid "This utility requires a web server. This is why you should choose to install this package on one of your servers: all users of the local network could benefit from this service (including non-Linux machines), and this will allow you not to set up an HTTP server on each workstation. If your server is also accessible from other networks, it may be desirable to restrict access to this service only to users of the local network."
-msgstr ""
+msgstr "Tento program vyžaduje webový prohlížeč. To je důvod, proč by jste měli zvolit instalaci balíčku na jeden z vašich serverů: všichni uživatelé lokální sítě mohou profitovat z této služby (včetně zařízení bez Linuxu) a toto vám umožní to, že nebudete muset nastavovat HTTP server na každou pracovní stanici. Pokud je váš server také dostupný z ostatních sítí, může být vhodné omezit přístup k této službě pouze na uživatele lokální sítě."
 
 msgid "<primary><command>man2html</command></primary>"
-msgstr ""
+msgstr "<primary><command>man2html</command></primary>"
 
 msgid "<emphasis>DEBIAN POLICY</emphasis> Required man pages"
-msgstr ""
+msgstr "<emphasis>POLITIKA DEBIANU</emphasis> Požadované man pages"
 
 msgid "Debian requires each program to have a manual page. If the upstream author does not provide one, the Debian package maintainer will usually write a minimal page that will at the very least direct the reader to the location of the original documentation."
-msgstr ""
+msgstr "Debian vyžaduje po každém programu, aby měl manuálovou stránku. Pokud ji upstreamový autor neposkytne, správce balíčku Debianu obvykle napíše minimální stránku, která alespoň minimálně nasměruje čitatele na umístění originální dokumentace."
 
 msgid "<emphasis>info</emphasis> Documents"
-msgstr ""
+msgstr "<emphasis>info</emphasis> Dokumenty"
 
 msgid "<primary><emphasis>info</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis>info</emphasis></primary>"
 
 msgid "<primary>GNU</primary><secondary>Info</secondary>"
-msgstr ""
+msgstr "<primary>GNU</primary><secondary>Info</secondary>"
 
 msgid "The GNU project has written manuals for most of its programs in the <emphasis>info</emphasis> format; this is why many manual pages refer to the corresponding <emphasis>info</emphasis> documentation. This format offers some advantages, but the default program to view these documents (it is called <command>info</command>) is also slightly more complex. You would be well advised to use <command>pinfo</command> instead (from the <emphasis role=\"pkg\">pinfo</emphasis> package)."
-msgstr ""
+msgstr "Projekt GNU napsal manuály pro většinu svých programů ve formátu emphasis>info</emphasis>; to je důvod, proč hodně manuálových stránek odkazuje na odpovídající <emphasis>info</emphasis> dokumentaci. Tento formát nabízí některé výhody, ale přednastavený program pro zobrazení těchto dokumentů (nazývá se <command>info</command>) je také trochu více komplexní. Doporučuje se namísto toho použití <command>pinfo</command> (z balíčku <emphasis role=\"pkg\">pinfo</emphasis>)."
 
 msgid "<primary><command>pinfo</command></primary>"
-msgstr ""
+msgstr "<primary><command>pinfo</command></primary>"
 
 msgid "The <emphasis>info</emphasis> documentation has a hierarchical structure, and if you invoke <command>pinfo</command> without parameters, it will display a list of the nodes available at the first level. Usually, nodes bear the name of the corresponding commands."
-msgstr ""
+msgstr "<emphasis>info</emphasis> dokumentace má hierarchickou strukturu a pokud spustíte <command>pinfo</command> bez parametrů, zobrazí seznam dostupných uzlů na první úrovni. Obyčejně, uzly nesou jméno odpovídajících příkazů."
 
 msgid "With <command>pinfo</command> navigating between these nodes is easy to achieve with the arrow keys. Alternatively, you could also use a graphical browser, which is a lot more user-friendly. Again, <command>konqueror</command> and <command>yelp</command> work; the <command>info2www</command> also provides a web interface. <ulink type=\"block\" url=\"http://localhost/cgi-bin/info2www\" />"
-msgstr ""
+msgstr "S <command>pinfo</command> dosáhnete navigace mezi těmito uzly snadno použitím kláves s šipkami. Popřípadě, by jste mohli použít také grafický prohlížeč, který je mnohem více uživatelsky přívětivý. Znovu, <command>konqueror</command> a <command>yelp</command> funguje; <command>info2www</command> také poskytuje webové rozhraní. <ulink type=\"block\" url=\"http://localhost/cgi-bin/info2www\" />"
 
 msgid "<primary><command>info2www</command></primary>"
-msgstr ""
+msgstr "<primary><command>info2www</command></primary>"
 
 msgid "Note that the <emphasis>info</emphasis> system is not suitable for translation, unlike the <command>man</command> page system. <emphasis>info</emphasis> documents are thus almost always in English. However, when you ask the <command>pinfo</command> program to display a non-existing <emphasis>info</emphasis> page, it will fall back on the <emphasis>man</emphasis> page by the same name (if it exists), which might be translated."
-msgstr ""
+msgstr "Mějte na paměti, že systém <emphasis>info</emphasis> není vhodný pro překlad, na rozdíl od stránkového systému <command>man</command>. Dokumenty <emphasis>info</emphasis> jsou také skoro téměř vždy v angličtině. Každopádně, pokud se dotážete programu <command>pinfo</command> na zobrazení neexistující <emphasis>info</emphasis> stránky, spadne zpět do stránky <emphasis>man</emphasis> stejného jména (pokud existuje), která může být přeložená."
 
 msgid "Specific Documentation"
-msgstr ""
+msgstr "Specifická dokumentace"
 
 msgid "Each package includes its own documentation. Even the least well documented programs generally have a <filename>README</filename> file containing some interesting and/or important information. This documentation is installed in the <filename>/usr/share/doc/<replaceable>package</replaceable>/</filename> directory (where <replaceable>package</replaceable> represents the name of the package). If the documentation is particularly large, it may not be included in the program's main package, but might be offloaded to a dedicated package which is usually named <literal><replaceable>package</replaceable>-doc</literal>. The main package generally recommends the documentation package so that you can easily find it."
-msgstr ""
+msgstr "Každý balíček obsahuje svoji vlastní dokumentaci. I ty nejméně zdokumentované programy obyčejně mají soubor <filename>README</filename> obsahující některé zajímavé a/nebo důležité informace. Tato dokumentace je nainstalovaná v adresáři <filename>/usr/share/doc/<replaceable>balíček</replaceable>/</filename> (kde <replaceable>balíček</replaceable> představuje jméno balíčku). Pokud je dokumentace mimořádně obsáhlá, nemusí být obsažena v hlavním balíčku programu, ale může být přemístěna do speciálně jí věnovaného balíčku, který se většinou jmenuje <literal><replaceable>balíček</replaceable>-doc</literal>. Hlavní balíček většinou doporučuje dokumentační balíček, takže ho můžete snadno nalézt."
 
 msgid "<primary><filename>README.Debian</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>README.Debian</filename></primary>"
 
 msgid "<primary><filename>changelog.Debian.gz</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>changelog.Debian.gz</filename></primary>"
 
 msgid "<primary><filename>NEWS.Debian.gz</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>NEWS.Debian.gz</filename></primary>"
 
 msgid "The <filename>/usr/share/doc/<replaceable>package</replaceable>/</filename> directory also contains some files provided by Debian which complete the documentation by specifying the package's particularities or improvements compared to a traditional installation of the software. The <filename>README.Debian</filename> file also indicates all of the adaptations that were made to comply with the Debian Policy. The <filename>changelog.Debian.gz</filename> file allows the user to follow the modifications made to the package over time: it is very useful to try to understand what has changed between two installed versions that do not have the same behavior. Finally, there is sometimes a <filename>NEWS.Debian.gz</filename> file which documents the major changes in the program that may directly concern the administrator."
 msgstr ""
