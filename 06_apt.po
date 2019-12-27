@@ -1401,140 +1401,141 @@ msgid "The first of these tools is <command>apticron</command>, in the package o
 msgstr "Prvním z těchto nástrojů je <command>apticron</command>, v balíčku se stejným jménem. Jeho hlavním účelem je denně spouštět skript (prostřednictvím <command>cron</command>). Skript aktualizuje seznam dostupných balíčků a pokud některé nainstalované balíčky nejsou v nejnovější verzi, pošle email se seznamem těchto balíčků zároveň se změnami, které v těchto nových verzích byly provedeny. Je zřejmé, že je tento balíček určen především uživatelům Debianu, protože denní emaily mohou být velmi dlouhé pro rychleji se měnící verze Debianu. Jakmile jsou aktualizace dostupné, <command>apticron</command> je automaticky stáhne. Nenainstaluje je — administrátor to stále musí udělat — ale s tím, že máte balíčky již stažené a dostupné lokálně (v cache APTu) je úkol rychlejší."
 
 msgid "Administrators in charge of several computers will no doubt appreciate being informed of pending upgrades, but the upgrades themselves are still as tedious as they used to be, which is where the <filename>/etc/cron.daily/apt</filename> script (in the <emphasis role=\"pkg\">apt</emphasis> package) comes in handy. This script is also run daily (and non-interactively) by <command>cron</command>. To control its behavior, use APT configuration variables (which are therefore stored in a file under <filename>/etc/apt/apt.conf.d/</filename>). The main variables are:"
-msgstr ""
+msgstr "Administrátoři, co mají na starosti několik počítačů bez debat ocení, že jsou informováni o nevyřízených upgradech, ale upgrady samy o sobě jsou stále únavné stejně jak byly, což je případ, kde se přijde k ruce skript <filename>/etc/cron.daily/apt</filename> (v balíčku <emphasis role=\"pkg\">apt</emphasis>). Skript je také spouštěn denně (a ne interaktivně) pomocí <command>cron</command>. Ke kontrole jeho chování použijte nastavovací proměnné APTu (které jsou za tím účelem uložené v souboru pod <filename>/etc/apt/apt.conf.d/</filename>). Hlavní proměnné jsou:"
 
 msgid "<literal>APT::Periodic::Update-Package-Lists</literal>"
-msgstr ""
+msgstr "<literal>APT::Periodic::Update-Package-Lists</literal>"
 
 msgid "This option allows you to specify the frequency (in days) at which the package lists are refreshed. <command>apticron</command> users can do without this variable, since <command>apticron</command> already does this task."
-msgstr ""
+msgstr "Tato volba vám umožní upřesnit četnost (ve dnech), po kterou jsou seznamy balíčků aktualizovány. Uživatelé <command>apticron</command> to mohou udělat bez této proměnné, protože <command>apticron</command> již tento úkol provádí."
 
 msgid "<literal>APT::Periodic::Download-Upgradeable-Packages</literal>"
-msgstr ""
+msgstr "<literal>APT::Periodic::Download-Upgradeable-Packages</literal>"
 
 msgid "Again, this option indicates a frequency (in days), this time for the downloading of the actual packages. Again, <command>apticron</command> users won't need it."
-msgstr ""
+msgstr "Znovu, tato volba značí četnost (ve dnech), tentokrát pro stahování aktuálních balíčků. A znovu, uživatelé příkazu <command>apticron</command> to nebudou potřebovat."
 
 msgid "<literal>APT::Periodic::AutocleanInterval</literal>"
-msgstr ""
+msgstr "<literal>APT::Periodic::AutocleanInterval</literal>"
 
 msgid "This option covers a feature that <command>apticron</command> doesn't have. It controls how often obsolete packages (those not referenced by any distribution anymore) are removed from the APT cache. This keeps the APT cache at a reasonable size and means that you don't need to worry about that task."
-msgstr ""
+msgstr "Tato volba pokrývá funkcionalitu, kterou <command>apticron</command> nemá. Ta kontroluje, jak jsou často postarší balíčky (ty, na které již nepoukazuje žádná distribuce) odstraněny z cache APTu. To udržuje APT cache na rozumné velikosti a znamená, že se o tento úkol nemusíte starat."
 
 msgid "<literal>APT::Periodic::Unattended-Upgrade</literal>"
-msgstr ""
+msgstr "<literal>APT::Periodic::Unattended-Upgrade</literal>"
 
 msgid "<primary><emphasis role=\"pkg\">unattended-upgrades</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"pkg\">unattended-upgrades</emphasis></primary>"
 
 msgid "When this option is enabled, the daily script will execute <command>unattended-upgrade</command> (from the <emphasis role=\"pkg\">unattended-upgrades</emphasis> package) which — as its name suggest — can automatize the upgrade process for some packages (by default it only takes care of security updates, but this can be customized in <filename>/etc/apt/apt.conf.d/50unattended-upgrades</filename>). Note that this option can be set with the help of debconf by running <command>dpkg-reconfigure -plow unattended-upgrades</command>."
-msgstr ""
+msgstr "Pokud je tato volba vybrána, denní skript spustí <command>unattended-upgrade</command> (z balíčku <emphasis role=\"pkg\">unattended-upgrades</emphasis>) který — jak již název napovídá — může zautomatizovat pro některé balíčky proces upgradu (je přednastaven tak, že bere v potaz pouze bezpečnostní aktualizace, to ale může být uzpůsobeno v <filename>/etc/apt/apt.conf.d/50unattended-upgrades</filename>). Dodávám, že tato možnost může být nastavena za pomoci debconf prostřednictvím <command>dpkg-reconfigure -plow unattended-upgrades</command>."
 
 msgid "Other options can allow you to control the cache cleaning behavior with more precision. They are not listed here, but they are described in the <filename>/etc/cron.daily/apt</filename> script."
-msgstr ""
+msgstr "Jiné volby vám mohou dovolit preciznější kontrolu nad chováním cache co do čištění. Nejsou zde uvedeny, jsou ale popsány ve skriptu <filename>/etc/cron.daily/apt</filename>."
 
 msgid "<primary><emphasis role=\"pkg\">gnome-packagekit</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"pkg\">gnome-packagekit</emphasis></primary>"
 
 msgid "These tools work very well for servers, but desktop users generally prefer a more interactive system. That is why the “Debian desktop environment” task installs <emphasis role=\"pkg\">gnome-packagekit</emphasis> (at least when you select GNOME as desktop environment). It provides an icon in the notification area of desktop environments when updates are available; clicking on this icon then runs <command>gpk-update-viewer</command>, a simplified interface to perform updates. You can browse through available updates, read the short description of the relevant packages and the corresponding <filename>changelog</filename> entries, and select whether to apply the update or not on a case-by-case basis."
-msgstr ""
+msgstr "Tyto nástroje pracují velmi dobře pro servery, ale uživatelé desktopů většinou upřednostňují interaktivnější systém. To je proč úkol “Debian desktop environment” nainstaluje <emphasis role=\"pkg\">gnome-packagekit</emphasis> (minimálně pokud vyberete GNOME za svoje desktopové prostředí). To zabezpečí ikonu v oznamovací oblasti prostředí desktopu, pokud jsou aktualizace k dispozici; kliknutím na tuto ikonu se spustí <command>gpk-update-viewer</command>, zjednodušené rozhraní pro provádění aktualizací. Můžete procházet dostupné aktualizace, číst si krátké popisy důležitých balíčků a odpovídající záznamy <filename>changelog</filename> a vybrat si, zda aplikovat aktualizaci nebo ne a to metodou případ od případu."
 
 msgid "Upgrading with <command>gpk-update-viewer</command>"
-msgstr ""
+msgstr "Upgrade pomocí  <command>gpk-update-viewer</command>"
 
 msgid "Automatic Upgrades"
-msgstr ""
+msgstr "Automatické upgrady"
 
 msgid "<primary>upgrade</primary><secondary>automatic system upgrade</secondary>"
-msgstr ""
+msgstr "<primary>upgrade</primary><secondary>automatický systém upgradů</secondary>"
 
 msgid "<primary>automatic upgrade</primary>"
-msgstr ""
+msgstr "<primary>automatický upgrade</primary>"
 
 msgid "Since Falcot Corp has many computers but only limited manpower, its administrators try to make upgrades as automatic as possible. The programs in charge of these processes must therefore run with no human intervention."
-msgstr ""
+msgstr "Protože Falcot Corp má mnoho počítačů, ale omezený počet pracovníků, jeho administrátoři se pokouší udělat upgrady tak automatické, jak to jen jde. Programy, které to mají na starosti proto musí běžet bez lidského zásahu."
 
 msgid "Configuring <command>dpkg</command>"
-msgstr ""
+msgstr "Nastavování <command>dpkg</command>"
 
 msgid "As we have already mentioned (see sidebar <xref linkend=\"sidebar.questions-conffiles\" />), <command>dpkg</command> can be instructed not to ask for confirmation when replacing a configuration file (with the <literal>--force-confdef --force-confold</literal> options). Interactions can, however, have three other sources: some come from APT itself, some are handled by <command>debconf</command>, and some happen on the command line due to package configuration scripts."
-msgstr ""
+msgstr "Jak jsme již zmínili (viz. poznámka na boku <xref linkend=\"sidebar.questions-conffiles\" />), příkazu <command>dpkg</command> může být nařízeno nedotazovat se na potvrzení při nahrazování nastavovacího souboru (pomocí volby  <literal>--force-confdef --force-confold</literal>). Zásahy a vzájemné působení nicméně může přijít ze tří dalších zdrojů: některé přichází z APTu samotného, některé jsou řízeny příkazem <command>debconf</command> a některé se dějí na příkazové řádce na základě nastavovacích skriptů balíčku."
 
 msgid "Configuring APT"
-msgstr ""
+msgstr "Nastavení APTu"
 
 msgid "The case of APT is simple: the <literal>-y</literal> option (or <literal>--assume-yes</literal>) tells APT to consider the answer to all its questions to be “yes”."
-msgstr ""
+msgstr "Případ APTu je jednoduchý: volba <literal>-y</literal> (nebo <literal>--assume-yes</literal>) říká APTu posuzovat odpovědi na veškeré dotazy odpovědí “yes”."
 
 msgid "Configuring <command>debconf</command>"
-msgstr ""
+msgstr "Nastavení příkazu <command>debconf</command>"
 
 msgid "The case of <command>debconf</command> deserves more details. This program was, from its inception, designed to control the relevance and volume of questions displayed to the user, as well as the way they are shown. That is why its configuration requests a minimal priority for questions; only questions above the minimal priority are displayed. <command>debconf</command> assumes the default answer (defined by the package maintainer) for questions which it decided to skip."
-msgstr ""
+msgstr "Případ příkazu <command>debconf</command> zaslouží detailnější popis. Tento program byl, od svého počátku, navržen ke kontrole důležitosti a významu dotazů zobrazených uživateli, stejně jako způsobu, kterým jsou zobrazeny. Proto jeho nastavení vyžaduje minimální prioritu dotazů; pouze otázky nad minimální prioritu jsou zobrazeny. <command>debconf</command> předpokládá přednastavenou odpověď (definovanou správcem balíčku) na dotazy, které se rozhodl přeskočit."
 
 msgid "The other relevant configuration element is the interface used by the front-end. If you choose <literal>noninteractive</literal> out of the choices, all user interaction is disabled. If a package tries to display an informative note, it will be sent to the administrator by email."
-msgstr ""
+msgstr "Dalším podstatným prvkem je rozhraní používané front-endem. Při výběru <literal>noninteractive</literal> z odpovědí, budou veškeré zásahy uživatele vypnuty. Pokud se balíček rozhodne zobrazit informativní poznámku, bude zaslána administrátorovi emailem."
 
 msgid "To reconfigure <command>debconf</command>, use the <command>dpkg-reconfigure</command> tool from the <emphasis role=\"pkg\">debconf</emphasis> package; the relevant command is <command>dpkg-reconfigure debconf</command>. Note that the configured values can be temporarily overridden with environment variables when needed (for instance, <varname>DEBIAN_FRONTEND</varname> controls the interface, as documented in the <citerefentry><refentrytitle>debconf</refentrytitle><manvolnum>7</manvolnum></citerefentry> manual page)."
-msgstr ""
+msgstr "K přenastavení příkazu <command>debconf</command> se používá nástroj <command>dpkg-reconfigure</command> z balíčku <emphasis role=\"pkg\">debconf</emphasis>; náležitý příkaz je <command>dpkg-reconfigure debconf</command>. Za poznámku stojí, že nastavené hodnoty mohou být přechodně přepsány proměnnými prostředí, pokud je třeba (například <varname>DEBIAN_FRONTEND</varname> řídí rozhraní, jak je popsáno na stránce manuálu <citerefentry><refentrytitle>debconf</refentrytitle><manvolnum>7</manvolnum></citerefentry>)."
 
 msgid "Handling Command Line Interactions"
-msgstr ""
+msgstr "Ovládání komunikace na příkazové řádce"
 
 msgid "The last source of interactions, and the hardest to get rid of, is the configuration scripts run by <command>dpkg</command>. There is unfortunately no standard solution, and no answer is overwhelmingly better than another."
-msgstr ""
+msgstr "Posledním zdrojem vzájemné komunikace a ten nejtěžší k tomu se ho zbavit, je nastavovací skript spouštěný příkazem <command>dpkg</command>. Zde bohužel neexistuje nějaké standardní řešení a žádné řešení není jasně lepší než to druhé."
 
 msgid "The common approach is to suppress the standard input by redirecting the empty content of <filename>/dev/null</filename> into it with <command><replaceable>command</replaceable> &lt;/dev/null</command>, or to feed it with an endless stream of newlines. None of these methods is 100 % reliable, but they generally lead to the default answers being used, since most scripts consider a lack of reply as an acceptance of the default value."
-msgstr ""
+msgstr "Všeobecně platným přístupem je potlačit standardní vstup tím, že se do něj přesměruje prázdný obsah pomocí <replaceable>command</replaceable> &lt;/dev/null</command> nebo tím, že se zásobuje nekonečným proudem nových řádků. Žádná z těchto metod není stoprocentně spolehlivá, ale obvykle vede k použití přednastavených odpovědí, protože většina skriptů považuje nepřítomnost odpovědi za akceptování přednastavené hodnoty."
 
 msgid "The Miracle Combination"
-msgstr ""
+msgstr "Hvězdná kombinace"
 
 msgid "By combining the previous elements, it is possible to design a small but rather reliable script which can handle automatic upgrades."
-msgstr ""
+msgstr "Kombinací předcházejících prvků je možné navrhnout malý a relativně spolehlivý skript, který může zaopatřit automatické upgrady."
 
 msgid "Non-interactive upgrade script"
-msgstr ""
+msgstr "Upgradovací skript bez interaktivity"
 
 msgid "export DEBIAN_FRONTEND=noninteractive\n"
 "yes '' | apt-get -y -o DPkg::options::=\"--force-confdef\" -o DPkg::options::=\"--force-confold\" dist-upgrade"
-msgstr ""
+msgstr "export DEBIAN_FRONTEND=noninteractive\n"
+"yes '' | apt-get -y -o DPkg::options::=\"--force-confdef\" -o DPkg::options::=\"--force-confold\" dist-upgrade"
 
 msgid "<emphasis>IN PRACTICE</emphasis> The Falcot Corp case"
-msgstr ""
+msgstr "<emphasis>V PRAXI</emphasis> případ Falcot Corp"
 
 msgid "Falcot computers are a heterogeneous system, with machines having various functions. Administrators will therefore pick the most relevant solution for each computer."
-msgstr ""
+msgstr "Falcot computers jsou heterogenním systémem se zařízeními majícími různé funkce. Administrátoři proto vyberou nejrelevantnější řešení pro každý počítač."
 
 msgid "In practice, the servers running <emphasis role=\"distribution\">Jessie</emphasis> are configured with the “miracle combination” above, and are kept up to date automatically. Only the most critical servers (the firewalls, for instances) are set up with <command>apticron</command>, so that upgrades always happen under the supervision of an administrator."
-msgstr ""
+msgstr "V praxi, servery, na kterých běží <emphasis role=\"distribution\">Jessie</emphasis> jsou nastaveny pomocí “hvězdné kombinace” zmíněné výše a jsou automaticky udržované aktualizované. Pouze kritické servery (firewally například) jsou nastaveny příkazem <command>apticron</command>, takže upgrady vždy probíhají pod dohledem administrátora."
 
 msgid "The office workstations in the administrative services also run <emphasis role=\"distribution\">Jessie</emphasis>, but they are equipped with <emphasis role=\"pkg\">gnome-packagekit</emphasis>, so that users trigger the upgrades themselves. The rationale for this decision is that if upgrades happen without an explicit action, the behavior of the computer might change unexpectedly, which could cause confusion for the main users."
-msgstr ""
+msgstr "Na kancelářských stanicích v administrativě také běží <emphasis role=\"distribution\">Jessie</emphasis>, ty ale jsou vybaveny nástrojem <emphasis role=\"pkg\">gnome-packagekit</emphasis>, takže si uživatelé sami spouštějí upgrady. Zdůvodnění tohoto rozhodnutí je, že pokud upgrady proběhnou bez akce zvenčí, chování počítače se může neočekávaně změnit, což může hlavním uživatelům způsobit zmatení."
 
 msgid "In the lab, the few computers using <emphasis role=\"distribution\">Testing</emphasis> — to take advantage of the latest software versions — are not upgraded automatically either. Administrators only configure APT to prepare the upgrades but not enact them; when they decide to upgrade (manually), the tedious parts of refreshing package lists and downloading packages will be avoided, and administrators can focus on the really useful part."
-msgstr ""
+msgstr "V laboratoři, kde je pár počítačů, které používají <emphasis role=\"distribution\">Testing</emphasis> — k profitování z nejnovějších softwarových verzí — nejsou také automaticky upgradovány. Administrátoři pouze nastaví APT k přípravě upgradů, ale ne k jejich schválení; jakmile se rozhodnou upgradovat (manuálně), únavné části práce obnovování seznamů balíčků a stahování balíčků se předejde a administrátoři se mohou zaměřit pouze na opravdu prospěšnou část."
 
 msgid "Searching for Packages"
-msgstr ""
+msgstr "Vyhledávání balíčků"
 
 msgid "With the large and ever-growing amount of software in Debian, there emerges a paradox: Debian usually has a tool for most tasks, but that tool can be very difficult to find amongst the myriad other packages. The lack of appropriate ways to search for (and to find) the right tool has long been a problem. Fortunately, this problem has almost entirely been solved."
-msgstr ""
+msgstr "S velkých a stále se rozrůstajícím počtem softwaru v Debianu, se vynořil paradox: Debian obvykle má nástroj pro většinu úkolů, ale tento nástroj může být velice obtížné nalézt mezi spoustou jiných balíčků. Chybějící vhodné způsoby k vyhledávání (a nalezení) správného nástroje byl dlouho problém. Tento problém byl naštěstí téměř úplně vyřešen."
 
 msgid "The most trivial search possible is looking up an exact package name. If <command>apt show <replaceable>package</replaceable></command> returns a result, then the package exists. Unfortunately, this requires knowing or even guessing the package name, which isn't always possible."
-msgstr ""
+msgstr "Nejtriviálnějším možným vyhledáváním je hledání přesného jména balíčku. Pokud <command>apt show <replaceable>balíček</replaceable></command> vrátí výsledek, potom balíček existuje. Naneštěstí, toto vyžaduje znalost nebo alespoň odhad jména balíčku, což není vždy možné."
 
 msgid "<emphasis>TIP</emphasis> Package naming conventions"
-msgstr ""
+msgstr "<emphasis>TIP</emphasis> Konvence pojmenovávání balíčků"
 
 msgid "Some categories of packages are named according to a conventional naming scheme; knowing the scheme can sometimes allow you to guess exact package names. For instance, for Perl modules, the convention says that a module called <literal>XML::Handler::Composer</literal> upstream should be packaged as <emphasis role=\"pkg\">libxml-handler-composer-perl</emphasis>. The library enabling the use of the <command>gconf</command> system from Python is packaged as <emphasis role=\"pkg\">python-gconf</emphasis>. It is unfortunately not possible to define a fully general naming scheme for all packages, even though package maintainers usually try to follow the choice of the upstream developers."
-msgstr ""
+msgstr "Některé kategorie balíčků jsou pojmenovávány podle schématu konvence pojmenování; znalost tohoto schématu vám někdy může umožnit uhádnout jméno balíčku. Například pro moduly Perlu konvence říká, že modul pojmenovaný <literal>XML::Handler::Composer</literal> upstream by měl být zabalený jako <emphasis role=\"pkg\">libxml-handler-composer-perl</emphasis>. Knihovna umožňující použití systému <command>gconf</command> od Pythonu je zabalen jako <emphasis role=\"pkg\">python-gconf</emphasis>. Bohužel není možné definovat úplně univerzální schéma pro všechny balíčky, i když se správci balíčků snaží následovat volbu vývojářů upstreamu."
 
 msgid "A slightly more successful searching pattern is a plain-text search in package names, but it remains very limited. You can generally find results by searching package descriptions: since each package has a more or less detailed description in addition to its package name, a keyword search in these descriptions will often be useful. <command>apt-cache</command> and <command>axi-cache</command> are the tools of choice for this kind of search; for instance, <command>apt-cache search video</command> will return a list of all packages whose name or description contains the keyword “video”."
-msgstr ""
+msgstr "Trochu úspěšnějším vyhledávajícím vzorcem je vyhledávání prostého textu v balíčkovém jménu, to ale zůstává dost omezené. Obvykle můžete nalézt výsledky prohledáváním popisů balíčku: protože každý balíček má kromě svého jména více nebo méně detailní popis, klíčové slovo hledané v těchto popisech může být často užitečné. <command>apt-cache</command> and <command>axi-cache</command> jsou nástroji pro takový druh vyhledávání; například <command>apt-cache search video</command> vrátí seznam všech balíčků, jejichž jméno nebo popis obsahuje klíčové slovo “video”."
 
 msgid "For more complex searches, a more powerful tool such as <command>aptitude</command> is required. <command>aptitude</command> allows you to search according to a logical expression based on the package's meta-data fields. For instance, the following command searches for packages whose name contains <literal>kino</literal>, whose description contains <literal>video</literal> and whose maintainer's name contains <literal>paul</literal>:"
-msgstr ""
+msgstr "Pro komplexnější hledání potřeba mocnějšího nástroje jako je <command>aptitude</command>. <command>aptitude</command> vám umožňuje vyhledávání podle logického výrazu založeném v polích metadat balíčku. Například, následující příkaz hledá balíčky, jejichž jméno obsahuje <literal>kino</literal>, popis obsahuje <literal>video</literal> a správcovo jméno obsahuje <literal>paul</literal>:"
 
 msgid ""
 "$ <userinput>aptitude search kino~dvideo~mpaul</userinput>\n"
@@ -1579,40 +1580,81 @@ msgid ""
 "      uitoolkit::gtk, use::editing, use::learning, works-with::video,\n"
 "      x11::application"
 msgstr ""
+"$ <userinput>aptitude search kino~dvideo~mpaul</userinput>\n"
+"p   kino  - Non-linear editor for Digital Video data\n"
+"$ <userinput>aptitude show kino</userinput>\n"
+"Package: kino\n"
+"State: not installed\n"
+"Version: 1.3.4-2.1+b1\n"
+"Priority: extra\n"
+"Section: video\n"
+"Maintainer: Paul Brossier &lt;piem@debian.org&gt;\n"
+"Architecture: amd64\n"
+"Uncompressed Size: 8,472 k\n"
+"Depends: libasound2 (&gt;= 1.0.16), libatk1.0-0 (&gt;= 1.12.4), libavc1394-0 (&gt;=\n"
+"         0.5.3), libavcodec56 (&gt;= 6:11~beta1) | libavcodec-extra-56 (&gt;=\n"
+"         6:11~beta1), libavformat56 (&gt;= 6:11~beta1), libavutil54 (&gt;=\n"
+"         6:11~beta1), libc6 (&gt;= 2.14), libcairo2 (&gt;= 1.2.4), libdv4,\n"
+"         libfontconfig1 (&gt;= 2.11), libfreetype6 (&gt;= 2.2.1), libgcc1 (&gt;=\n"
+"         1:4.1.1), libgdk-pixbuf2.0-0 (&gt;= 2.22.0), libglade2-0 (&gt;= 1:2.6.4-2~),\n"
+"         libglib2.0-0 (&gt;= 2.12.0), libgtk2.0-0 (&gt;= 2.24.0), libice6 (&gt;=\n"
+"         1:1.0.0), libiec61883-0 (&gt;= 1.2.0), libpango-1.0-0 (&gt;= 1.14.0),\n"
+"         libpangocairo-1.0-0 (&gt;= 1.14.0), libpangoft2-1.0-0 (&gt;= 1.14.0),\n"
+"         libquicktime2 (&gt;= 2:1.2.2), libraw1394-11, libsamplerate0 (&gt;= 0.1.7),\n"
+"         libsm6, libstdc++6 (&gt;= 4.9), libswscale3 (&gt;= 6:11~beta1), libx11-6,\n"
+"         libxext6, libxml2 (&gt;= 2.7.4), libxv1, zlib1g (&gt;= 1:1.1.4)\n"
+"Recommends: ffmpeg, curl\n"
+"Suggests: udev | hotplug, vorbis-tools, sox, mjpegtools, lame, ffmpeg2theora\n"
+"Conflicts: kino-dvtitler, kino-timfx, kinoplus\n"
+"Replaces: kino-dvtitler, kino-timfx, kinoplus\n"
+"Provides: kino-dvtitler, kino-timfx, kinoplus\n"
+"Description: Non-linear editor for Digital Video data\n"
+" Kino allows you to record, create, edit, and play movies recorded with DV\n"
+" camcorders. This program uses many keyboard commands for fast navigating and\n"
+" editing inside the movie. \n"
+" \n"
+" The kino-timfx, kino-dvtitler and kinoplus sets of plugins, formerly\n"
+" distributed as separate packages, are now provided with Kino.\n"
+"Homepage: http://www.kinodv.org/\n"
+"\n"
+"Tags: field::arts, hardware::camera, implemented-in::c, implemented-in::c++,\n"
+"      interface::x11, role::program, scope::application, suite::gnome,\n"
+"      uitoolkit::gtk, use::editing, use::learning, works-with::video,\n"
+"      x11::application"
 
 msgid "The search only returns one package, <emphasis role=\"pkg\">kino</emphasis>, which satisfies all three criteria."
-msgstr ""
+msgstr "Vyhledávání vrátí jeden balíček, <emphasis role=\"pkg\">kino</emphasis>, který vyhovuje všem třem kritériím."
 
 msgid "Even these multi-criteria searches are rather unwieldy, which explains why they are not used as much as they could. A new tagging system has therefore been developed, and it provides a new approach to searching. Packages are given tags that provide a thematical classification along several strands, known as a “facet-based classification”. In the case of <emphasis role=\"pkg\">kino</emphasis> above, the package's tags indicate that Kino is a Gnome-based software that works on video data and whose main purpose is editing."
-msgstr ""
+msgstr "Tato multikriteriální vyhledávání jsou, dá se říci, těžkopádná, což vysvětluje proč nejsou tak moc využívána, jak by mohla být. Proto byl vyvinut nový systém štítků (tagů) co poskytuje nový přístup k vyhledávání. Balíčkům se dají štítky, které poskytují tématické zařazení zároveň s několika standardy známými jako “facet-based classification”. V případu <emphasis role=\"pkg\">kino</emphasis> popsaného výše, štítky balíčku značí, že Kino je software založený na softwaru Gnome, který pracuje na video datech a jehož hlavním účelem je střih."
 
 msgid "Browsing this classification can help you to search for a package which corresponds to known needs; even if it returns a (moderate) number of hits, the rest of the search can be done manually. To do that, you can use the <literal>~G</literal> search pattern in <command>aptitude</command>, but it is probably easier to simply navigate the site where tags are managed: <ulink type=\"block\" url=\"http://debtags.alioth.debian.org/cloud/\" />"
-msgstr ""
+msgstr "Procházením tohoto setřídění vám může pomoci hledat balíček, který odpovídá známým potřebám; i když vrátí množství (rozumné) výsledků, zbytek vyhledávání může být vykonán manuálně. To uděláte pomocí vyhledávacího řetězce <literal>~G</literal> v <command>aptitude</command>, ale patrně bude jednodušší prostě pojít webovou stránku, kde jsou štítky řízeny: <ulink type=\"block\" url=\"http://debtags.alioth.debian.org/cloud/\" />"
 
 msgid "<primary><emphasis role=\"pkg\">debtags</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"pkg\">debtags</emphasis></primary>"
 
 msgid "<primary>tag</primary>"
-msgstr ""
+msgstr "<primary>tag</primary>"
 
 msgid "Selecting the <literal>works-with::video</literal> and <literal>use::editing</literal> tags yields a handful of packages, including the <emphasis role=\"pkg\">kino</emphasis> and <emphasis role=\"pkg\">pitivi</emphasis> video editors. This system of classification is bound to be used more and more as time goes on, and package managers will gradually provide efficient search interfaces based on it."
-msgstr ""
+msgstr "Vybráním štítků <literal>works-with::video</literal> a <literal>use::editing</literal> vyplodí pár balíčků, včetně video editorů <emphasis role=\"pkg\">kino</emphasis> a <emphasis role=\"pkg\">pitivi</emphasis>. Tento systém třídění je stále více upřednostňován a správci balíčků budou stále více poskytovat efektivní vyhledávací rozhraní na něm založených."
 
 msgid "To sum up, the best tool for the job depends on the complexity of the search that you wish to do:"
-msgstr ""
+msgstr "Abychom to shrnuli, nejlepší nástroj pro takový úkol závisí na komplexnosti vyhledávání, které si přejete provést:"
 
 msgid "<command>apt-cache</command> only allows searching in package names and descriptions, which is very convenient when looking for a particular package that matches a few target keywords;"
-msgstr ""
+msgstr "<command>apt-cache</command> umožňuje pouze prohledávání jmen balíčků a popisů, což je velmi pohodlné, když vyhledáváte určitý balíček, který odpovídá málu cílovým klíčovým slovům."
 
 msgid "when the search criteria also include relationships between packages or other meta-data such as the name of the maintainer, <command>synaptic</command> will be more useful;"
-msgstr ""
+msgstr "Pokud vyhledávající kritérium také zahrnuje vztahy mezi balíčky nebo jiná metadata jako je jméno správce, <command>synaptic</command> bude užitečnější."
 
 msgid "when a tag-based search is needed, a good tool is <command>packagesearch</command>, a graphical interface dedicated to searching available packages along several criteria (including the names of the files that they contain). For usage on the command-line, <command>axi-cache</command> will fit the bill."
-msgstr ""
+msgstr "Pokud je zapotřebí vyhledávání za pomoci štítků, dobrým nástrojem je <command>packagesearch</command>, grafické rozhraní k vyhledávání balíčků podle různých kritérií (včetně jmen souborů, které jej obsahují). Pro použití příkazové řádky, <command>axi-cache</command> plně vyhovuje."
 
 msgid "<primary><emphasis role=\"pkg\">packagesearch</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"pkg\">packagesearch</emphasis></primary>"
 
 msgid "finally, when the searches involve complex expressions with logic operations, the tool of choice will be <command>aptitude</command>'s search pattern syntax, which is quite powerful despite being somewhat obscure; it works in both the command-line and the interactive modes."
-msgstr ""
+msgstr "nakonec, pokud vyhledávání zahrnuje komplexní výrazy s logickými operacemi, bude vaší volbou vyhledávací řetězcový syntax <command>aptitude</command>, který je opravdu výkonný navzdory tomu, že je poněkud zastaralý; pracuje jak v příkazové řádce, tak v interaktivním módu."
 
