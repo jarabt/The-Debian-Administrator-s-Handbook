@@ -236,25 +236,25 @@ msgid "<primary><filename>NEWS.Debian.gz</filename></primary>"
 msgstr "<primary><filename>NEWS.Debian.gz</filename></primary>"
 
 msgid "The <filename>/usr/share/doc/<replaceable>package</replaceable>/</filename> directory also contains some files provided by Debian which complete the documentation by specifying the package's particularities or improvements compared to a traditional installation of the software. The <filename>README.Debian</filename> file also indicates all of the adaptations that were made to comply with the Debian Policy. The <filename>changelog.Debian.gz</filename> file allows the user to follow the modifications made to the package over time: it is very useful to try to understand what has changed between two installed versions that do not have the same behavior. Finally, there is sometimes a <filename>NEWS.Debian.gz</filename> file which documents the major changes in the program that may directly concern the administrator."
-msgstr "Adresář <filename>/usr/share/doc/<replaceable>package</replaceable>/</filename> také obsahuje některé soubory poskytované Debianem, které doplňují dokumentaci upřesněním specifik balíčku a zdokonaleními v porovnání s běžnou instalací softwaru. Soubor <filename>README.Debian</filename> také    "
+msgstr "Adresář <filename>/usr/share/doc/<replaceable>package</replaceable>/</filename> také obsahuje některé soubory poskytované Debianem, které doplňují dokumentaci upřesněním specifik balíčku a zdokonaleními v porovnání s běžnou instalací softwaru. Soubor <filename>README.Debian</filename> také poukazuje na veškeré adaptace, které byly provedeny k souladu s politikou Debianu. Soubor <filename>changelog.Debian.gz</filename> umožňuje uživateli sledovat modifikace balíčku, které byly na balíčku během času provedeny: je velmi užitečné se pokusit porozumět tomu, co se změnilo mezi dvěma instalovanými verzemi, které se rozdílně chovají. Nakonec je tu někdy soubor <filename>NEWS.Debian.gz</filename>, který dokumentuje hlavní změna v programu, které mohou přímo administrátora zajímat."
 
 msgid "Websites"
-msgstr ""
+msgstr "Internetové stránky"
 
 msgid "In most cases, free software programs have websites that are used to distribute it and to bring together the community of its developers and users. These sites are frequently loaded with relevant information in various forms: official documentation, FAQ (Frequently Asked Questions), mailing list archives, etc. Problems that you may encounter have often already been the subject of many questions; the FAQ or mailing list archives may have a solution for it. A good mastery of search engines will prove immensely valuable to find relevant pages quickly (by restricting the search to the Internet domain or sub-domain dedicated to the program). If the search returns too many pages or if the results do not match what you seek, you can add the keyword <userinput>debian</userinput> to limit results and target relevant information."
-msgstr ""
+msgstr "Ve většině případů, mají programy volného softwaru internetové stránky, které jej obvykle distribuují a slučují komunitu svých vývojářů a uživatelů. Tyto stránky jsou často plné relevantních informací různých forem: oficiálních dokumentací, FAQ (často pokládanými dotazy), archivů poštovních seznamů apod. Problémy, na které jste narazili byly často již předmětem mnoha dotazů; FAQ nebo archivy poštovních seznamů mohou mít na ně odpovědi. Dokonalé ovládání vyhledávačů se ukáže nesmírně cenným při rychlém vyhledávání relevantních stránek (omezením vyhledávání na internetové domény nebo subdomény věnovaných programu). Pokud vyhledávání navrátí příliš mnoho stránek nebo pokud výsledky neodpovídají tomu, co hledáte, můžete přidat klíčové slovo <userinput>debian</userinput> a omezit tak výsledky a cílit na relevantní informace."
 
 msgid "<emphasis>TIPS</emphasis> From error to solution"
-msgstr ""
+msgstr "<emphasis>TIPY</emphasis> Od chyby k řešení"
 
 msgid "If the software returns a very specific error message, enter it into the search engine (between double quotes, <literal>\"</literal>, in order to search not for individual keywords, but for the complete phrase). In most cases, the first links returned will contain the answer that you need."
-msgstr ""
+msgstr "Pokud software vrací velmi specifickou chybovou hlášku, zadejte ji do vyhledávajícího nástroje (mezi dvojité uvozovky, <literal>\"</literal>, ne za účelem hledání jednotlivých klíčových slov, ale kompletní fráze). Ve většině případů, první vrácený odkaz bude obsahovat odpověď, kterou potřebujete."
 
 msgid "In other cases, you will get very general errors, such as “Permission denied”. In this case, it is best to check the permissions of the elements involved (files, user ID, groups, etc.)."
-msgstr ""
+msgstr "V mnoha případech obdržíte velmi obecnou chybu, jako je “Permission denied”. V tomto případě je nejlepší zkontrolovat povolení zahrnutých prvků (souborů, uživatelských ID, skupin apod.)."
 
 msgid "If you do not know the address for the software's website, there are various means of getting it. First, check if there is a <literal>Homepage</literal> field in the package's meta-information (<command>apt-cache show <replaceable>package</replaceable></command>). Alternately, the package description may contain a link to the program's official website. If no URL is indicated, look at <filename>/usr/share/doc/<replaceable>package</replaceable>/copyright</filename>. The Debian maintainer generally indicates in this file where they got the program's source code, and this is likely to be the website that you need to find. If at this stage your search is still unfruitful, consult a free software directory, such as FSF's Free Software Directory, or search directly with a search engine, such as Google, DuckDuckGo, Yahoo, etc. <ulink type=\"block\" url=\"https://directory.fsf.org/wiki/Main_Page\" />"
-msgstr ""
+msgstr "Pokud neznáte adresu internetové stránky softwaru, existují různé prostředky, jak ji získat. První, "
 
 msgid "<primary><filename>copyright</filename></primary>"
 msgstr ""
