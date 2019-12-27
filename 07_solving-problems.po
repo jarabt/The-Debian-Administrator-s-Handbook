@@ -236,7 +236,7 @@ msgid "<primary><filename>NEWS.Debian.gz</filename></primary>"
 msgstr "<primary><filename>NEWS.Debian.gz</filename></primary>"
 
 msgid "The <filename>/usr/share/doc/<replaceable>package</replaceable>/</filename> directory also contains some files provided by Debian which complete the documentation by specifying the package's particularities or improvements compared to a traditional installation of the software. The <filename>README.Debian</filename> file also indicates all of the adaptations that were made to comply with the Debian Policy. The <filename>changelog.Debian.gz</filename> file allows the user to follow the modifications made to the package over time: it is very useful to try to understand what has changed between two installed versions that do not have the same behavior. Finally, there is sometimes a <filename>NEWS.Debian.gz</filename> file which documents the major changes in the program that may directly concern the administrator."
-msgstr ""
+msgstr "Adresář <filename>/usr/share/doc/<replaceable>package</replaceable>/</filename> také obsahuje některé soubory poskytované Debianem, které doplňují dokumentaci upřesněním specifik balíčku a zdokonaleními v porovnání s běžnou instalací softwaru. Soubor <filename>README.Debian</filename> také    "
 
 msgid "Websites"
 msgstr ""
