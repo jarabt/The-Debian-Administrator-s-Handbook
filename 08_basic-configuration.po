@@ -54,61 +54,61 @@ msgid "Basic Configuration: Network, Accounts, Printing..."
 msgstr "Základní nastavení: Síť, účty, tisk..."
 
 msgid "A computer with a new installation created with <command>debian-installer</command> is intended to be as functional as possible, but many services still have to be configured. Furthermore, it is always good to know how to change certain configuration elements defined during the initial installation process."
-msgstr ""
+msgstr "Počítač s novou instalací vytvořenou <command>debian-installer</command> je zamýšlená, aby byla tak funkční, jak je to jen možné, ale mnoho služeb stále musí být nastaveno. Navíc, je vždy dobré vědět, jak změnit určité nastavovací prvky definované během počátečního instalačního procesu."
 
 msgid "This chapter reviews everything included in what we could call the “basic configuration”: networking, language and locales, users and groups, printing, mount points, etc."
-msgstr ""
+msgstr "Tato kapitola shrne vše, co je zahrnuto v něčem, čemu můžeme říkat “základní nastavení”: sítě, jazyk a umístění, uživatelé a skupiny, tisk, přípojné body apod."
 
 msgid "Configuring the System for Another Language"
-msgstr ""
+msgstr "Nastavení systému pro jiný jazyk"
 
 msgid "<primary>French localization</primary>"
-msgstr ""
+msgstr "<primary>Francouzská lokalizace</primary>"
 
 msgid "If the system was installed using French, the machine will probably already have French set as the default language. But it is good to know what the installer does to set the language, so that later, if the need arises, you can change it."
-msgstr ""
+msgstr "Pokud byl systém nainstalován za použití francouzštiny, zařízení bude již pravděpodobně mít francouzštinu zvolen jako přednastavený jazyk. Je ale dobré vědět, co instalátor udělá k tomu, aby nastavil jazyk, takže později, pokud nastane potřeba, jej můžete změnit."
 
 msgid "<emphasis>TOOL</emphasis> The <command>locale</command> command to display the current configuration"
-msgstr ""
+msgstr "<emphasis>NÁSTROJ</emphasis> příkaz <command>locale</command> ke zobrazení současné konfigurace"
 
 msgid "The <command>locale</command> command lists a summary of the current configuration of various locale parameters (date format, numbers format, etc.), presented in the form of a group of standard environment variables dedicated to the dynamic modification of these settings."
-msgstr ""
+msgstr "Příkaz <command>locale</command> vypíše shrnutí současného nastavení co do různých lokálních parametrů (formát data, formát čísel apod.), prezentované formou skupin standardních proměnných prostředí věnovanou dynamické modifikaci těchto nastavení."
 
 msgid "Setting the Default Language"
-msgstr ""
+msgstr "Nastavení přednastaveného jazyka"
 
 msgid "<primary>locales</primary>"
-msgstr ""
+msgstr "<primary>locales</primary>"
 
 msgid "<primary>language</primary>"
-msgstr ""
+msgstr "<primary>language</primary>"
 
 msgid "<primary><command>locale-gen</command></primary>"
-msgstr ""
+msgstr "<primary><command>locale-gen</command></primary>"
 
 msgid "A locale is a group of regional settings. This includes not only the language for text, but also the format for displaying numbers, dates, times, and monetary sums, as well as the alphabetical comparison rules (to properly account for accented characters). Although each of these parameters can be specified independently from the others, we generally use a locale, which is a coherent set of values for these parameters corresponding to a “region” in the broadest sense. These locales are usually indicated under the form, <literal><replaceable>language-code</replaceable>_<replaceable>COUNTRY-CODE</replaceable></literal>, sometimes with a suffix to specify the character set and encoding to be used. This enables consideration of idiomatic or typographical differences between different regions with a common language."
-msgstr ""
+msgstr "Locale je skupina regionálních nastavení. Neobsahuje pouze jazyk textu, ale také formát pro zobrazení čísel, dat, času a peněžních částek, stejně jako pravidel abecedního porovnávání (pro správné posuzování přízvučných znaků). Přes to, že by každý z těchto parametrů mohly být upřesňován nezávisle na ostatních, používáme locale, který je ucelenou sadou hodnot těchto parametrů odpovídajícího “regionu” v nejširším slova smyslu. Umístění jsou většinou indikována formou <literal><replaceable>jazyk-kód</replaceable>_<replaceable>ZEMĚ-KÓD</replaceable></literal>, někdy s příponou popisující sadu znaků a kódování, které se použije. Tím se umožní posouzení idiomatických nebo typografických rozdílů mezi rozdílnými regiony se společným jazykem."
 
 msgid "<emphasis>CULTURE</emphasis> Character sets"
-msgstr ""
+msgstr "<emphasis>KULTURA</emphasis> Sada znaků"
 
 msgid "<primary>character set</primary>"
-msgstr ""
+msgstr "<primary>sada znaků</primary>"
 
 msgid "<primary>encoding</primary>"
-msgstr ""
+msgstr "<primary>kódování</primary>"
 
 msgid "<primary>ISO-8859-1</primary>"
-msgstr ""
+msgstr "<primary>ISO-8859-1</primary>"
 
 msgid "<primary>ISO-8859-15</primary>"
-msgstr ""
+msgstr "<primary>ISO-8859-15</primary>"
 
 msgid "<primary>Latin 1</primary>"
-msgstr ""
+msgstr "<primary>Latin 1</primary>"
 
 msgid "<primary>Latin 9</primary>"
-msgstr ""
+msgstr "<primary>Latin 9</primary>"
 
 msgid "Historically, each locale has an associated “character set” (group of known characters) and a preferred “encoding” (internal representation for characters within the computer)."
 msgstr ""
