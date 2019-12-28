@@ -254,124 +254,124 @@ msgid "In other cases, you will get very general errors, such as “Permission d
 msgstr "V mnoha případech obdržíte velmi obecnou chybu, jako je “Permission denied”. V tomto případě je nejlepší zkontrolovat povolení zahrnutých prvků (souborů, uživatelských ID, skupin apod.)."
 
 msgid "If you do not know the address for the software's website, there are various means of getting it. First, check if there is a <literal>Homepage</literal> field in the package's meta-information (<command>apt-cache show <replaceable>package</replaceable></command>). Alternately, the package description may contain a link to the program's official website. If no URL is indicated, look at <filename>/usr/share/doc/<replaceable>package</replaceable>/copyright</filename>. The Debian maintainer generally indicates in this file where they got the program's source code, and this is likely to be the website that you need to find. If at this stage your search is still unfruitful, consult a free software directory, such as FSF's Free Software Directory, or search directly with a search engine, such as Google, DuckDuckGo, Yahoo, etc. <ulink type=\"block\" url=\"https://directory.fsf.org/wiki/Main_Page\" />"
-msgstr "Pokud neznáte adresu internetové stránky softwaru, existují různé prostředky, jak ji získat. První, "
+msgstr "Pokud neznáte adresu internetové stránky softwaru, existují různé prostředky, jak ji získat. První, překontrolujte, zda není pole <literal>Homepage</literal> v meta informacích balíčku (<command>apt-cache show <replaceable>balíček</replaceable></command>). Popřípadě, popis balíčku může obsahovat odkaz na oficiální internetové stránky programu. Pokud není uveden URL, podívejte se na <filename>/usr/share/doc/<replaceable>balíček</replaceable>/copyright</filename>.  Správce Debianu obyčejně v tomto souboru vyznačuje, odkud vzali zdrojový kód programu a toto je pravděpodobně internetová stránka, kterou potřebujete najít. Pokud v tomto stádiu ještě stále nejste ve vašem hledání úspěšní, nahlédněte do adresáře svobodného softwaru, jako je FSF's Free Software Directory nebo prohledejte adresář pomocí vyhledávače, jako je Google, DuckDuckGo, Yahoo apod. <ulink type=\"block\" url=\"https://directory.fsf.org/wiki/Main_Page\" />"
 
 msgid "<primary><filename>copyright</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>copyright</filename></primary>"
 
 msgid "<primary>Free Software Directory</primary>"
-msgstr ""
+msgstr "<primary>Free Software Directory</primary>"
 
 msgid "You might also want to check the Debian wiki, a collaborative website where anybody, even simple visitors, can make suggestions directly from their browsers. It is used equally by developers who design and specify their projects, and by users who share their knowledge by writing documents collaboratively. <ulink type=\"block\" url=\"http://wiki.debian.org/\" />"
-msgstr ""
+msgstr "Možná by jste chtěli také překontrolovat Debian wiki, společnou internetovou stránku, kde kdokoliv, i pouhý návštěvník, může učinit návrhy přímo ze svého prohlížeče. Je používána stejně jak vývojáři, kteří navrhli a určovali své projekty, tak uživateli, kteří sdílí svoje vědomosti sepsáním společných dokumentů. <ulink type=\"block\" url=\"http://wiki.debian.org/\" />"
 
 msgid "<primary><emphasis>wiki.debian.org</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis>wiki.debian.org</emphasis></primary>"
 
 msgid "Tutorials (<emphasis>HOWTO</emphasis>)"
-msgstr ""
+msgstr "Tutoriály (<emphasis>HOWTO</emphasis>)"
 
 msgid "<primary><emphasis>HOWTO</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis>HOWTO</emphasis></primary>"
 
 msgid "A howto is a document that describes, in concrete terms and step by step, “how to” reach a predefined goal. The covered goals are relatively varied, but often technical in nature: for example, setting up IP Masquerading, configuring software RAID, installing a Samba server, etc. These documents often attempt to cover all of the potential problems likely to occur during the implementation of a given technology."
-msgstr ""
+msgstr "Dokument howto je dokument, který popisuje, v konkrétních pojmech a krok za krokem, “jak na to” a dosáhnout stanoveného cíle. Uvedené cíle jsou relativně různorodé, ale ve své podstatě často technické: například, nastavení maskované IP, nastavení softwarových RAID, instalace Samba serveru apod. Tyto dokumenty se často snaží pokrýt všechny potencionální problémy, které se mohou během implementace dané technologie vyskytnout."
 
 msgid "Many such tutorials are managed by the Linux Documentation Project (LDP), whose website hosts all of these documents: <ulink type=\"block\" url=\"http://www.tldp.org/\" />"
-msgstr ""
+msgstr "Mnoho takových tutoriálů je řízeno projektem Linux Documentation Project (LDP), jehož internetové stránky hostí všechny tyto dokumenty: <ulink type=\"block\" url=\"http://www.tldp.org/\" />"
 
 msgid "<primary>LDP</primary>"
-msgstr ""
+msgstr "<primary>LDP</primary>"
 
 msgid "<primary>Linux Documentation Project</primary>"
-msgstr ""
+msgstr "<primary>Linux Documentation Project</primary>"
 
 msgid "These documents should be taken with a grain of salt. They are often several years old; the information they contain is sometimes obsolete. This phenomenon is even more frequent for their translations, since updates are neither systematic nor instant after the publication of a new version of the original documents. This is part of the joys of working in a volunteer environment and without constraints…"
-msgstr ""
+msgstr "Tyto dokumenty by neměly být brány doslova. Jsou často několik let staré; informace, které obsahují jsou někdy zastaralé. Tento úkaz je ještě více častý pro jejich překlady, protože aktualizace nejsou po vydání nové verze originálního dokumentu ani systematické ani okamžité. Toto je součástí radostí přinášejících práce v prostředí dobrovolníků a bez omezení…"
 
 msgid "Common Procedures"
-msgstr ""
+msgstr "Obvyklé procesy"
 
 msgid "<primary>standard procedure</primary>"
-msgstr ""
+msgstr "<primary>standardní procesy</primary>"
 
 msgid "The purpose of this section is to present some general tips on certain operations that an administrator will frequently have to perform. These procedures will of course not cover every possible case in an exhaustive way, but they may serve as starting points for the more difficult cases."
-msgstr ""
+msgstr "Účelem této sekce je prezentovat některé obecné tipy ohledně určitých operací, které bude muset administrátor často provádět. Tyto procesy samozřejmě nepokryjí vyčerpávajícím způsobem každý možný případ, ale mohou sloužit jako odrazová plocha pro obtížné případy."
 
 msgid "<emphasis>DISCOVERY</emphasis> Documentation in other languages"
-msgstr ""
+msgstr "<emphasis>OBJEVENÍ</emphasis> Dokumentace v ostatních jazycích"
 
 msgid "Often, documentation translated into a non-English language is available in a separate package with the name of the corresponding package, followed by <literal>-<replaceable>lang</replaceable></literal> (where <replaceable>lang</replaceable> is the two-letter ISO code for the language)."
-msgstr ""
+msgstr "Často je dokumentace přeložená do ne anglického jazyka dostupná v samostatném balíčku se jménem daného balíčku, doplněného o <literal>-<replaceable>lang</replaceable></literal> (kde <replaceable>lang</replaceable> je ISO kód pro daný jazyk obsahující dvě písmena)."
 
 msgid "For instance, the <emphasis>apt-howto-fr</emphasis> package contains the French translation of the howto for <emphasis>APT</emphasis>. Likewise, the <emphasis>quick-reference-fr</emphasis> and <emphasis>debian-reference-fr</emphasis> packages are the French versions of the reference guides for Debian (initially written in English by Osamu Aoki)."
-msgstr ""
+msgstr "Například balíček <emphasis>apt-howto-fr</emphasis> obsahuje francouzský překlad howto pro <emphasis>APT</emphasis>. Obdobně balíčky <emphasis>quick-reference-fr</emphasis> a <emphasis>debian-reference-fr</emphasis> jsou francouzskými verzemi referenčního průvodce pro Debian (původně napsaného v angličtině Osamem Aokim)."
 
 msgid "Configuring a Program"
-msgstr ""
+msgstr "Nastavení programu"
 
 msgid "<primary>configuration</primary><secondary>program configuration</secondary>"
-msgstr ""
+msgstr "<primary>nastavení</primary><secondary>nastavení programu</secondary>"
 
 msgid "<primary>program</primary><secondary>configuration</secondary>"
-msgstr ""
+msgstr "<primary>program</primary><secondary>nastavení</secondary>"
 
 msgid "When you want to configure an unknown package, you must proceed in stages. First, you should read what the package maintainer has documented. Reading <filename>/usr/share/doc/<replaceable>package</replaceable>/README.Debian</filename> will indeed allow you to learn of specific provisions made to simplify the use of the software. It is sometimes essential in order to understand the differences from the original behavior of the program, as described in the general documentation, such as howtos. Sometimes this file also details the most common errors in order for you to avoid wasting time on common problems."
-msgstr ""
+msgstr "Pokud chcete nastavit neznámý balíček, musíte tak učinit ve fázích. Nejdříve by jste si měli přečíst, co správce balíčku zdokumentoval. Přečtení <filename>/usr/share/doc/<replaceable>balíček</replaceable>/README.Debian</filename> vám samozřejmě umožní naučit se specifickým opatřením učiněným k usnadnění používání softwaru. Někdy je to nezbytné za účelem porozumění rozdílů od původního chování programu, jak je popsáno v obecné dokumentaci, jako jsou dokumenty howto. Někdy tento soubor také blíže popisuje nejběžnější chyby, aby jste nemuseli ztrácet čas na častých problémech."
 
 msgid "Then, you should look at the software's official documentation — refer to <xref linkend=\"sect.documentation-sources\" /> to identify the various existing documentation sources. The <command>dpkg -L <replaceable>package</replaceable></command> command gives a list of files included in the package; you can therefore quickly identify the available documentation (as well as the configuration files, located in <filename>/etc/</filename>). <command>dpkg -s <replaceable>package</replaceable></command> displays the package meta-data and shows any possible recommended or suggested packages; in there, you can find documentation or a utility that will ease the configuration of the software."
-msgstr ""
+msgstr "Potom by jste se měli podívat do oficiální dokumentace softwaru — navštivte <xref linkend=\"sect.documentation-sources\" /> za účelem poznání různých existujících zdrojů dokumentace. Příkaz <command>dpkg -L <replaceable>balíček</replaceable></command> poskytuje seznam souborů zahrnutých do balíčku; můžete tak rychle zjistit dostupnou dokumentaci (stejně jako nastavovací soubory, nalézající se v <filename>/etc/</filename>). <command>dpkg -s <replaceable>balíček</replaceable></command> zobrazuje meta-data balíčku a ukazuje možné doporučené nebo navrhované balíčky; zde můžete nalézt dokumentaci nebo programy, které vám usnadní nastavení softwaru."   
 
 msgid "Finally, the configuration files are often self-documented by many explanatory comments detailing the various possible values for each configuration setting. So much so that it is sometimes enough to just choose a line to activate from among those available. In some cases, examples of configuration files are provided in the <filename>/usr/share/doc/<replaceable>package</replaceable>/examples/</filename> directory. They may serve as a basis for your own configuration file."
-msgstr ""
+msgstr "Nakonec, nastavovací soubory jsou často samo zdokumentovány mnoha vysvětlujícími komentáři blíže popisujících různé možné hodnoty pro každé nastavení. A to natolik, že někdy postačuje pouze vybrat jeden řádek a aktivovat jej mezi ostatními možnými. V některých případech, příklady nastavovacích souborů jsou poskytovány v adresáři <filename>/usr/share/doc/<replaceable>package</replaceable>/examples/</filename>. Mohou sloužit jako základ pro váš vlastní soubor nastavení."
 
 msgid "<emphasis>DEBIAN POLICY</emphasis> Location of examples"
-msgstr ""
+msgstr "<emphasis>POLITIKA DEBIANU</emphasis> Umístění příkladů"
 
 msgid "<primary>examples, location</primary>"
-msgstr ""
+msgstr "<primary>příklady, umístění</primary>"
 
 msgid "All examples must be installed in the <filename>/usr/share/doc/<replaceable>package</replaceable>/examples/</filename> directory. This may be a configuration file, program source code (an example of the use of a library), or a data conversion script that the administrator can use in certain cases (such as to initialize a database). If the example is specific to a particular architecture, it should be installed in <filename>/usr/lib/<replaceable>package</replaceable>/examples/</filename> and there should be a link pointing to that file in the <filename>/usr/share/doc/<replaceable>package</replaceable>/examples/</filename> directory."
-msgstr ""
+msgstr "Všechny příklady musí bát nainstalovány v adresáři <filename>/usr/share/doc/<replaceable>balíček</replaceable>/examples/</filename> To mohou být soubory nastavení, zdrojové kódy programu (příklad použití knihovny) nebo skript datové konverze, který může administrátor použít v určitých případech (jako je inicializování databáze). Pokud je příklad specifický pro určitou architekturu, měl by být nainstalovaný v  <filename>/usr/lib/<replaceable>balíček</replaceable>/examples/</filename> a měl by existovat odkaz ukazující na tento soubor v adresáři <filename>/usr/share/doc/<replaceable>balíček</replaceable>/examples/</filename>."
 
 msgid "Monitoring What Daemons Are Doing"
-msgstr ""
+msgstr "Sledování, co démoni dělají"
 
 msgid "Understanding what a daemon does is somewhat more complicated, since it does not interact directly with the administrator. To check that a daemon is actually working, you need to test it. For example, to check the Apache (web server) daemon, test it with an HTTP request."
-msgstr ""
+msgstr "Porozumění tomu, co démon dělá je poněkud více komplikované, protože přímo nespolupracuje s administrátorem. Ke kontrole toho, že démon právě pracuje potřebujete ho otestovat. Například ke kontrole démona Apache (webový server), otestujte jej HTTP požadavkem."
 
 msgid "To allow such tests, each daemon generally records everything that it does, as well as any errors that it encounters, in what are called “log files” or “system logs”. Logs are stored in <filename>/var/log/</filename> or one of its subdirectories. To know the precise name of a log file for each daemon, see its documentation. Note: a single test is not always sufficient if it does not cover all the possible usage cases; some problems only occur in particular circumstances."
-msgstr ""
+msgstr "K umožnění podobných testů, každý démon obvykle zapisuje vše, co dělá, stejně jako chyby, na které narazí, do něčeho, co se nazývá “log soubory” nebo “systemové logy”.  "
 
 msgid "<emphasis>TOOL</emphasis> The <command>rsyslogd</command> daemon"
-msgstr ""
+msgstr "<emphasis>NÁSTROJ</emphasis> Démon <command>rsyslogd</command>"
 
 msgid "<primary><command>syslogd</command></primary>"
-msgstr ""
+msgstr "<primary><command>syslogd</command></primary>"
 
 msgid "<primary>logs</primary><secondary>files</secondary>"
-msgstr ""
+msgstr "<primary>logy</primary><secondary>soubory</secondary>"
 
 msgid "<primary>files</primary><secondary>logs</secondary>"
-msgstr ""
+msgstr "<primary>soubory</primary><secondary>logy</secondary>"
 
 msgid "<command>rsyslogd</command> is special: it collects logs (internal system messages) that are sent to it by other programs. Each log entry is associated with a subsystem (e-mail, kernel, authentication, etc.) and a priority; <command>rsyslogd</command> processes these two pieces of information to decide on what to do. The log message may be recorded in various log files, and/or sent to an administration console. The details are defined in the <filename>/etc/rsyslog.conf</filename> configuration file (documented in the manual page of the same name)."
-msgstr ""
+msgstr "<command>rsyslogd</command> je speciální: shromažďuje logy (interní systémové zprávy), které mu posílají ostatní programy. Každý vstup logu je vztažen k nějakému podsystému (email, jádro, ověření pravosti apod.) a prioritě; <command>rsyslogd</command> zpracovává tyto dva kusy informací pro rozhodnutí, co dělat. Zpráva logu může být zaznamenána do různých log souborů, a/nebo poslána na administrátorovu konzolu. Detaily jsou stanoveny v nastavovacím souboru <filename>/etc/rsyslog.conf</filename> (zdokumentovány v manuálové stránce toho stejného jména)."
 
 msgid "Certain C functions, which are specialized in sending logs, simplify the use of the <command>rsyslogd</command> daemon. However some daemons manage their own log files (this is the case, for example, of <command>samba</command>, that implements Windows shares on Linux)."
-msgstr ""
+msgstr "Určité C funkce, které se specializují na posílání logů, usnadňují použití démona <command>rsyslogd</command>. Každopádně, někteří démoni si sami řídí své log soubory (toto je například případ příkazu <command>samba</command>, který implementuje sdílení Windows na Linuxu)."
 
-msgid "Note that when <command>systemd</command> is in use, the logs are actually collected by <command>systemd</command> before being forwarded to <command>rsyslogd</command>. They are thus also available via <command>systemd</command>'s journal and can be consulted with <command>journalctl</command> (see <xref linkend=\"sect.systemd\" /> for details)."
-msgstr ""
+msgid "Note that when <command>systemd</command> is in use, the logs are actually collected by y<command>systemd</command> before being forwarded to <command>rsyslogd</command>. They are thus also available via <command>systemd</command>'s journal and can be consulted with <command>journalctl</command> (see <xref linkend=\"sect.systemd\" /> for details)."
+msgstr "Uvědomte si, že když se <command>systemd</command> používá, se logy shromažďují programem <command>systemd</command>, než jsou přeposílány programu <command>rsyslogd</command>. Ty jsou tak také dostupné skrze žurnály <command>systemd</command> a mohou být prohlédnuty pomocí <command>journalctl</command> (více na <xref linkend=\"sect.systemd\" />)."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Daemon"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Démon"
 
 msgid "<primary>daemon</primary>"
-msgstr ""
+msgstr "<primary>daemon</primary>"
 
-msgid "A daemon is a program that is not explicitly invoked by the user and that stays in the background, waiting for a certain condition to be met before performing a task. Many server programs are daemons, a term that explains that the letter “d” is frequently present at the end of their name (<command>sshd</command>, <command>smtpd</command>, <command>httpd</command>, etc.)."
-msgstr ""
+msgid "A daemon is a program that is not explicitly invoked by the user and that stays in the background, waiting for a certain condition to be met before performing a task. Many server programs are daemons, a term that explains that the letter “d” is frequently present at the end of their name s(<command>sshd</command>, <command>smtpd</command>, <command>httpd</command>, etc.)."
+msgstr "Démon je program, který není explicitně vyvolán uživatelem a zůstává v pozadí, kde čeká na splnění určitých podmínek před tím, než provedou úkol. Mnoho programů serveru jsou démoni, termín, který vysvětluje, proč je písmeno “d” často přítomné na konci jejich jmen (<command>sshd</command>, <command>smtpd</command>, <command>httpd</command> apod.)."
 
 msgid "As a preventive operation, the administrator should regularly read the most relevant server logs. They can thus diagnose problems before they are even reported by disgruntled users. Indeed users may sometimes wait for a problem to occur repeatedly over several days before reporting it. In many cases, there are specific tools to analyze the contents of the larger log files. In particular, such utilities exist for web servers (such as <command>analog</command>, <command>awstats</command>, <command>webalizer</command> for Apache), for FTP servers, for proxy/cache servers, for firewalls, for e-mail servers, for DNS servers, and even for print servers. Some of these utilities operate in a modular manner and allow analysis of several types of log files. This is the case of <command>lire</command>. Other tools, such as <command>logcheck</command> (a software discussed in <xref linkend=\"security\" />), scan these files in search of alerts to be dealt with."
 msgstr ""
