@@ -374,68 +374,67 @@ msgid "A daemon is a program that is not explicitly invoked by the user and that
 msgstr "Démon je program, který není explicitně vyvolán uživatelem a zůstává v pozadí, kde čeká na splnění určitých podmínek před tím, než provedou úkol. Mnoho programů serveru jsou démoni, termín, který vysvětluje, proč je písmeno “d” často přítomné na konci jejich jmen (<command>sshd</command>, <command>smtpd</command>, <command>httpd</command> apod.)."
 
 msgid "As a preventive operation, the administrator should regularly read the most relevant server logs. They can thus diagnose problems before they are even reported by disgruntled users. Indeed users may sometimes wait for a problem to occur repeatedly over several days before reporting it. In many cases, there are specific tools to analyze the contents of the larger log files. In particular, such utilities exist for web servers (such as <command>analog</command>, <command>awstats</command>, <command>webalizer</command> for Apache), for FTP servers, for proxy/cache servers, for firewalls, for e-mail servers, for DNS servers, and even for print servers. Some of these utilities operate in a modular manner and allow analysis of several types of log files. This is the case of <command>lire</command>. Other tools, such as <command>logcheck</command> (a software discussed in <xref linkend=\"security\" />), scan these files in search of alerts to be dealt with."
-msgstr ""
+msgstr "Jako preventivní opatření by měli administrátoři pravidelně číst nejpodstatnější serverové logy. Mohou tak rozpoznat problémy ještě před tím, než jsou ohlášeny naštvanými uživateli. Samozřejmě uživatelé mohou někdy čekat několik dní, zatímco se problém vyskytuje, než ho nahlásí. V mnoha případech existují speciální nástroje k analýze obsahu větších souborů logů. Konkrétněji, podobné programy jsou pro webové servery (jako <command>analog</command>, <command>awstats</command>, <command>webalizer</command> pro Apache), pro FTP servery, pro proxy/cache servery, pro firewally, pro emailové servery, pro DNS servery a i pro tiskové servery. Některé z těchto programů pracují modulárním způsobem a umožňují analýzu různých typů log souborů. To je případ programu <command>lire</command>. Jiné nástroje, jako je <command>logcheck</command> (software probíraný na <xref linkend=\"security\" />) kontroluje tyto soubory a hledá stavy pohotovosti pro potřebu jejich řešení."
 
 msgid "<primary><command>analog</command></primary>"
-msgstr ""
+msgstr "<primary><command>analog</command></primary>"
 
 msgid "<primary><command>awtats</command></primary>"
-msgstr ""
+msgstr "<primary><command>awtats</command></primary>"
 
 msgid "<primary><command>webalizer</command></primary>"
-msgstr ""
+msgstr "<primary><command>webalizer</command></primary>"
 
 msgid "<primary><command>logcheck</command></primary>"
-msgstr ""
+msgstr "<primary><command>logcheck</command></primary>"
 
 msgid "<primary><command>lire</command></primary>"
-msgstr ""
+msgstr "<primary><command>lire</command></primary>"
 
 msgid "Asking for Help on a Mailing List"
-msgstr ""
+msgstr "Prosba o pomoc na Mailing listu"
 
 msgid "If your various searches haven't helped you to get to the root of a problem, it is possible to get help from other, perhaps more experienced people. This is exactly the purpose of the <email>debian-user@lists.debian.org</email> mailing list. As with any community, it has rules that need to be followed. Before asking any question, you should check that your problem isn't already covered by recent discussions on the list or by any official documentation. <ulink type=\"block\" url=\"https://wiki.debian.org/DebianMailingLists\" /> <ulink type=\"block\" url=\"https://lists.debian.org/debian-user/\" />"
-msgstr ""
+msgstr "Pokud vám různá hledání nepomohla se dostat k jádru problému, je možné přijmout pomoc od jiných, třeba zkušenějších lidí. Toto je přesně účel emailového seznamu <email>debian-user@lists.debian.org</email>. Jako každá komunita, má svá pravidla, která se musí dodržovat. Před tím, než se zeptáte, měli by jste překontrolovat, zda už se vašemu problému nevěnuje současná diskuze na seznamu nebo oficiální dokumentace."
 
 msgid "<primary><email>debian-user@lists.debian.org</email></primary>"
-msgstr ""
+msgstr "<primary><email>debian-user@lists.debian.org</email></primary>"
 
 msgid "<primary>mailing lists</primary>"
-msgstr ""
+msgstr "<primary>emailové seznamy</primary>"
 
 msgid "<emphasis>TIP</emphasis> Reading a list on the Web"
-msgstr ""
+msgstr "<emphasis>TIP</emphasis> Čtení seznamu na internetové stránce"
 
 msgid "For high volume mailing lists, such as <email>debian-user@lists.debian.org</email>, it may be worthwhile to go through them as a discussion forum (or newsgroup). Gmane.org allows consultation of the Debian lists in this format. The list mentioned above is available at: <ulink type=\"block\" url=\"http://dir.gmane.org/gmane.linux.debian.user\" />"
-msgstr ""
+msgstr "Pro obsáhlé emailové seznamy, jako je <email>debian-user@lists.debian.org</email>, může mít smysl je projít jako diskuzní fórum (nebo newsgroup). Gmane.org dovoluje nahlédnutí do seznamů Debianu v tomto formátu. Seznam uvedený výše, je dostupný na <ulink type=\"block\" url=\"http://dir.gmane.org/gmane.linux.debian.user\" />"
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Netiquette applies"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> uplatnění Netiquette"
 
 msgid "In general, for all correspondence on e-mail lists, the rules of Netiquette should be followed. This term refers to a set of common sense rules, from common courtesy to mistakes that should be avoided. <ulink type=\"block\" url=\"http://tools.ietf.org/html/rfc1855\" /> <indexterm><primary>Netiquette</primary></indexterm>"
-msgstr ""
+msgstr "Obecně, pro všechnu korespondenci na emailových seznamech by měla být dodržována pravidla Netiquette. Tento termín odkazuje na soustavu pravidel všeobecného povědomí, od slušného chování k omylům, kterým by se mělo předejít. <ulink type=\"block\" url=\"http://tools.ietf.org/html/rfc1855\" /> <indexterm><primary>Netiquette</primary></indexterm>"
 
 msgid "Furthermore, for any communication channel managed by the Debian project, you are bound by the Debian Code of Conduct: <ulink type=\"block\" url=\"https://www.debian.org/code_of_conduct\" />"
-msgstr ""
+msgstr "Navíc, co se týká jakéhokoli komunikačního kanálu řízeného projektem Debian, jste vázáni Pravidly chování Debianu: <ulink type=\"block\" url=\"https://www.debian.org/code_of_conduct\" />"
 
 msgid "Once those two conditions are met, you can think of describing your problem to the mailing list. Include as much relevant information as possible: various tests conducted, documentation consulted, how you attempted to diagnose the problem, the packages concerned or those that may be involved, etc. Check the Debian Bug Tracking System (BTS, described in sidebar <xref linkend=\"sidebar.bts\" />) for similar problems, and mention the results of that search, providing links to bugs found. BTS starts on: <ulink type=\"block\" url=\"http://www.debian.org/Bugs/index.html\" />"
-msgstr ""
+msgstr "Pokud jsou tyto dvě podmínky splněny, můžete myslet na to popsat váš problém na emailový seznam. Zahrňte co možná nejvíce relevantních informací: různé provedené testy, prostudovaná dokumentace, jak jste se snažili problém diagnostikovat, balíčky, kterých se to týká nebo mohlo týkat apod. Prověřte Debian Bug Tracking System (BTS, popsaný v poznámce na boku <xref linkend=\"sidebar.bts\" />) ohledně podobných problémů a uveďte výsledky těchto hledání, včetně odkazů na nalezené chyby. BTS začíná na: <ulink type=\"block\" url=\"http://www.debian.org/Bugs/index.html\" />"
 
 msgid "The more courteous and precise you have been, the greater your chances are of getting an answer, or, at least, some elements of response. If you receive relevant information by private e-mail, think of summarizing this information publicly so that others can benefit. This also allows the list's archives, searched through various search engines, to show the resolution for others who may have the same question."
-msgstr ""
+msgstr "Čím více jste byli slušní a přesní, tím větší je vaše šance na obdržení odpovědi nebo, minimálně, částečné odpovědi. Pokud obdržíte relevantní odpověď na soukromý email, popřemýšlejte o tom shrnout tyto informace a zveřejnit, pro prospěch ostatních. Toto také dovolují archivy seznamů, prohledávané pomocí různých vyhledávačů, ukázat rozřešení jiným, kteří by mohli mít tu samou otázku."
 
 msgid "Reporting a Bug When a Problem Is Too Difficult"
-msgstr ""
+msgstr "Nahlášení chyby, když je problém příliš obtížný"
 
 msgid "<primary>report a bug</primary>"
-msgstr ""
+msgstr "<primary>nahlášení chyby</primary>"
 
 msgid "<primary>bug report</primary>"
-msgstr ""
+msgstr "<primary>chybové hlášení</primary>"
 
 msgid "If all of your efforts to resolve a problem fail, it is possible that a resolution is not your responsibility, and that the problem is due to a bug in the program. In this case, the proper procedure is to report the bug to Debian or directly to the upstream developers. To do this, isolate the problem as much as possible and create a minimal test situation in which it can be reproduced. If you know which program is the apparent cause of the problem, you can find its corresponding package using the command, <command>dpkg -S <replaceable>file_in_question</replaceable></command>. Check the Bug Tracking System (<literal>https://bugs.debian.org/<replaceable>package</replaceable></literal>) to ensure that the bug has not already been reported. You can then send your own bug report, using the <command>reportbug</command> command, including as much information as possible, especially a complete description of those minimal test cases that will allow anyone to recreate the bug."
-msgstr ""
+msgstr "Pokud selže veškerá snaha o vyřešení problému, je možné, že vyřešení není vaší odpovědností a že problém je způsoben chybou v programu. V tomto případě je tím správným postupem nahlášení chyby Debianu nebo přímo upstreamovému vývojáři. Aby jste tak učinili, izolujte problém jak jen to jde a vytvořte minimální testovací situaci, ve které může být zopakován. Pokud víte, který program je zjevnou příčinou problému, můžete nalézt jeho odpovídající balíček za použití příkazu <command>dpkg -S <replaceable>file_in_question</replaceable></command>. Prověřte Bug Tracking System (<literal>https://bugs.debian.org/<replaceable>balíček</replaceable></literal>), aby jste se ujistili, že nebyla chyba ještě nahlášena. Potom můžete poslat vaše vlastní chybové hlášení pomocí příkazu <command>reportbug</command>, obsahující co možná nejvíce informací, především úplný popis těchto minimálních testovacích případů, které možní komukoli chybu znovu vyvolat."
 
 msgid "The elements of this chapter are a means of effectively resolving issues that the following chapters may bring about. Use them as often as necessary!"
-msgstr ""
-
+msgstr "Prvky této kapitoly jsou prostředky pro efektivní řešení otázek, které následující kapitoly mohou sebou přinést. Užívejte je tak často, jak to bude nezbytné."
