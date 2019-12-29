@@ -153,7 +153,7 @@ msgid "<emphasis>BEHIND THE SCENES</emphasis> <filename>/etc/environment</filena
 msgstr "<emphasis>ZA SCÉNOU</emphasis> <filename>/etc/environment</filename> a <filename>/etc/default/locale</filename>"
 
 msgid "The <filename>/etc/environment</filename> file provides the <command>login</command>, <command>gdm</command>, or even <command>ssh</command> programs with the correct environment variables to be created."
-msgstr ""
+msgstr "            "
 
 msgid "These applications do not create these variables directly, but rather via a PAM (<filename>pam_env.so</filename>) module. PAM (Pluggable Authentication Module) is a modular library centralizing the mechanisms for authentication, session initialization, and password management. See <xref linkend=\"sect.config-pam\" /> for an example of PAM configuration."
 msgstr ""
