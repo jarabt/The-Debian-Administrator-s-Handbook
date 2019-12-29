@@ -138,19 +138,19 @@ msgid "The first question invites you to select “locales” to support. Select
 msgstr "První dotaz vás vyzve k vývěru podporovaných “umístění”. Výběrem všech anglických umístění (to znamená těch, která začínají na “<literal>en_</literal>”) je rozumnou volbou. Neváhejte také vybrat další jazyky, pokud bude zařízení v užívání zahraničních uživatelů. Seznam povolených umístění v systému je uložen v souboru <filename>/etc/locale.gen</filename>. Je možné tento soubor editovat ručně, ale raději by jste měli spustit <command>locale-gen</command> při jakékoli modifikaci. To vygeneruje nezbytné soubory pro přidání umístění do provozu a odstraní zastaralé soubory."
 
 msgid "The second question, entitled “Default locale for the system environment”, requests a default locale. The recommended choice in the U.S.A. is “<literal>en_US.UTF-8</literal>”. British English speakers will prefer “<literal>en_GB.UTF-8</literal>”, and Canadians will prefer either “<literal>en_CA.UTF-8</literal>” or, for French, “<literal>fr_CA.UTF-8</literal>”. The <filename>/etc/default/locale</filename> file will then be modified to store this choice. From there, it is picked up by all user sessions since PAM will inject its content in the <varname>LANG</varname> environment variable."
-msgstr ""
+msgstr "Druhá otázka, s názvem “Přednatavené umístění pro systémové prostředí”, vyžaduje přednastavené umístění. Doporučená volba pro U.S.A je “<literal>en_US.UTF-8</literal>”. Ti, co hovoří britskou angličtinou budou preferovat “<literal>en_GB.UTF-8</literal>” a Kanaďané budou preferovat buď “<literal>en_CA.UTF-8</literal>” nebo pro francouzšinu “<literal>fr_CA.UTF-8</literal>”. Soubor <filename>/etc/default/locale</filename> bude potom modifikován podle vaší volby. Odtud je vybírána pro všechna uživatelská přihlášení, protože PAM vnese svůj obsah do proměnné prostředí <varname>LANG</varname>."
 
 msgid "<primary>environment</primary>"
-msgstr ""
+msgstr "<primary>prostředí</primary>"
 
 msgid "<primary>locale</primary>"
-msgstr ""
+msgstr "<primary>umístění</primary>"
 
 msgid "<primary><varname>LANG</varname></primary>"
-msgstr ""
+msgstr "<primary><varname>LANG</varname></primary>"
 
 msgid "<emphasis>BEHIND THE SCENES</emphasis> <filename>/etc/environment</filename> and <filename>/etc/default/locale</filename>"
-msgstr ""
+msgstr "<emphasis>ZA SCÉNOU</emphasis> <filename>/etc/environment</filename> a <filename>/etc/default/locale</filename>"
 
 msgid "The <filename>/etc/environment</filename> file provides the <command>login</command>, <command>gdm</command>, or even <command>ssh</command> programs with the correct environment variables to be created."
 msgstr ""
