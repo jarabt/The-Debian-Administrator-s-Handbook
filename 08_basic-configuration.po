@@ -244,73 +244,87 @@ msgid ""
 "Ready!\n"
 "$ </computeroutput><userinput>ls travail/</userinput>\n"
 "<computeroutput>Éléments graphiques  Icônes  Textes</computeroutput>"
+
 msgstr ""
+"<computeroutput>$ </computeroutput><userinput>ls travail/</userinput>\n"
+"<computeroutput>Ic?nes  ?l?ments graphiques  Textes\n"
+"$ </computeroutput><userinput>convmv -r -f iso-8859-15 -t utf-8 travail/</userinput>\n"
+"<computeroutput>Starting a dry run without changes...\n"
+"mv \"travail/�l�ments graphiques\"        \"travail/Éléments graphiques\"\n"
+"mv \"travail/Ic�nes\"     \"travail/Icônes\"\n"
+"No changes to your files done. Use --notest to finally rename the files.\n"
+"$ </computeroutput><userinput>convmv -r --notest -f iso-8859-15 -t utf-8 travail/</userinput>\n"
+"<computeroutput>mv \"travail/�l�ments graphiques\"        \"travail/Éléments graphiques\"\n"
+"mv \"travail/Ic�nes\"     \"travail/Icônes\"\n"
+"Ready!\n"
+"$ </computeroutput><userinput>ls travail/</userinput>\n"
+"<computeroutput>Éléments graphiques  Icônes  Textes</computeroutput>"
 
 msgid "For the file content, conversion procedures are more complex due to the vast variety of existing file formats. Some file formats include encoding information that facilitates the tasks of the software used to treat them; it is sufficient, then, to open these files and re-save them specifying UTF-8 encoding. In other cases, you have to specify the original encoding (ISO-8859-1 or “Western”, or ISO-8859-15 or “Western (Euro)”, according to the formulations) when opening the file."
-msgstr ""
+msgstr "Pro obsah souboru jsou postupy převodu komplexnější z důvodu ohromné rozmanitosti existujících formátů souborů. Některé formáty souborů zahrnují informace o kódování, které usnadňují úlohu softwaru, který je použit na jejich zpracování; je potom vhodné tyto soubory otevřít a znovu uložit za specifikace kódování UTF-8. V ostatních případech musíte uvést původní kódování (ISO-8859-1 či “Western” nebo ISO-8859-15 či “Western (Euro)”, podle formulace) při otevírání souboru."
 
 msgid "For simple text files, you can use <command>recode</command> (in the package of the same name) which allows automatic recoding. This tool has numerous options so you can play with its behavior. We recommend you consult the documentation, the <citerefentry> <refentrytitle>recode</refentrytitle> <manvolnum>1</manvolnum> </citerefentry> man page, or the <citerefentry> <refentrytitle>recode</refentrytitle> </citerefentry> info page (more complete)."
-msgstr ""
+msgstr "Pro obyčejné textové soubory můžete použít <command>recode</command> (v balíčku pod stejným jménem), který umožňuje automatické znovu kódováníl. Tento nástroj má několik voleb, takže si můžete s pohrát s jeho chováním. Doporučujeme nahédnout do dokumentace, manuálové stránky <citerefentry> <refentrytitle>recode</refentrytitle> <manvolnum>1</manvolnum> </citerefentry> nebo do info stránky (která je kompletnější)."
 
 msgid "Configuring the Network"
-msgstr ""
+msgstr "Nastavení sítě"
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Essential network concepts (Ethernet, IP address, subnet, broadcast)"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Základní síťové koncepty (Ethernet, IP adresa, subnet, broadcast)"
 
 msgid "<primary>Ethernet</primary>"
-msgstr ""
+msgstr "<primary>Ethernet</primary>"
 
 msgid "<primary>10BASE-T</primary>"
-msgstr ""
+msgstr "<primary>10BASE-T</primary>"
 
 msgid "<primary>100BASE-T</primary>"
-msgstr ""
+msgstr "<primary>100BASE-T</primary>"
 
 msgid "<primary>1000BASE-T</primary>"
-msgstr ""
+msgstr "<primary>1000BASE-T</primary>"
 
 msgid "<primary>10GBASE-T</primary>"
-msgstr ""
+msgstr "<primary>10GBASE-T</primary>"
 
 msgid "<primary>connector, RJ45</primary>"
-msgstr ""
+msgstr "<primary>konektor, RJ45</primary>"
 
 msgid "<primary>RJ45 connector</primary>"
-msgstr ""
+msgstr "<primary>RJ45 konektor</primary>"
 
 msgid "Most modern local networks use the Ethernet protocol, where data is split into small blocks called frames and transmitted on the wire one frame at a time. Data speeds vary from 10 Mb/s for older Ethernet cards to 10 Gb/s in the newest cards (with the most common rate currently growing from 100 Mb/s to 1 Gb/s). The most widely used cables are called 10BASE-T, 100BASE-T, 1000BASE-T or 10GBASE-T depending on the throughput they can reliably provide (the T stands for “twisted pair”); those cables end in an RJ45 connector. There are other cable types, used mostly for speeds of 1 Gb/s and above."
-msgstr ""
+msgstr "Nejmodernější lokální sítě používají Ethernet protokol, kde jsou data rozštěpena na malé bloky nazývané snímky (frames) a přeneseny kabelem jednoho snímku v daný moment. Datová rychlost je různá od 10 Mb/s u starších Ethernetových karet, po 10 Gb/s v případě nejnovějších karet (nejběžnější tempo v současnosti roste na rozmězí mezi 100 Mb/s a 1 Gb/s). Nejrozšířenější kabely se jmenují 10BASE-T, 100BASE-T, 1000BASE-T nebo 10GBASE-T, v závislosti na průchodnosti, kterou mohou spolehlivě nabídnout (T znamená “twisted pair”); tyto kabely jsou zakončeny konektorem RJ45. Existují další typy kabelů, používané pro rychlosti 1 Gb/s a výše." 
 
 msgid "<primary>address, IP address</primary>"
-msgstr ""
+msgstr "<primary>adresa, IP adresa</primary>"
 
 msgid "<primary>IP address</primary>"
-msgstr ""
+msgstr "<primary>IP adresa</primary>"
 
 msgid "An IP address is a number used to identify a network interface on a computer on a local network or the Internet. In the currently most widespread version of IP (IPv4), this number is encoded in 32 bits, and is usually represented as 4 numbers separated by periods (e.g. <literal>192.168.0.1</literal>), each number being between 0 and 255 (inclusive, which corresponds to 8 bits of data). The next version of the protocol, IPv6, extends this addressing space to 128 bits, and the addresses are generally represented as a series of hexadecimal numbers separated by colons (e.g., 2001:0db8:13bb:0002:0000:0000:0000:0020, or 2001:db8:13bb:2::20 for short)."
-msgstr ""
+msgstr "IP adresa je číslo používané k identifikaci síťového rozhraní na počítači v lokální síti nebo na internetu. V současnosti nejrozšířenější verzi IP (IPv4), je toto číslo kódováno do 32 bitů a je obyčejně prezentováno jako 4 čísla oddělené tečkami (např. <literal>192.168.0.1</literal>), kde je každé číslo mezi 0 a 255 (včetně, což odpovídá osmi bitům dat). Další verze protokolu, IPv6, rozšiřuje tento adresový prostor na 128 bitů a adresy jsou obyčejně reprezentovány jako čísla šestnáctkové soustavy oddělená dvojtečkou (např. 2001:0db8:13bb:0002:0000:0000:0000:0020 nebo zkráceně 2001:db8:13bb:2::20)."
 
 msgid "<primary>subnet</primary>"
-msgstr ""
+msgstr "<primary>subnet</primary>"
 
 msgid "<primary>mask</primary><secondary>subnet mask</secondary>"
-msgstr ""
+msgstr "<primary>maska</primary><secondary>subnet maska</secondary>"
 
 msgid "<primary>network</primary><secondary>address</secondary>"
-msgstr ""
+msgstr "<primary>síť</primary><secondary>adresa</secondary>"
 
 msgid "A subnet mask (netmask) defines in its binary code which portion of an IP address corresponds to the network, the remainder specifying the machine. In the example of configuring a static IPv4 address given here, the subnet mask, <literal>255.255.255.0</literal> (24 “1”s followed by 8 “0”s in binary representation) indicates that the first 24 bits of the IP address correspond to the network address, and the other 8 are specific to the machine. In IPv6, for readability, only the number of “1”s is expressed; the netmask for an IPv6 network could, thus, be <literal>64</literal>."
-msgstr ""
+msgstr "Maska subnetu (natmask) definuje ve svém binárním kódu, která část IP adresy odpovídá síti, zbytek určuje zařízení. V příkladu nadefinování statické IP adresy, který zde uvádíme, maska subnetu <literal>255.255.255.0</literal> (24 “1” jedniček doplněných o 8 “0” nul ve dvojkové soustavě) značí, že prvních 24 bitů IP adresy odpovídá síťové adrese a dalších 8 určuje zařízení. U IPv6, je kvůli čitelnosti, pouze vyjádřen pouze počet “1” jedniček; maska sítě pro IPv6 síť tak může být <literal>64</literal>."
 
 msgid "The network address is an IP address in which the part describing the machine's number is 0. The range of IPv4 addresses in a complete network is often indicated by the syntax, <emphasis>a.b.c.d/e</emphasis>, in which <emphasis>a.b.c.d</emphasis> is the network address and <emphasis>e</emphasis> is the number of bits affected to the network part in an IP address. The example network would thus be written: <literal>192.168.0.0/24</literal>. The syntax is similar in IPv6: <literal>2001:db8:13bb:2::/64</literal>."
-msgstr ""
+msgstr "Adresa sítě je IP adresa, ve které je část popisující číslo počítače, 0. Rozsah IPv4 adresy v kompletní síti je často indikován syntaxí, <emphasis>a.b.c.d/e</emphasis>, kde <emphasis>a.b.c.d</emphasis> je adresa sítě a <emphasis>e</emphasis> je počet bitů ovlivňovaných síťovou částí IP adresy. Ukázková síť by tak byla napsaná: <literal>192.168.0.0/24</literal>. Syntax v IPv6 je podobný: <literal>2001:db8:13bb:2::/64</literal>."
 
 msgid "<primary>router</primary>"
-msgstr ""
+msgstr "<primary>směrovač</primary>"
 
 msgid "<primary>bridge</primary>"
-msgstr ""
+msgstr "<primary>most</primary>"
 
 msgid "A router is a machine that connects several networks to each other. All traffic coming through a router is guided to the correct network. To do this, the router analyzes incoming packets and redirects them according to the IP address of their destination. The router is often known as a gateway; in this configuration, it works as a machine that helps reach out beyond a local network (towards an extended network, such as the Internet)."
 msgstr ""
