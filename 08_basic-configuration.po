@@ -327,46 +327,46 @@ msgid "<primary>bridge</primary>"
 msgstr "<primary>most</primary>"
 
 msgid "A router is a machine that connects several networks to each other. All traffic coming through a router is guided to the correct network. To do this, the router analyzes incoming packets and redirects them according to the IP address of their destination. The router is often known as a gateway; in this configuration, it works as a machine that helps reach out beyond a local network (towards an extended network, such as the Internet)."
-msgstr ""
+msgstr "Směrovač je zařízaná, které dohromady spojuje různé sítě. Veškerý provoz, který prochází směrovačem je nasměrována do správné sítě. K tomu, aby se mu to povedlo, směrovač analyzuje přicházející balíky a přesměrovává je podle IP adresy jejich míst určení. Směrovač (router) je často známý jako brána (gateway); v  tomto uspořádání funguje jako zařízení, které pomáhá dosáhnout za místní síť (vstříc širší síti, jako je internet)."
 
 msgid "<primary>broadcast</primary>"
-msgstr ""
+msgstr "<primary>broadcast</primary>"
 
 msgid "The special broadcast address connects all the stations in a network. Almost never “routed”, it only functions on the network in question. Specifically, it means that a data packet addressed to the broadcast never passes through the router."
-msgstr ""
+msgstr "Zvláštní adresa broadcastu spojuje všechny stanice v síti. Téměř nikdy “směrována”, pouze funguje v dané síti. Speciálně to znamená, že datové balíky adresované broadcastu nikdy neprocházejí směrovačem."
 
 msgid "This chapter focuses on IPv4 addresses, since they are currently the most commonly used. The details of the IPv6 protocol are approached in <xref linkend=\"sect.ipv6\" />, but the concepts remain the same."
-msgstr ""
+msgstr "Tato kapitola se zaměřuje na adresy IPv4, protože jsou v současnosti nejčastěji používané. Detaily o IPv6 protokolu jsou přiblíženy na <xref linkend=\"sect.ipv6\" />, ale princip zůstává stejný."
 
 msgid "Since the network is automatically configured during the initial installation, the <filename>/etc/network/interfaces</filename> file already contains a valid configuration. A line starting with <literal>auto</literal> gives a list of interfaces to be automatically configured on boot by <emphasis role=\"pkg\">ifupdown</emphasis> and its <filename>/etc/init.d/networking</filename> init script. This will often be <literal>eth0</literal>, which refers to the first Ethernet card."
-msgstr ""
+msgstr "Protože síť je automaticky nastavena během úvodní instalace, soubor <filename>/etc/network/interfaces</filename> již obsahuje platné nastavení. Řádek začínající slovem <literal>auto</literal> poskytuje seznam rozhraní, určených pro automatické nastavení při bootování prostřednictvím <emphasis role=\"pkg\">ifupdown</emphasis> a jeho inicializačního skriptu <filename>/etc/init.d/networking</filename>. Tím většinou bývá <literal>eth0</literal>, který odkazuje na první ethernetovou kartu."
 
 msgid "<primary>network</primary><secondary>configuration</secondary>"
-msgstr ""
+msgstr "<primary>síť</primary><secondary>nastavení</secondary>"
 
 msgid "<primary>configuration</primary><secondary>of the network</secondary>"
-msgstr ""
+msgstr "<primary>nastavení</primary><secondary>sítě</secondary>"
 
 msgid "<primary>interface</primary><secondary>network interface</secondary>"
-msgstr ""
+msgstr "<primary>rozhraní</primary><secondary>síťové rozhraní</secondary>"
 
 msgid "<primary><literal>eth0</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>eth0</literal></primary>"
 
 msgid "<emphasis>ALTERNATIVE</emphasis> NetworkManager"
-msgstr ""
+msgstr "<emphasis>ALTERNATIVA</emphasis> NetworkManager"
 
 msgid "<primary><emphasis role=\"pkg\">network-manager</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"pkg\">network-manager</emphasis></primary>"
 
-msgid "If Network Manager is particularly recommended in roaming setups (see <xref linkend=\"sect.roaming-network-config\" />), it is also perfectly usable as the default network management tool. You can create “System connections” that are used as soon as the computer boots either manually with a <filename>.ini</filename>-like file in <filename>/etc/NetworkManager/system-connections/</filename> or through a graphical tool (<command>nm-connection-editor</command>). Just remember to deactivate all entries in <filename>/etc/network/interfaces</filename> if you want Network Manager to handle them. <ulink type=\"block\" url=\"https://wiki.gnome.org/Projects/NetworkManager/SystemSettings/jessie\" /> <ulink type=\"block\" url=\"https://developer.gnome.org/NetworkManager/0.9/ref-settings.html\" />"
-msgstr ""
+msgid "If Network Manager is particularly recommended in roaming setups (see <xref linkend=\"sect.roaming-network-config\" />), it is also perfectly usable as the default network management tool. You can create “System connections” that are used as soon as the computer boots either manually with a <filename>.ini</filename>-like file in <filename>/etc/NetworkManager/system-connections/</filename> or through a graphical tool (<command>nm-connection-editor</command>). Just remember to deactivate all entries in <filename>/etc/network/interfaces</filename> if you want Network Manager to handle them. <ulink type=\"block\" url=\"https://wiki.gnome.org/Projects/NetworkManager/SystemSettings/jessie\" /> <ulink type=\"block\" url=\"https://developer.gnome.org/NetworkManager/0.9/ref-settings.html\" />" 
+msgstr "Jakkoli je Network Manager obzvlášť doporučovaný při roamingovém nastavení (viz. <xref linkend=\"sect.roaming-network-config\" />), je také dokonale použitelný jako výchozí nástroj pro síťový management. Můžete vytvořit “systémová spojení”, která se použijí, jakmile je počítač bootován buď manuálně pomocí souboru jako je <filename>.ini</filename> v <filename>/etc/NetworkManager/system-connections/</filename> nebo skrze grafický nástroj (<command>nm-connection-editor</command>). Jen nezapomeňte deaktivovat všechna zadání ve <filename>/etc/network/interfaces</filename>, pokud chcete po Network Manageru, aby se o ně postaral. <ulink type=\"block\" url=\"https://wiki.gnome.org/Projects/NetworkManager/SystemSettings/jessie\" /> <ulink type=\"block\" url=\"https://developer.gnome.org/NetworkManager/0.9/ref-settings.html\" />"
 
 msgid "Ethernet Interface"
-msgstr ""
+msgstr "Ethernetové rozhraní"
 
 msgid "If the computer has an Ethernet card, the IP network that is associated with it must be configured by choosing from one of two methods. The simplest method is dynamic configuration with DHCP, and it requires a DHCP server on the local network. It may indicate a desired hostname, corresponding to the <literal>hostname</literal> setting in the example below. The DHCP server then sends configuration settings for the appropriate network."
-msgstr ""
+msgstr "Pokud počítač má Ethernetovou kartu, IP síť, která je s ní spojená, musí být nastavená zvolením jedné ze dvou metod. Nejjednodušší metoda je dynamické nastavení pomocí DHCP, které vyžaduje DHCP server v místní síti.             "
 
 msgid "<primary>DHCP</primary>"
 msgstr ""
