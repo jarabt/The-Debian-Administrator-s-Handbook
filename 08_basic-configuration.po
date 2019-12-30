@@ -153,82 +153,82 @@ msgid "<emphasis>BEHIND THE SCENES</emphasis> <filename>/etc/environment</filena
 msgstr "<emphasis>ZA SCÉNOU</emphasis> <filename>/etc/environment</filename> a <filename>/etc/default/locale</filename>"
 
 msgid "The <filename>/etc/environment</filename> file provides the <command>login</command>, <command>gdm</command>, or even <command>ssh</command> programs with the correct environment variables to be created."
-msgstr "            "
+msgstr "Soubor <filename>/etc/environment</filename> zajišťuje programům <command>login</command>, <command>gdm</command>, nebo také <command>ssh</command> vytvoření správných proměnných prosředí."
 
 msgid "These applications do not create these variables directly, but rather via a PAM (<filename>pam_env.so</filename>) module. PAM (Pluggable Authentication Module) is a modular library centralizing the mechanisms for authentication, session initialization, and password management. See <xref linkend=\"sect.config-pam\" /> for an example of PAM configuration."
-msgstr ""
+msgstr "Tyto aplikace přímo nevytvářejí tyto proměnné, ale spíše prosřednictvím modulu (<filename>pam_env.so</filename>). PAM (Pluggable Authentication Module) je modulová knihovna, která centralizuje mechanismus autentifikace, inicializaci spojení a správu hesla. Příklad nastavení PAM naleznete zde <xref linkend=\"sect.config-pam\" />."
 
 msgid "The <filename>/etc/default/locale</filename> file works in a similar manner, but contains only the <varname>LANG</varname> environment variable. Thanks to this split, some PAM users can inherit a complete environment without localization. Indeed, it is generally discouraged to run server programs with localization enabled; on the other hand, localization and regional settings are recommended for programs that open user sessions."
-msgstr ""
+msgstr "Soubor <filename>/etc/default/locale</filename> pracuje podobným způsobem, ale obsahuje pouze proměnnou prostředí <varname>LANG</varname>. Díky tomuto rozdělení, mohou někteří uživatelé dědit kompletní prostředí bez lokalizace. Samozřejmě, všeobecně se nedoporučuje spouštět programy serveru se zapnutou lokalizací; na druhou stranu, lokalizace a regionální nastavení jsou doporučené pro programy, které otevírají spojení uživatele."
 
 msgid "<primary>PAM</primary>"
-msgstr ""
+msgstr "<primary>PAM</primary>"
 
 msgid "<primary><filename>pam_env.so</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>pam_env.so</filename></primary>"
 
 msgid "Configuring the Keyboard"
-msgstr ""
+msgstr "Nastavení klávesnice"
 
 msgid "<primary>keyboard layout</primary>"
-msgstr ""
+msgstr "<primary>rozvržení klávesnice</primary>"
 
 msgid "<primary>layout, keyboard</primary>"
-msgstr ""
+msgstr "<primary>rozvržení, klávesnice</primary>"
 
 msgid "Even if the keyboard layout is managed differently in console and graphical mode, Debian offers a single configuration interface that works for both: it is based on debconf and is implemented in the <emphasis role=\"pkg\">keyboard-configuration</emphasis> package. Thus the <command>dpkg-reconfigure keyboard-configuration</command> command can be used at any time to reset the keyboard layout."
-msgstr ""
+msgstr "I když je rozvržení klávesnice spravováno rozdílně na konzole a grafickém módu, Debian nabízí jednotné nastavovací rozhraní, které funguje pro obě: je založeno na programu debconf a je implementováno v balíčku <emphasis role=\"pkg\">keyboard-configuration</emphasis>. Takže příkaz <command>dpkg-reconfigure keyboard-configuration</command> se může použít kdykoliv k přenastavení klávesnicového rozložení."
 
 msgid "<primary><emphasis>console-data</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis>console-data</emphasis></primary>"
 
 msgid "<primary><emphasis>console-tools</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis>console-tools</emphasis></primary>"
 
 msgid "<primary><emphasis>keyboard-configuration</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis>keyboard-configuration</emphasis></primary>"
 
 msgid "<indexterm><primary><literal>azerty</literal></primary></indexterm>The questions are relevant to the physical keyboard layout (a standard PC keyboard in the US will be a “Generic 104 key”), then the layout to choose (generally “US”), and then the position of the AltGr key (right Alt). Finally comes the question of the key to use for the “Compose key”, which allows for entering special characters by combining keystrokes. Type successively <keycombo action=\"seq\"><keycap>Compose</keycap><keycap>'</keycap><keycap>e</keycap></keycombo> and produce an e-acute (“é”). All these combinations are described in the <filename>/usr/share/X11/locale/en_US.UTF-8/Compose</filename> file (or another file, determined according to the current locale indicated by <filename>/usr/share/X11/locale/compose.dir</filename>)."
-msgstr ""
+msgstr "<indexterm><primary><literal>azerty</literal></primary></indexterm>Dotazy jsou relevantní pro fyzické rozložení klávesnice (standardní klávesnice PC v USA bude “Generic 104 key”), potom se vybere rozložení (obvykle “US”) a potom pozice klávesy AltGr (pravý Alt). Potom dojde na dotaz ohledně klávesy, která se používá pro “Compose key”, která umožňuje zadání speciálních znaků kombinací stisků kláves. Zadejte postupně <keycombo action=\"seq\"><keycap>Compose</keycap><keycap>'</keycap><keycap>e</keycap></keycombo> a vytvořte dlouhé e (“é”). Veškeré tyto kombinace jsou popsány v souboru <filename>/usr/share/X11/locale/en_US.UTF-8/Compose</filename> (nebo jiném souboru, určeného podle současného umístění indikovaného <filename>/usr/share/X11/locale/compose.dir</filename>)."
 
 msgid "<primary><literal>Compose</literal>, key</primary>"
-msgstr ""
+msgstr "<primary><literal>Compose</literal> klávesa</primary>"
 
 msgid "<primary><literal>Meta</literal>, key</primary>"
-msgstr ""
+msgstr "<primary><literal>Meta</literal> klávesa</primary>"
 
 msgid "<primary>key</primary><secondary><literal>Meta</literal></secondary>"
-msgstr ""
+msgstr "<primary>klávesa</primary><secondary><literal>Meta</literal></secondary>"
 
 msgid "<primary>key</primary><secondary><literal>Compose</literal></secondary>"
-msgstr ""
+msgstr "<primary>klávesa</primary><secondary><literal>Compose</literal></secondary>"
 
 msgid "Note that the keyboard configuration for graphical mode described here only affects the default layout; the GNOME and KDE environments, among others, provide a keyboard control panel in their preferences allowing each user to have their own configuration. Some additional options regarding the behavior of some particular keys are also available in these control panels."
-msgstr ""
+msgstr "Uvědomte si, že nastavení klávesnice pro grafický mód, které je zde popsané, ovlivňuje pouze přednastavené rozložení; prostředí GNOME a KDE, stejně jako jiné, poskytují kontrolní panel ve svých preferencích, umožňující každému uživateli mít svoje vlastní nastavení. Na těchto kontrolních panelech jsou také k dispozici některé další možnosti ohledně chování některých konkrétních kláves."
 
 msgid "Migrating to UTF-8"
-msgstr ""
+msgstr "Přechod na UTF-8"
 
 msgid "The generalization of UTF-8 encoding has been a long awaited solution to numerous difficulties with interoperability, since it facilitates international exchange and removes the arbitrary limits on characters that can be used in a document. The one drawback is that it had to go through a rather difficult transition phase. Since it could not be completely transparent (that is, it could not happen at the same time all over the world), two conversion operations were required: one on file contents, and the other on filenames. Fortunately, the bulk of this migration has been completed and we discuss it largely for reference."
-msgstr ""
+msgstr "Generalizace kódování UTF-8 byla dlouho očekávaným řešením pro mnoho obtíží s interoperabilitou, protože usnadňuje mezinárodní výměnu a odstraňuje různá omezení u znaků, které mohou být v dokumentech použity. Stinnou stránkou je, že musela projít do jisté míry obtížnou přechodovou fází. Protože nemohla být úplně transparentní (což je, že se nemohla udát v jeden časový okamžik na celém světě), byly zapotřebí dvě převodové operace: jedna na obsahu souborů a jedna na jménech souborů. Naštěstí, podstatná část tohoto přechodu byla dokončena a zde ji uvádíme jen pro úplnost."
 
 msgid "<emphasis>CULTURE</emphasis> <foreignphrase>Mojibake</foreignphrase> and interpretation errors"
-msgstr ""
+msgstr "<emphasis>KULTURA</emphasis> <foreignphrase>Mojibake</foreignphrase> a interpretační chyby"
 
 msgid "When a text is sent (or stored) without encoding information, it is not always possible for the recipient to know with certainty what convention to use for determining the meaning of a set of bytes. You can usually get an idea by getting statistics on the distribution of values present in the text, but that doesn't always give a definite answer. When the encoding system chosen for reading differs from that used in writing the file, the bytes are mis-interpreted, and you get, at best, errors on some characters, or, at worst, something completely illegible."
-msgstr ""
+msgstr "Pokud je text poslán (nebo uložen) bez informacích o kódování, není vždy pro příjemnce možné s určitostí zjistit, jakou konvenci použít pro určení smyslu souboru bajtů. Obyčejně se můžete, na základě obdržených statistik o rozložení hodnot přítomných v textu, domnívat, to vám ale vždy nedá definitivní odpověď. Pokud se systém kódování pro čtení liší od toho, co se použil na psaní souboru, jsou bajty špatně interpretovány a v nejlepším případě se vám objeví chyby na některých znacích nebo, v tom nejhorším, něco úplně nečitelné."
 
 msgid "Thus, if a French text appears normal with the exception of accented letters and certain symbols which appear to be replaced with sequences of characters like “Ã©” or Ã¨” or “Ã§”, it is probably a file encoded as UTF-8 but interpreted as ISO-8859-1 or ISO-8859-15. This is a sign of a local installation that has not yet been migrated to UTF-8. If, instead, you see question marks instead of accented letters — even if these question marks seem to also replace a character that should have followed the accented letter — it is likely that your installation is already configured for UTF-8 and that you have been sent a document encoded in Western ISO."
-msgstr ""
+msgstr "Takže, pokud francouzský text vypadá normálně, kromě písmen s diakritikou a určitých symbolů, kde se zdá, že se zobrazily nahrazené posloupností znaků jako “Ã©” nebo Ã¨” nebo “Ã§”, je asi pravděpodobně soubor kódován jako UTF-8, ale interpretován jako ISO-8859-1 nebo ISO-8859-15. To je známka lokální instalace, která ještě nepřešla na UTF-8. Pokud, namísto toho, vidíte otazníky místo písmen s diakritikou — i když se zdá, že tyto otazníky také nahradily znak, který by měl následovat písmeno s diakritikou — pravděpodobně je vaše instalace již nastavena na UTF-8 a dokument, který vám byl poslán, je kódován ve Western ISO."
 
 msgid "So much for “simple” cases. These cases only appear in Western culture, since Unicode (and UTF-8) was designed to maximize the common points with historical encodings for Western languages based on the Latin alphabet, which allows recognition of parts of the text even when some characters are missing."
-msgstr ""
+msgstr "Tolik k “jednoduchým” případům. Tyto případy se objevují pouze v západní kultuře, protože Unicode (a UTF-8) byl vytvořen pro maximalizaci společných bodů s historickými kódováními pro západní jazyky, založenými na latince, který dovoluje rozeznávání částí textu, i když některé znaky chybí."
 
 msgid "In more complex configurations, which, for example, involve two environments corresponding to two different languages that do not use the same alphabet, you often get completely illegible results — a series of abstract symbols that have nothing to do with each other. This is especially common with Asian languages due to their numerous languages and writing systems. The Japanese word <foreignphrase>mojibake</foreignphrase> has been adopted to describe this phenomenon. When it appears, diagnosis is more complex and the simplest solution is often to simply migrate to UTF-8 on both sides."
-msgstr ""
+msgstr "V komplexnějších nastaveních, která, například, zahrnují dvě prostředí odpovídající dvěma rozdílným jazykům, co nepoužívají stejnou abecedu, obdržíte často něco absolutně nečitelného — sérii abstraktních symbolů, které spolu vůbec nesouvisejí. To je speciálně případ asijských jazyků z důvodu počtu svých jazyků a systémů psaní. Japonské slovo <foreignphrase>mojibake</foreignphrase> bylo převzato k popisu tohoto úkazu. Pokud toto nastane, je rozpoznání příčin komplexnější a nejjednodušším řešením je často pouhá migrace na UTF-8 na obou stranách."
 
 msgid "As far as file names are concerned, the migration can be relatively simple. The <command>convmv</command> tool (in the package with the same name) was created specifically for this purpose; it allows renaming files from one encoding to another. The use of this tool is relatively simple, but we recommend doing it in two steps to avoid surprises. The following example illustrates a UTF-8 environment containing directory names encoded in ISO-8859-15, and the use of <command>convmv</command> to rename them."
-msgstr ""
+msgstr "Co se týká pouze jmen souborů, přechod může být relativně snadný. Nástroj <command>convmv</command> (v balíčku toho stejného jména) byl vytvořen speciálně pro tento účel; dovoluje přejmenování souborů z jednoho kódování na druhé. Použití tohoto nástroje je relativně snadné, ale aby jste předešli nepříjemným překvapením, doporučujeme tak učinit ve dvou krocích. Následující příklad názorně ukazuje prostředí UTF-8 obsahující jména adresářů kódovaných v ISO-8859-15 a použití <command>convmv</command> k jejich přejmenování."
 
 msgid ""
 "<computeroutput>$ </computeroutput><userinput>ls travail/</userinput>\n"
