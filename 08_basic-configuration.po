@@ -366,13 +366,13 @@ msgid "Ethernet Interface"
 msgstr "Ethernetové rozhraní"
 
 msgid "If the computer has an Ethernet card, the IP network that is associated with it must be configured by choosing from one of two methods. The simplest method is dynamic configuration with DHCP, and it requires a DHCP server on the local network. It may indicate a desired hostname, corresponding to the <literal>hostname</literal> setting in the example below. The DHCP server then sends configuration settings for the appropriate network."
-msgstr "Pokud počítač má Ethernetovou kartu, IP síť, která je s ní spojená, musí být nastavená zvolením jedné ze dvou metod. Nejjednodušší metoda je dynamické nastavení pomocí DHCP, které vyžaduje DHCP server v místní síti.             "
+msgstr "Pokud počítač má Ethernetovou kartu, IP síť, která je s ní spojená, musí být nastavena zvolením jedné ze dvou metod. Nejjednodušší metoda je dynamické nastavení pomocí DHCP, které vyžaduje DHCP server v místní síti. Může indikovat požadované hostitelovo jméno, odpovídající <literal>hostname</literal> nastavení v níže uvedeném příkladu. DHCP server poté pošle konfigurační nastavení pro správnou síť."
 
 msgid "<primary>DHCP</primary>"
-msgstr ""
+msgstr "<primary>DHCP</primary>"
 
 msgid "DHCP configuration"
-msgstr ""
+msgstr "Nastavení DHCP"
 
 msgid ""
 "\n"
@@ -380,12 +380,16 @@ msgid ""
 "iface eth0 inet dhcp\n"
 "  hostname arrakis"
 msgstr ""
+"\n"
+"auto eth0\n"
+"iface eth0 inet dhcp\n"
+"  hostname arrakis"
 
 msgid "A “static” configuration must indicate network settings in a fixed manner. This includes at least the IP address and subnet mask; network and broadcast addresses are also sometimes listed. A router connecting to the exterior will be specified as a gateway."
-msgstr ""
+msgstr "“statické” nastavení musí ukazovat nastavení sítě napevno. Toto zahrnuje minimálně IP adresu a masku podsítě; uvedeny jsou také někdy adresy sítě a broadcastu. Směrovač napojující se na vnějšek bude určen jako brána."
 
 msgid "Static configuration"
-msgstr ""
+msgstr "Statické nastavení"
 
 msgid ""
 "\n"
@@ -397,33 +401,41 @@ msgid ""
 "  network 192.168.0.0\n"
 "  gateway 192.168.0.1"
 msgstr ""
+"\n"
+"auto eth0\n"
+"iface eth0 inet static\n"
+"  address 192.168.0.3\n"
+"  netmask 255.255.255.0\n"
+"  broadcast 192.168.0.255\n"
+"  network 192.168.0.0\n"
+"  gateway 192.168.0.1"
 
 msgid "<emphasis>NOTE</emphasis> Multiple addresses"
-msgstr ""
+msgstr "<emphasis>POZNÁMKA</emphasis> Několikanásobná adresa"
 
 msgid "It is possible not only to associate several interfaces to a single, physical network card, but also several IP addresses to a single interface. Remember also that an IP address may correspond to any number of names via DNS, and that a name may also correspond to any number of numerical IP addresses."
-msgstr ""
+msgstr "Není možné pouze spojovat různá rozhraní s jednou, fyzickou síťovou kartou, ale je také možné spojovat různé IP adresy s jedním rozhraním. Pamatujte si také, že IP adresa může odpovídat jakémukoli množství jmen prostřednictvím DNS a toto jméno může také odpovídat jakémukoli množství číselných IP adres."
 
 msgid "As you can guess, the configurations can be rather complex, but these options are only used in very special cases. The examples cited here are typical of the usual configurations."
-msgstr ""
+msgstr "Jak asi hádáte, nastavení mohou být dosti složitá, ale těchto případů je použito pouze ve speciálních případech. Příklady zde citované jsou typické pro obvyklá nastavení."
 
 msgid "Connecting with PPP through a PSTN Modem"
-msgstr ""
+msgstr "Spojení s PPP prostřednictvím PSTN modemu"
 
 msgid "<primary>PPP</primary>"
-msgstr ""
+msgstr "<primary>PPP</primary>"
 
 msgid "<primary>point to point</primary>"
-msgstr ""
+msgstr "<primary>bod k bodu</primary>"
 
 msgid "<primary>connection</primary><secondary>by PSTN modem</secondary>"
-msgstr ""
+msgstr "<primary>spojení</primary><secondary>PSTN modemem</secondary>"
 
 msgid "<primary>modem</primary><secondary>PSTN</secondary>"
-msgstr ""
+msgstr "<primary>modem</primary><secondary>PSTN</secondary>"
 
 msgid "A point to point (PPP) connection establishes an intermittent connection; this is the most common solution for connections made with a telephone modem (“PSTN modem”, since the connection goes over the public switched telephone network)."
-msgstr ""
+msgstr "Spojení bodu k bodu (PPP) zřídí nesouvislé spojení; toto je nejběžnější řešení pro spojení s telefonním modemem (“PSTN modemem”, protože spojení prochází veřejnou spínací telefonní sítí)."
 
 msgid "A connection by telephone modem requires an account with an access provider, including a telephone number, username, password, and, sometimes the authentication protocol to be used. Such a connection is configured using the <command>pppconfig</command> tool in the Debian package of the same name. By default, it sets up a connection named <literal>provider</literal> (as in Internet service provider). When in doubt about the authentication protocol, choose <emphasis>PAP</emphasis>: it is offered by the majority of Internet service providers."
 msgstr ""
