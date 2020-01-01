@@ -438,49 +438,49 @@ msgid "A point to point (PPP) connection establishes an intermittent connection;
 msgstr "Spojení bodu k bodu (PPP) zřídí nesouvislé spojení; toto je nejběžnější řešení pro spojení s telefonním modemem (“PSTN modemem”, protože spojení prochází veřejnou spínací telefonní sítí)."
 
 msgid "A connection by telephone modem requires an account with an access provider, including a telephone number, username, password, and, sometimes the authentication protocol to be used. Such a connection is configured using the <command>pppconfig</command> tool in the Debian package of the same name. By default, it sets up a connection named <literal>provider</literal> (as in Internet service provider). When in doubt about the authentication protocol, choose <emphasis>PAP</emphasis>: it is offered by the majority of Internet service providers."
-msgstr ""
+msgstr "Pro spojení telefonním modemem je potřeba účet s poskytovtelem přístupu, včetně telefonního čisla, uživatelského jména, hesla a někdy i autentifikačního protokolu, co má být použitý. Podobné připojení je nastaveno pomocí nástroje <command>pppconfig</command> z balíčku Debianu toho stejného jména. Implicitně, nastaví připojení jménem <literal>provider</literal> (jako je v Internet service provider). Pokud není jasno o autentifikačním protokolu, vyberte <emphasis>PAP</emphasis>: to je nabízeno většinou poskytovatelů internetových služeb)."
 
 msgid "<primary><command>pppconfig</command></primary>"
-msgstr ""
+msgstr "<primary><command>pppconfig</command></primary>"
 
 msgid "<primary>PAP</primary>"
-msgstr ""
+msgstr "<primary>PAP</primary>"
 
 msgid "After configuration, it is possible to connect using the <command>pon</command> command (giving it the name of the connection as a parameter, when the default value of <literal>provider</literal> is not appropriate). The link is disconnected with the <command>poff</command> command. These two commands can be executed by the root user, or by any other user, provided they are in the <literal>dip</literal> group."
-msgstr ""
+msgstr "Po nastavení, je potom možné připojení použitím příkazu <command>pon</command> (za uvedení jména připojení jako jeho parametru, pokud je výchozí hodnota <literal>provider</literal> nevyhovující). Spojení je přerušeno příkazem <command>poff</command>. Tyto dva příkazy mohou být spuštěny kořenovým uživatelem nebo některým jiným uživatelem, za předpokladu, že jsou ve skupině <literal>dip</literal>."
 
 msgid "<primary><command>pon</command></primary>"
-msgstr ""
+msgstr "<primary><command>pon</command></primary>"
 
 msgid "<primary><command>poff</command></primary>"
-msgstr ""
+msgstr "<primary><command>poff</command></primary>"
 
 msgid "Connecting through an ADSL Modem"
-msgstr ""
+msgstr "Připojení přes ADSL modem"
 
 msgid "<primary>connection</primary><secondary>by ADSL modem</secondary>"
-msgstr ""
+msgstr "<primary>připojení</primary><secondary>ADSL modemem</secondary>"
 
 msgid "<primary>modem</primary><secondary>ADSL</secondary>"
-msgstr ""
+msgstr "<primary>modem</primary><secondary>ADSL</secondary>"
 
 msgid "<primary>ADSL, modem</primary>"
-msgstr ""
+msgstr "<primary>ADSL, modem</primary>"
 
 msgid "The generic term “ADSL modem” covers a multitude of devices with very different functions. The modems that are simplest to use with Linux are those that have an Ethernet interface (and not only a USB interface). These tend to be popular; most ADSL Internet service providers lend (or lease) a “box” with Ethernet interfaces. Depending on the type of modem, the configuration required can vary widely."
-msgstr ""
+msgstr "Všeobedný název “ADSL modem” zahrnuje spoustu zařízení s velice rozdílnými funkcemi. Modemy, které jsou pro pužití s Linuxem nejjednodušší, jsou ty, které mají ethernetové rozhraní (a ne pouze USB rozhraní). Tyto se stávají populárními; nejvíce poskytovatelů internetové služby ADSL půjčuje (nebo používá leasing pro) “krabičku” s ethernetovými rozhraními. V závislosti na typu modemu se může požadované nastavení hodně odlišovat."
 
 msgid "Modems Supporting PPPOE"
-msgstr ""
+msgstr "Modemy podporující PPPOE"
 
 msgid "<primary>PPPOE</primary>"
-msgstr ""
+msgstr "<primary>PPPOE</primary>"
 
 msgid "<primary><command>pppoeconf</command></primary>"
-msgstr ""
+msgstr "<primary><command>pppoeconf</command></primary>"
 
 msgid "Some Ethernet modems work with the PPPOE protocol (Point to Point Protocol over Ethernet). The <command>pppoeconf</command> tool (from the package with the same name) will configure the connection. To do so, it modifies the <filename>/etc/ppp/peers/dsl-provider</filename> file with the settings provided and records the login information in the <filename>/etc/ppp/pap-secrets</filename> and <filename>/etc/ppp/chap-secrets</filename> files. It is recommended to accept all modifications that it proposes."
-msgstr ""
+msgstr "Některé ethernetové modemy pracují s protokolem PPPOE (Point to Point protocol over Ethernet). Nástroj <command>pppoeconf</command> (z balíčku se stejným jménem) nastaví připojení. K tomu, aby tak učinil, zmodifikuje soubor <filename>/etc/ppp/peers/dsl-provider</filename> na stanovená nastavení a zaznamenává přihlašovací informace do souborů <filename>/etc/ppp/pap-secrets</filename> a <filename>/etc/ppp/chap-secrets</filename>. Doporučuje se akceptovat všechny změny, které navrhuje."
 
 msgid "Once this configuration is complete, you can open the ADSL connection with the command, <command>pon dsl-provider</command> and disconnect with <command>poff dsl-provider</command>."
 msgstr ""
