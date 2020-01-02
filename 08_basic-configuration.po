@@ -483,25 +483,25 @@ msgid "Some Ethernet modems work with the PPPOE protocol (Point to Point Protoco
 msgstr "Některé ethernetové modemy pracují s protokolem PPPOE (Point to Point protocol over Ethernet). Nástroj <command>pppoeconf</command> (z balíčku se stejným jménem) nastaví připojení. K tomu, aby tak učinil, zmodifikuje soubor <filename>/etc/ppp/peers/dsl-provider</filename> na stanovená nastavení a zaznamenává přihlašovací informace do souborů <filename>/etc/ppp/pap-secrets</filename> a <filename>/etc/ppp/chap-secrets</filename>. Doporučuje se akceptovat všechny změny, které navrhuje."
 
 msgid "Once this configuration is complete, you can open the ADSL connection with the command, <command>pon dsl-provider</command> and disconnect with <command>poff dsl-provider</command>."
-msgstr ""
+msgstr "Jakmile je toto nastavení kompletní, můžete otevřít ADSL připojení příkazem <command>pon dsl-provider</command> a zavřít pomocí <command>poff dsl-provider</command>."
 
 msgid "<primary><literal>dsl-provider</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>dsl-provider</literal></primary>"
 
 msgid "<emphasis>TIP</emphasis> Starting <command>ppp</command> at boot"
-msgstr ""
+msgstr "<emphasis>TIP</emphasis> Nastartovámí <command>ppp</command> pří bootování"
 
 msgid "<primary><command>systemd</command></primary>"
-msgstr ""
+msgstr "<primary><command>systemd</command></primary>"
 
 msgid "<primary><command>init</command></primary>"
-msgstr ""
+msgstr "<primary><command>init</command></primary>"
 
 msgid "PPP connections over ADSL are, by definition, intermittent. Since they are usually not billed according to time, there are few downsides to the temptation of keeping them always open. The standard means to do so is to use the init system."
-msgstr ""
+msgstr "Připojení PPP jsou, už podle svého naturelu, nesouvislá. Protože nejsou obyčejně účtovaná podle času, je málo věcí, které by odradily od pokušení je stále udržet otevřená. Standardním prostředkem pro to to udělat je použití init systmému."
 
 msgid "The default init system on <emphasis role=\"distribution\">Jessie</emphasis> is <command>systemd</command>. Adding an automatically restarting task for the ADSL connection is a simple matter of creating a “unit file” such as <filename>/etc/systemd/system/adsl-connection.service</filename>, with contents such as the following:"
-msgstr ""
+msgstr "Výchozí init systném na <emphasis role=\"distribution\">Jessie</emphasis> je <command>systemd</command>. Přidáním automaticky znovuspouštěnéhé úlohy pro přípojení ADSL je jednoduchá záležitost spočívající ve vytvoření souboru “unit file” jako <filename>/etc/systemd/system/adsl-connection.service</filename> s obsahem jako je tento:"
 
 msgid ""
 "[Unit]\n"
@@ -514,35 +514,47 @@ msgid ""
 "\n"
 "[Install]\n"
 "WantedBy=multi-user.target"
+
 msgstr ""
+"[Unit]\n"
+"Description=ADSL connection\n"
+"\n"
+"[Service]\n"
+"Type=forking\n"
+"ExecStart=/usr/sbin/pppd call dsl-provider\n"
+"Restart=always\n"
+"\n"
+"[Install]\n"
+"WantedBy=multi-user.target"
 
 msgid "Once this unit file has been defined, it needs to be enabled with <command>systemctl enable adsl-connection</command>. Then the loop can be started manually with <command>systemctl start adsl-connection</command>; it will also be started automatically on boot."
-msgstr ""
+msgstr "Jakmile je tento jednotkový soubor nadefinován, musí být uschopněn pomocí <command>systemctl enable adsl-connection</command>. Poté může být smyčka odstartována mauálně pomocí <command>systemctl start adsl-connection</command>; to bude započato také automaticky při bootování."
 
 msgid "On systems not using <command>systemd</command> (including <emphasis role=\"distribution\">Wheezy</emphasis> and earlier versions of Debian), the standard SystemV init works differently. On such systems, all that is needed is to add a line such as the following at the end of the <filename>/etc/inittab</filename> file; then, any time the connection is disconnected, <command>init</command> will reconnect it."
-msgstr ""
+msgstr "Na systémech nepoužívajících <command>systemd</command> (včetně <emphasis role=\"distribution\">Wheezy</emphasis> a dřívějších verzích Debianu), standardní init SystemV pracuje rozdílně. Na takových systmémech, všechno, co je potřeba je přidání řádku jako je následující na konec souboru <filename>/etc/inittab</filename>; potom, kdykoli je připojení odpojeno, <command>init</command> je obnoví."
 
 msgid "\n"
 "adsl:2345:respawn:/usr/sbin/pppd call dsl-provider"
-msgstr ""
+msgstr "\n"
+"adsl:2345:respawn:/usr/sbin/pppd call dsl-provider"
 
 msgid "For ADSL connections that auto-disconnect on a daily basis, this method reduces the duration of the interruption."
-msgstr ""
+msgstr "Při připojení ADSL, kde je automatické odpojování na denním pořádku, tato metoda redukuje trvání přerušení."
 
 msgid "Modems Supporting PPTP"
-msgstr ""
+msgstr "Modemy podporující PPTP"
 
 msgid "<primary>PPTP</primary>"
-msgstr ""
+msgstr "<primary>PPTP</primary>"
 
 msgid "The PPTP (Point-to-Point Tunneling Protocol) protocol was created by Microsoft. Deployed at the beginning of ADSL, it was quickly replaced by PPPOE. If this protocol is forced on you, see <xref linkend=\"sect.pptp\" />."
-msgstr ""
+msgstr "Protokol PPTP (Point-to-Point Tunneling Protocol) byl vytvořen firmou Microsoft. Tento protokol byl nasazený v počátcích ADSL a byl rychle nahrazen protokolem PPPOE. Pokud jste k němu nuceni, nahlédněte zde <xref linkend=\"sect.pptp\" />."
 
 msgid "Modems Supporting DHCP"
-msgstr ""
+msgstr "Modemy podporující DHCP"
 
 msgid "When a modem is connected to the computer by an Ethernet cable (crossover cable) you typically configure a network connection by DHCP on the computer; the modem automatically acts as a gateway by default and takes care of routing (meaning that it manages the network traffic between the computer and the Internet)."
-msgstr ""
+msgstr "Pokud je modem připojený k počítači ethernetovým kabelem (kříženým kabelem), klasicky nastavíte síťové spojení pomocí DHCP na počítači; modem automaticky (je to tak přednastaveno) hraje roli brány a stará se o směrování (což znamená, že řídí síťový provoz mezi počítačem a internetem)."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Crossover cable for a direct Ethernet connection"
 msgstr ""
