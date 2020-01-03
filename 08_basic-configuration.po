@@ -557,88 +557,88 @@ msgid "When a modem is connected to the computer by an Ethernet cable (crossover
 msgstr "Pokud je modem připojený k počítači ethernetovým kabelem (kříženým kabelem), klasicky nastavíte síťové spojení pomocí DHCP na počítači; modem automaticky (je to tak přednastaveno) hraje roli brány a stará se o směrování (což znamená, že řídí síťový provoz mezi počítačem a internetem)."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Crossover cable for a direct Ethernet connection"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Křížený kabel pro přímé ethernetové připojení"
 
 msgid "<primary>crossover cable</primary>"
-msgstr ""
+msgstr "<primary>křížený kabel</primary>"
 
 msgid "Computer network cards expect to receive data on specific wires in the cable, and send their data on others. When you connect a computer to a local network, you usually connect a cable (straight or crossover) between the network card and a repeater or switch. However, if you want to connect two computers directly (without an intermediary switch or repeater), you must route the signal sent by one card to the receiving side of the other card, and vice-versa. This is the purpose of a crossover cable, and the reason it is used."
-msgstr ""
+msgstr "Karty počítačové sítě očekávají přijímání dat po určitých drátech v kabelu a posílání svých dat po jiných. Jakmile připojíte počítač k místní síti, obyčejně propojíte kabel (přímý nebo křížený) mezi síťovou kartou a opakovačem nebo přepínačem. Kažkopádně, pokud chcete připojit dva počítače přímo (bez zprostředkovatelského přepínače nebo opakovače), musíte směrovat signál odeslaný jednou kartou k přijímací straně druhé karty a naopak. Toto je případ kříženého kabelu a důvod, přoč se používá."
 
 msgid "Note that this distinction has become almost irrelevant over time, as modern network cards are able do detect the type of cable present and adapt accordingly, so it won't be unusual that both kinds of cable will work in a given location."
-msgstr ""
+msgstr "Za poznámku stojí, že tato odlišnost se stala postupem času nepodstatnou, protože moderní síťové karty jsou schopny rozpoznat typ přítomného kabelu a podle toho se přizpůsobit, takže nebude nic neobvyklého, že oba druhy kabelu budou fungovat v daném umístění."
 
 msgid "Most “ADSL routers” on the market can be used like this, as do most of the ADSL modems provided by Internet services providers."
-msgstr ""
+msgstr "Většina “ADSL směrovačů” na trhu může být tímto způsobem použita, stejně jako ADSL modemy poskytované poskytovateli internetových služeb."
 
 msgid "Automatic Network Configuration for Roaming Users"
-msgstr ""
+msgstr "Automatické nastavení sítě pro roamingové (toulající se) uživatele"
 
 msgid "<primary>network</primary><secondary>roaming configuration</secondary>"
-msgstr ""
+msgstr "<primary>síť</primary><secondary>roamingové nastavení</secondary>"
 
 msgid "Many Falcot engineers have a laptop computer that, for professional purposes, they also use at home. The network configuration to use differs according to location. At home, it may be a wifi network (protected by a WPA key), while the workplace uses a wired network for greater security and more bandwidth."
-msgstr ""
+msgstr "Mnoho techniků Falcotu má notebooky, které, pro služební účely, používají také doma. Nastavení sítě pro použití se liší podle umístění. Doma to může být wifi síť (chráněná WPA klíčem), zatímco pracoviště používá kabelovou síť kvůli větší bezpečnosti a šířce pásma."
 
 msgid "To avoid having to manually connect or disconnect the corresponding network interfaces, administrators installed the <emphasis role=\"pkg\">network-manager</emphasis> package on these roaming machines. This software enables a user to easily switch from one network to another using a small icon displayed in the notification area of their graphical desktop. Clicking on this icon displays a list of available networks (both wired and wireless), so they can simply choose the network they wish to use. The program saves the configuration for the networks to which the user has already connected, and automatically switches to the best available network when the current connection drops."
-msgstr ""
+msgstr "K tomu, aby se předešlo nutnosti manuálně připojovat nebo odpojovat odpovídající síťová rozhraní, administrátoři nainstalovali na tato roamingová zařízení balíček <emphasis role=\"pkg\">network-manager</emphasis>. Tento software umožňuje snadno přepínat z jedné sítě do druhé použitím malé ikony zobrazené v oznamovací oblasti grafické plochy. Kliknutím na tuto ikonu se zobrazí seznam dostupných sítí (obou, pevných i bezdrávových), takže je možné si jednoduše vyberou síť, kterou chtějí používat. Program ukládá nastavení sítí, ke kterým se již uživatel připojil a automaticky přepíná na nejlepší dostupnou síť, pokud současné připojení spadne."
 
 msgid "In order to do this, the program is structured in two parts: a daemon running as root handles activation and configuration of network interfaces and a user interface controls this daemon. PolicyKit handles the required authorizations to control this program and Debian configured PolicyKit in such a way so that members of the netdev group can add or change Network Manager connections."
-msgstr ""
+msgstr "Aby to udělal, je program členěný na dvě části: démon spuštěný jako kořenový má na starosti aktivaci a nastavení síťového rozhraní a uživatelské rozhraní tohoto démona ovládá. Policykit obstarává požadované autorizace pro řízení tohoto programu, Debian na toto nastavil PolicyKit, takže prvky skupiny netdev mohou přidávat nebo měnit připojení síťového manažera (Network Managera)."
 
 msgid "Network Manager knows how to handle various types of connections (DHCP, manual configuration, local network), but only if the configuration is set with the program itself. This is why it will systematically ignore all network interfaces in <filename>/etc/network/interfaces</filename> for which it is not suited. Since Network Manager doesn't give details when no network connections are shown, the easy way is to delete from <filename>/etc/network/interfaces</filename> any configuration for all interfaces that must be managed by Network Manager."
-msgstr ""
+msgstr "Network Manager (síťový manažer) ví, jak obstarávat různé typy připojení (DHCP, manuální nastavení, místní síť), ale pouze na předpokladu, že konfigurace je nastavena programem samotným. Toto je důvod, proč bude systematicky ignorovat všechna síťová rozhraní v <filename>/etc/network/interfaces</filename> pro která není uzpůsobený. Protože síťový manažer neposkytuje detaily, pokud nejsou žádná síťová připojení ukázána, snadným způsobem je vymazání jakýchkoli nastavení pro všechna rozhraní, která se musí řídit síťovým manažerem, z <filename>/etc/network/interfaces</filename>."
 
 msgid "Note that this program is installed by default when the “Desktop Environment” task is chosen during initial installation."
-msgstr ""
+msgstr "Za zmínku stojí, že tento program je defaultně nainstalován, pokud je úloha “desktopové prostředí” vybrána během prvotní instalace."
 
 msgid "<emphasis>ALTERNATIVE</emphasis> Configuration by “network profile”"
-msgstr ""
+msgstr "<emphasis>ALTERNATIVA</emphasis> Nastavení pomocí “síťového profilu”"
 
 msgid "<primary><emphasis role=\"pkg\">guessnet</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"pkg\">guessnet</emphasis></primary>"
 
 msgid "More advanced users may want to try the <emphasis role=\"pkg\">guessnet</emphasis> package for automatic network configuration. A group of test scripts determine which network profile should be activated and configure it on the fly."
-msgstr ""
+msgstr "Pokročilí uživatelé mohou chtít vyzkoušet balíček <emphasis role=\"pkg\">guessnet</emphasis> pro automatické síťové nastavení. Skupina testovacích skriptů určuje, který síťový profil by měl být aktivován a nastaví jej za běhu."
 
 msgid "Users who prefer to manually select a network profile will prefer the <emphasis role=\"pkg\">netenv</emphasis> program, found in the package of the same name."
-msgstr ""
+msgstr "Uživatelé, kteří dávají přednost manuálnímu výběru síťového profilu, dají přednost programu <emphasis role=\"pkg\">netenv</emphasis>, který se nalézá v balíčku stejného jména."
 
 msgid "Setting the Hostname and Configuring the Name Service"
-msgstr ""
+msgstr "Nastavení jména hostitele a konfigurace jmenné služby"
 
 msgid "<primary>name</primary><secondary>attribution and resolution</secondary>"
-msgstr ""
+msgstr "<primary>jméno</primary><secondary>připisování a rozlišení</secondary>"
 
 msgid "<primary>assignment of names</primary>"
-msgstr ""
+msgstr "<primary>přiřazení jmen</primary>"
 
 msgid "The purpose of assigning names to IP numbers is to make them easier for people to remember. In reality, an IP address identifies a network interface associated with a device such as a network card. Since each machine can have several network cards, and several interfaces on each card, one single computer can have several names in the domain name system."
-msgstr ""
+msgstr "Účelem připisování jmen číslům IP je zjednodušení jejich zapamatování pro člověka. Ve skutečnosti, IP adresa identifikuje síťové rozhraní vztažené k zařízení jako je síťová karta. Protože každé zařízení může mít několik síťových karet a několik rozhraní na každé kartě, jeden jediný počítač může mít měkolik jmen v doménovém jménu systému."
 
 msgid "Each machine is, however, identified by a main (or “canonical”) name, stored in the <filename>/etc/hostname</filename> file and communicated to the Linux kernel by initialization scripts through the <command>hostname</command> command. The current value is available in a virtual filesystem, and you can get it with the <command>cat /proc/sys/kernel/hostname</command> command."
-msgstr ""
+msgstr "Nicméně, každé zařízení je identidikované pomocí hlavního (nebo “kanonického”) jména, uložené v souboru <filename>/etc/hostname</filename> a sdělené Linuxovému jádru inicializačním skriptem prostřednictvím příkazu <command>hostname</command>. Současná hodnota je dostupná ve virtuálním systému souborů a můžete ji obdržet pomocí příkazu <command>cat /proc/sys/kernel/hostname</command>."
 
 msgid "<primary><command>hostname</command></primary>"
-msgstr ""
+msgstr "<primary><command>hostname</command></primary>"
 
 msgid "<emphasis>BACK TO BASICS</emphasis> <filename>/proc/</filename> and <filename>/sys/</filename>, virtual filesystems"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> <filename>/proc/</filename> a <filename>/sys/</filename>, virtuální systém souborů"
 
 msgid "<primary><filename>/proc/</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>/proc/</filename></primary>"
 
 msgid "<primary><filename>proc</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>proc</filename></primary>"
 
 msgid "<primary><filename>/sys/</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>/sys/</filename></primary>"
 
 msgid "<primary><filename>sys</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>sys</filename></primary>"
 
 msgid "The <filename>/proc/</filename> and <filename>/sys/</filename> file trees are generated by “virtual” filesystems. This is a practical means of recovering information from the kernel (by listing virtual files) and communicating them to it (by writing to virtual files)."
-msgstr ""
+msgstr "Stromy souborů <filename>/proc/</filename> a <filename>/sys/</filename> jsou generované “virtuálním” souborovým systémem. Toto je praktický prostředek pro obnovování informací z jádra (vypisováním virtuálních souborů) a jejich sdělování jemu (pomocí zapisování do virtuálních souborů).   "
 
 msgid "<filename>/sys/</filename> in particular is designed to provide access to internal kernel objects, especially those representing the various devices in the system. The kernel can, thus, share various pieces of information: the status of each device (for example, if it is in energy saving mode), whether it is a removable device, etc. Note that <filename>/sys/</filename> has only existed since kernel version 2.6."
 msgstr ""
