@@ -1,0 +1,16 @@
+Překlad pomocí Weblate
+----------------------
+
+Pokud se rozhodnete používat Weblate, nemusíte se učit používat Git.
+Spojte se s námi na výše zmíněném poštovním seznamu, abychom mohli
+pro vás nastavit počáteční překladatelské soubory a jakmile se objeví
+na Weblate, můžete začít pracovat! Měli by jste nám sdělit ISO kód vašeho
+překladu (viz. "How to start a new translation" pro více informací o 
+možných ISO kódech).
+
+Každopádně si uvědomte, že nemůžete překládat obrázky pomocí Weblate,
+takže je někdo musí pro vás stále na repozitář Gitu umístit. Pokud je
+pro vás Git příliš komplikovaný, klidně pošlete soubory na poštovní
+seznam a požádejte někoho je pro vás na Git umístit (commit).
+
+     
