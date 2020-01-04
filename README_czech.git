@@ -1,0 +1,56 @@
+Poznámky k repozitáři Git
+-------------------------
+
+Přikládám některé důležité věci k čisté historii v repozitáři.
+Prosím tedy o dodržování pravidel a rad vložených do tohoto souboru.
+
+Naučte se Git
+-------------
+
+Pokud neznáte Git, obětujte prosím čas a přečtěte si dobrý tutoriál:
+
+$ man gittutorial
+
+Pokud chcete celou knihu, můžete přejít na http://progit.org
+
+Nastavení gitu
+--------------
+
+Ujistěte se, že jste správně v gitu nastavili vaše opravdové jméno a email:
+
+$ git config --global user.name "vaše celé jméno"
+$ git config --global user.email "vas@email"
+
+Stahování zdrojů
+----------------
+Anonymní přístup pouze pro čtení:
+$ git clone https://salsa.debian.org/hertzog/debian-handbook.git
+
+Přístup SSH pro přispěvatele s právem zapisovat:
+$ git clone git@salsa.debian.org:hertzog/debian-hankbook.git
+
+Altualizace vaší pracovní kopie
+-------------------------------
+
+Občas budete potřebovat zahrnout změny uskutečněné jinými od vaší
+poslední synchronizace (zejména před příkazem push, jinak bude push
+odmítnut), aby jste tak učinili, prosím použijte "git pull --rebase".
+
+Toto předejde součením (merges) a udrží čistou lineární historii.
+
+Protlačení (pushing) vaší práce do oficiálního repozitáře
+---------------------------------------------------------
+
+Oficiální repozitář je na salsa.debian.org, instanci Gitlabu Debianu.
+Přispívámí je tedy obyčejně provedeno pomocí slučovacího požadavku (merge).
+K tomu potřebujete rozdělit ("fork") oficiální repozitář na váš vlastní
+účet salsa.debian.org a protlačit (push) vaši práci na tento repozitář.
+
+Pro vytvoření účtu na salsa.debian.org prosím následujte postup z této 
+stránky ("Create a new guest account"):
+https://signup.salsa.debian.org/
+
+Jakmile se přihlásíte svým novým uživatelským účtem, můžete navštívit
+https://salsa.debian.org/hertzog/debian-handbook a kliknout na tlačítko 
+"Fork". Toto vytvoří kopii repozitáře dostupnou pod vaším vlastním 
+přihlašovacím jménem.   
