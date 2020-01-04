@@ -1,0 +1,78 @@
+Stylistic considerations
+------------------------
+
+Many of the suggestions in this file are meant for non-native English
+speakers (the authors are French). Don't be surprised if some of them
+seem obvious to you.
+
+* In titles, capitalize words that:
+  * are the first or the last word in the title
+  * are not conjunctions (“and”, “but”, “or”, “nor”), adpositions (“to”,
+    “over”), articles (“an”, “a”, “the”), or the “to” in infinitives.
+    More conjunctions: for, and, nor, but, or, yet, and so, both … and,
+    either … or, neither … nor, and not (only) … but (… also), “because“,
+    “if“, “so that“, “after“, “when“, “although“, “while“, and “even
+    though“.
+    More adpositions: of, to, in, for, on, with, as, by, at, from
+
+* Use the American spelling wherever applicable ("color" and not "colour",
+  etc.).
+
+* Use contractions only for negative forms:
+  * "don't", "won't", "isn't" are OK
+  * "it's", "there's" are not OK, use "it is", "there is"
+
+* Always write down the conjunction words (like "that") that you might
+  skip when you speak.
+
+* About punctuation:
+  * Use "semi-colon" for enumerations if "commas" are used in the list
+    items.
+  * The "semi-colon" can be used to link two sentences which are logically
+    related.
+  * Don't hesite to use "&mdash;" to separate subordinates clauses
+    (instead of parenthesis or commas).
+
+* Avoid too long sentences. Don't hesitate to cut them in two separate
+  sentences.
+
+* Remember to use "they" (and not "he") when you refer to some singular
+  "generic person". Example: “The administrator was busy, they could not
+  respond immediately.”
+
+* Use imperative forms when you list instructions:
+  “Run foo, then remove bar.”
+
+* When you explain what's coming up next in the book, you can use the
+  first person of the plural form ("we will now..." or "let us now
+  study...")
+
+* Use passive forms when the subject is not clearly identified (or doesn't
+  need to be clearly identified): “This key can be added by..." instead of
+  "The administrator can add this key by..."
+
+* Sidebars are categorized with an <emphasis>CATEGORY</emphasis> at
+  the start of their title. Here are the common categories:
+  - BACK TO BASICS
+  - TIP
+  - CULTURE
+  - GOING FURTHER
+  - CAUTION
+  - VOCABULARY
+  - TOOL/TOOLS
+  - ALTERNATIVE
+  - NOTE
+  - SECURITY
+  - IN PRACTICE
+  - QUICK LOOK
+  - COMMUNITY
+  - EXTRA
+  - DOCUMENTATION
+  - DEBIAN POLICY
+  - THE BROADER VIEW
+  - SPECIFIC CASE
+  - HARDWARE
+  - WORTH FOLLOWING
+  - DEBIAN SPECIFICITY
+  - GET INVOLVED
+  - BACKSTAGE

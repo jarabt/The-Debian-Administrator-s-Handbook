@@ -1,0 +1,90 @@
+Notes about the Git repository
+==============================
+
+I attach some importance to having a clean history in the repository.
+So please try to follow the rules and advice given in this file.
+
+Learn git
+---------
+
+If you don't know Git, please take the time to read a good tutorial:
+
+$ man gittutorial
+
+If you want a full book, you can checkout http://progit.org
+
+Configure git
+-------------
+
+Ensure you have properly configured Git with you real name and your email:
+
+$ git config --global user.name "Your Complete Name"
+$ git config --global user.email "your@email"
+
+Retrieving the sources
+----------------------
+Read-only anonymous access:
+$ git clone https://salsa.debian.org/hertzog/debian-handbook.git
+
+SSH access for contributors with write access:
+$ git clone git@salsa.debian.org:hertzog/debian-handbook.git
+
+Updating your working copy
+--------------------------
+
+From time to time, you will have to integrate the changes commited by
+others since your last synchronization (in particular before a push,
+otherwise your push will be rejected), please use "git pull --rebase" for
+this.
+
+This will avoid merges and keep a clean linear history.
+
+Pushing your work to the official repository
+--------------------------------------------
+
+The official repository is on salsa.debian.org, Debian's GitLab instance.
+Contributing is thus usually done through merge requests. For this
+you need to "fork" the official repository on your own salsa.debian.org
+account and push your work into this repository.
+
+To create an account on salsa.debian.org, follow the process from this
+page ("Create a new guest account"):
+https://signup.salsa.debian.org/
+
+Then once logged with your new user account, you can visit
+https://salsa.debian.org/hertzog/debian-handbook and click on the "Fork"
+button. This will create a copy of the repository available under
+your own username. Assuming foobar-guest is your username, it would
+then be accessible on https://salsa.debian.org/foobar-guest/debian-handbook
+and once you have configured your SSH key, you have full write access to
+your own repository with this git url:
+git@salsa.debian.org:foobar-guest/debian-handbook.git
+
+After having pushed your worked somewhere in your own repository, you
+can create a merge request here:
+https://salsa.debian.org/hertzog/debian-handbook/merge_requests
+
+Official branches
+-----------------
+
+- buster/master: development branch
+- stretch/master: main branch for the version targeting Stretch
+- jessie/master: main branch for the version targeting Jessie
+- jessie/print-en: print version of the English book targeting Jessie
+  (based on jessie/master but with supplementary markup to
+   avoid some pitfalls of the dblatex conversion)
+- jessie/print-fr: print version of the French book targeting Jessie
+  published by Eyrolles
+
+Official tags
+-------------
+
+They have this format <codename>-<type>-<lang>-<edition>.
+
+<codename> is the Debian release codename.
+<type> is "print" or "ebook".
+<lang> is the language code (ex: "en" or "pt-BR")
+<edition> is the edition number ("ed1" for the first edition)
+
+debian/<version> tags point to the corresponding releases of the Debian
+package.
