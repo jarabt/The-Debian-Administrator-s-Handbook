@@ -84,4 +84,28 @@ zda jste neporušili PO soubory. Zde je příklad kontroly
 pt-BR/01_the-debian-project.po, kde se našly nějaké věci:
 
 $ msgfmt -c -o /dev/null --statistics pt-BR/01_the-debian-project.po
-        
+pt-BR/01_the-debian-project.po:1432: 'msgid' and 'msgstr' entries do not both end with '\n'
+msgfmt: found 1 fatal error
+348 translated messages, 100 fuzzy translations, 9 untranslated messages.
+$ msgcat pt-BR/01_the-debian-project.po >/dev/null
+
+Překládání obrázků a schémat
+----------------------------
+
+Některá schémata obsahují text, který potřebuje přeložit. V techto případech,
+by jste měli zkopírovat náležité soubory .dia z en-US/images/ do adresáře
+images v rámci vašeho vlastního překladátorského adresáře (např. 
+pt-BR/images/), aktualizujte soubory dia a znovu vygenerujte odpovídající 
+soubory PNG (pomocí "make foo.png" cíle souboru Makefile).
+
+Některé snímky musí být znovu vytvořeny, aby se dalo použít umístění, co
+odpovídá vašemu jazyku. Udělejte snímky obrazovky a dejte je do adresáře
+obrázků vašeho překladu. (např. pt-BR/images/).
+
+Poznámka: zatím neexistuje žádný způsob, jak automaticky ověřit, zda jsou
+vaše přeložené schémata/obrázky aktualizované.
+
+Dotazy?
+-------
+
+Prostě se zeptejte na debian-handbook-translators@lists.alioth.debian.org.         
