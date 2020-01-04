@@ -53,4 +53,39 @@ https://signup.salsa.debian.org/
 Jakmile se přihlásíte svým novým uživatelským účtem, můžete navštívit
 https://salsa.debian.org/hertzog/debian-handbook a kliknout na tlačítko 
 "Fork". Toto vytvoří kopii repozitáře dostupnou pod vaším vlastním 
-přihlašovacím jménem.   
+přihlašovacím jménem. Za předpokladu, že foobar-guest je vaše přihlašovací
+jméno, bude potom dostupná na https://salsa.debian.org/foobar-guest/debian-handbook
+a jakmile nastavíte svůj SSH klíč, máte plný přístup se zapisováním do vašeho
+vlastního repozitáře s tímto git url:
+git@salsa.debian.org:foobar-guest/debian-handbook.git
+
+Poté, co jste protlačili vaši práci někam do vašeho repozitáře, můžete vytvořit
+slučovací požadavek (merge request) tady:
+https://salsa.debian.org/hertzog/debian-handbook/merge_requests
+
+Oficiální větve
+---------------
+
+- buster/master: developerská větev
+- stretch/master: hlavní větev pro verzi cílenou na Stretch
+- jessie/master: hlavní větev pro verzi cílenou na Jessie
+- jessie/print-en: tištěná verze anglické knihy cílené na Jessie
+  (založena na jessie/master, ale s doplňkovým značkováním, aby se předešlo
+  některým nástrahám konverze dblatex)
+- jessie/print-fr: tištěná verze francouzské knihy cílené na Jessie
+  vydané firmou Eyrolles
+
+Oficiální tagy
+--------------
+
+Mají tento formát <codename>-<type>-<lang>-<edition>.
+
+<codename> je kódové jméno pro vydání Debianu.
+<type> je "print" nebo "ebook".
+<lang> je kód jazyka (např. "en" nebo "pt-BR")
+<edition> je čísli edice ("ed1" pro první edici)
+
+Tagy debian/<version> ukazují na odpovídající vydání balíčku Debianu.
+  
+
+   
