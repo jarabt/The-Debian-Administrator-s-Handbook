@@ -1,0 +1,79 @@
+Stylistické úvahy
+-----------------
+
+Mnoho návrhů v tomto souboru je míněno pro nerodilé anglické mluvčí
+(autoři jsou Francouzi). Nebuďte překvapeni, pokud se vám některé budou
+zdát samozřejmé.
+
+* V názvech, velkým písmenem začínají slova co:
+  * jsou první nebo poslední v názvu
+  * nejsou spojky ("and", "but", "or", "nor"), předložky ("to", "over"),
+  členy ("an", "a", "the") nebo "to" v infinitivech.
+  Další spojky: for, and, nor, but, or, yet a so, both … and, either … or,
+  neither … nor, and not (only) … but (… also), "because", "if", "so that",
+  "after", "when", "although", "while" a "even though".
+  Další předložky: of, to, in, for, on, with, as, by, at, from.
+
+* Kde je to možné, používejte americký pravopis ("color" a ne "colour"
+  apod.).
+
+* Zkrácení používejte pouze pro vyjádření záporu:
+  * "don't", "won't", "isn't" jsou v pořádku
+  * "it's", "there's" nejsou v pořádku, použijte "it is", "there is"
+
+* Vždy vypisujte spojky (jake "that"), které můžete přeskočit, pokud
+  mluvíte.
+
+* O interpunkci:
+  * Pro vyjmenovávání použijte středník, zatímco čárky se používají pro
+  položky seznamu.
+  * Středník může být použit pro propojení dvou vět, které spolu logicky
+  souvisí.
+  * Neváhejte použít pomlčku pro oddělení podřízených vět (namísto
+  závorek nebo čárek).
+
+* Předejděte příliš dlouhým větám. Neváhejte je rozdělit do dvou
+  oddělených vět.
+
+* Pamatujte na to použít "they" (a ne "he") pokud odkazujete na nějakou
+  "obecnou osobu". Příklad: "The administrator was busy, they could not
+  respond immediately."
+
+* Používejte rozkazovací způsob, pokud vypisujete pokyny:
+  "Run foo, then remove bar."
+
+* Pokud vysvětlujete, co v knize následuje, můžete použít první osobu
+  množného čísla ("we will now..." nebo "let us now study...")
+
+* Používejte trpného rodu, pokud není subjekt jasně identifikován (nebo
+  nemusí být jasně identifikován): "This key can be added by..." namísto
+  "The administrator can add this key by..."
+
+* Postranní panely jsou kategorizovány pomocí 
+  <emphasis>KATEGORIE</emphasis> na začátku svého názvu. Zde jsou časté
+  kategorie:
+  - BACK TO BASICS
+  - TIP
+  - CULTURE
+  - GOING FURTHER
+  - CAUTION
+  - VOCABULARY
+  - TOOL/TOOLS
+  - ALTERNATIVE
+  - NOTE
+  - SECURITY
+  - IN PRACTICE
+  - QUICK LOOK
+  - COMMUNITY
+  - EXTRA
+  - DOCUMENTATION
+  - DEBIAN POLICY
+  - THE BROADER VIEW
+  - SPECIFIC CASE
+  - HARDWARE
+  - WORTH FOLLOWING
+  - DEBIAN SPECIFICITY
+  - GET INVOLVED
+  - BACKSTAGE
+
+     
