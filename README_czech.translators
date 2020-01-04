@@ -13,4 +13,70 @@ takže je někdo musí pro vás stále na repozitář Gitu umístit. Pokud je
 pro vás Git příliš komplikovaný, klidně pošlete soubory na poštovní
 seznam a požádejte někoho je pro vás na Git umístit (commit).
 
-     
+Překlad bez Weblate
+-------------------
+
+Pokud nepoužíváte Weblate, budete muset spolupracovat s repozitářem Git.
+Takže nejdříve si přečtěte README.git. Opravdu. A potom prosím
+respektujte níže uvedené instrukce.
+
+Prosím nenásobte umístění zbytečně. Pokud uděláte různá umístění,
+která pouze kompletují PO soubory, prosím zmáčkněte je dohromady před 
+protlačením (viz. man git-rebase ohledně vysvětlení jak zmáčknout umístění
+dohromady pomocí interaktivního znovusložení).
+
+Napište srozumitelnou zprávu umístění. Vždy začněte kódem jazyka daného
+překladu. Zde jsou některé příklady dobrých zpráv umístění:
+* it-IT: Add initial README file
+* es-ES: Complete translation of chapter 4
+* zh-CN: Review od chapter 3
+
+Jak začít nový překlad
+----------------------
+
+Nejdříve, musíte zjistit ISO kód vašeho překladu (vypadá jako "pt-BR" nebo
+"fr-FR"). Zde najdete seznam podporovaný Publicanem:
+https://jfearn.fedorapeople.org/en-US/Publican/4.2/html/Users_Guide/appe-Publican-Users_Guide-Language_codes.html
+
+(Použiji "pt-BR" jako příklad ve zbytku této sekce)
+
+Potom, pokud nemá Git repozitář adresář tohoto jména, potřebujete
+vytvořit počáteční překladatelské soubory:
+$ publican update_po --langs=pt-BR
+
+Nyní máte mnoho PO souborů v pt-BR/*.po, které můžete přeložit.
+Měli by jste pravděpodobně umístit (commit) prázdné PO soubory, než
+se pustíte dále.
+
+$ git add pt-BR/*.po
+$ git commit -m "pt-BR: Start new translation"
+
+Potom přidejte soubor pt-BR/README, kam zadáte:
+- jméno a email (současného) koordinátora překladu
+- jméno a email dobrovolníků, kteří se na překladu podílejí
+- vysvětlení (pro nové přispěvatele) o pracovním postupu, který
+  používáte pro koordinaci práce
+- překladatelská rozhodnutí, která jste učinili o použitém stylu,
+  slovník apod.
+
+$ vim pt-BR/README
+$ git add pt-BR/README
+$ git commit -m "pt-BR: Add initial README file"
+
+Samozřejmě můžete napsat soubor README ve svém rodném jazyku, pokud
+chcete, ale velice se doporučuje mít také anglický překlad instrukcí, 
+takže všichni ostatní mohou vidět, jak je daný tým organizovaný.
+
+Překládání PO souborů
+---------------------
+
+Je na vás, jaký nástroj použijete pro kompletaci PO souborů. Pokud jste
+udělali dost, můžete umístit vaše aktualizové PO soubory:
+$ git add pt-BR/*.po
+$ git commit -m "pt-BR: Updated translation"
+
+V závislosti na vašem postupu práce použitém vaším překladatelským 
+týmem, můžete vaši práci přímo protlačit nebo zpřístupnit ji vašemu
+překladatelskému koordinátorovi, který ji za vás začlení.
+
+        
