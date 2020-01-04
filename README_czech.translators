@@ -79,4 +79,9 @@ V závislosti na vašem postupu práce použitém vaším překladatelským
 týmem, můžete vaši práci přímo protlačit nebo zpřístupnit ji vašemu
 překladatelskému koordinátorovi, který ji za vás začlení.
 
+Pokud používáte čistý textový editor, prosím dvakrát překontrolujte, 
+zda jste neporušili PO soubory. Zde je příklad kontroly
+pt-BR/01_the-debian-project.po, kde se našly nějaké věci:
+
+$ msgfmt -c -o /dev/null --statistics pt-BR/01_the-debian-project.po
         
