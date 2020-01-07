@@ -641,49 +641,52 @@ msgid "The <filename>/proc/</filename> and <filename>/sys/</filename> file trees
 msgstr "Stromy souborů <filename>/proc/</filename> a <filename>/sys/</filename> jsou generované “virtuálním” souborovým systémem. Toto je praktický prostředek pro obnovování informací z jádra (vypisováním virtuálních souborů) a jejich sdělování jemu (pomocí zapisování do virtuálních souborů).   "
 
 msgid "<filename>/sys/</filename> in particular is designed to provide access to internal kernel objects, especially those representing the various devices in the system. The kernel can, thus, share various pieces of information: the status of each device (for example, if it is in energy saving mode), whether it is a removable device, etc. Note that <filename>/sys/</filename> has only existed since kernel version 2.6."
-msgstr ""
+msgstr "<filename>/sys/</filename> je v podstavě navržen pro poskytování přístupu k interním objektům jádra, zvláště těm, která reprezentují různá zařízení v systému. Jádro tak tedy může sdílet různé kusy informací: stav každého zařízení (například, zda je v módu úspory energie), zda je to odnímatelné zařízení apod. Za poznámku jistě stojí, že <filename>/sys/</filename> existuje až od jádra verze 2.6."
 
 msgid "Surprisingly, the domain name is not managed in the same way, but comes from the complete name of the machine, acquired through name resolution. You can change it in the <filename>/etc/hosts</filename> file; simply write a complete name for the machine there at the beginning of the list of names associated with the address of the machine, as in the following example:"
-msgstr ""
+msgstr "Překvapivě, doménové jméno není řízeno stejným způsobem, ale pochází z celkového jména zařízení, obdrženého při rozeznávání jména. Můžete jej změnit v souboru <filename>/etc/hosts</filename>; jednoduše sem, na začátek seznamu jmen vztažených k adrese zařízení, napište úplné jméno zařízení, stejně, jako v následujícím příkldu:" 
 
 msgid ""
 "\n"
 "127.0.0.1     localhost\n"
 "192.168.0.1   arrakis.falcot.com arrakis"
 msgstr ""
+"\n"
+"127.0.0.1     localhost\n"
+"192.168.0.1   arrakis.falcot.com arrakis"
 
 msgid "<primary><filename>hosts</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>hosts</filename></primary>"
 
 msgid "<primary><filename>/etc/hosts</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>/etc/hosts</filename></primary>"
 
 msgid "<primary>domain</primary><secondary>name</secondary>"
-msgstr ""
+msgstr "<primary>doména</primary><secondary>jméno</secondary>"
 
 msgid "<primary>name</primary><secondary>domain</secondary>"
-msgstr ""
+msgstr "<primary>jméno</primary><secondary>doména</secondary>"
 
 msgid "<primary>NSS</primary>"
-msgstr ""
+msgstr "<primary>NSS</primary>"
 
 msgid "Name Resolution"
-msgstr ""
+msgstr "Rozlišení jména"
 
 msgid "<primary>resolution</primary><secondary>name</secondary>"
-msgstr ""
+msgstr "<primary>rozlišení</primary><secondary>jméno</secondary>"
 
 msgid "<primary>name</primary><secondary>resolution</secondary>"
-msgstr ""
+msgstr "<primary>jméno</primary><secondary>rozlišení</secondary>"
 
 msgid "The mechanism for name resolution in Linux is modular and can use various sources of information declared in the <filename>/etc/nsswitch.conf</filename> file. The entry that involves host name resolution is <literal>hosts</literal>. By default, it contains <literal>files dns</literal>, which means that the system consults the <filename>/etc/hosts</filename> file first, then DNS servers. NIS/NIS+ or LDAP servers are other possible sources."
-msgstr ""
+msgstr "Mechanismus pro rozlišování jména je v Linuxu modulární a může použít různé zdroje informací deklarovaných v souboru <filename>/etc/nsswitch.conf</filename>. Vstup, který zahrnuje rozlišení hostitelského jména je <literal>hosts</literal>. Ve výchozím nastavení obsahuje <literal>files dns</literal>, což znamená, že nejdříve systém nahlédne do souboru <filename>/etc/hosts</filename> a potom do DNS serverů. NIS/NIS+ nebo LDAP servery jsou dalšími možnými zdroji."
 
 msgid "<emphasis>NOTE</emphasis> NSS and DNS"
-msgstr ""
+msgstr "<emphasis>POZNÁMKA</emphasis> NSS a DNS"
 
 msgid "Be aware that the commands specifically intended to query DNS (especially <command>host</command>) do not use the standard name resolution mechanism (NSS). As a consequence, they do not take into consideration <filename>/etc/nsswitch.conf</filename>, and thus, not <filename>/etc/hosts</filename> either."
-msgstr ""
+msgstr "Uvědomte si, že tyto příkazy, které mají konkrétně v úmyslu dotazovat DNS (konkrétně <command>host</command>) nepoužívjí standardní mechanismus na rozlišení jména (NSS). Jako důsledek toho, neberou v úvahu ani <filename>/etc/nsswitch.conf</filename> ani <filename>/etc/hosts</filename>."
 
 msgid "Configuring DNS Servers"
 msgstr ""
