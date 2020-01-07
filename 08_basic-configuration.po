@@ -689,28 +689,28 @@ msgid "Be aware that the commands specifically intended to query DNS (especially
 msgstr "Uvědomte si, že tyto příkazy, které mají konkrétně v úmyslu dotazovat DNS (konkrétně <command>host</command>) nepoužívjí standardní mechanismus na rozlišení jména (NSS). Jako důsledek toho, neberou v úvahu ani <filename>/etc/nsswitch.conf</filename> ani <filename>/etc/hosts</filename>."
 
 msgid "Configuring DNS Servers"
-msgstr ""
+msgstr "Nastavení DNS Serveru"
 
 msgid "<primary>DNS</primary>"
-msgstr ""
+msgstr "<primary>DNS</primary>"
 
 msgid "<primary>Domain Name Service</primary>"
-msgstr ""
+msgstr "<primary>Domain Name Service</primary>"
 
 msgid "DNS (Domain Name Service) is a distributed and hierarchical service mapping names to IP addresses, and vice-versa. Specifically, it can turn a human-friendly name such as <literal>www.eyrolles.com</literal> into the actual IP address, <literal>213.244.11.247</literal>."
-msgstr ""
+msgstr "DNS (Domain Name Service) je distribuovaná a hierarchická služba mapující jména k IP adresám a naopak. Přesněji, může přeměnit člověku přátelské jméno jako je <literal>www.eyrolles.com</literal> na opravdovou IP adresu, <literal>213.244.11.247</literal>."
 
 msgid "To access DNS information, a DNS server must be available to relay requests. Falcot Corp has its own, but an individual user is more likely to use the DNS servers provided by their ISP."
-msgstr ""
+msgstr "Pro přístup k DNS informacím, DNS server musí být dostupný a předávat požadavky. Falcot Corp má svůj vlastní, ale samostatný uživatel s větší pravděpodobností použije DNS server svého ISP."
 
 msgid "<primary><filename>resolv.conf</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>resolv.conf</filename></primary>"
 
 msgid "<primary><literal>nameserver</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>nameserver</literal></primary>"
 
 msgid "The DNS servers to be used are indicated in the <filename>/etc/resolv.conf</filename>, one per line, with the <literal>nameserver</literal> keyword preceding an IP address, as in the following example:"
-msgstr ""
+msgstr "DNS servery k použití jsou označeny v <filename>/etc/resolv.conf</filename>, každý na jednom řádku, s klíčovým slovem <literal>nameserver</literal> předcházejícím IP adresu, stejně jako v tomto příkladu:"
 
 msgid ""
 "\n"
@@ -718,18 +718,22 @@ msgid ""
 "nameserver 212.27.32.177\n"
 "nameserver 8.8.8.8"
 msgstr ""
+"\n"
+"nameserver 212.27.32.176\n"
+"nameserver 212.27.32.177\n"
+"nameserver 8.8.8.8"
 
 msgid "Note that the <filename>/etc/resolv.conf</filename> file may be handled automatically (and overwritten) when the network is managed by NetworkManager or configured via DHCP."
-msgstr ""
+msgstr "Za poznámku stojí, že se souborem <filename>/etc/resolv.conf</filename> může být manipulváno automaticky (a může být i přepisován), pokud je síť řízena NetworkManagerem nebo nastavována přes DHCP."
 
 msgid "The <filename>/etc/hosts</filename> file"
-msgstr ""
+msgstr "Soubor <filename>/etc/hosts</filename>"
 
 msgid "If there is no name server on the local network, it is still possible to establish a small table mapping IP addresses and machine hostnames in the <filename>/etc/hosts</filename> file, usually reserved for local network stations. The syntax of this file is very simple: each line indicates a specific IP address followed by the list of any associated names (the first being “completely qualified”, meaning it includes the domain name)."
-msgstr ""
+msgstr "Pokud v lokální síti neexistuje žádný jmenný server, je stále možné zřídit malou tabulku mapující IP adresy a hostitelská jména zařízení v souboru <filename>/etc/hosts</filename>, obyčejně rezervovaným pro stanice místní sítě. Syntax tohoto souboru je velmi jednoduchý: každý řádek ukazuje specifickou IP adresu následovanou seznamem jakýchkoli vztažených jmen (první bývá “úplně klasifikovaná”, což znamená včetně doménového jména)."
 
 msgid "This file is available even during network outages or when DNS servers are unreachable, but will only really be useful when duplicated on all the machines on the network. The slightest alteration in correspondence will require the file to be updated everywhere. This is why <filename>/etc/hosts</filename> generally only contains the most important entries."
-msgstr ""
+msgstr "Tento soubor je k dispozici jak během výpadků proudu, tak v případě, že jsou DNS servery nedostupné, ale bude skutečně užitečný, pokud bude nakopírován na všech zařízeních v síti. Sebemenší úprava v korespondenci bude vyžadovat, aby byl soubor všude aktualizován. Proto <filename>/etc/hosts</filename> obyčejně obsahuje pouze nejdůležitější záznamy."
 
 msgid "This file will be sufficient for a small network not connected to the Internet, but with 5 machines or more, it is recommended to install a proper DNS server."
 msgstr ""
