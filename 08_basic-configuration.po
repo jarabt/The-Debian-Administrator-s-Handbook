@@ -772,19 +772,19 @@ msgid "<emphasis>NOTE</emphasis> Editing system files"
 msgstr "<emphasis>POZNÁMKA</emphasis> Editace systémových souborů"
 
 msgid "The system files mentioned in this chapter are all plain text files, and can be edited with a text editor. Considering their importance to core system functionality, it is always a good idea to take extra precautions when editing system files. First, always make a copy or backup of a system file before opening or altering it. Second, on servers or machines where more than one person could potentially access the same file at the same time, take extra steps to guard against file corruption."
-msgstr ""
+msgstr "Veškeré systémové soubory zmíněné v této kapitole jsou čisté textové soubory a mohou být upravované pomocí textového editoru. S ohledem na jejich důležitost co do klíčové systémové funkcionality, je vždy dobré učinit zvláštní preventivní opatření při editaci systémových souborů. Nejdříve, vždy si udělejte kopii nabo zálohu systémového souboru před jeho otevřením nebo pozměněním. Za druhé, na serverech či zařízeních, kde může mít více než jedna osoba přístup k tomu samému souboru v ten samý čas, učiňte kroky navíc a chraňte soubory proti narušení."
 
 msgid "For this purpose, it is enough to use the <command>vipw</command> command to edit the <filename>/etc/passwd</filename> file, or <command>vigr</command> to edit <filename>/etc/group</filename>. These commands lock the file in question prior to running the text editor, (<command>vi</command> by default, unless the <varname>EDITOR</varname> environment variable has been altered). The <literal>-s</literal> option in these commands allows editing the corresponding <foreignphrase>shadow</foreignphrase> file."
-msgstr ""
+msgstr "K tomuto účelu je dostatečné pro editaci souboru <filename>/etc/passwd</filename> použít příkaz <command>vipw</command> nebo <command>vigr</command> pro editaci <filename>/etc/group</filename>. Tyto příkazy zamykají dotyčný soubor před spuštěním textového editoru, (<command>vi</command> ve výchozím nastavení, pokud nebyla proměnná prostředí <varname>EDITOR</varname> upravena). Volba <literal>-s</literal> u těchto příkazů umožňuje upravování odpovídajícího <foreignphrase>shadow</foreignphrase> souboru."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Crypt, a one-way function"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Crypt, jednocestná funkce"
 
 msgid "<primary>crypt</primary>"
-msgstr ""
+msgstr "<primary>crypt</primary>"
 
 msgid "<command>crypt</command> is a one-way function that transforms a string (<varname>A</varname>) into another string (<varname>B</varname>) in a way that <varname>A</varname> cannot be derived from <varname>B</varname>. The only way to identify <varname>A</varname> is to test all possible values, checking each one to determine if transformation by the function will produce <varname>B</varname> or not. It uses up to 8 characters as input (string <varname>A</varname>) and generates a string of 13, printable, ASCII characters (string <varname>B</varname>)."
-msgstr ""
+msgstr "<primary>crypt</primary> jednocestná funkce, která "
 
 msgid "User List: <filename>/etc/passwd</filename>"
 msgstr ""
