@@ -784,148 +784,148 @@ msgid "<primary>crypt</primary>"
 msgstr "<primary>crypt</primary>"
 
 msgid "<command>crypt</command> is a one-way function that transforms a string (<varname>A</varname>) into another string (<varname>B</varname>) in a way that <varname>A</varname> cannot be derived from <varname>B</varname>. The only way to identify <varname>A</varname> is to test all possible values, checking each one to determine if transformation by the function will produce <varname>B</varname> or not. It uses up to 8 characters as input (string <varname>A</varname>) and generates a string of 13, printable, ASCII characters (string <varname>B</varname>)."
-msgstr "<primary>crypt</primary> jednocestná funkce, která "
+msgstr "<primary>crypt</primary> je jednocestná funkce, která přemění řetězec (<varname>A</varname>) na jiný řetězec (<varname>B</varname>) takovým způsobem, že (<varname>A</varname>) nemůže být od řetězce (<varname>B</varname>) odvozen. Jediný způsob, jak identidikovat (<varname>A</varname>), je testování všech možných hodnot a kontrolovat každou z nich k určení, zda přeměna za pomocí funkce vytvoří (<varname>B</varname>), či ne. Používá do osmi znaků na vstupu (řetězec <varname>A</varname>) a generuje řetězec o třinácti tisknutelných ASCII znacích (řetězec <varname>B</varname>)."
 
 msgid "User List: <filename>/etc/passwd</filename>"
-msgstr ""
+msgstr "Seznam uživatelů: <filename>/etc/passwd</filename>"
 
 msgid "Here is the list of fields in the <filename>/etc/passwd</filename> file:"
-msgstr ""
+msgstr "Zde je seznam polí v souboru <filename>/etc/passwd</filename>:"
 
 msgid "<primary><command>passwd</command></primary>"
-msgstr ""
+msgstr "<primary><command>passwd</command></primary>"
 
 msgid "<primary><filename>/etc/passwd</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>/etc/passwd</filename></primary>"
 
 msgid "<primary><literal>uid</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>uid</literal></primary>"
 
 msgid "<primary><literal>gid</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>gid</literal></primary>"
 
 msgid "<primary><literal>GECOS</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>GECOS</literal></primary>"
 
 msgid "<primary><literal>login</literal></primary>"
-msgstr ""
+msgstr "<primary><literal>login</literal></primary>"
 
 msgid "login, for example <literal>rhertzog</literal>;"
-msgstr ""
+msgstr "login, například <literal>rhertzog</literal>;"
 
 msgid "password: this is a password encrypted by a one-way function (<command>crypt</command>), relying on <literal>DES</literal>, <literal>MD5</literal>, <literal>SHA-256</literal> or <literal>SHA-512</literal>. The special value “<literal>x</literal>” indicates that the encrypted password is stored in <filename>/etc/shadow</filename>;"
-msgstr ""
+msgstr "password: toto je heslo zašifrované jednocestnou funkcí (<command>crypt</command>), spoléhající na <literal>DES</literal>, <literal>MD5</literal>, <literal>SHA-256</literal> nebo <literal>SHA-512</literal>. Speciální hodnota “<literal>x</literal>” značí, že zašifrované heslo je uloženo v <filename>/etc/shadow</filename>"
 
 msgid "<literal>uid</literal>: unique number identifying each user;"
-msgstr ""
+msgstr "<literal>uid</literal>: unikátní číslo identifikující každého uživatele;"
 
 msgid "<literal>gid</literal>: unique number for the user's main group (Debian creates a specific group for each user by default);"
-msgstr ""
+msgstr "<literal>gid</literal>: uníkátní číslo pro uživatelovu hlavní skupinu (Debian vytváří ve výchozím nastavení konkrétní skupinu pro každého uživatele);"
 
 msgid "<literal>GECOS</literal>: data field usually containing the user's full name;"
-msgstr ""
+msgstr "<literal>GECOS</literal>: datové pole obyčejně obsahující uživatelovo celé jméno;"
 
 msgid "login directory, assigned to the user for storage of their personal files (the environment variable <varname>$HOME</varname> generally points here);"
-msgstr ""
+msgstr "login adresář, určený uživateli pro uložení jeho osobních souborů (proměnná prostředí <varname>$HOME</varname> sem většinou ukazuje);"
 
 msgid "program to execute upon login. This is usually a command interpreter (shell), giving the user free rein. If you specify <command>/bin/false</command> (which does nothing and returns control immediately), the user cannot login."
-msgstr ""
+msgstr "program ke spuštění při přihlášení. To je většinou příkazový interpret (shell), který dává uživateli volnou ruku. Pokud předepíšete <command>/bin/false</command> (což nedělá nic a vrací ihned kontrolu), uživatel se nemůže přihlásit."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Unix group"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Unixová skupina"
 
 msgid "<primary>group</primary>"
-msgstr ""
+msgstr "<primary>group</primary>"
 
 msgid "A Unix group is an entity including several users so that they can easily share files using the integrated permission system (by benefiting from the same rights). You can also restrict use of certain programs to a specific group."
-msgstr ""
+msgstr "Unixová skupina je entita zahrnující několik uživatelů, takže mohou snadno sdílet soubory za použití integrovaného systému povolení (těží z toho, že mají stejná práva). Můžete také zakázat použití některých programů určitým skupinám."
 
 msgid "The Hidden and Encrypted Password File: <filename>/etc/shadow</filename>"
-msgstr ""
+msgstr "Ukrytý a zašifrovaný soubor: <filename>/etc/shadow</filename>"
 
 msgid "<primary><filename>shadow</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>shadow</filename></primary>"
 
 msgid "<primary><filename>/etc/shadow</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>/etc/shadow</filename></primary>"
 
 msgid "The <filename>/etc/shadow</filename> file contains the following fields:"
-msgstr ""
+msgstr "Soubor <primary><filename>/etc/shadow</filename></primary> zahrnuje následující pole:"
 
 msgid "login;"
-msgstr ""
+msgstr "login;"
 
 msgid "encrypted password;"
-msgstr ""
+msgstr "encrypted password;"
 
 msgid "several fields managing password expiration."
-msgstr ""
+msgstr "Několik polí řídících ukončení platnosti hesla."
 
 msgid "<emphasis>DOCUMENTATION</emphasis> <filename>/etc/passwd</filename>, <filename>/etc/shadow</filename> and <filename>/etc/group</filename> file formats"
-msgstr ""
+msgstr "<emphasis>DOKUMENTACE</emphasis> <filename>/etc/passwd</filename>, formáty souboru <filename>/etc/shadow</filename> a <filename>/etc/group</filename>"
 
 msgid "These formats are documented in the following man pages: <citerefentry><refentrytitle>passwd</refentrytitle><manvolnum>5</manvolnum></citerefentry>, <citerefentry><refentrytitle>shadow</refentrytitle><manvolnum>5</manvolnum></citerefentry>, and <citerefentry><refentrytitle>group</refentrytitle><manvolnum>5</manvolnum></citerefentry>."
-msgstr ""
+msgstr "Tyto formáty jsou zdokumentovány na následujících manuálových strankách: <citerefentry><refentrytitle>passwd</refentrytitle><manvolnum>5</manvolnum></citerefentry>, <citerefentry><refentrytitle>shadow</refentrytitle><manvolnum>5</manvolnum></citerefentry>, a <citerefentry><refentrytitle>group</refentrytitle><manvolnum>5</manvolnum></citerefentry>."
 
 msgid "<emphasis>SECURITY</emphasis> <filename>/etc/shadow</filename> file security"
-msgstr ""
+msgstr "<emphasi>BEZPEČNOST</emphasis> bezpečnost souborů <filename>/etc/shadow</filename>"
 
 msgid "<filename>/etc/shadow</filename>, unlike its alter-ego, <filename>/etc/passwd</filename>, cannot be read by regular users. Any encrypted password stored in <filename>/etc/passwd</filename> is readable by anybody; a cracker could try to “break” (or reveal) a password by one of several “brute force” methods which, simply put, guess at commonly used combinations of characters. This attack — called a \"dictionary attack\" — is no longer possible on systems using <filename>/etc/shadow</filename>."
-msgstr ""
+msgstr "<filename>/etc/shadow</filename>, na rozdíl od svého druhého já, <filename>/etc/passwd</filename>, nemohou číst běžní uživatelé. Kterékoli ze zašifrovaných hesel uložených v <filename>/etc/passwd</filename> si může kdokoli přečíst; hacker se může pokusit “rozluštit” (nebo odhalit) heslo pomocí některé z metod “hrubé síly”, která jednoduše hádá a zadává běžně užívané kombinace znaků. Tento útok — nazývaný \"dictionary attack\" — již není možný na systémech používajících <filename>/etc/shadow</filename>."
 
 msgid "Modifying an Existing Account or Password"
-msgstr ""
+msgstr "Změna existujícího účtu nebo hesla"
 
 msgid "<primary><command>chsh</command></primary>"
-msgstr ""
+msgstr "<primary><command>chsh</command></primary>"
 
 msgid "<primary><command>chfn</command></primary>"
-msgstr ""
+msgstr "<primary><command>chfn</command></primary>"
 
 msgid "<primary><command>chage</command></primary>"
-msgstr ""
+msgstr "<primary><command>chage</command></primary>"
 
 msgid "<primary>password</primary>"
-msgstr ""
+msgstr "<primary>password</primary>"
 
 msgid "The following commands allow modification of the information stored in specific fields of the user databases: <command>passwd</command> permits a regular user to change their password, which in turn, updates the <filename>/etc/shadow</filename> file; <command>chfn</command> (CHange Full Name), reserved for the super-user (root), modifies the <literal>GECOS</literal> field. <command>chsh</command> (CHange SHell) allows the user to change their login shell, however available choices will be limited to those listed in <filename>/etc/shells</filename>; the administrator, on the other hand, is not bound by this restriction and can set the shell to any program of their choosing."
-msgstr ""
+msgstr "Následující příkazy umožňují změnu informace uložené v určitých polích databáze uživatelů: <command>passwd</command> dovoluje běžnému uživateli změnit své heslo, což následně aktualizuje soubor <filename>/etc/shadow</filename>; <command>chfn</command> (CHange Full Name), rezervovaný pro uživatele super-user (root), mění pole <literal>GECOS</literal>. <command>chsh</command> (CHange SHell) umožňuje uživateli změnit svůj přihlašovací interpretr (login shell), nicméně možné volby jsou omezeny na ty, které jsou vyjmenovány v <filename>/etc/shells</filename>; správce, na druhou stranu, není těmito omezeními vázán a může nastavit interpretr na jakýkoli podle své volby."
 
 msgid "Finally, the <command>chage</command> (CHange AGE) command allows the administrator to change the password expiration settings (the <literal>-l <replaceable>user</replaceable></literal> option will list the current settings). You can also force the expiration of a password using the <command>passwd -e <replaceable>user</replaceable></command> command, which will require the user to change their password the next time they log in."
-msgstr ""
+msgstr "Konečně, příkaz <command>chage</command> (CHange AGE) umožňuje správci změnit nastavení ukončení platnosti hesla (<literal>-l <replaceable>uživatel</replaceable></literal> volba vypíše seznam současných nastavení). Můžeze také násilně ukončit platnost hesla za použití příkazu <command>passwd -e <replaceable>uživatel</replaceable></command>, což bude vyžadovat po uživateli, aby změnil své heslo při příštím přihlášení."
 
 msgid "Disabling an Account"
-msgstr ""
+msgstr "Zablokování účtu"
 
 msgid "<primary>Disable an account</primary>"
-msgstr ""
+msgstr "<primary>Zablokonání účtu</primary>"
 
 msgid "<primary>account</primary><secondary>disable</secondary>"
-msgstr ""
+msgstr "<primary>účet</primary><secondary>zablokovat</secondary>"
 
 msgid "You may find yourself needing to “disable an account” (lock out a user), as a disciplinary measure, for the purposes of an investigation, or simply in the event of a prolonged or definitive absence of a user. A disabled account means the user cannot login or gain access to the machine. The account remains intact on the machine and no files or data are deleted; it is simply inaccessible. This is accomplished by using the command <command>passwd -l <replaceable>user</replaceable></command> (lock). Re-enabling the account is done in similar fashion, with the <literal>-u</literal> option (unlock)."
-msgstr ""
+msgstr "Můžete se dostat do situace, kdy budete potřebovat “zablokovat účet” (nevpustit uživatele), jako kárné opatření, pro účely šetření nebo jednoduše v případě prodloužené nebo definitivní nepřítomnosti uživatele. Zablokovaný účet znamená, že se uživatel nemůže přihlásit nebo získat přístup k zařízení. Účet zůstává na zařízení nedotčený a žádná data nebo soubory nejsou vymazány; je jednoduše nedostupný. To je dosaženo za použití příkazu <command>passwd -l <replaceable>uživatel</replaceable></command> (lock). Odblokování účtu se udělá stejným způsobem, pomocí volby <literal>-u</literal> (unlock)"
 
 msgid "<emphasis>GOING FURTHER</emphasis> NSS and system databases"
-msgstr ""
+msgstr "<emphasis>JDEME DÁLE</emphasis> NSS a databáze systému"
 
 msgid "<primary>Name Service Switch</primary>"
-msgstr ""
+msgstr "<primary>Name Service Switch</primary>"
 
 msgid "Instead of using the usual files to manage lists of users and groups, you could use other types of databases, such as LDAP or <command>db</command>, by using an appropriate NSS (Name Service Switch) module. The modules used are listed in the <filename>/etc/nsswitch.conf</filename> file, under the <literal>passwd</literal>, <literal>shadow</literal> and <literal>group</literal> entries. See <xref linkend=\"sect.config-nss\" /> for a specific example of the use of an NSS module by LDAP."
-msgstr ""
+msgstr "Namísto použití běžných souborů k řízení seznamů uživatelů a skupin, můžete použít jiné typy databází, jako je LDAP nebo <command>db</command>, za použití vhodného modulu NSS (Name Service Switch). Použité moduly jsou vypsány v souboru <filename>/etc/nsswitch.conf</filename>, pod vstupy <literal>passwd</literal>, <literal>shadow</literal> a <literal>group</literal>. Viz. <xref linkend=\"sect.config-nss\" />, kde je konkrétní příklad použití NSS modulu prostřednictvím LDAP."
 
 msgid "Group List: <filename>/etc/group</filename>"
-msgstr ""
+msgstr "Seznam skupin: <filename>/etc/group</filename>"
 
 msgid "Groups are listed in the <filename>/etc/group</filename> file, a simple textual database in a format similar to that of the <filename>/etc/passwd</filename> file, with the following fields:"
-msgstr ""
+msgstr "Skupiny jsou vypsány v souboru <filename>/etc/group</filename>, což je jednoduchá databáze ve formátu podobném souboru <filename>/etc/passwd</filename> s následujícími poli:"
 
 msgid "group name;"
-msgstr ""
+msgstr "group name;"
 
 msgid "password (optional): This is only used to join a group when one is not a usual member (with the <command>newgrp</command> or <command>sg</command> commands, see sidebar <xref linkend=\"sidebar.working-with-several-groups\" />);"
-msgstr ""
+msgstr "password (volitelné): To se používá pro připojení se ke skupině, někým, kdo není normální člen (pomocí příkazů <command>newgrp</command> nebo <command>sg</command> viz. poznámka na straně <xref linkend=\"sidebar.working-with-several-groups\" />);"
 
 msgid "<literal>gid</literal>: unique group identification number;"
 msgstr ""
