@@ -928,112 +928,112 @@ msgid "password (optional): This is only used to join a group when one is not a 
 msgstr "password (volitelné): To se používá pro připojení se ke skupině, někým, kdo není normální člen (pomocí příkazů <command>newgrp</command> nebo <command>sg</command> viz. poznámka na straně <xref linkend=\"sidebar.working-with-several-groups\" />);"
 
 msgid "<literal>gid</literal>: unique group identification number;"
-msgstr ""
+msgstr "<literal>gid</literal>: jedinečné identifikační číslo skupiny"
 
 msgid "list of members: list of names of users who are members of the group, separated by commas."
-msgstr ""
+msgstr "seznam členů: seznam jmen uživatelů, kteří jsou členy skupiny, oddělených čárkami."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Working with several groups"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Práce s několika skupinami"
 
 msgid "<primary><command>newgrp</command></primary>"
-msgstr ""
+msgstr "<primary><command>newgrp</command></primary>"
 
 msgid "<primary><command>sg</command></primary>"
-msgstr ""
+msgstr "<primary><command>sg</command></primary>" 
 
 msgid "<primary><command>id</command></primary>"
-msgstr ""
+msgstr "<primary><command>id</command></primary>"
 
 msgid "<primary>group</primary><secondary>change</secondary>"
-msgstr ""
+msgstr "<primary>skupina</primary><secondary>změna</secondary>"
 
 msgid "Each user may be a member of many groups; one of them is their “main group”. A user's main group is, by default, created during initial user configuration. By default, each file that a user creates belongs to them, as well as to their main group. This is not always desirable; for example, when the user needs to work in a directory shared by a group other than their main group. In this case, the user needs to change their main group using one of the following commands: <command>newgrp</command>, which starts a new shell, or <command>sg</command>, which simply executes a command using the supplied alternate group. These commands also allow the user to join a group to which they do not belong. If the group is password protected, they will need to supply the appropriate password before the command is executed."
-msgstr ""
+msgstr "Každý uživatel může být členem mnoha skupin; jedna z nich je “hlavní skupina”. Uživatelova hlavní skupina je, v počátečním nastavení, vytvořena během prvotního uživatelského nastavení. Ve výchozím nastavení, každý soubor, který uživatel vytvoří, mu patří, stejně jako jeho skupině. Toto není vždy žádoucí; například, pokud uživatel potřebuje pracovat v adresáři sdíleném jinou skupinou, než je jeho hlavní skupina. V tomto případě, uživatel musí změnit svoji hlavní skupinu za použití jednoho z následujících příkazů: <command>newgrp</command>, který spustí nový interpretr (shell) nebo <command>sg</command>, který jednoduše spustí příkaz za použití doplněné alternativní skupiny. Tyto příkazy také umožňují uživateli se připojit ke skupině, ke které nepatří. Pokud je skupina chráněná heslem, bude muset doplnit správné heslo před příkaz, který se spouští."
 
 msgid "Alternatively, the user can set the <literal>setgid</literal> bit on the directory, which causes files created in that directory to automatically belong to the correct group. For more details, see sidebar <xref linkend=\"sidebar.setgid-dir\" />."
-msgstr ""
+msgstr "Popřípadě, uživatel může nastavit <literal>setgid</literal> bit na adresáři, který zapříčiní to, že soubory vytvořené v tomto adresáři automaticky patří správné skupině. Pro více detailů se podívejte na poznámku na straně <xref linkend=\"sidebar.setgid-dir\" />."
 
 msgid "The <command>id</command> command displays the current state of a user, with their personal identifier (<varname>uid</varname> variable), current main group (<varname>gid</varname> variable), and the list of groups to which they belong (<varname>groups</varname> variable)."
-msgstr ""
+msgstr "Příkaz <command>id</command> zobrazí současný stav uživatele, s jeho osobním identifikátorem (proměnnou <varname>uid</varname>), současnou hlavní skupinou (proměnnou <varname>gid</varname>) a seznamem skupin, ke kterým patří (proměnnou <varname>groups</varname>)."
 
 msgid "<primary><filename>group</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>group</filename></primary>"
 
 msgid "<primary><filename>/etc/group</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>/etc/group</filename></primary>"
 
 msgid "The <command>addgroup</command> and <command>delgroup</command> commands add or delete a group, respectively. The <command>groupmod</command> command modifies a group's information (its <literal>gid</literal> or identifier). The command <command>passwd -g <replaceable>group</replaceable></command> changes the password for the group, while the <command>passwd -r -g <replaceable>group</replaceable></command> command deletes it."
-msgstr ""
+msgstr "Příkazy <command>addgroup</command> a <command>delgroup</command> skupinu přidávají nebo respektive mažou. Příkaz <command>groupmod</command> mění informace skupiny (její <literal>gid</literal> nebo identifikátor). Příkaz <command>passwd -g <replaceable>skupina</replaceable></command> mění heslo skupiny, zatímco příkaz <command>passwd -r -g <replaceable>skupina</replaceable></command> jej smaže."
 
 msgid "<primary><command>addgroup</command></primary>"
-msgstr ""
+msgstr "<primary><command>addgroup</command></primary>"
 
 msgid "<primary><command>delgroup</command></primary>"
-msgstr ""
+msgstr "<primary><command>delgroup</command></primary>"
 
 msgid "<primary><command>groupmod</command></primary>"
-msgstr ""
+msgstr "<primary><command>groupmod</command></primary>"
 
 msgid "<primary>group</primary><secondary>creation</secondary>"
-msgstr ""
+msgstr "<primary>skupina</primary><secondary>vytvoření</secondary>"
 
 msgid "<primary>creation</primary><secondary>of groups</secondary>"
-msgstr ""
+msgstr "<primary>vytvoření</primary><secondary>skupin</secondary>"
 
 msgid "<primary>group</primary><secondary>deletion</secondary>"
-msgstr ""
+msgstr "<primary>skupina</primary><secondary>vymazání</secondary>"
 
 msgid "<primary>deletion of a group</primary>"
-msgstr ""
+msgstr "<primary>vymazání skupiny</primary>"
 
 msgid "<emphasis>TIP</emphasis> <command>getent</command>"
-msgstr ""
+msgstr "<emphasis>TIP</emphasis> <command>getent</command>"
 
 msgid "<primary><command>getent</command></primary>"
-msgstr ""
+msgstr "<primary><command>getent</command></primary>"
 
 msgid "The <command>getent</command> (get entries) command checks the system databases the standard way, using the appropriate library functions, which in turn call the NSS modules configured in the <filename>/etc/nsswitch.conf</filename> file. The command takes one or two arguments: the name of the database to check, and a possible search key. Thus, the command <command>getent passwd rhertzog</command> will give the information from the user database regarding the user <literal>rhertzog</literal>."
-msgstr ""
+msgstr "Příkaz <command>getent</command> (get entries) prohledává systémové databáze standardním způsobem za použití odpovídajících funkcí knihovny, které obratem volají NSS moduly nastavené v souboru <filename>/etc/nsswitch.conf</filename>. Příkaz přijímá jeden nebo dva argumenty: jméno databáze, která se má kontrolovat a možný vyhledávací klíč. Takže, příkaz <command>getent passwd rhertzog</command> dá informace z uživatelské databáze ohledně uživatele <literal>rhertzog</literal>."
 
 msgid "Creating Accounts"
-msgstr ""
+msgstr "Vytváření účtů"
 
 msgid "<primary>account</primary><secondary>creation</secondary>"
-msgstr ""
+msgstr "<primary>účet</primary><secondary>vytvoření</secondary>"
 
 msgid "<primary>creation</primary><secondary>of user accounts</secondary>"
-msgstr ""
+msgstr "<primary>vytvoření</primary><secondary>uživatelského konta</secondary>"
 
 msgid "One of the first actions an administrator needs to do when setting up a new machine is to create user accounts. This is typically done using the <command>adduser</command> command which takes a user-name for the new user to be created, as an argument."
-msgstr ""
+msgstr "Jeden z prvních úkonů, co administrátor musí udělat při nastavování nového zařízení, je vytvořit uživatelské konto. To se typicky udělá použitím příkazu <command>adduser</command>, který přijme pro vytvoření nového uživatele uživatelské jméno (user-name) jako argument."
 
 msgid "<primary><command>adduser</command></primary>"
-msgstr ""
+msgstr "<primary><command>adduser</command></primary>"
 
 msgid "The <command>adduser</command> command asks a few questions before creating the account, but its usage is fairly straightforward. Its configuration file, <filename>/etc/adduser.conf</filename>, includes all the interesting settings: it can be used to automatically set a quota for each new user by creating a user template, or to change the location of user accounts; the latter is rarely useful, but it comes in handy when you have a large number of users and want to divide their accounts over several disks, for instance. You can also choose a different default shell."
-msgstr ""
+msgstr "Příkaz <command>adduser</command> položí několik otázek před vytvořením účtu, ale jeho použití je velice přímočaré. Jeho nastavovací soubor <filename>/etc/adduser.conf</filename> obsahuje veškerá zajímavá nastavení: může být použit pro automatické nastavní kvóty pro každého nového uživatele tím, že vytvoří uživatelskou šablonu nebo může být použit pro změnu umístění uživatelských účtů; ten posledně jmenovaný je málokdy použitelný, ale přijde vhod, když máte například velký počet uživatelů a chcete rozdělit jejich účty mezi několik disků. Můžete také vybrat jiný přednastavený shell (interpret)."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Quota"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLDŮM</emphasis> Quota"
 
 msgid "<primary>quota</primary>"
-msgstr ""
+msgstr "<primary>quota</primary>"
 
 msgid "The term “quota” refers to a limit on machine resources that a user is allowed to use. This frequently refers to disk space."
-msgstr ""
+msgstr "Termín “quota” odkazuje na omezení zdrojů zařízení, které jsou uživateli povoleny použít. Často se jedná o místo na disku."
 
 msgid "The creation of an account populates the user's home directory with the contents of the <filename>/etc/skel/</filename> template. This provides the user with a set of standard directories and configuration files."
-msgstr ""
+msgstr "Vytvoření účtu osídlí uživatelův domovský adresář obsahem šablony <filename>/etc/skel/</filename>. Ten vybaví uživatele souborem standardních adresářů a nastavovacích souborů."
 
 msgid "<primary>group</primary><secondary>add a user</secondary>"
-msgstr ""
+msgstr "<primary>skupina</primary><secondary>přidání uživatele</secondary>"
 
 msgid "<primary>add a user to a group</primary>"
-msgstr ""
+msgstr "<primary>přidání uživatele do skupiny</primary>"
 
 msgid "In some cases, it will be useful to add a user to a group (other than their default “main” group) in order to grant them additional permissions. For example, a user who is included in the <emphasis>audio</emphasis> group can access audio devices (see sidebar <xref linkend=\"sidebar.special-files\" />). This can be achieved with a command such as <command>adduser <replaceable>user</replaceable> <replaceable>group</replaceable></command>."
-msgstr ""
+msgstr "V některých případech je užitečné přidat uživatele do skupiny (jiné, než je jeho “hlavní” skupina) za účelem postoupení mu dodatečných povolení.         "
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Device access permissions"
 msgstr ""
