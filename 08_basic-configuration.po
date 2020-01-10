@@ -1033,16 +1033,16 @@ msgid "<primary>add a user to a group</primary>"
 msgstr "<primary>přidání uživatele do skupiny</primary>"
 
 msgid "In some cases, it will be useful to add a user to a group (other than their default “main” group) in order to grant them additional permissions. For example, a user who is included in the <emphasis>audio</emphasis> group can access audio devices (see sidebar <xref linkend=\"sidebar.special-files\" />). This can be achieved with a command such as <command>adduser <replaceable>user</replaceable> <replaceable>group</replaceable></command>."
-msgstr "V některých případech je užitečné přidat uživatele do skupiny (jiné, než je jeho “hlavní” skupina) za účelem postoupení mu dodatečných povolení.         "
+msgstr "V některých případech je užitečné přidat uživatele do skupiny (jiné, než je jeho “hlavní” skupina) za účelem postoupení mu dodatečných povolení. Například, uživatel, který je zahrnut ve skupině <emphasis>audio</emphasis> může přistoupit k audio zařízením (více v poznámce na straně <xref linkend=\"sidebar.special-files\" />). Toho může být dosaženo příkazem jako je <command>adduser <replaceable>uživatel</replaceable> <replaceable>group</replaceable></command>."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Device access permissions"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Povolení pro přístup k zařízením"
 
 msgid "<primary>device</primary><secondary>access permissions</secondary>"
-msgstr ""
+msgstr "<primary>zařízení</primary><secondary>povolení přístupu</secondary>"
 
 msgid "<primary>file</primary><secondary>special</secondary>"
-msgstr ""
+msgstr "<primary>soubor</primary><secondary>speciální</secondary>"
 
 msgid "<primary>mode</primary><secondary>character</secondary>"
 msgstr ""
