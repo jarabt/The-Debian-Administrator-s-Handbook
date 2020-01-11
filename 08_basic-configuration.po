@@ -1063,103 +1063,103 @@ msgid "<primary><command>mknod</command></primary>"
 msgstr "<primary><command>mknod</command></primary>"
 
 msgid "Each hardware peripheral device is represented under Unix with a special file, usually stored in the file tree under <filename>/dev/</filename> (DEVices). Two types of special files exist according to the nature of the device: “character mode” and “block mode” files, each mode allowing for only a limited number of operations. While character mode limits interaction with read/write operations, block mode also allows seeking within the available data. Finally, each special file is associated with two numbers (“major” and “minor”) that identify the device to the kernel in a unique manner. Such a file, created by the <command>mknod</command> command, simply contains a symbolic (and more human-friendly) name."
-msgstr "Každé hardwarové periferní zařízení je pod Unixem zastoupeno speciálním souborem, obvykle uloženého v souborovém stromu pod <filename>/dev/</filename> (DEVices) Existují dva typy speciálních souborů podle povahy zařízení: soubory “character mode” a “block mode”, každý mód umožňuje pouze omezený počet operací. ."
+msgstr "Každé hardwarové periferní zařízení je pod Unixem zastoupeno speciálním souborem, obvykle uloženého v souborovém stromu pod <filename>/dev/</filename> (DEVices) Existují dva typy speciálních souborů podle povahy zařízení: soubory “character mode” a “block mode”, každý mód umožňuje pouze omezený počet operací. Zatímco character mode omezuje interakci s operacemi read/write, block mode také umožňuje vyhledávání v rámci dostupných dat. A konečně, každý speciální soubor je spjatý s dvěma čísly ((“major” a “minor”), která identifikují zařízení vzhledem k jádru jedinečným způsobem. Takový soubor, vytvořený příkazem <command>mknod</command>, jednoduše obsahuje symbolické (a pro člověka zapamatovatelné) jméno."
 
 msgid "The permissions of a special file map to the permissions necessary to access the device itself. Thus, a file such as <filename>/dev/mixer</filename>, representing the audio mixer, only has read/write permissions for the root user and members of the <literal>audio</literal> group. Only these users can operate the audio mixer."
-msgstr ""
+msgstr "Povolení speciálního souboru mapují povolení nezbytná pro přístup k vlastnímu zařízení. Takže, soubor, jako je <filename>/dev/mixer</filename>, reprezentující audio mixer, má pouze povolení read/write pro kořenového uživatele a uživatele skupiny <literal>audio</literal>. Pouze tito uživatelé mohou provozovat audio mixer."
 
 msgid "It should be noted that the combination of <emphasis role=\"pkg\">udev</emphasis>, <emphasis role=\"pkg\">consolekit</emphasis> and <emphasis role=\"pkg\">policykit</emphasis> can add additional permissions to allow users physically connected to the console (and not through the network) to access to certain devices."
-msgstr ""
+msgstr "Ještě by se mělo poznamenat, že kombinace <emphasis role=\"pkg\">udev</emphasis>, <emphasis role=\"pkg\">consolekit</emphasis> a <emphasis role=\"pkg\">policykit</emphasis> může přidat doplňující povolení a umožnit tak uživatelům fyzicky připojených ke konzole (a ne prostřednictvím sítě) přístup k určitým zařízením."
 
 msgid "Shell Environment"
-msgstr ""
+msgstr "Prostředí shellu"
 
 msgid "Command interpreters (or shells) can be a user's first point of contact with the computer, and they must therefore be rather friendly. Most of them use initialization scripts that allow configuration of their behavior (automatic completion, prompt text, etc.)."
-msgstr ""
+msgstr "Překladače příkazů (nebo shelly) mohou být uživatelovo první místo kontaktu s počítačem a proto musí být spíše přátelské. Většina z nich používá inicializační skripty, které umožňují nastavení jejich chování (automatické dokončování, texty výzev apod.)."
 
 msgid "<primary>command line interface</primary>"
-msgstr ""
+msgstr "<primary>rozhraní příkazového řádku</primary>"
 
 msgid "<primary>command interpreter</primary>"
-msgstr ""
+msgstr "<primary>příkazový překladač</primary>"
 
 msgid "<primary>shell</primary>"
-msgstr ""
+msgstr "<primary>shell</primary>"
 
 msgid "<primary><command>bash</command></primary>"
-msgstr ""
+msgstr "<primary><command>bash</command></primary>"
 
 msgid "<command>bash</command>, the standard shell, uses the <filename>/etc/bash.bashrc</filename> initialization script for “interactive” shells, and <filename>/etc/profile</filename> for “login” shells."
-msgstr ""
+msgstr "<command>bash</command>, standardní shell, používá inicializační skript <filename>/etc/bash.bashrc</filename> pro “interaktivní” shelly a <filename>/etc/profile</filename> pro “login” shelly."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Login shell and (non) interactive shell"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Login shell a (ne) interaktivní shell"
 
 msgid "In simple terms, a login shell is invoked when you login to the console either locally or remotely via <command>ssh</command>, or when you run an explicit <command>bash --login</command> command. Regardless of whether it is a login shell or not, a shell can be interactive (in an <command>xterm</command>-type terminal for instance); or non-interactive (when executing a script)."
-msgstr ""
+msgstr "Zjednodušeně řečeno, login shell je vyvolán, když se přihlásíte ke konzole, ať už místně nebo vzdáleně přes <command>ssh</command> nebo když spustíte explicitní příkaz <command>bash --login</command>. Ať už to je login shell či ne, shell může být interaktivní (například v terminálu typu <command>xterm</command>); nebo neinteraktivní (při spuštění skriptu)."
 
 msgid "<emphasis>DISCOVERY</emphasis> Other shells, other scripts"
-msgstr ""
+msgstr "<emphasis>OBJEVOVÁNÍ</emphasis> Ostatní shelly, jiné skripty"
 
 msgid "Each command interpreter has a specific syntax and its own configuration files. Thus, <command>zsh</command> uses <filename>/etc/zshrc</filename> and <filename>/etc/zshenv</filename>; <command>csh</command> uses <filename>/etc/csh.cshrc</filename>, <filename>/etc/csh.login</filename> and <filename>/etc/csh.logout</filename>. The man pages for these programs document which files they use."
-msgstr ""
+msgstr "Každý příkazový překladač má specifický syntax a své vlastní nastavovací soubory. Takže <command>zsh</command> používá <filename>/etc/zshrc</filename> a <filename>/etc/zshenv</filename>; <command>csh</command> používá <filename>/etc/csh.cshrc</filename>, <filename>/etc/csh.login</filename> a <filename>/etc/csh.logout</filename>"
 
 msgid "<primary><command>zsh</command></primary>"
-msgstr ""
+msgstr "<primary><command>zsh</command></primary>"
 
 msgid "<primary><command>csh</command></primary>"
-msgstr ""
+msgstr "<primary><command>csh</command></primary>"
 
 msgid "For <command>bash</command>, it is useful to activate “automatic completion” in the <filename>/etc/bash.bashrc</filename> file (simply uncomment a few lines)."
-msgstr ""
+msgstr "Pro <command>bash</command>, je užitečné aktivovat “automatické dokončování” v souboru <filename>/etc/bash.bashrc</filename> (jednoduše odkomentováním několika málo řádků)."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Automatic completion"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Automatické dokončování"
 
 msgid "<primary>automatic completion</primary>"
-msgstr ""
+msgstr "<primary>automatické dokončování</primary>"
 
 msgid "Many command interpreters provide a completion feature, which allows the shell to automatically complete a partially typed command name or argument when the user hits the <keycap>Tab</keycap> key. This lets users work more efficiently and be less error-prone."
-msgstr ""
+msgstr "Mnoho příkazových překladačů poskytuje dokončovací funkcionalitu, která umožňuje shellu automaticky kompletovat částečně zadaná příkazová jména nebo argumenty, jakmile uživatel stiskne klávesu <keycap>Tab</keycap>. To umožňuje uživatelům pracovat efektivněji a bezchybněji."
 
 msgid "This function is very powerful and flexible. It is possible to configure its behavior according to each command. Thus, the first argument following <command>apt-get</command> will be proposed according to the syntax of this command, even if it does not match any file (in this case, the possible choices are <literal>install</literal>, <literal>remove</literal>, <literal>upgrade</literal>, etc.)."
-msgstr ""
+msgstr "Tato funkce je velmi výkonná a flexibilní. Je možné nastavit její chování vzhledem ke každému příkazu. Takže, první argument následující po <command>apt-get</command> bude navrhnut vzhledem k syntaxi tohoto příkazu, i když nevyhovuje žádnému souboru (v tomto případě jsou možné volby <literal>install</literal>, <literal>remove</literal>, <literal>upgrade</literal> apod.)."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> The tilde, a shortcut to HOME"
-msgstr ""
+msgstr "<emphasis>BACK TO BASICS</emphasis> Vlnovka, zkratka k HOME"
 
 msgid "<primary>~</primary>"
-msgstr ""
+msgstr "<primary>~</primary>"
 
 msgid "<primary>tilde</primary>"
-msgstr ""
+msgstr "<primary>tilde</primary>"
 
 msgid "The tilde is often used to indicate the directory to which the environment variable, <varname>HOME</varname>, points (being the user's home directory, such as <filename>/home/rhertzog/</filename>). Command interpreters automatically make the substitution: <filename>~/hello.txt</filename> becomes <filename>/home/rhertzog/hello.txt</filename>."
-msgstr ""
+msgstr "Vlnovka je často používaná k označení adresáře, kam ukazuje proměnná prostředí <varname>HOME</varname> (což je uživatelův domovský adresář, jako je <filename>/home/rhertzog/</filename>). Příkazové překladače automaticky provedou náhradu: <filename>~/hello.txt</filename> se stane <filename>/home/rhertzog/hello.txt</filename>."
 
 msgid "The tilde also allows access to another user's home directory. Thus, <filename>~rmas/bonjour.txt</filename> is synonymous with <filename>/home/rmas/bonjour.txt</filename>."
-msgstr ""
+msgstr "Vlnovka také umožní přístup k ostatním uživatelovým domovským adresářům. Takže, <filename>~rmas/bonjour.txt</filename> je synonymum pro <filename>/home/rmas/bonjour.txt</filename>."
 
 msgid "In addition to these common scripts, each user can create their own <filename>~/.bashrc</filename> and <filename>~/.bash_profile</filename> to configure their shell. The most common changes are the addition of aliases; these are words that are automatically replaced with the execution of a command, which makes it faster to invoke that command. For instance, you could create the <literal>la</literal> alias for the command <command>ls -la | less</command> command; then you only have to type <command>la</command> to inspect the contents of a directory in detail."
-msgstr ""
+msgstr "K těmto běžným skriptům si může uživatel vytvořit své vlastní <filename>~/.bashrc</filename> a <filename>~/.bash_profile</filename> k nastavení svého shellu. Nejběžnějšími změnami je přidání aliasů; to jsou slova, která jsou automaticky nahrazena spuštěním příkazu, což urychluje jeho vyvolání. Například můžete vytvořit alias <literal>la</literal> pro příkaz <command>ls -la | less</command>; potom musíte pouze napsat <command>la</command> za účelem detailního prohlédnutí si obsahu adresáře."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Environment variables"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> proměnné prostředí"
 
 msgid "<primary>environment</primary><secondary>environment variable</secondary>"
-msgstr ""
+msgstr "<primary>prostředí</primary><secondary>proměnná prostředí</secondary>"
 
 msgid "<primary>variable, environment</primary>"
-msgstr ""
+msgstr "<primary>proměnná, prostředí</primary>"
 
 msgid "Environment variables allow storage of global settings for the shell or various other programs called. They are contextual (each process has its own set of environment variables) but inheritable. This last characteristic offers the possibility for a login shell to declare variables which will be passed down to all programs it executes."
-msgstr ""
+msgstr "Proměnné prostředí umožňují uložení globálních nastavení shellu nebo různých jiných programů, co se volají. Jsou kontextové (každý proces má svoji vlastní sadu proměnných prostředí), ale dědičné. Tato poslední charakteristika nabízí možnost pro login shell deklarovat proměnné, které budou předány všem programům, které spouští."
 
 msgid "Setting default environment variables is an important element of shell configuration. Leaving aside the variables specific to a shell, it is preferable to place them in the <filename>/etc/environment</filename> file, since it is used by the various programs likely to initiate a shell session. Variables typically defined there include <varname>ORGANIZATION</varname>, which usually contains the name of the company or organization, and <varname>HTTP_PROXY</varname>, which indicates the existence and location of an HTTP proxy."
-msgstr ""
+msgstr "Nastavování přednastavených proměnných prostředí je důležitý prvek nastavení shellu. Pokud necháme stranou proměnné specifické pro shell, upřdnostňuje se je umístit do souboru <filename>/etc/environment</filename>, protože ten se používá různými programy majícími v úmyslu nastartovat nějaký proces na shellu. Mezi proměnné, které se tu typicky definují patří <varname>ORGANIZATION</varname>, která obyčejně obsahuje jméno firmy nebo organizace a <varname>HTTP_PROXY</varname>, která označuje přítomnost a umístění HTTP proxy serveru."
 
 msgid "<emphasis>TIP</emphasis> All shells configured identically"
-msgstr ""
+msgstr "<emphasis>TIP</emphasis> Všechny shelly jsou nakonfigurovány identicky"
 
 msgid "Users often want to configure their login and interactive shells in the same way. To do this, they choose to interpret (or “source”) the content from <filename>~/.bashrc</filename> in the <filename>~/.bash_profile</filename> file. It is possible to do the same with files common to all users (by calling <filename>/etc/bash.bashrc</filename> from <filename>/etc/profile</filename>)."
 msgstr ""
