@@ -1045,25 +1045,25 @@ msgid "<primary>file</primary><secondary>special</secondary>"
 msgstr "<primary>soubor</primary><secondary>speciální</secondary>"
 
 msgid "<primary>mode</primary><secondary>character</secondary>"
-msgstr ""
+msgstr "<primary>mode</primary><secondary>character</secondary>"
 
 msgid "<primary>mode</primary><secondary>block</secondary>"
-msgstr ""
+msgstr "<primary>mode</primary><secondary>block</secondary>"
 
 msgid "<primary>block, mode</primary>"
-msgstr ""
+msgstr "<primary>block, mode</primary>"
 
 msgid "<primary>character, mode</primary>"
-msgstr ""
+msgstr "<primary>character, mode</primary>"
 
 msgid "<primary>special, file</primary>"
-msgstr ""
+msgstr "<primary>speciální, soubor</primary>"
 
 msgid "<primary><command>mknod</command></primary>"
-msgstr ""
+msgstr "<primary><command>mknod</command></primary>"
 
 msgid "Each hardware peripheral device is represented under Unix with a special file, usually stored in the file tree under <filename>/dev/</filename> (DEVices). Two types of special files exist according to the nature of the device: “character mode” and “block mode” files, each mode allowing for only a limited number of operations. While character mode limits interaction with read/write operations, block mode also allows seeking within the available data. Finally, each special file is associated with two numbers (“major” and “minor”) that identify the device to the kernel in a unique manner. Such a file, created by the <command>mknod</command> command, simply contains a symbolic (and more human-friendly) name."
-msgstr ""
+msgstr "Každé hardwarové periferní zařízení je pod Unixem zastoupeno speciálním souborem, obvykle uloženého v souborovém stromu pod <filename>/dev/</filename> (DEVices) Existují dva typy speciálních souborů podle povahy zařízení: soubory “character mode” a “block mode”, každý mód umožňuje pouze omezený počet operací. ."
 
 msgid "The permissions of a special file map to the permissions necessary to access the device itself. Thus, a file such as <filename>/dev/mixer</filename>, representing the audio mixer, only has read/write permissions for the root user and members of the <literal>audio</literal> group. Only these users can operate the audio mixer."
 msgstr ""
