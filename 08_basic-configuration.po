@@ -1630,49 +1630,49 @@ msgid "<emphasis>NOTE</emphasis> System clock, hardware clock"
 msgstr "<emphasis>POZNÁMKA</emphasis> Hodiny systému, hodiny hardwaru"
 
 msgid "There are two time sources in a computer. A computer's motherboard has a hardware clock, called the “CMOS clock”. This clock is not very precise, and provides rather slow access times. The operating system kernel has its own, the software clock, which it keeps up to date with its own means (possibly with the help of time servers, see <xref linkend=\"sect.time-synchronization\" />). This system clock is generally more accurate, especially since it doesn't need access to hardware variables. However, since it only exists in live memory, it is zeroed out every time the machine is booted, contrary to the CMOS clock, which has a battery and therefore “survives” rebooting or halting of the machine. The system clock is, thus, set from the CMOS clock during boot, and the CMOS clock is updated on shutdown (to take into account possible changes or corrections if it has been improperly adjusted)."
-msgstr ""
+msgstr "V počítači existují dva časové zdroje. Základní deska počítače má hardwarové hodiny, nazývané “CMOS clock”. Tyto hodiny nejsou příliš přesné a poskytují časy poměrně pomalým přístupem. Jádro operačního systému má svoje vlastní, softwarové hodiny, které udržuje v aktuálním stavu svými vlastními prosředky (třeba za pomoci časového serveru, viz. <xref linkend=\"sect.time-synchronization\" />). Tento systém hodin je obecně přesnější, zvláště proto, že nepotřebuje přístup k hardwarovým proměnným. Každopádně, protože existuje pouze v živé paměti, je vynulován pokaždé, když se zařízení bootuje, narozdíl od hodin CMOS, které mají baterii a proto “přežívají” rebootování nebo zastavení zařízení. Systémové hodiny jsou tedy nastaveny z CMOS hodin během bootování a CMOS hodiny jsou aktualizovány při vypnutí (aby se vzali v úvahu možné změny nebo korekce, pokud byly nesprávně seřízeny)."
 
 msgid "In practice, there is a problem, since the CMOS clock is nothing more than a counter and contains no information regarding the time zone. There is a choice to make regarding its interpretation: either the system considers it runs in universal time (UTC, formerly GMT), or in local time. This choice could be a simple shift, but things are actually more complicated: as a result of daylight saving time, this offset is not constant. The result is that the system has no way to determine whether the offset is correct, especially around periods of time change. Since it is always possible to reconstruct local time from universal time and the timezone information, we strongly recommend using the CMOS clock in universal time."
-msgstr ""
+msgstr "V praxi je zde problém, protože CMOS hodiny nejsou nic jiného, než počítadlo a neobsahují žádné informace ohledně časové zóny. Je zde volba, která se může využít ohledně jejich interpretace: ať už systém zjistí, že běží na univerzálním čase (UTC, dříve GMT) nebo na místním čase. Tato volba může být pouhé přehození, ale věci jsou ve skutečnosti složitější: důsledkem letního času tato kompenzace není konstantní. Výsledek je, že systém nemá žádnou šanci, jak určit, zda je kompenzace správná, zvláště kolem období, kdy dochází ke změné času. Protože je vždy možné obnovit místní čas z univerzálního času a informace o časové zóně, hodně doporučujeme použití CMOS hodin v univerzálním čase."
 
 msgid "Unfortunately, Windows systems in their default configuration ignore this recommendation; they keep the CMOS clock on local time, applying time changes when booting the computer by trying to guess during time changes if the change has already been applied or not. This works relatively well, as long as the system has only Windows running on it. But when a computer has several systems (whether it be a “dual-boot” configuration or running other systems via virtual machine), chaos ensues, with no means to determine if the time is correct. If you absolutely must retain Windows on a computer, you should either configure it to keep the CMOS clock as UTC (setting the registry key <literal>HKLM\\SYSTEM\\CurrentControlSet\\Control\\TimeZoneInformation\\RealTimeIsUniversal</literal> to “1” as a DWORD), or use <command>hwclock --localtime --set</command> on the Debian system to set the hardware clock and mark it as tracking the local time (and make sure to manually check your clock in spring and autumn)."
-msgstr ""
+msgstr "Bohužel, systém Windows ve svém výchozím nastavení ignoruje toto doporučení; udžeje CMOS hodiny na místním čase a uplatňuje změny času při bootování počítače tím, že se snaží během změn času uhodnout, zda již změna byla uplatněna, či ne. Toto funguje relativně dobře, dokud na systému běží pouze Windows. Ale pokud má počítač více různých systémů (ať už to je nastavení “dual-boot” nebo běh jiného sytému prostřednictvím virtuálního zařízení), nastává chaos, s žádnými prostředky jak zjistit, zda je čas správný. Pokud si nevyhnutelně musíte Windows na počítači ponechat, měli by jste jej buď nastavit, aby si udržel CMOS hodiny jako UTC (nastavení registrového klíče <literal>HKLM\\SYSTEM\\CurrentControlSet\\Control\\TimeZoneInformation\\RealTimeIsUniversal</literal> na “1” jako DWORD) nebo použít <command>hwclock --localtime --set</command> na systému Debian a nastavit tak hardwarové hodiny a označit je, že následují místní čas (a ujistit se, že manuálně zkontrolujete svůj čas na jaře a na podzim)."
 
 msgid "Time Synchronization"
-msgstr ""
+msgstr "Časová synchronizace"
 
 msgid "<primary>time synchronization</primary>"
-msgstr ""
+msgstr "<primary>časová synchronizace</primary>"
 
 msgid "<primary>clock</primary><secondary>synchronization</secondary>"
-msgstr ""
+msgstr "<primary>hodiny</primary><secondary>synchronizace</secondary>"
 
 msgid "Time synchronization, which may seem superfluous on a computer, is very important on a network. Since users do not have permissions allowing them to modify the date and time, it is important for this information to be precise to prevent confusion. Furthermore, having all of the computers on a network synchronized allows better cross-referencing of information from logs on different machines. Thus, in the event of an attack, it is easier to reconstruct the chronological sequence of actions on the various machines involved in the compromise. Data collected on several machines for statistical purposes won't make a great deal of sense if they are not synchronized."
-msgstr ""
+msgstr "Časová synchronizace, jakkoli se může zdát na počítači nadbytečná, je velmi důležitá v síti. Protože uživatelé nemají povolení k pozměňování datumu a času, je pro tuto informaci důležité, aby byla přesná a zamezila tak zmatkům. Navíc, to, že máte všechny počítače v síti synchronizované, umožňuje lepší vzájemné porovnávání informací z logů na různých počítačích. Takže, v případě útoku je jednodušší rekonstruovat časové sekvence akcí na různých zařízeních zapletených do nalomení. Sběr dat na různých počítačích pro statistické účely nebude dávat valný smysl, pokud nebudou synchronizovány."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> NTP"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> NTP"
 
 msgid "<primary>NTP</primary>"
-msgstr ""
+msgstr "<primary>NTP</primary>"
 
 msgid "<primary>Network</primary><secondary>Time Protocol</secondary>"
-msgstr ""
+msgstr "<primary>Síť</primary><secondary>Časový protokol</secondary>"
 
 msgid "NTP (Network Time Protocol) allows a machine to synchronize with others fairly accurately, taking into consideration the delays induced by the transfer of information over the network and other possible offsets."
-msgstr ""
+msgstr "NTP (Network Time Protocol) umožňuje zařízení, aby se synchronizovalo s ostatními velice přesně, s tím, že bere v úvahu zpoždění vyvolaná přenosem informací sítí a další možné kompenzace."
 
 msgid "While there are numerous NTP servers on the Internet, the more popular ones may be overloaded. This is why we recommend using the <emphasis>pool.ntp.org</emphasis> NTP server, which is, in reality, a group of machines that have agreed to serve as public NTP servers. You could even limit use to a sub-group specific to a country, with, for example, <emphasis>us.pool.ntp.org</emphasis> for the United States, or <emphasis>ca.pool.ntp.org</emphasis> for Canada, etc."
-msgstr ""
+msgstr "I když je na internetu mnoho NTP serverů, ty populárněnší mohou být přehlcené. Proto doporučujeme použití NTP serveru <emphasis>pool.ntp.org</emphasis>, který je ve skutečnosti skupinou zařízení, co souhlasila, že bude sloužit jako veřejný NTP server. Můžete dokonce omezit použití na podskupinu specifickou pro určitou zemi, pomocí, například, <emphasis>us.pool.ntp.org</emphasis> pro USA nebo <emphasis>ca.pool.ntp.org</emphasis> pro Kanadu apod."
 
 msgid "However, if you manage a large network, it is recommended that you install your own NTP server, which will synchronize with the public servers. In this case, all the other machines on your network can use your internal NTP server instead of increasing the load on the public servers. You will also increase homogeneity with your clocks, since all the machines will be synchronized on the same source, and this source is very close in terms of network transfer times."
-msgstr ""
+msgstr "Nicméně, pokud řídíte rozsáhlou síť, doporučuje se si nainstalovat svůj vlastní NTP server, který bude synchronizován s veřejnými servery. V tomto případě budou všechny ostatní zařízení na síti moci použít váš interní NTP server namísto navyšování zatížení na veřejných serverech. Také navýšíte homogenitu se svými hodinami, protože všechna zařízení budou synchronizována s tím samým zdrojem a tento zdroj je velice blízko co do síťových přenosných časů."
 
 msgid "For Workstations"
-msgstr ""
+msgstr "Pro pracovní stanice"
 
 msgid "Since work stations are regularly rebooted (even if only to save energy), synchronizing them by NTP at boot is enough. To do so, simply install the <emphasis role=\"pkg\">ntpdate</emphasis> package. You can change the NTP server used if needed by modifying the <filename>/etc/default/ntpdate</filename> file."
-msgstr ""
+msgstr "Protože se pracovní stanice pravidelně "
 
 msgid "<primary><filename>ntpdate</filename></primary>"
 msgstr ""
