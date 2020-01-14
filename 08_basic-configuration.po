@@ -1672,19 +1672,19 @@ msgid "For Workstations"
 msgstr "Pro pracovní stanice"
 
 msgid "Since work stations are regularly rebooted (even if only to save energy), synchronizing them by NTP at boot is enough. To do so, simply install the <emphasis role=\"pkg\">ntpdate</emphasis> package. You can change the NTP server used if needed by modifying the <filename>/etc/default/ntpdate</filename> file."
-msgstr "Protože se pracovní stanice pravidelně "
+msgstr "Protože se pracovní stanice pravidelně opakované bootují (i když pouze kvůli úspoře energie), jejich synchronizace pomocí NTP při bootování je dostatečné. Aby jste to udělali, jednoduše nainstalujte balíček <emphasis role=\"pkg\">ntpdate</emphasis>. Můžete změnit používaný NTP server, tím, že změníte soubor <filename>/etc/default/ntpdate</filename>."
 
 msgid "<primary><filename>ntpdate</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>ntpdate</filename></primary>"
 
 msgid "<primary><filename>/etc/default/ntpdate</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>/etc/default/ntpdate</filename></primary>"
 
 msgid "For Servers"
-msgstr ""
+msgstr "Pro servery"
 
 msgid "Servers are only rarely rebooted, and it is very important for their system time to be correct. To permanently maintain correct time, you would install a local NTP server, a service offered in the <emphasis role=\"pkg\">ntp</emphasis> package. In its default configuration, the server will synchronize with <emphasis>pool.ntp.org</emphasis> and provide time in response to requests coming from the local network. You can configure it by editing the <filename>/etc/ntp.conf</filename> file, the most significant alteration being the NTP server to which it refers. If the network has a lot of servers, it may be interesting to have one local time server which synchronizes with the public servers and is used as a time source by the other servers of the network."
-msgstr ""
+msgstr "Servery se bootují jen velice zřídka a je pro jejich systémový čas velice důležité, aby byl správný. Aby se stále udržoval správný čas, nainstalovali by jste místní NTP server, službu nabízenou v balíčku <emphasis role=\"pkg\">ntp</emphasis>. V tomto výchozím nastavení se bude server synchronizovat s <emphasis>pool.ntp.org</emphasis> a proskytovat čas jako odpověď na požadavky přicházejíví z místní sítě. To můžete nastavit editováním souboru <filename>/etc/ntp.conf</filename>, nejvýraznější změnou je NTS Server, na který odkazuje.    "
 
 msgid "<primary><emphasis role=\"pkg\">ntp</emphasis></primary>"
 msgstr ""
