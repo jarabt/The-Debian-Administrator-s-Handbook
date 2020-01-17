@@ -1684,67 +1684,67 @@ msgid "For Servers"
 msgstr "Pro servery"
 
 msgid "Servers are only rarely rebooted, and it is very important for their system time to be correct. To permanently maintain correct time, you would install a local NTP server, a service offered in the <emphasis role=\"pkg\">ntp</emphasis> package. In its default configuration, the server will synchronize with <emphasis>pool.ntp.org</emphasis> and provide time in response to requests coming from the local network. You can configure it by editing the <filename>/etc/ntp.conf</filename> file, the most significant alteration being the NTP server to which it refers. If the network has a lot of servers, it may be interesting to have one local time server which synchronizes with the public servers and is used as a time source by the other servers of the network."
-msgstr "Servery se bootují jen velice zřídka a je pro jejich systémový čas velice důležité, aby byl správný. Aby se stále udržoval správný čas, nainstalovali by jste místní NTP server, službu nabízenou v balíčku <emphasis role=\"pkg\">ntp</emphasis>. V tomto výchozím nastavení se bude server synchronizovat s <emphasis>pool.ntp.org</emphasis> a proskytovat čas jako odpověď na požadavky přicházejíví z místní sítě. To můžete nastavit editováním souboru <filename>/etc/ntp.conf</filename>, nejvýraznější změnou je NTS Server, na který odkazuje.    "
+msgstr "Servery se bootují jen velice zřídka a je pro jejich systémový čas velice důležité, aby byl správný. Aby se stále udržoval správný čas, nainstalovali by jste místní NTP server, službu nabízenou v balíčku <emphasis role=\"pkg\">ntp</emphasis>. V tomto výchozím nastavení se bude server synchronizovat s <emphasis>pool.ntp.org</emphasis> a proskytovat čas jako odpověď na požadavky přicházejíví z místní sítě. To můžete nastavit editováním souboru <filename>/etc/ntp.conf</filename>, nejvýraznější změnou je NTS Server, na který odkazuje. Pokud má síť více serverů, může být zajímavé mít jeden místní časový server, který se synchronizuje s veřejnými servery a je použitý jako zdroj času pro ostatní servery v síti."
 
 msgid "<primary><emphasis role=\"pkg\">ntp</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"pkg\">ntp</emphasis></primary>"
 
 msgid "<primary>server</primary><secondary>NTP</secondary>"
-msgstr ""
+msgstr "<primary>server</primary><secondary>NTP</secondary>"
 
 msgid "<primary>NTP</primary><secondary>server</secondary>"
-msgstr ""
+msgstr "<primary>NTP</primary><secondary>server</secondary>"
 
 msgid "<emphasis>GOING FURTHER</emphasis> GPS modules and other time sources"
-msgstr ""
+msgstr "<emphasis>JDEME DÁLE</emphasis> GPS moduly a další časové zdroje"
 
 msgid "<primary>GPS</primary>"
-msgstr ""
+msgstr "<primary>GPS</primary>"
 
 msgid "<primary>DCF-77</primary>"
-msgstr ""
+msgstr "<primary>DCF-77</primary>"
 
 msgid "If time synchronization is particularly crucial to your network, it is possible to equip a server with a GPS module (which will use the time from GPS satellites) or a DCF-77 module (which will sync time with the atomic clock near Frankfurt, Germany). In this case, the configuration of the NTP server is a little more complicated, and prior consultation of the documentation is an absolute necessity."
-msgstr ""
+msgstr "Pokud je pro vás časová synchronizace obzvláště klíčová, je možné vybavit server GPS modulem (který použije čas z GPS satelitu) nebo DCF-77 module (který se synchronizuje s atomovými hodinami poblíž Frankfurtu v Německu). V tomto případě je nastavení NTP serveru o něco komplikovanější a nahlédnutí do dokumentace předem je abslutní nutnost."
 
 msgid "Rotating Log Files"
-msgstr ""
+msgstr "Rotace Log souborů"
 
 msgid "<primary>file</primary><secondary>logs, rotation</secondary>"
-msgstr ""
+msgstr "<primary>soubor<iprimary><secondary>logů, rotace</secondary>"
 
-msgid "<primary>logs</primary><secondary>files, rotation</secondary>"
+msgid "<primary>logové</primary><secondary>soubory, rotatace</secondary>"
 msgstr ""
 
 msgid "<primary>rotation of log files</primary>"
-msgstr ""
+msgstr "<primary>rotace logových souborů</primary>"
 
 msgid "<primary><command>logrotate</command></primary>"
-msgstr ""
+msgstr "<primary><command>logrotate</command></primary>"
 
 msgid "Log files can grow, fast, and it is necessary to archive them. The most common scheme is a rotating archive: the log file is regularly archived, and only the latest <replaceable>X</replaceable> archives are retained. <command>logrotate</command>, the program responsible for these rotations, follows directives given in the <filename>/etc/logrotate.conf</filename> file and all of the files in the <filename>/etc/logrotate.d/</filename> directory. The administrator may modify these files, if they wish to adapt the log rotation policy defined by Debian. The <citerefentry><refentrytitle>logrotate</refentrytitle> <manvolnum>1</manvolnum></citerefentry> man page describes all of the options available in these configuration files. You may want to increase the number of files retained in log rotation, or move the log files to a specific directory dedicated to archiving them rather than delete them. You could also send them by e-mail to archive them elsewhere."
-msgstr ""
+msgstr "Logové soubory mohou rychle růst a je nutné je archivovat. Nejběžnějším scénářem je rotační archiv: logový soubor je pravidelně archivován a pouze posledních <replaceable>X</replaceable> archivů se uchovává. <command>logrotate</command>, program, který je zodpovědný za tyto rotace, následuje direktivy stanovené v souboru <filename>/etc/logrotate.conf</filename> a všech souborech v adresáři <filename>/etc/logrotate.d/</filename>. Administrátor může tyto soubory modifikovat, pokud si chce logovou politiku rotací definovanou Debianem, přizpůsobit. Manuálová stránka <citerefentry><refentrytitle>logrotate</refentrytitle> <manvolnum>1</manvolnum></citerefentry> popisuje veškeré, v těchto nastavovacích souborech možné, volby. Můžete chtít zvýšit počet uchovávaných souborů v logové rotaci nebo přesunout logové soubory do určitého, pouze jim věnovaného, adresáře raději, než je mazat. Můžete je také poslat emailem a archivovat je někde jinde."
 
 msgid "The <command>logrotate</command> program is executed daily by the <command>cron</command> scheduling program (described in <xref linkend=\"sect.task-scheduling-cron-atd\" />)."
-msgstr ""
+msgstr "Program <command>logrotate</command> je spouštěn denně plánovacím programem <command>cron</command> (popsaným v <xref linkend=\"sect.task-scheduling-cron-atd\" />)."
 
 msgid "Sharing Administrator Rights"
-msgstr ""
+msgstr "Sdílení administrátorských práv"
 
 msgid "<primary>account</primary><secondary>administrator account</secondary>"
-msgstr ""
+msgstr "<primary>účet</primary><secondary>administrátorský účet</secondary>"
 
 msgid "<primary>root</primary>"
-msgstr ""
+msgstr "<primary>root</primary>"
 
 msgid "<primary><command>sudo</command></primary>"
-msgstr ""
+msgstr "<primary><command>sudo</command></primary>"
 
 msgid "Frequently, several administrators work on the same network. Sharing the root passwords is not very elegant, and opens the door for abuse due to the anonymity such sharing creates. The solution to this problem is the <command>sudo</command> program, which allows certain users to execute certain commands with special rights. In the most common use case, <command>sudo</command> allows a trusted user to execute any command as root. To do so, the user simply executes <command>sudo <replaceable>command</replaceable></command> and authenticates using their personal password."
-msgstr ""
+msgstr "Často pracuje více administrátorů na té samé síti. Sdílení kmenových hesel není příliš elegantní a otevírá dveře zneužití kvůli anonymitě, kterou sdílení přináší. Řešením tohoto problému je program <command>sudo</command>, který pomocí speciálních práv umožňuje určitým uživatelům spouštět určité příkazy. Nejběžnějším případem použití je, že <command>sudo</command> umožňuje důvěryhodnému uživateli spouštět jakýkoli příkaz jako root. Aby tak uživatel učinil, jednoduše spustí <command>sudo <replaceable>příkaz</replaceable></command> a prokáže se použitím svého osobního hesla."
 
 msgid "When installed, the <emphasis role=\"pkg\">sudo</emphasis> package gives full root rights to members of the <literal>sudo</literal> Unix group. To delegate other rights, the administrator must use the <command>visudo</command> command, which allows them to modify the <filename>/etc/sudoers</filename> configuration file (here again, this will invoke the <command>vi</command> editor, or any other editor indicated in the <varname>EDITOR</varname> environment variable). Adding a line with <literal><replaceable>username</replaceable> ALL=(ALL) ALL</literal> allows the user in question to execute any command as root."
-msgstr ""
+msgstr "Po nainstalování dává balíček <emphasis role=\"pkg\">sudo</emphasis> členům Unixové skupiny <literal>sudo</literal> plná kmenová práva.             "
 
 msgid "<primary><command>visudo</command></primary>"
 msgstr ""
