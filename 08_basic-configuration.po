@@ -1744,49 +1744,49 @@ msgid "Frequently, several administrators work on the same network. Sharing the 
 msgstr "Často pracuje více administrátorů na té samé síti. Sdílení kmenových hesel není příliš elegantní a otevírá dveře zneužití kvůli anonymitě, kterou sdílení přináší. Řešením tohoto problému je program <command>sudo</command>, který pomocí speciálních práv umožňuje určitým uživatelům spouštět určité příkazy. Nejběžnějším případem použití je, že <command>sudo</command> umožňuje důvěryhodnému uživateli spouštět jakýkoli příkaz jako root. Aby tak uživatel učinil, jednoduše spustí <command>sudo <replaceable>příkaz</replaceable></command> a prokáže se použitím svého osobního hesla."
 
 msgid "When installed, the <emphasis role=\"pkg\">sudo</emphasis> package gives full root rights to members of the <literal>sudo</literal> Unix group. To delegate other rights, the administrator must use the <command>visudo</command> command, which allows them to modify the <filename>/etc/sudoers</filename> configuration file (here again, this will invoke the <command>vi</command> editor, or any other editor indicated in the <varname>EDITOR</varname> environment variable). Adding a line with <literal><replaceable>username</replaceable> ALL=(ALL) ALL</literal> allows the user in question to execute any command as root."
-msgstr "Po nainstalování dává balíček <emphasis role=\"pkg\">sudo</emphasis> členům Unixové skupiny <literal>sudo</literal> plná kmenová práva.             "
+msgstr "Po nainstalování dává balíček <emphasis role=\"pkg\">sudo</emphasis> členům Unixové skupiny <literal>sudo</literal> plná kmenová práva. Pro delgování dalších práv musí administrátor použít příkaz <command>visudo</command>, který mu umožňuje změnit nastavovací soubor <filename>/etc/sudoers</filename> (zde znuvu, to vyvolá textový procesor <command>vi</command> nebo nějaký jiný procesor označený v proměnné prostředí <varname>EDITOR</varname>). Přidáním řádku <literal><replaceable>uživatel</replaceable> ALL=(ALL) ALL</literal> umožníte danému uživateli spouštět jakýkoli příkaz jako root."
 
 msgid "<primary><command>visudo</command></primary>"
-msgstr ""
+msgstr "<primary><command>visudo</command></primary>"
 
 msgid "<primary><filename>sudoers</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>sudoers</filename></primary>"
 
 msgid "<primary><filename>/etc/sudoers</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>/etc/sudoers</filename></primary>"
 
 msgid "More sophisticated configurations allow authorization of only specific commands to specific users. All the details of the various possibilities are given in the <citerefentry><refentrytitle>sudoers</refentrytitle> <manvolnum>5</manvolnum></citerefentry> man page."
-msgstr ""
+msgstr "Sofistikovanější nastavení umožní autorizaci pouze některých příkazů některým uživatelům. Všechny detaily různých možností jsou uvedeny v manuálové stránce <citerefentry><refentrytitle>sudoers</refentrytitle> <manvolnum>5</manvolnum></citerefentry>."
 
 msgid "List of Mount Points"
-msgstr ""
+msgstr "Seznam bodů přimontování"
 
 msgid "<primary>point, mount</primary>"
-msgstr ""
+msgstr "<primary>bod, přimontování</primary>"
 
 msgid "<primary>mount point</primary>"
-msgstr ""
+msgstr "<primary>montovací bod</primary>"
 
 msgid "<emphasis>BACK TO BASICS</emphasis> Mounting and unmounting"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Přimontování a odmontování"
 
 msgid "In a Unix-like system such as Debian, files are organized in a single tree-like hierarchy of directories. The <filename>/</filename> directory is called the “root directory”; all additional directories are sub-directories within this root. “Mounting” is the action of including the content of a peripheral device (often a hard drive) into the system's general file tree. As a consequence, if you use a separate hard drive to store users' personal data, this disk will have to be “mounted” in the <filename>/home/</filename> directory. The root filesystem is always mounted at boot by the kernel; other devices are often mounted later during the startup sequence or manually with the <command>mount</command> command."
-msgstr ""
+msgstr "V unixovských systémech jeko Debian jsou soubory organizovány v jediné stromu podobné hierarchii adresářů. Adresář <filename>/</filename> se nazývá “kmenový adrsář”; všechny další adresáře jsou podadresáře v rámci tohoto rootu. “Přimontování” je akce spočívající v zahrnutí obsahu periferního zařízení (často pevného disku) do celkového souborového stromu systému. Následkem toho, pokud používáte oddělený disk k ukládání uživatelských osobních dat, disk musí být “přimontovám” do adresáře <filename>/home/</filename>. Kmenový souborový systém je vždy přimontován při bootování jádra; ostatní zařízení jsou často přimontována později během spouštěcí sekvence nebo manuálně pomocí příkazu <command>mount</command>."
 
 msgid "<primary><command>mount</command></primary>"
-msgstr ""
+msgstr "<primary><command>mount</command></primary>"
 
 msgid "Some removable devices are automatically mounted when connected, especially when using the GNOME, KDE or other graphical desktop environments. Others have to be mounted manually by the user. Likewise, they must be unmounted (removed from the file tree). Normal users do not usually have permission to execute the <command>mount</command> and <command>umount</command> commands. The administrator can, however, authorize these operations (independently for each mount point) by including the <literal>user</literal> option in the <filename>/etc/fstab</filename> file."
-msgstr ""
+msgstr "Některá odpojitelná zařízení jsou automaticky přimontována, jakmile jsou připojena, zvláště při používání GNOME, KDE nebo jiných grafických desktopových prostředí. Ostatní musí být přimontována manuálně uživatelem. Podobným způsobem musí být i odmontována (odstraněna ze souborového stromu). Běžní uživatelé obyčejně nemají povolení ke spouštění příkazů <command>mount</command> a <command>umount</command>. Nicméně administrátor může autorizovat tyto operace (nezávisle pro každý bod přimontování) tím, že přidá volbu <literal>user</literal> do souboru <filename>/etc/fstab</filename>."
 
 msgid "The <command>mount</command> command can be used without arguments (it then lists all mounted filesystems). The following parameters are required to mount or unmount a device. For the complete list, please refer to the corresponding man pages, <citerefentry><refentrytitle>mount</refentrytitle> <manvolnum>8</manvolnum></citerefentry> and <citerefentry><refentrytitle>umount</refentrytitle> <manvolnum>8</manvolnum></citerefentry>. For simple cases, the syntax is simple too: for example, to mount the <filename>/dev/sdc1</filename> partition, which has an ext3 filesystem, into the <filename>/mnt/tmp/</filename> directory, you would simply run <command>mount -t ext3 /dev/sdc1 /mnt/tmp/</command>."
-msgstr ""
+msgstr "Příkaz <command>mount</command> může být použit bez argumentů (ten potom vypíše seznam všech přimontovaných souborových systémů). Následující parametry jsou požadovány pro přimontování nebo odmontování zařízení. Pro kompletní seznam prosím nahlédněte do odpovídajících manuálových stránek, <citerefentry><refentrytitle>mount</refentrytitle> <manvolnum>8</manvolnum></citerefentry> a <citerefentry><refentrytitle>umount</refentrytitle> <manvolnum>8</manvolnum></citerefentry>. Pro jednoduché případy je syntax také jednoduchý: například pro přimontování oddělení <filename>/dev/sdc1</filename>, které má souborový systém ext3 do adresáře <filename>/mnt/tmp/</filename>, jednoduše spustíte <command>mount -t ext3 /dev/sdc1 /mnt/tmp/</command>."
 
 msgid "The <filename>/etc/fstab</filename> file gives a list of all possible mounts that happen either automatically on boot or manually for removable storage devices. Each mount point is described by a line with several space-separated fields: <indexterm><primary><filename>fstab</filename></primary></indexterm> <indexterm><primary><filename>/etc/fstab</filename></primary></indexterm>"
-msgstr ""
+msgstr "Soubor <filename>/etc/fstab</filename> poskytuje seznam všech možných přimontování, která se dějí ať už automaticky nebo manuálně v případě odpojitelných úložných zařízení. Každý montovací bod je popsán řádkem s několika mezerou oddělenými poli: <indexterm><primary><filename>fstab</filename></primary></indexterm> <indexterm><primary><filename>/etc/fstab</filename></primary></indexterm>."
 
 msgid "device to mount: this can be a local partition (hard drive, CD-ROM) or a remote filesystem (such as NFS)."
-msgstr ""
+msgstr "zařízení k přimontování: to může být místní oddělení (pevný disk nebo CD-ROM"
 
 msgid "This field is frequently replaced with the unique ID of the filesystem (which you can determine with <command>blkid <userinput>device</userinput></command>) prefixed with <literal>UUID=</literal>. This guards against a change in the name of the device in the event of addition or removal of disks, or if disks are detected in a different order."
 msgstr ""
