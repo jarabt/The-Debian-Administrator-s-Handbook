@@ -1786,43 +1786,43 @@ msgid "The <filename>/etc/fstab</filename> file gives a list of all possible mou
 msgstr "Soubor <filename>/etc/fstab</filename> poskytuje seznam všech možných přimontování, která se dějí ať už automaticky nebo manuálně v případě odpojitelných úložných zařízení. Každý montovací bod je popsán řádkem s několika mezerou oddělenými poli: <indexterm><primary><filename>fstab</filename></primary></indexterm> <indexterm><primary><filename>/etc/fstab</filename></primary></indexterm>."
 
 msgid "device to mount: this can be a local partition (hard drive, CD-ROM) or a remote filesystem (such as NFS)."
-msgstr "zařízení k přimontování: to může být místní oddělení (pevný disk nebo CD-ROM"
+msgstr "zařízení k přimontování: to může být místní oddělení (pevný disk, CD-ROM) nebo vzdálený souborový systém (jako NFS)."
 
 msgid "This field is frequently replaced with the unique ID of the filesystem (which you can determine with <command>blkid <userinput>device</userinput></command>) prefixed with <literal>UUID=</literal>. This guards against a change in the name of the device in the event of addition or removal of disks, or if disks are detected in a different order."
-msgstr ""
+msgstr "Toto pole je často nahrazeno unikátním ID souborového systému (které můžete určit pomocí <command>blkid <userinput>device</userinput></command>) s prefixem <literal>UUID=</literal>. To brání změně ve jménu zařízení v případě přidání nebo odstranění disků nebo pokud jsou disky rozpoznány v odlišném pořadí."
 
 msgid "mount point: this is the location on the local filesystem where the device, remote system, or partition will be mounted."
-msgstr ""
+msgstr "bod přimontování: toto je místo v lokálním souborovém systému, kam se zařízení, vzdálený systém nebo oddíl namontuje."
 
 msgid "type: this field defines the filesystem used on the mounted device. <literal>ext4</literal>, <literal>ext3</literal>, <literal>vfat</literal>, <literal>ntfs</literal>, <literal>btrfs</literal>, <literal>xfs</literal> are a few examples."
-msgstr ""
+msgstr "type: toto pole stanovuje souborový systém, který se na namontovaném zařízení používá. <literal>ext4</literal>, <literal>ext3</literal>, <literal>vfat</literal>, <literal>ntfs</literal>, <literal>btrfs</literal>, <literal>xfs</literal> je pár příkladů."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> NFS, a network filesystem"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> NFS, souborový systém sítě"
 
 msgid "NFS is a network filesystem; under Linux, it allows transparent access to remote files by including them in the local filesystem."
-msgstr ""
+msgstr "NFS je souborový systém sítě; pod Linuxem, umožňuje transparentní přístup ke vzdáleným souborům tím, že je zahrne do místního souborového systému."
 
 msgid "A complete list of known filesystems is available in the <citerefentry><refentrytitle>mount</refentrytitle> <manvolnum>8</manvolnum></citerefentry> man page. The <literal>swap</literal> special value is for swap partitions; the <literal>auto</literal> special value tells the <command>mount</command> program to automatically detect the filesystem (which is especially useful for disk readers and USB keys, since each one might have a different filesystem);"
-msgstr ""
+msgstr "Kompletní seznam známých souborových systémů je k dispozici na manuálové stránce <citerefentry><refentrytitle>mount</refentrytitle> <manvolnum>8</manvolnum></citerefentry>. Speciální hodnota <literal>swap</literal> je pro oddíly swap; speciální hodnota <literal>auto</literal> říká programu <command>mount</command>, aby automaticky detekoval souborový systém (který je zvláště užitečný pro čtečky disků a USB flash disky, protože každý může mít jiný souborový systém);"
 
 msgid "options: there are many of them, depending on the filesystem, and they are documented in the <command>mount</command> man page. The most common are"
-msgstr ""
+msgstr "volby: existuje je jich mnoho, v závislosti na souborovém systému a jsou zdokumentovány na manuálové stránce příkazu <command>mount</command>. Nejběžnější jsou"
 
 msgid "<literal>rw</literal> or <literal>ro</literal>, meaning, respectively, that the device will be mounted with read/write or read-only permissions."
-msgstr ""
+msgstr "<literal>rw</literal> nebo <literal>ro</literal> respektive, znamená, že zařízení bude namontováno s povolením read/write nebo read-only."
 
 msgid "<literal>noauto</literal> deactivates automatic mounting on boot."
-msgstr ""
+msgstr "<literal>noauto</literal> deaktivuje automatické namontování při bootování."
 
 msgid "<literal>nofail</literal> allows the boot to proceed even when the device is not present. Make sure to put this option for external drives that might be unplugged when you boot, because <command>systemd</command> really ensures that all mount points that must be automatically mounted are actually mounted before letting the boot process continue to its end. Note that you can combine this with <literal>x-systemd.device-timeout=5s</literal> to tell <command>systemd</command> to not wait more than 5 seconds for the device to appear (see <citerefentry><refentrytitle>systemd.mount</refentrytitle><manvolnum>5</manvolnum></citerefentry>)."
-msgstr ""
+msgstr "<literal>nofail</literal> umožňuje proces bootování i když zařízení není přítomné. Ujistěte se, že zadáte tuto volbu ve vztahu k externím zařízením, které mohou být odpojené při bootování, protože <command>systemd</command> se opravdu ujišťuje, že všechny body k montování, které musí být automaticky namontovány jsou opravdu namontovány pře tím, než povolí bootovacímu procesu pokračovat až do svého ukončení. Poukazujeme na to, že toto můžete kombinovat s <literal>x-systemd.device-timeout=5s</literal> a říci tak <command>systemd</command>, aby nečekal déle než 5 sekund na výskyt zařízení (viz. <citerefentry><refentrytitle>systemd.mount</refentrytitle><manvolnum>5</manvolnum></citerefentry>)."
 
 msgid "<literal>user</literal> authorizes all users to mount this filesystem (an operation which would otherwise be restricted to the root user)."
-msgstr ""
+msgstr "<literal>user</literal> autorizuje všechny uživatel k používání tohoto souborového systému (operace, která by jinak byla omezena na kořenového uživatele)."
 
 msgid "<literal>defaults</literal> means the group of default options: <literal>rw</literal>, <literal>suid</literal>, <literal>dev</literal>, <literal>exec</literal>, <literal>auto</literal>, <literal>nouser</literal> and <literal>async</literal>, each of which can be individually disabled after <literal>defaults</literal> by adding <literal>nosuid</literal>, <literal>nodev</literal> and so on to block <literal>suid</literal>, <literal>dev</literal> and so on. Adding the <literal>user</literal> option reactivates it, since <literal>defaults</literal> includes <literal>nouser</literal>."
-msgstr ""
+msgstr "<literal>defaults</literal> znamená skupinu přednastavených voleb <literal>rw</literal>, <literal>suid</literal>, <literal>dev</literal>, <literal>exec</literal>, <literal>auto</literal>, <literal>nouser</literal> a <literal>async</literal>, kde každá z nich může být individuálně vyřazena z činnosti po <literal>defaults</literal> s přidáním <literal>nosuid</literal>, <literal>nodev</literal> a podobně, za účelem zablokování <literal>suid</literal>, <literal>dev</literal> apod. Přidání volby <literal>user</literal> jej znova aktivuje, protože <literal>defaults</literal> zahrnuje <literal>nouser</literal>."
 
 msgid "backup: this field is almost always set to <literal>0</literal>. When it is <literal>1</literal>, it tells the <command>dump</command> tool that the partition contains data that is to be backed up."
 msgstr ""
