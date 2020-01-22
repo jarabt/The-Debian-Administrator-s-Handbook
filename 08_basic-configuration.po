@@ -1918,58 +1918,58 @@ msgid "<primary>kernel</primary><secondary>compilation</secondary>"
 msgstr "<primary>jádra</primary><secondary>sestavení</secondary>"
 
 msgid "The kernels provided by Debian include the largest possible number of features, as well as the maximum of drivers, in order to cover the broadest spectrum of existing hardware configurations. This is why some users prefer to recompile the kernel in order to only include what they specifically need. There are two reasons for this choice. First, it may be to optimize memory consumption, since the kernel code, even if it is never used, occupies memory for nothing (and never “goes down” on the swap space, since it is actual RAM that it uses), which can decrease overall system performance. A locally compiled kernel can also limit the risk of security problems since only a fraction of the kernel code is compiled and run."
-msgstr "Jádra poskytovaná Debianem obsahují největší možnou funkcionalitu, stejně jako maximum ovladačů, za účelem pokrytí nejširšího spektra existujících hardwarových sestav. To je důvod, proč někteří uživatelé upřednostňují opakované sestavení jádra za účelem zahrnutí pouze toho, co přesně potřebují. Jsou dva důvody pro tuto volbu. Zaprvé, může být optimalizace spotřeby paměti, protože kód jádra, i když se nikdy nepoužije, zabírá paměť pro nic (a nikdy “nejde dolů” na     "
+msgstr "Jádra poskytovaná Debianem obsahují největší možnou funkcionalitu, stejně jako maximum ovladačů, za účelem pokrytí nejširšího spektra existujících hardwarových sestav. To je důvod, proč někteří uživatelé upřednostňují opakované sestavení jádra za účelem zahrnutí pouze toho, co přesně potřebují. Jsou dva důvody pro tuto volbu. Zaprvé, může být optimalizace spotřeby paměti, protože kód jádra, i když se nikdy nepoužije, zabírá paměť pro nic (a nikdy “neschází” na virtuální paměť, protože to je skutečná RAM paměť, co používá), což snižuje všeobecný výkon systému. Místně sestavené jádro může také snižovat riziko bezpečnostních problémů, protože pouze zlomek kódu jádra je sestaven a spuštěn."
 
 msgid "<emphasis>NOTE</emphasis> Security updates"
-msgstr ""
+msgstr "<emphasis>POZNÁMKA</emphasis> Bezpečnostní aktualizace"
 
 msgid "If you choose to compile your own kernel, you must accept the consequences: Debian cannot ensure security updates for your custom kernel. By keeping the kernel provided by Debian, you benefit from updates prepared by the Debian Project's security team."
-msgstr ""
+msgstr "Pokud se rozhodnete sestavit vaše vlastní jádro, musíte se smířit s důsledky: Debian nemůže zabezpečit bezpečnostní aktualizace pro vaše vlastní jádro. Ponecháním si jádra poskytnutého Debianem, budete profitovat z aktualizací připravených Týmem pro bezpečnost projektu Debianu."
 
 msgid "Recompilation of the kernel is also necessary if you want to use certain features that are only available as patches (and not included in the standard kernel version)."
-msgstr ""
+msgstr "Opětovné sestavení jádra je také nutné, pokud chcete použít určitou funkcionalitu, která je dostupná pouze formou oprav (a není tak zahrnuta do standardní verze jádra)."
 
 msgid "<emphasis>GOING FURTHER</emphasis> The Debian Kernel Handbook"
-msgstr ""
+msgstr "<emphasis>JDEME DÁLE</emphasis> Příručka jádra Debianu"
 
 msgid "<primary><emphasis role=\"pkg\">debian-kernel-handbook</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"pkg\">debian-kernel-handbook</emphasis></primary>"
 
 msgid "The Debian kernel teams maintains the “Debian Kernel Handbook” (also available in the <emphasis role=\"pkg\">debian-kernel-handbook</emphasis> package) with comprehensive documentation about most kernel related tasks and about how official Debian kernel packages are handled. This is the first place you should look into if you need more information than what is provided in this section. <ulink type=\"block\" url=\"http://kernel-handbook.alioth.debian.org\" />"
-msgstr ""
+msgstr "Týmy pro jádro spravují “Debian Kernel Handbook” (také dostupnou v balíčku <emphasis role=\"pkg\">debian-kernel-handbook</emphasis>) s kompletní dokumentací o většině úkolů souvisejících s jádrem a o tom, jak se s oficiálními balíčky jádra Debianu zachází. Toto je první místo, kam by jste se měli podívat, pokud potřebujete více informací, než je obsaženo v této sekci. <ulink type=\"block\" url=\"http://kernel-handbook.alioth.debian.org\" />"
 
 msgid "Introduction and Prerequisites"
-msgstr ""
+msgstr "Úvod a nezbytné předpoklady"
 
 msgid "Unsurprisingly Debian manages the kernel in the form of a package, which is not how kernels have traditionally been compiled and installed. Since the kernel remains under the control of the packaging system, it can then be removed cleanly, or deployed on several machines. Furthermore, the scripts associated with these packages automate the interaction with the bootloader and the initrd generator."
-msgstr ""
+msgstr "Není překvapením, že Debian řídí jádro formou balíčků, což není způsob, jakým byla jádra tradičně sestavována a instalována. Protože jádro zůstává pod kontrolou balíčkovacího systému, může tak být čistě odstraněno nebo nasazeno na několik zařízení. Navíc, skripty vztažené k těmto balíčkům automatizují spolupráci s bootloaderem a generátorem initrd."
 
 msgid "The upstream Linux sources contain everything needed to build a Debian package of the kernel. But you still need to install <emphasis role=\"pkg\">build-essential</emphasis> to ensure that you have the tools required to build a Debian package. Furthermore, the configuration step for the kernel requires the <emphasis role=\"pkg\">libncurses5-dev</emphasis> package. Finally, the <emphasis role=\"pkg\">fakeroot</emphasis> package will enable creation of the Debian package without using administrator's rights."
-msgstr ""
+msgstr "Upstreamové Linuxové zdroje obsahují vše potřebné k sestavení balíčku Debianu pro jádro. Ale stále musíte nainstalovat <emphasis role=\"pkg\">build-essential</emphasis>, aby jste se ujistili, že máte nástroje potřebné k postavení balíčku Debianu. Navíc, nastavovací krok pro jádro vyžaduje balíček <emphasis role=\"pkg\">libncurses5-dev</emphasis>. Nakonec, balíček <emphasis role=\"pkg\">fakeroot</emphasis> umožní vytvoření balíčku Debianu bez využití administrátorských práv."
 
 msgid "<emphasis>CULTURE</emphasis> The good old days of <emphasis role=\"pkg\">kernel-package</emphasis>"
-msgstr ""
+msgstr "<emphasis>KULTURA</emphasis> Staré dobré časy <emphasis role=\"pkg\">kernel-package</emphasis>"
 
 msgid "<primary><emphasis role=\"pkg\">kernel-package</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis role=\"pkg\">kernel-package</emphasis></primary>"
 
 msgid "Before the Linux build system gained the ability to build proper Debian packages, the recommended way to build such packages was to use <command>make-kpkg</command> from the <emphasis role=\"pkg\">kernel-package</emphasis> package."
-msgstr ""
+msgstr "Před tím, než linuxovský stavební systém získal schopnost stavět správné balíčky Debianu, spočíval doporučený způsob stavby takových balíčků v použití <command>make-kpkg</command> z balíčku <emphasis role=\"pkg\">kernel-package</emphasis>."
 
 msgid "Getting the Sources"
-msgstr ""
+msgstr "Získání zdrojů"
 
 msgid "<primary>Linux kernel sources</primary>"
-msgstr ""
+msgstr "<primary>zdroje jádra Linuxu</primary>"
 
 msgid "<primary>kernel</primary><secondary>sources</secondary>"
-msgstr ""
+msgstr "<primary>jádro</primary><secondary>zdroje</secondary>"
 
 msgid "<primary>source</primary><secondary>of the Linux kernel</secondary>"
-msgstr ""
+msgstr "<primary>zdroj</primary><secondary>jádra Linuxu</secondary>"
 
 msgid "Like anything that can be useful on a Debian system, the Linux kernel sources are available in a package. To retrieve them, just install the <emphasis role=\"pkg\">linux-source-<replaceable>version</replaceable></emphasis> package. The <command>apt-cache search ^linux-source</command> command lists the various kernel versions packaged by Debian. The latest version is available in the <emphasis role=\"distribution\">Unstable</emphasis> distribution: you can retrieve them without much risk (especially if your APT is configured according to the instructions of <xref linkend=\"sect.apt-mix-distros\" />). Note that the source code contained in these packages does not correspond precisely with that published by Linus Torvalds and the kernel developers; like all distributions, Debian applies a number of patches, which might (or might not) find their way into the upstream version of Linux. These modifications include backports of fixes/features/drivers from newer kernel versions, new features not yet (entirely) merged in the upstream Linux tree, and sometimes even Debian specific changes."
-msgstr ""
+msgstr "Jako cokoli, co je použitelné na systému Debian, jsou zdroje jádra Linuxu dostupné v balíčku. K jejich získání stačí nainstalovat balíček <emphasis role=\"pkg\">linux-source-<replaceable>verze</replaceable></emphasis>. Příkaz <command>apt-cache search ^linux-source</command> prochází různé verze jádra zabalené Debianem. Poslední verze je dostupná v distriubuci <emphasis role=\"distribution\">Unstable</emphasis>: můžete ji získat vcelku bez rizika (zvláště pokud je váš APT nastaven podle instrukcí <xref linkend=\"sect.apt-mix-distros\" />). Za poznámku stojí, že zdrojový kód obsažený v těchto balíčcích přesně neodpovídá těm vydaným Linusem Torvaldsem a vývojářům jádra; jako všechny distribuce, Debian aplikuje množství oprav, které si mohou (nebo nemusí) najít svou cestu do upstreamové verze Linuxu. Tyto modifikace zahrnují backporty oprav/funkcí/ovladačů nejnovějších verzí jádra, nové funkcionality, které zatím nebyly (kompletně) zahrnuty do upstreamového stromu Linuxu a někdy i specifické změny od Debianu."
 
 msgid "The remainder of this section focuses on the 3.16 version of the Linux kernel, but the examples can, of course, be adapted to the particular version of the kernel that you want."
 msgstr ""
