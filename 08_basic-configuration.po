@@ -1972,40 +1972,43 @@ msgid "Like anything that can be useful on a Debian system, the Linux kernel sou
 msgstr "Jako cokoli, co je použitelné na systému Debian, jsou zdroje jádra Linuxu dostupné v balíčku. K jejich získání stačí nainstalovat balíček <emphasis role=\"pkg\">linux-source-<replaceable>verze</replaceable></emphasis>. Příkaz <command>apt-cache search ^linux-source</command> prochází různé verze jádra zabalené Debianem. Poslední verze je dostupná v distriubuci <emphasis role=\"distribution\">Unstable</emphasis>: můžete ji získat vcelku bez rizika (zvláště pokud je váš APT nastaven podle instrukcí <xref linkend=\"sect.apt-mix-distros\" />). Za poznámku stojí, že zdrojový kód obsažený v těchto balíčcích přesně neodpovídá těm vydaným Linusem Torvaldsem a vývojářům jádra; jako všechny distribuce, Debian aplikuje množství oprav, které si mohou (nebo nemusí) najít svou cestu do upstreamové verze Linuxu. Tyto modifikace zahrnují backporty oprav/funkcí/ovladačů nejnovějších verzí jádra, nové funkcionality, které zatím nebyly (kompletně) zahrnuty do upstreamového stromu Linuxu a někdy i specifické změny od Debianu."
 
 msgid "The remainder of this section focuses on the 3.16 version of the Linux kernel, but the examples can, of course, be adapted to the particular version of the kernel that you want."
-msgstr ""
+msgstr "Zbytek této sekce se zaměřuje na verzi 3.16 linuxovského jádra, ale příklady mohou být, samozřejmě, přizpůsobeny jakékoli verzi jádra chcete."
 
 msgid "We assume the <emphasis role=\"pkg\">linux-source-3.16</emphasis> package has been installed. It contains <filename>/usr/src/linux-source-3.16.tar.xz</filename>, a compressed archive of the kernel sources. You must extract these files in a new directory (not directly under <filename>/usr/src/</filename>, since there is no need for special permissions to compile a Linux kernel): <filename>~/kernel/</filename> is appropriate."
-msgstr ""
+msgstr "Předpokládejme, že máme nainstalovaný balíček <emphasis role=\"pkg\">linux-source-3.16</emphasis>. Ten obsahuje komprimovaný archiv zdrojů jádra <emphasis role=\"pkg\">linux-source-3.16</emphasis>. Tyto soubory musíte extrahovat do nového adresáře (ne přímo pod <filename>/usr/src/</filename>, protože ke kompilaci linuxovského jádra nepotřebujete žádná speciální povolení): <filename>~/kernel/</filename> je vhodný."
 
 msgid ""
 "\n"
 "<computeroutput>$ </computeroutput><userinput>mkdir ~/kernel; cd ~/kernel</userinput>\n"
 "<computeroutput>$ </computeroutput><userinput>tar -xaf /usr/src/linux-source-3.16.tar.xz</userinput>"
 msgstr ""
+"\n"
+"<computeroutput>$ </computeroutput><userinput>mkdir ~/kernel; cd ~/kernel</userinput>\n"
+"<computeroutput>$ </computeroutput><userinput>tar -xaf /usr/src/linux-source-3.16.tar.xz</userinput>"
 
 msgid "<emphasis>CULTURE</emphasis> Location of kernel sources"
-msgstr ""
+msgstr "<emphasis>KULTURA</emphasis> Umístění zdrojů jádra"
 
 msgid "Traditionally, Linux kernel sources would be placed in <filename>/usr/src/linux/</filename> thus requiring root permissions for compilation. However, working with administrator rights should be avoided when not needed. There is a <literal>src</literal> group that allows members to work in this directory, but working in <filename>/usr/src/</filename> should be avoided nevertheless. By keeping the kernel sources in a personal directory, you get security on all counts: no files in <filename>/usr/</filename> unknown to the packaging system, and no risk of misleading programs that read <filename>/usr/src/linux</filename> when trying to gather information on the used kernel."
-msgstr ""
+msgstr "Podle zvyklostí by se zdroje linuxového jádra umístily do <filename>/usr/src/linux/</filename>, takže v případě kompilace by se vyžadovala kořenová oprávnění. Ovšem práci s administrátorskými právy by se mělo předejít, pokud nejsou nutná. Existuje skupina <literal>src</literal>, která umožňuje členům práci v tomto adresáři, ale práci v <filename>/usr/src/</filename> by jste se nicméně měli vyhnout. Tím, že máte zdroje jádra v samostatném adresáři, získáte zabezpečení ve všech bodech: žádné neznámé soubory v <filename>/usr/</filename> pro balíčkový systém a žádné riziko, že se uvedou v omyl programy, které čtou <filename>/usr/src/linux</filename> při pokusu o získání informací o použitém jádru."
 
 msgid "Configuring the Kernel"
-msgstr ""
+msgstr "Nastavení jádra"
 
 msgid "<primary>kernel</primary><secondary>configuration</secondary>"
-msgstr ""
+msgstr "<primary>jádro</primary><secondary>nastavení</secondary>"
 
 msgid "<primary>configuration</primary><secondary>of the kernel</secondary>"
-msgstr ""
+msgstr "<primary>nastavení</primary><secondary>jádra</secondary>"
 
 msgid "<primary><filename>.config</filename></primary>"
-msgstr ""
+msgstr "<primary><filename>.config</filename></primary>"
 
 msgid "The next step consists of configuring the kernel according to your needs. The exact procedure depends on the goals."
-msgstr ""
+msgstr "Další krok spočívá v nastavení jádra podle vašich potřeb. Přesný postup závisí na cílech."
 
 msgid "When recompiling a more recent version of the kernel (possibly with an additional patch), the configuration will most likely be kept as close as possible to that proposed by Debian. In this case, and rather than reconfiguring everything from scratch, it is sufficient to copy the <filename>/boot/config-<replaceable>version</replaceable></filename> file (the version is that of the kernel currently used, which can be found with the <command>uname -r</command> command) into a <filename>.config</filename> file in the directory containing the kernel sources."
-msgstr ""
+msgstr "Pokud znovukompilujete novější verzi jádra (možná obsahující dodatečnou opravu),  "
 
 msgid "\n"
 "<computeroutput>$ </computeroutput><userinput>cp /boot/config-3.16.0-4-amd64 ~/kernel/linux-source-3.16/.config</userinput>"
