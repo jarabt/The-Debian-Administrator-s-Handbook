@@ -1825,13 +1825,13 @@ msgid "<literal>defaults</literal> means the group of default options: <literal>
 msgstr "<literal>defaults</literal> znamená skupinu přednastavených voleb <literal>rw</literal>, <literal>suid</literal>, <literal>dev</literal>, <literal>exec</literal>, <literal>auto</literal>, <literal>nouser</literal> a <literal>async</literal>, kde každá z nich může být individuálně vyřazena z činnosti po <literal>defaults</literal> s přidáním <literal>nosuid</literal>, <literal>nodev</literal> a podobně, za účelem zablokování <literal>suid</literal>, <literal>dev</literal> apod. Přidání volby <literal>user</literal> jej znova aktivuje, protože <literal>defaults</literal> zahrnuje <literal>nouser</literal>."
 
 msgid "backup: this field is almost always set to <literal>0</literal>. When it is <literal>1</literal>, it tells the <command>dump</command> tool that the partition contains data that is to be backed up."
-msgstr ""
+msgstr "backup: toto pole je skoro vždy nastaveno na <literal>0</literal>. Pokud je <literal>1</literal>, sděluje nástroji <command>dump</command>, že oddíl obsahuje data, která se mají zálohovat."
 
 msgid "check order: this last field indicates whether the integrity of the filesystem should be checked on boot, and in which order this check should be executed. If it is <literal>0</literal>, no check is conducted. The root filesystem should have the value <literal>1</literal>, while other permanent filesystems get the value <literal>2</literal>."
-msgstr ""
+msgstr "check order: toto poslední pole značí, zda by měla být při bootování zkontrolována integrita souborového systému a v jakém pořadí by tato kontrola měla být provedena. Pokud je <literal>0</literal>, není žádná kontrola prováděna. Kmenový souborový systém by měl mít hodnotu <literal>1</literal>, zatímco ostatní permanentní souborové systémy dostanou hodnotu <literal>2</literal>."
 
 msgid "Example <filename>/etc/fstab</filename> file"
-msgstr ""
+msgstr "Příklad souboru <filename>/etc/fstab</filename>"
 
 msgid ""
 "\n"
@@ -1847,66 +1847,78 @@ msgid ""
 "/dev/fd0        /media/floppy   auto    rw,user,noauto  0       0\n"
 "arrakis:/shared /shared         nfs     defaults        0       0"
 msgstr ""
+"\n"
+"# /etc/fstab: static file system information.\n"
+"#\n"
+"# &lt;file system&gt; &lt;mount point&gt;   &lt;type&gt;  &lt;options&gt;       &lt;dump&gt;  &lt;pass&gt;\n"
+"proc            /proc           proc    defaults        0       0\n"
+"# / was on /dev/sda1 during installation\n"
+"UUID=c964222e-6af1-4985-be04-19d7c764d0a7 / ext3 errors=remount-ro 0 1\n"
+"# swap was on /dev/sda5 during installation\n"
+"UUID=ee880013-0f63-4251-b5c6-b771f53bd90e none swap sw  0       0\n"
+"/dev/scd0       /media/cdrom0   udf,iso9660 user,noauto 0       0\n"
+"/dev/fd0        /media/floppy   auto    rw,user,noauto  0       0\n"
+"arrakis:/shared /shared         nfs     defaults        0       0"
 
 msgid "The last entry in this example corresponds to a network filesystem (NFS): the <filename>/shared/</filename> directory on the <emphasis>arrakis</emphasis> server is mounted at <filename>/shared/</filename> on the local machine. The format of the <filename>/etc/fstab</filename> file is documented on the <citerefentry><refentrytitle>fstab</refentrytitle><manvolnum>5</manvolnum></citerefentry> man page."
-msgstr ""
+msgstr "Poslední záznam v tomto příkladu odpovídá síťovému souborovému systému (NFS): adresář <filename>/shared/</filename> na serveru <emphasis>arrakis</emphasis> je namontován na <filename>/shared/</filename> na lokálním zařízení. Formát souboru <filename>/etc/fstab</filename> je zdokumentován na manuálové stránce <citerefentry><refentrytitle>fstab</refentrytitle><manvolnum>5</manvolnum></citerefentry<citerefentry>."
 
 msgid "<emphasis>GOING FURTHER</emphasis> Auto-mounting"
-msgstr ""
+msgstr "<emphasis>GOING FURTHER</emphasis> Auto-mounting"
 
 msgid "The <emphasis>am-utils</emphasis> package provides the <command>amd</command> auto-mounting utility, able to mount removable media on demand when a user attempts to access their usual mount point. It will unmount these devices when no process is accessing them any longer."
-msgstr ""
+msgstr "Balíček <emphasis>am-utils</emphasis> poskytuje program pro auto-mounting <command>amd</command>, který je schopen namontovat odnímatelná média na vyžádání, pokud uživatel přistoupí k jeho běžnému montovacímu bodu. To odmontuje tato zařízení, pokud sem nepřistupuje již více žádný proces."
 
 msgid "<primary><emphasis>am-utils</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis>am-utils</emphasis></primary>"
 
 msgid "<primary><command>amd</command></primary>"
-msgstr ""
+msgstr "<primary><command>amd</command></primary>"
 
 msgid "<primary><command>automount</command></primary>"
-msgstr ""
+msgstr "<primary><command>automount</command></primary>"
 
 msgid "<primary><emphasis>autofs</emphasis></primary>"
-msgstr ""
+msgstr "<primary><emphasis>autofs</emphasis></primary>"
 
 msgid "<primary>automounter</primary>"
-msgstr ""
+msgstr "<primary>automounter</primary>"
 
 msgid "Other auto-mounting utilities exist, such as <command>automount</command> in the <emphasis>autofs</emphasis> package."
-msgstr ""
+msgstr "Existují další programy pro automatické montování, jako je <command>automount</command> v balíčku <emphasis>autofs</emphasis>."
 
 msgid "Note also that GNOME, KDE, and other graphical desktop environments work together with <emphasis>udisks</emphasis>, and can automatically mount removable media when they are connected."
-msgstr ""
+msgstr "Upozorňujeme na to, že GNOME, KDE a další grafická desktopová prostředí pracují společně s <emphasis>udisks</emphasis> a mohou automaticky montovat odnímatelná média, podkud se připojí."
 
 msgid "<command>locate</command> and <command>updatedb</command>"
-msgstr ""
+msgstr "<command>locate</command> and <command>updatedb</command>"
 
 msgid "<primary><command>locate</command></primary>"
-msgstr ""
+msgstr "<primary><command>locate</command></primary>"
 
 msgid "<primary><command>updatedb</command></primary>"
-msgstr ""
+msgstr "<primary><command>updatedb</command></primary>"
 
 msgid "<primary><command>mlocate</command></primary>"
-msgstr ""
+msgstr "<primary><command>mlocate</command></primary>"
 
 msgid "The <command>locate</command> command can find the location of a file when you only know part of the name. It sends a result almost instantaneously, since it consults a database that stores the location of all the files on the system; this database is updated daily by the <command>updatedb</command> command. There are multiple implementations of the <command>locate</command> command and Debian picked <emphasis role=\"pkg\">mlocate</emphasis> for its standard system."
-msgstr ""
+msgstr "Příkaz <command>locate</command> může nalézt umístění souboru, pokud znáte pouze část jeho jména. Pošle výsledek téměř okamžitě, protože nahlíží do databáze, která ukládá umístění všech souborů v systému; tato databáze je aktualizovaná denně příkazem <command>updatedb</command>. Existuje hodně implementací příkazu <command>locate</command> a Debian si vybral <emphasis role=\"pkg\">mlocate</emphasis> pro svůj standardní systém."
 
 msgid "<command>mlocate</command> is smart enough to only return files which are accessible to the user running the command even though it uses a database that knows about all files on the system (since its <command>updatedb</command> implementation runs with root rights). For extra safety, the administrator can use <varname>PRUNEDPATHS</varname> in <filename>/etc/updatedb.conf</filename> to exclude some directories from being indexed."
-msgstr ""
+msgstr "<command>mlocate</command> je dostatečně chytrý na to, aby vrátil pouze soubory, které jsou přístupné uživateli, který spouští program, i když zná všechny soubory v systému (protože jeho implementace <command>updatedb</command> běží s rootovskými právy). Pro zvláštní bezpečnost, amdinistrátor může použít <varname>PRUNEDPATHS</varname> in <filename>/etc/updatedb.conf</filename> a vyloučit tak některé adresáře z indexování."
 
 msgid "Compiling a Kernel"
-msgstr ""
+msgstr "Sestavování jádra"
 
 msgid "<primary>compilation</primary><secondary>of a kernel</secondary>"
-msgstr ""
+msgstr "<primary>sestavení</primary><secondary>jádra</secondary>"
 
 msgid "<primary>kernel</primary><secondary>compilation</secondary>"
-msgstr ""
+msgstr "<primary>jádra</primary><secondary>sestavení</secondary>"
 
 msgid "The kernels provided by Debian include the largest possible number of features, as well as the maximum of drivers, in order to cover the broadest spectrum of existing hardware configurations. This is why some users prefer to recompile the kernel in order to only include what they specifically need. There are two reasons for this choice. First, it may be to optimize memory consumption, since the kernel code, even if it is never used, occupies memory for nothing (and never “goes down” on the swap space, since it is actual RAM that it uses), which can decrease overall system performance. A locally compiled kernel can also limit the risk of security problems since only a fraction of the kernel code is compiled and run."
-msgstr ""
+msgstr "Jádra poskytovaná Debianem obsahují největší možnou funkcionalitu, stejně jako maximum ovladačů, za účelem pokrytí nejširšího spektra existujících hardwarových sestav. To je důvod, proč někteří uživatelé upřednostňují opakované sestavení jádra za účelem zahrnutí pouze toho, co přesně potřebují. Jsou dva důvody pro tuto volbu. Zaprvé, může být optimalizace spotřeby paměti, protože kód jádra, i když se nikdy nepoužije, zabírá paměť pro nic (a nikdy “nejde dolů” na     "
 
 msgid "<emphasis>NOTE</emphasis> Security updates"
 msgstr ""
