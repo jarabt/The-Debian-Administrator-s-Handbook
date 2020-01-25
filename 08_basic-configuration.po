@@ -2031,7 +2031,7 @@ msgid "<emphasis>TIP</emphasis> Dealing with outdated <filename>.config</filenam
 msgstr "<emphasis>TIP</emphasis> Co se zastaralými soubory <filename>.config</filename>"
 
 msgid "When you provide a <filename>.config</filename> file that has been generated with another (usually older) kernel version, you will have to update it. You can do so with <command>make oldconfig</command>, it will interactively ask you the questions corresponding to the new configuration options. If you want to use the default answer to all those questions you can use <command>make olddefconfig</command>. With <command>make oldnoconfig</command>, it will assume a negative answer to all questions."
-msgstr ""
+msgstr "Pokud dodáváte soubor <filename>.config</filename>, který byl vygenerován pomocí jiné (obyčejně starší) verzí jádra, budete jej muset aktualizovat. Můžete to udělat za pomoci <command>make oldconfig</command> "
 
 msgid "Compiling and Building the Package"
 msgstr ""
