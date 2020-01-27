@@ -2031,25 +2031,25 @@ msgid "<emphasis>TIP</emphasis> Dealing with outdated <filename>.config</filenam
 msgstr "<emphasis>TIP</emphasis> Co se zastaralými soubory <filename>.config</filename>"
 
 msgid "When you provide a <filename>.config</filename> file that has been generated with another (usually older) kernel version, you will have to update it. You can do so with <command>make oldconfig</command>, it will interactively ask you the questions corresponding to the new configuration options. If you want to use the default answer to all those questions you can use <command>make olddefconfig</command>. With <command>make oldnoconfig</command>, it will assume a negative answer to all questions."
-msgstr "Pokud dodáváte soubor <filename>.config</filename>, který byl vygenerován pomocí jiné (obyčejně starší) verzí jádra, budete jej muset aktualizovat. Můžete to udělat za pomoci <command>make oldconfig</command> "
+msgstr "Pokud dodáváte soubor <filename>.config</filename>, který byl vygenerován pomocí jiné (obyčejně starší) verzí jádra, budete jej muset aktualizovat. Můžete to udělat za pomoci <command>make oldconfig</command>, který vám bude interaktivně klást otázky ohledně nových konfiguračních voleb. Pokud si budete přát použít přednastavené volby na všechny tyto dotazy, můžete použít <command>make olddefconfig</command>. Použitím <command>make oldnoconfig</command>, bude předpokládat negativní odpověď na všechny otázky."
 
 msgid "Compiling and Building the Package"
-msgstr ""
+msgstr "Kompilování a sestavování balíčku"
 
 msgid "<primary><command>make deb-pkg</command></primary>"
-msgstr ""
+msgstr "<primary><command>make deb-pkg</command></primary>"
 
 msgid "<emphasis>NOTE</emphasis> Clean up before rebuilding"
-msgstr ""
+msgstr "<emphasis>POZNÁMKA</emphasis> Úklid před sestavováním"
 
 msgid "If you have already compiled once in the directory and wish to rebuild everything from scratch (for example because you substantially changed the kernel configuration), you will have to run <command>make clean</command> to remove the compiled files. <command>make distclean</command> removes even more generated files, including your <filename>.config</filename> file too, so make sure to backup it first."
-msgstr ""
+msgstr "Pokud jste již jednou v adresáři sestavovali a přejete si znovu sestavit vše od úplného začátku (například protože jste podstatně změnili nastavení jádra), budete muset spustit <command>make clean</command> a odstranit tak zkompilované soubory. <command>make distclean</command> odstraní ještě více generovaných souborů, včetně vašeho souboru <filename>.config</filename>, takže se ujistěte, že ho nejdříve zálohujete."
 
 msgid "Once the kernel configuration is ready, a simple <command>make deb-pkg</command> will generate up to 5 Debian packages: <emphasis role=\"pkg\">linux-image-<replaceable>version</replaceable></emphasis> that contains the kernel image and the associated modules, <emphasis role=\"pkg\">linux-headers-<replaceable>version</replaceable></emphasis> which contains the header files required to build external modules, <emphasis role=\"pkg\">linux-firmware-image-<replaceable>version</replaceable></emphasis> which contains the firmware files needed by some drivers (this package might be missing when you build from the kernel sources provided by Debian), <emphasis role=\"pkg\">linux-image-<replaceable>version</replaceable>-dbg</emphasis> which contains the debugging symbols for the kernel image and its modules, and <emphasis role=\"pkg\">linux-libc-dev</emphasis> which contains headers relevant to some user-space libraries like GNU glibc."
-msgstr ""
+msgstr "Jakmile je nastavení jádra připraveno jednoduché zadání <command>make deb-pkg</command> vygeneruje do pěti balíčků Debianu: <emphasis role=\"pkg\">linux-image-<replaceable>verze</replaceable></emphasis>, který zahrnuje obraz jádra a související moduly, <emphasis role=\"pkg\">linux-headers-<replaceable>verze</replaceable></emphasis>, který obsahuje hlavičkové soubory potřebné pro sestavení externích modulů, <emphasis role=\"pkg\">linux-firmware-image-<replaceable>verze</replaceable></emphasis>, který obsahuje soubory firmwaru potřebné některými ovladači (tento balíček může chybět, pokud sestavujete ze zdrojů jádra poskytovaných Debianem), <emphasis role=\"pkg\">linux-image-<replaceable>verze</replaceable>-dbg</emphasis>, který obsahuje symboly debuggingu pro obraz jádra a jeho moduly a <emphasis role=\"pkg\">linux-libc-dev</emphasis>, který obsahuje hlavičky relevantní pro některé knihovny uživatelského postoru, jako je GNU glibc."
 
 msgid "The <replaceable>version</replaceable> is defined by the concatenation of the upstream version (as defined by the variables <literal>VERSION</literal>, <literal>PATCHLEVEL</literal>, <literal>SUBLEVEL</literal> and <literal>EXTRAVERSION</literal> in the <filename>Makefile</filename>), of the <literal>LOCALVERSION</literal> configuration parameter, and of the <literal>LOCALVERSION</literal> environment variable. The package version reuses the same version string with an appended revision that is regularly incremented (and stored in <filename>.version</filename>), except if you override it with the <literal>KDEB_PKGVERSION</literal> environment variable."
-msgstr ""
+msgstr "<replaceable>verze</replaceable> je definovaná zřetězením verze upstreamu (jak je definovaná proměnnými <literal>VERSION</literal>, <literal>PATCHLEVEL</literal>, <literal>SUBLEVEL</literal> a <literal>EXTRAVERSION</literal> v <filename>Makefile</filename>), konfiguračního parametru <literal>LOCALVERSION</literal> a proměnné prostředí <literal>LOCALVERSION</literal>."
 
 msgid ""
 "<computeroutput>$ </computeroutput><userinput>make deb-pkg LOCALVERSION=-falcot KDEB_PKGVERSION=$(make kernelversion)-1\n"
@@ -2061,21 +2061,29 @@ msgid ""
 "../linux-libc-dev_3.16.7-1_amd64.deb\n"
 "</computeroutput>"
 msgstr ""
+"<computeroutput>$ </computeroutput><userinput>make deb-pkg LOCALVERSION=-falcot KDEB_PKGVERSION=$(make kernelversion)-1\n"
+"</userinput><computeroutput>[...]\n"
+"$ </computeroutput><userinput>ls ../*.deb\n"
+"</userinput><computeroutput>../linux-headers-3.16.7-ckt4-falcot_3.16.7-1_amd64.deb\n"
+"../linux-image-3.16.7-ckt4-falcot_3.16.7-1_amd64.deb\n"
+"../linux-image-3.16.7-ckt4-falcot-dbg_3.16.7-1_amd64.deb\n"
+"../linux-libc-dev_3.16.7-1_amd64.deb\n"
+"</computeroutput>"
 
 msgid "Compiling External Modules"
-msgstr ""
+msgstr "Kompilace externích modulů"
 
 msgid "<primary>kernel</primary><secondary>external modules</secondary>"
-msgstr ""
+msgstr "<primary>jádro</primary><secondary>externí moduly</secondary>"
 
 msgid "<primary>modules</primary><secondary>external kernel modules</secondary>"
-msgstr ""
+msgstr "<primary>moduly</primary><secondary>externí moduly jádra</secondary>"
 
 msgid "<primary><command>dkms</command></primary>"
-msgstr ""
+msgstr "<primary><command>dkms</command></primary>"
 
 msgid "Some modules are maintained outside of the official Linux kernel. To use them, they must be compiled alongside the matching kernel. A number of common third party modules are provided by Debian in dedicated packages, such as <emphasis role=\"pkg\">xtables-addons-source</emphasis> (extra modules for iptables) or <emphasis role=\"pkg\">oss4-source</emphasis> (Open Sound System, some alternative audio drivers)."
-msgstr ""
+msgstr "Některé moduly jsou zaopatřovány mimo oficiální jádro Linuxu. Aby se daly použít, musí být sestaveny zároveň s odpovídajícím jádrem. Počet      "
 
 msgid "These external packages are many and varied and we won't list them all here; the <command>apt-cache search source$</command> command can narrow down the search field. However, a complete list isn't particularly useful since there is no particular reason for compiling external modules except when you know you need it. In such cases, the device's documentation will typically detail the specific module(s) it needs to function under Linux."
 msgstr ""
