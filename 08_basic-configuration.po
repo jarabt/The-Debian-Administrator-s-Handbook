@@ -2209,20 +2209,19 @@ msgid "<primary><filename>vmlinuz</filename></primary>"
 msgstr "<primary><filename>vmlinuz</filename></primary>"
 
 msgid "A Debian kernel package installs the kernel image (<filename>vmlinuz-<replaceable>version</replaceable></filename>), its configuration (<filename>config-<replaceable>version</replaceable></filename>) and its symbols table (<filename>System.map-<replaceable>version</replaceable></filename>) in <filename>/boot/</filename>. The symbols table helps developers understand the meaning of a kernel error message; without it, kernel “oopses” (an “oops” is the kernel equivalent of a segmentation fault for user-space programs, in other words messages generated following an invalid pointer dereference) only contain numeric memory addresses, which is useless information without the table mapping these addresses to symbols and function names. The modules are installed in the <filename>/lib/modules/<replaceable>version</replaceable>/</filename> directory."
-msgstr ""
+msgstr "Balíček jádra Debianu nainstaluje obraz jádra <filename>vmlinuz-<replaceable>verze</replaceable></filename>), jeho nastavení (<filename>config-<replaceable>verze</replaceable></filename>) a jeho tabulku symbolů (<filename>System.map-<replaceable>verze</replaceable></filename>) do <filename>/boot/</filename>."
 
 msgid "The package's configuration scripts automatically generate an initrd image, which is a mini-system designed to be loaded in memory (hence the name, which stands for “init ramdisk”) by the bootloader, and used by the Linux kernel solely for loading the modules needed to access the devices containing the complete Debian system (for example, the driver for SATA disks). Finally, the post-installation scripts update the symbolic links <filename>/vmlinuz</filename>, <filename>/vmlinuz.old</filename>, <filename>/initrd.img</filename> and <filename>/initrd.img.old</filename> so that they point to the latest two kernels installed, respectively, as well as the corresponding initrd images."
-msgstr ""
+msgstr "Nastavovací skripty balíčku automaticky vygenerují obraz initrd, což je minisystém navržený pro nahrání do paměti (odtud jeho název, který znamená “init ramdisk”) bootloaderem a používaný pouze jádrem Linuxu pro nahrání modulů potřebných pro přístup k zařízením obsahujících kompletní systém Debianu (například ovladač pro SATA disk). Nakonec, poinstatalční skripty zaktualizují symbolické adresy <filename>/vmlinuz</filename>, <filename>/vmlinuz.old</filename>, <filename>/initrd.img</filename> a <filename>/initrd.img.old</filename>, takže budou odkazovat na dvě poslední nainstalovaná jádra, respektive také na odpovídající obrazy initrd."
 
 msgid "Most of those tasks are offloaded to hook scripts in the <filename>/etc/kernel/*.d/</filename> directories. For instance, the integration with <command>grub</command> relies on <filename>/etc/kernel/postinst.d/zz-update-grub</filename> and <filename>/etc/kernel/postrm.d/zz-update-grub</filename> to call <command>update-grub</command> when kernels are installed or removed."
-msgstr ""
+msgstr "Většina těchto úkolů je svěřena hookovacím skriptům v adresářích <filename>/etc/kernel/*.d/</filename>. Například integrace s <command>grub</command> spoléhá na <filename>/etc/kernel/postinst.d/zz-update-grub</filename> a <filename>/etc/kernel/postrm.d/zz-update-grub</filename> k zavolání <command>update-grub</command>, pokud jsou jádra nainstalována nebo odstraněna."
 
 msgid "Installing with <command>dpkg</command>"
-msgstr ""
+msgstr "Instalace pomocí <command>dpkg</command>"
 
 msgid "Using <command>apt</command> is so convenient that it makes it easy to forget about the lower-level tools, but the easiest way of installing a compiled kernel is to use a command such as <command>dpkg -i <replaceable>package</replaceable>.deb</command>, where <literal><replaceable>package</replaceable>.deb</literal> is the name of a <emphasis role=\"pkg\">linux-image</emphasis> package such as <filename>linux-image-3.16.7-ckt4-falcot_1_amd64.deb</filename>."
-msgstr ""
+msgstr "Použití <command>apt</command> je tak pohodlné, že vám pomůže zapomenout na nástroje nižší úrovně, nejsnadnějším způsobem instalace zkompilovaného jádra je ale použití příkazu jako je <command>dpkg -i <replaceable>balíček</replaceable>.deb</command>, kde <literal><replaceable>balíček</replaceable>.deb</literal> je název balíčku <emphasis role=\"pkg\">linux-image</emphasis> jako je <filename>linux-image-3.16.7-ckt4-falcot_1_amd64.deb</filename>."
 
 msgid "The configuration steps described in this chapter are basic and can lead both to a server system or a workstation, and it can be massively duplicated in semi-automated ways. However, it is not enough by itself to provide a fully configured system. A few pieces are still in need of configuration, starting with low-level programs known as the “Unix services”."
-msgstr ""
-
+msgstr "Zde, v této kapitole popsané kroky nastavení jsou základní a mohou směřovat jak k serverovému systému, tak k pracovní stanici a mohou být do značné míry duplikovány polozautomatizovanými způsoby. Nicméně, to nestačí samo o sobě poskytnout plně nakonfigurovaný systém. Pár částí stále ještě potřebuje nastavit, počínaje nízkoúrovňovými programy známými jako “Unix services”."
