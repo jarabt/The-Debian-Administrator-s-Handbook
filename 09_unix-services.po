@@ -4,90 +4,90 @@ msgstr ""
 "POT-Creation-Date: 2015-10-06 16:10+0200\n"
 "PO-Revision-Date: 2015-10-06 16:10+0200\n"
 "Last-Translator: Automatically generated\n"
-"Language-Team: None\n"
-"Language: en-US \n"
+"Language-Team: Jaroslav Tesař\n"
+"Language: cs-CZ \n"
 "MIME-Version: 1.0\n"
 "Content-Type: application/x-publican; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Publican v4.3.2\n"
 
 msgid "System boot"
-msgstr ""
+msgstr "Systémový boot"
 
 msgid "Initscripts"
-msgstr ""
+msgstr "Initscripts"
 
 msgid "SSH"
-msgstr ""
+msgstr "SSH"
 
 msgid "Telnet"
-msgstr ""
+msgstr "Telnet"
 
 msgid "Rights"
-msgstr ""
+msgstr "Práva"
 
 msgid "Permissions"
-msgstr ""
+msgstr "Povolení"
 
 msgid "Supervision"
-msgstr ""
+msgstr "Dohled"
 
 msgid "Inetd"
-msgstr ""
+msgstr "Inetd"
 
 msgid "Cron"
-msgstr ""
+msgstr "Cron"
 
 msgid "Backup"
-msgstr ""
+msgstr "Záloha"
 
 msgid "Hotplug"
-msgstr ""
+msgstr "Hotplug"
 
 msgid "PCMCIA"
-msgstr ""
+msgstr "PCMCIA"
 
 msgid "APM"
-msgstr ""
+msgstr "APM"
 
 msgid "ACPI"
-msgstr ""
+msgstr "ACPI"
 
 msgid "Unix Services"
-msgstr ""
+msgstr "Unixové služby"
 
 msgid "This chapter covers a number of basic services that are common to many Unix systems. All administrators should be familiar with them."
-msgstr ""
+msgstr "Tato kapitola pokrývá několik základních služeb, které jsou běžné pro mnoho Unixových systémů. Všichni administrátoří by s nimi měli být seznámeni."
 
 msgid "System Boot"
-msgstr ""
+msgstr "Systémový boot"
 
 msgid "<primary>booting</primary><secondary>the system</secondary>"
-msgstr ""
+msgstr "<primary>bootování</primary><secondary>systému</secondary>"
 
 msgid "When you boot the computer, the many messages scrolling by on the console display many automatic initializations and configurations that are being executed. Sometimes you may wish to slightly alter how this stage works, which means that you need to understand it well. That is the purpose of this section."
-msgstr ""
+msgstr "Jakmile bootujete počítač, konzolí proběhne mnoho zpráv, které zobrazují mnoho automatických inicializací a nastavení, které jsou spouštěny. Někdy se může stát, že budete chtít mírně pozměnit to, jak tato fáze probíhá, což znamená, že jí potřebujete dobře porozumět. To je účelem této sekce."
 
 msgid "First, the BIOS takes control of the computer, detects the disks, loads the <emphasis>Master Boot Record</emphasis>, and executes the bootloader. The bootloader takes over, finds the kernel on the disk, loads and executes it. The kernel is then initialized, and starts to search for and mount the partition containing the root filesystem, and finally executes the first program — <command>init</command>. Frequently, this “root partition” and this <command>init</command> are, in fact, located in a virtual filesystem that only exists in RAM (hence its name, “initramfs”, formerly called “initrd” for “initialization RAM disk”). This filesystem is loaded in memory by the bootloader, often from a file on a hard drive or from the network. It contains the bare minimum required by the kernel to load the “true” root filesystem: this may be driver modules for the hard drive, or other devices without which the system cannot boot, or, more frequently, initialization scripts and modules for assembling RAID arrays, opening encrypted partitions, activating LVM volumes, etc. Once the root partition is mounted, the initramfs hands over control to the real init, and the machine goes back to the standard boot process."
-msgstr ""
+msgstr "Nejdříve, BIOS převezme kontrolu nad počítačem, prohledává disky, nahrává <emphasis>Master Boot Record</emphasis> a spouští bootloader. Bootloader přebírá vládu, nalezne na disku jádro, nahraje ho a spustí. Poté je jádro inicializováno a začne hledat a namontuje oddíl obsahující kořenový souborový systém a nakonec spustí první program — <command>init</command>. Často jsou tento “kořenový oddíl” a tento <command>init</command> v podstatě umístěny ve virtuálním souborovém systému, který existuje pouze v RAM (odtud jeho jméno, “initramfs”, dříve “initrd” jako “initialization RAM disk”). Tento souborový systém je nahrán do paměti bootloaderem, často ze souboru na pevném disku nebo ze sítě. Obsahuje základní minimum vyžadované jádrem k nahrátí “opravdového” kořenového souborového systému: to mohou být ovlácí moduly pro pevný disk nebo jiná zařízení bez kterých se systém nemůže nabootovat nebo, což je častější, inicializační skripty a moduly pro sestavení polí RAID, otevření zakódovaných oddílů, aktivaci hodnot LVM apod. Jakmile je kořenový oddíl namontován, initramfs předává kontrolu skutečnému init a zařízení se vrací ke standardnímu bootovacímu procesu."
 
 msgid "Boot sequence of a computer running Linux with systemd"
-msgstr ""
+msgstr "Bootovací sekvence počítače, na kterém běží Linux se systemd"
 
 msgid "The systemd init system"
-msgstr ""
+msgstr "Systém systemd init"
 
 msgid "The “real init” is currently provided by <emphasis role=\"pkg\">systemd</emphasis> and this section documents this init system."
-msgstr ""
+msgstr "<emphasis role=\"pkg\">systemd</emphasis> nyní poskytuje “opravdový init” a tato sekce tento init systém dokumentuje."
 
 msgid "<emphasis>CULTURE</emphasis> Before <command>systemd</command>"
-msgstr ""
+msgstr "<emphasis>KULTURA</emphasis> Před <command>systemd</command>"
 
 msgid "<command>systemd</command> is a relatively recent “init system”, and although it was already available, to a certain extent, in <emphasis role=\"distribution\">Wheezy</emphasis>, it has only become the default in Debian <emphasis role=\"distribution\">Jessie</emphasis>. Previous releases relied, by default, on the “System V init” (in the <emphasis role=\"pkg\">sysv-rc</emphasis> package), a much more traditional system. We describe the System V init later on."
-msgstr ""
+msgstr "<command>systemd</command> je relativně čerstvý “init systém” a přesto, že byl již dostupný do jisté míry ve <emphasis role=\"distribution\">Wheezy</emphasis>, stal se pouze výchozím v Debianu <emphasis role=\"distribution\">Jessie</emphasis>. Předchozí vydání spoléhala a byla přednastavena na “System V init” (v balíčku <emphasis role=\"pkg\">sysv-rc</emphasis>), tradičnější systém. Popíšeme si System V init později."
 
 msgid "<emphasis>ALTERNATIVE</emphasis> Other boot systems"
-msgstr ""
+msgstr "<emphasis>ALTERNATIVA</emphasis> Ostatní bootovací systémy"
 
 msgid "This book describes the boot system used by default in Debian <emphasis role=\"distribution\">Jessie</emphasis> (as implemented by the <emphasis role=\"pkg\">systemd</emphasis> package), as well as the previous default, <emphasis role=\"pkg\">sysvinit</emphasis>, which is derived and inherited from <emphasis>System V</emphasis> Unix systems; there are others."
 msgstr ""
