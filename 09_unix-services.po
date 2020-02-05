@@ -90,49 +90,49 @@ msgid "<emphasis>ALTERNATIVE</emphasis> Other boot systems"
 msgstr "<emphasis>ALTERNATIVA</emphasis> Ostatní bootovací systémy"
 
 msgid "This book describes the boot system used by default in Debian <emphasis role=\"distribution\">Jessie</emphasis> (as implemented by the <emphasis role=\"pkg\">systemd</emphasis> package), as well as the previous default, <emphasis role=\"pkg\">sysvinit</emphasis>, which is derived and inherited from <emphasis>System V</emphasis> Unix systems; there are others."
-msgstr ""
+msgstr "Tato kniha popisuje bootovací systém použitý v přednastaveném nastavení v Debianu <emphasis role=\"distribution\">Jessie</emphasis> (jak je implementováno balíčkem <emphasis role=\"pkg\">systemd</emphasis>), stejně jako předchozí přednastavení, <emphasis role=\"pkg\">sysvinit</emphasis>, který je odvozen ze <emphasis>System V</emphasis> Unixových systémů; jsou tu další."
 
 msgid "<emphasis role=\"pkg\">file-rc</emphasis> is a boot system with a very simple process. It keeps the principle of runlevels, but replaces the directories and symbolic links with a configuration file, which indicates to <command>init</command> the processes that must be started and their launch order."
-msgstr ""
+msgstr "<emphasis role=\"pkg\">file-rc</emphasis> je bootovací systém s velmi jednoduchým procesem. Dodržuje princip runlevelů, ale nahrazuje adresáře a symbolické adresy nastavovacím souborem, který označuje příkazu <command>init</command> procesy, které musí být odstartovány a jejich pořadí zahájení."
 
 msgid "The <command>upstart</command> system is still not perfectly tested on Debian. It is event based: init scripts are no longer executed in a sequential order but in response to events such as the completion of another script upon which they are dependent. This system, started by Ubuntu, is present in Debian <emphasis role=\"distribution\">Jessie</emphasis>, but is not the default; it comes, in fact, as a replacement for <emphasis role=\"pkg\">sysvinit</emphasis>, and one of the tasks launched by <command>upstart</command> is to launch the scripts written for traditional systems, especially those from the <emphasis role=\"pkg\">sysv-rc</emphasis> package."
-msgstr ""
+msgstr "Systém <command>upstart</command> není stále úplně otestován na Debianu. Je založen na událostech: init skripty již nejsou spouštěny postupně, ale v odpovědi na události, jako je kompletace jiného skriptu na kterém závisejí. Tento systém, který začal Ubuntu, je přítomný v Debianu <emphasis role=\"distribution\">Jessie</emphasis>, ale není výchozí; je nasazen, v podstatě, jako náhrada za <emphasis role=\"pkg\">sysvinit</emphasis> a jedna z úloh spuštěných příkazem <command>upstart</command> je spustit skripty napsané pro tradiční systémy, zvláště ty, z balíčku <emphasis role=\"pkg\">sysv-rc</emphasis>."
 
 msgid "There are also other systems and other operating modes, such as <command>runit</command> or <command>minit</command>, but they are relatively specialized and not widespread."
-msgstr ""
+msgstr "Existují také další systémy a další operační módy, jako je <command>runit</command> nebo <command>minit</command>, ale ty jsou relativně specializované a nejsou příliš rozšířeny."
 
 msgid "<emphasis>SPECIFIC CASE</emphasis> Booting from the network"
-msgstr ""
+msgstr "<emphasis>SPECIFICKÝ PŘÍPAD</emphasis> Bootování ze sítě"
 
 msgid "In some configurations, the BIOS may be configured not to execute the MBR, but to seek its equivalent on the network, making it possible to build computers without a hard drive, or which are completely reinstalled on each boot. This option is not available on all hardware and it generally requires an appropriate combination of BIOS and network card."
-msgstr ""
+msgstr "V některých nastaveních, BIOS nemusí být nastaven ke spuštění MBR, ale ke hledání jeho ekvivalentu na síti, což umožňuje sestavení počítačů bez pevného disku nebo takových, které jsou kompletně znovunainstalovány při každém bootu. Tato volba není dostupná na každém hardwaru a obecně vyžaduje správnou kombinaci BIOSU a síťové karty."
 
 msgid "Booting from the network can be used to launch the <command>debian-installer</command> or FAI (see <xref linkend=\"sect.installation-methods\" />)."
-msgstr ""
+msgstr "Bootování ze sítě může být použité pro spuštění <command>debian-installer</command> nebo FAI (see <xref linkend=\"sect.installation-methods\" />)."
 
 msgid "<emphasis>BACK TO BASICS</emphasis> The process, a program instance"
-msgstr ""
+msgstr "<emphasis>ZPĚT K ZÁKLADŮM</emphasis> Proces, instance programu"
 
 msgid "<primary>process</primary>"
-msgstr ""
+msgstr "<primary>proces</primary>"
 
 msgid "A process is the representation in memory of a running program. It includes all of the information necessary for the proper execution of the software (the code itself, but also the data that it has in memory, the list of files that it has opened, the network connections it has established, etc.). A single program may be instantiated into several processes, not necessarily running under different user IDs."
-msgstr ""
+msgstr "Proces je reprezentace běžícího programu v paměti. Zahrnuje všechny informace nezbytné pro správné spuštění softwaru (kód sám o sobě, ale také data, která má v paměti, seznam souborů, které otevřel, síťová spojení, která navázal apod.) Jeden jediný program může být převedem prostřednictvím instancí do několika procesů, ne nezbytně běžících pod různými uživatelskými ID."
 
 msgid "<emphasis>SECURITY</emphasis> Using a shell as <command>init</command> to gain root rights"
-msgstr ""
+msgstr "<emphasis>BEZPEČNOST</emphasis> Použití shellu jako <command>init</command> pro získání kořenových práv"
 
 msgid "By convention, the first process that is booted is the <command>init</command> program (which is a symbolic link to <filename>/lib/systemd/systemd</filename> by default). However, it is possible to pass an <literal>init</literal> option to the kernel indicating a different program."
-msgstr ""
+msgstr "Podle zvyklostí, první proces, který je bootován je program <command>init</command> (který je výchozí symbolickou adresou na <filename>/lib/systemd/systemd</filename>) Nicméně, je možné předat jádru volbu <literal>init</literal> označující jiný program."
 
 msgid "<primary><command>init</command></primary>"
-msgstr ""
+msgstr "<primary><command>init</command></primary>"
 
 msgid "Any person who is able to access the computer can press the <keycap>Reset</keycap> button, and thus reboot it. Then, at the bootloader's prompt, it is possible to pass the <literal>init=/bin/sh</literal> option to the kernel to gain root access without knowing the administrator's password."
-msgstr ""
+msgstr "Jakýkoli člověk, který má přístup k počítači, může stisknout tlačítko <keycap>Reset</keycap> a tak ho znovubootovat. Potom, na příkazové řádce bootloaderu, je možné předat volbu <literal>init=/bin/sh</literal> jádru k získání kořenového přístupu, bez znalosti administrátorského hesla."
 
 msgid "To prevent this, you can protect the bootloader itself with a password. You might also think about protecting access to the BIOS (a password protection mechanism is almost always available), without which a malicious intruder could still boot the machine on a removable media containing its own Linux system, which they could then use to access data on the computer's hard drives."
-msgstr ""
+msgstr "Aby se tomu předešlo, "
 
 msgid "Finally, be aware that most BIOS have a generic password available. Initially intended for troubleshooting for those who have forgotten their password, these passwords are now public and available on the Internet (see for yourself by searching for “generic BIOS passwords” in a search engine). All of these protections will thus impede unauthorized access to the machine without being able to completely prevent it. There is no reliable way to protect a computer if the attacker can physically access it; they could dismount the hard drives to connect them to a computer under their own control anyway, or even steal the entire machine, or erase the BIOS memory to reset the password…"
 msgstr ""
